@@ -1,0 +1,55 @@
+
+# nome do emprego
+nome: 'Assassino'
+# tag do emprego
+tag: '&8[&cAssassino&8]'
+# meta para obter o salário
+meta: 10
+# salário do emprego
+salario: 1500
+# mundos que serão efetivos
+mundos:
+- 'world'
+# entidades efetivas -> https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html
+validos:
+  - 'PLAYER'
+
+desafios:
+  1:
+    # posição do desafio
+    ordem: 1
+    # meta a ser atingida
+    meta: 5
+    # aumentar o salário do jogador
+    aumento:
+      ativado: true
+      valor: 500
+
+    # icone que ficará no menu de quests
+    icone:
+      skull:
+        # caso ativado irá ignorar o item
+        ativado: false
+        url: ''
+      # material do item
+      material: 'DIAMOND_SWORD'
+      # data do item
+      data: 0
+      # nome do item
+      nome: '&e#1 desafio'
+      # lore do item
+      lore:
+        - '&7Mate 5 jogadores para'
+        - '&7completar esse desafio.'
+        - ''
+
+    # mensagem ao completar ao completar o desafio
+    mensagem:
+      - ''
+      - ' &aParabéns você matou 5 jogadores e completou uma quest'
+      - ' &aSeu salário foi aumentado em 500 reais'
+      - ''
+
+    # comandos executados ao completar o desafio
+    comandos:
+      - 'give @player diamond_sword 1'

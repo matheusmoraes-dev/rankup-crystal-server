@@ -1,0 +1,59 @@
+#########################################
+#                                       #
+#        H4_ManoplaBeacon - Config      #
+#            Author: System             #
+#                                       #
+#########################################
+
+# Se não souber, não mecha aqui!
+MySQL:
+  Usar: false
+  Usuario: 'root'
+  Senha: ''
+  Host: 'localhost'
+  Porta: '3306'
+  DataBase: 'database'
+  
+# Permissão gerais
+Permissoes:
+   # Permissão para usar a manopla
+   Beacon: 'h4beacon.usar'
+   # Permissão para givar joias
+   Givar: 'h4beacon.givejoias'
+   
+   
+#########################################
+#                                       #
+#                  Joias                #
+#                                       #
+#########################################
+
+# Força da regeneração
+Alma: 3
+
+# Força da Velocidade
+Espaco: 2
+
+# Força da Pressa
+Mente: 2
+
+# Força da Resistencia
+Poder: 1
+
+# Força da Força
+Realidade: 2
+
+# Força do Super Pulo
+Tempo: 2
+
+#########################################
+#                                       #
+#         Ao completar Manopla          #
+#                                       #
+#########################################
+
+Completar-Msg:
+  - '&r'
+  - '&6&lSISTEMA DE MANOPLA'
+  - '&fO Jogador &6$player &fcompletou sua manopla!'
+  - '&r'

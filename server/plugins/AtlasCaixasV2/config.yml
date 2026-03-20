@@ -1,0 +1,549 @@
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Settings:
+  SomAoAbrir: ORB_PICKUP
+Mensagens:
+  SemChave: '&cVocê não tem uma chave do tipo $caixa &cpara abrir.'
+  GanhouTitle: '&fVocê ganhou &a$item'
+Caixas:
+  c1:
+    Nome: '&6Caixa Misteriosa'
+    FogoDeArtificio:
+      Disable: false
+      Tipo: BALL
+      Cor: RED
+      Fade: BLUE
+    Key:
+      Material: TRIPWIRE_HOOK
+      Nome: '&aChave Misteriosa'
+      Lore:
+      - '&7Utilize esta chave para abrir'
+      - '&7uma caixa &7Comum&7 e'
+      - '&7ganhe itens exclusivos!'
+      - ''
+      - '&fLocal da Abertura:'
+      - '&7/warp crates'
+      - ''
+    HologramaOffset: 3
+    Holograma:
+    - '&6&lCAIXA MISTERIOSA'
+    - '&fRaridade: &7Comum'
+    - ''
+    - '&7Clique esquerdo: &fVisualizar itens'
+    - '&7Clique direito: &fAbrir caixa'
+    - $item:BEACON
+    Locations:
+    - 512.0;53.0;-556.0;0.0;0.0;world
+    Items:
+      it1:
+        Material: DIAMOND_SWORD
+        Enchants:
+        - 'DAMAGE_ALL: 5'
+        - 'DURABILITY: 5'
+        - 'FIRE_ASPECT: 3'
+        - 'LOOT_BONUS_MOBS: 3'
+        Chance: 10.0
+      it2:
+        Material: IRON_SWORD
+        Enchants:
+        - 'DAMAGE_ALL: 2'
+        Chance: 10.0
+      it3:
+        Material: GOLDEN_APPLE
+        Quantidade: 48
+        Chance: 10.0
+      it4:
+        Material: DIAMOND_CHESTPLATE
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 6'
+        - 'DURABILITY: 5'
+        Chance: 10.0
+      it5:
+        Material: CHAINMAIL_CHESTPLATE
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 2'
+        - 'DURABILITY: 1'
+        Chance: 10.0
+      it6:
+        Material: DIRT
+        Chance: 10.0
+      it7:
+        Material: DIRT
+        Chance: 10.0
+      it8:
+        Material: DIRT
+        Chance: 10.0
+      it9:
+        Material: DIAMOND_SWORD
+        Enchants:
+        - 'DAMAGE_ALL: 4'
+        - 'DURABILITY: 3'
+        - 'LOOT_BONUS_MOBS: 1'
+        Chance: 10.0
+      it10:
+        Material: GOLDEN_APPLE
+        Data: 1
+        Quantidade: 16
+        Chance: 10.0
+      it11:
+        Material: BOW
+        Enchants:
+        - 'ARROW_DAMAGE: 3'
+        - 'DURABILITY: 3'
+        Chance: 10.0
+      it12:
+        Material: DIAMOND_BOOTS
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 4'
+        - 'DURABILITY: 5'
+        Chance: 10.0
+      it13:
+        Material: DIRT
+        Chance: 10.0
+      it14:
+        Material: DIRT
+        Chance: 10.0
+      it15:
+        Material: DIRT
+        Chance: 10.0
+      it16:
+        Material: DIAMOND_PICKAXE
+        Enchants:
+        - 'DIG_SPEED: 4'
+        - 'DURABILITY: 3'
+        Chance: 10.0
+      it17:
+        Material: DIAMOND_LEGGINGS
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 4'
+        - 'DURABILITY: 3'
+        Chance: 10.0
+      it18:
+        Material: DIAMOND_HELMET
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 4'
+        - 'DURABILITY: 3'
+        Chance: 10.0
+      it19:
+        Material: GOLDEN_APPLE
+        Quantidade: 64
+        Chance: 10.0
+      it20:
+        Material: DIRT
+        Chance: 10.0
+      it21:
+        Material: DIRT
+        Chance: 10.0
+      it22:
+        Material: DIRT
+        Chance: 10.0
+      it23:
+        Material: GOLDEN_APPLE
+        Data: 1
+        Quantidade: 16
+        Chance: 10.0
+      it24:
+        Material: DIRT
+        Chance: 10.0
+      it25:
+        Material: DIRT
+        Chance: 10.0
+      it26:
+        Material: GOLDEN_APPLE
+        Data: 1
+        Quantidade: 64
+        Chance: 10.0
+      it27:
+        Material: BOW
+        Enchants:
+        - 'ARROW_DAMAGE: 2'
+        - 'DURABILITY: 2'
+        Chance: 10.0
+      it28:
+        Material: SKULL_ITEM
+        Texture: 137dcfb66a61c529f2a128aeef93c25f9d0b0439b59fb199d2b04acfe0b85aac
+        Data: 3
+        Nome: '&aFragmento'
+        Lore:
+        - '&fEste item equivale à &a2,2K &fde fragmento(s).'
+        - ''
+        - '&7Clique com botão direito para armazenar.'
+        - '&7Clique com shift+botão direito para juntar.'
+        Chance: 10.0
+      it29:
+        Material: DIRT
+        Chance: 10.0
+      it30:
+        Material: ARROW
+        Quantidade: 64
+        Enchants:
+        - 'ARROW_INFINITE: 1'
+        Chance: 10.0
+  c2:
+    Nome: '&6Caixa Misteriosa'
+    FogoDeArtificio:
+      Disable: false
+      Tipo: BALL
+      Cor: RED
+      Fade: BLUE
+    Key:
+      Material: TRIPWIRE_HOOK
+      Nome: '&aChave Misteriosa'
+      Lore:
+      - '&7Utilize esta chave para abrir'
+      - '&7uma caixa &6Maste&7 e'
+      - '&7ganhe itens exclusivos!'
+      - ''
+      - '&fLocal da Abertura:'
+      - '&7/warp crates'
+      - ''
+    HologramaOffset: 3
+    Holograma:
+    - '&6&lCAIXA MISTERIOSA'
+    - '&fRaridade: &6Master'
+    - ''
+    - '&7Clique esquerdo: &fVisualizar itens'
+    - '&7Clique direito: &fAbrir caixa'
+    - $item:DIAMOND_SWORD
+    Locations:
+    - 510.0;53.0;-554.0;0.0;0.0;world
+    Items:
+      it1:
+        Material: DIAMOND_SWORD
+        Enchants:
+        - 'DAMAGE_ALL: 10'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it2:
+        Material: DIRT
+        Chance: 10.0
+      it3:
+        Material: GOLDEN_APPLE
+        Quantidade: 64
+        Chance: 10.0
+      it4:
+        Material: GOLDEN_APPLE
+        Data: 1
+        Nome: '&6Maçã Divina'
+        Lore:
+        - '&7'
+        - '&7Força II (00:45)'
+        - '&7Absorção V (01:30)'
+        - '&7Regeneração V (01:30)'
+        - '&7Resistência II (05:00)'
+        - '&7Resistência ao Fogo (05:00)'
+        Chance: 10.0
+      it5:
+        Material: ARROW
+        Quantidade: 64
+        Chance: 10.0
+      it6:
+        Material: DIRT
+        Chance: 10.0
+      it7:
+        Material: BOW
+        Enchants:
+        - 'ARROW_DAMAGE: 2'
+        - 'ARROW_INFINITE: 2'
+        Chance: 10.0
+      it8:
+        Material: SKULL_ITEM
+        Texture: 137dcfb66a61c529f2a128aeef93c25f9d0b0439b59fb199d2b04acfe0b85aac
+        Data: 3
+        Nome: '&aFragmento'
+        Lore:
+        - '&fEste item equivale à &a2,8K &fde fragmento(s).'
+        - ''
+        - '&7Clique com botão direito para armazenar.'
+        - '&7Clique com shift+botão direito para juntar.'
+        Chance: 10.0
+      it9:
+        Material: DIAMOND_BOOTS
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 10'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it10:
+        Material: DIRT
+        Chance: 10.0
+      it11:
+        Material: DIAMOND_LEGGINGS
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 10'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it12:
+        Material: DIRT
+        Chance: 10.0
+      it13:
+        Material: DIAMOND_CHESTPLATE
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 10'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it14:
+        Material: DIRT
+        Chance: 10.0
+      it15:
+        Material: DIAMOND_HELMET
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 10'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it16:
+        Material: DIRT
+        Chance: 10.0
+      it17:
+        Material: DIAMOND_BOOTS
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 10'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it18:
+        Material: DIRT
+        Chance: 10.0
+      it19:
+        Material: DIRT
+        Chance: 10.0
+      it20:
+        Material: POTION
+        Data: 8201
+        Chance: 10.0
+      it21:
+        Material: POTION
+        Data: 8194
+        Chance: 10.0
+      it22:
+        Material: DIRT
+        Chance: 10.0
+      it23:
+        Material: ARROW
+        Quantidade: 64
+        Chance: 10.0
+      it24:
+        Material: DIRT
+        Chance: 10.0
+      it25:
+        Material: DIRT
+        Chance: 10.0
+      it26:
+        Material: DIRT
+        Chance: 10.0
+      it27:
+        Material: DIRT
+        Chance: 10.0
+      it28:
+        Material: COOKED_BEEF
+        Quantidade: 64
+        Chance: 10.0
+      it29:
+        Material: GOLDEN_APPLE
+        Data: 1
+        Quantidade: 64
+        Chance: 10.0
+      it30:
+        Material: DIAMOND_CHESTPLATE
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 10'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it31:
+        Material: DIAMOND_HELMET
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 10'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it32:
+        Material: DIAMOND_LEGGINGS
+        Enchants:
+        - 'PROTECTION_ENVIRONMENTAL: 10'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it33:
+        Material: DIAMOND_AXE
+        Enchants:
+        - 'DIG_SPEED: 5'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it34:
+        Material: DIAMOND_PICKAXE
+        Enchants:
+        - 'DIG_SPEED: 5'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it35:
+        Material: DIAMOND_HOE
+        Enchants:
+        - 'DIG_SPEED: 5'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+      it36:
+        Material: DIAMOND_SPADE
+        Enchants:
+        - 'DIG_SPEED: 5'
+        - 'DURABILITY: 10'
+        Chance: 10.0
+  c3:
+    Nome: '&6Caixa Misteriosa'
+    FogoDeArtificio:
+      Disable: false
+      Tipo: BALL
+      Cor: RED
+      Fade: BLUE
+    Key:
+      Material: TRIPWIRE_HOOK
+      Nome: '&aChave Misteriosa'
+      Lore:
+      - '&7Utilize esta chave para abrir'
+      - '&7uma caixa &cBoss&7 e'
+      - '&7ganhe itens exclusivos!'
+      - ''
+      - '&fLocal da Abertura:'
+      - '&7/warp crates'
+      - ''
+    HologramaOffset: 3
+    Holograma:
+    - '&6&lCAIXA MISTERIOSA'
+    - '&fRaridade: &cBoss'
+    - ''
+    - '&7Clique esquerdo: &fVisualizar itens'
+    - '&7Clique direito: &fAbrir caixa'
+    - $item:DIAMOND_SWORD
+    Locations:
+    - 510.0;53.0;-551.0;0.0;0.0;world
+    Items:
+      it1:
+        Material: MONSTER_EGG
+        Data: 66
+        Quantidade: 2
+        Nome: '&eOvo de Boss Mago'
+        Lore:
+        - '&7Utilize este ovo para invocar o boss mago'
+        Chance: 10.0
+      it2:
+        Material: MONSTER_EGG
+        Data: 66
+        Nome: '&eOvo de Boss Mago'
+        Lore:
+        - '&7Utilize este ovo para invocar o boss mago'
+        Chance: 10.0
+      it3:
+        Material: DIRT
+        Chance: 10.0
+      it4:
+        Material: DIRT
+        Chance: 10.0
+      it5:
+        Material: DIRT
+        Chance: 10.0
+      it6:
+        Material: WOOD_SWORD
+        Nome: '&eMatadora de Boss'
+        Lore:
+        - '&7Level básica'
+        - '&7+10 de dano'
+        Chance: 10.0
+      it7:
+        Material: WOOD_SWORD
+        Nome: '&eMatadora de Boss'
+        Lore:
+        - '&7Level básica'
+        - '&7+10 de dano'
+        Chance: 10.0
+      it8:
+        Material: DIRT
+        Chance: 10.0
+      it9:
+        Material: WOOD_SWORD
+        Nome: '&eMatadora de Boss &6(hitkill)'
+        Lore:
+        - '&7Um hit, uma morte'
+        Enchants:
+        - 'ARROW_DAMAGE: 1'
+        - 'DURABILITY: 2'
+        Chance: 0.001
+  c4:
+    Nome: '&6Caixa Misteriosa'
+    FogoDeArtificio:
+      Disable: false
+      Tipo: BALL
+      Cor: RED
+      Fade: BLUE
+    Key:
+      Material: TRIPWIRE_HOOK
+      Nome: '&aChave Misteriosa'
+      Lore:
+      - '&7Utilize esta chave para abrir'
+      - '&7uma caixa &7de limete &7 e'
+      - '&7ganhe itens exclusivos!'
+      - ''
+      - '&fLocal da Abertura:'
+      - '&7/warp crates'
+      - ''
+    HologramaOffset: 3
+    Holograma:
+    - '&6&lCAIXA MISTERIOSA'
+    - '&fRaridade: &7Limete'
+    - ''
+    - '&7Clique esquerdo: &fVisualizar itens'
+    - '&7Clique direito: &fAbrir caixa'
+    - $item:DIAMOND_SWORD
+    Locations:
+    - 512.0;53.0;-549.0;0.0;0.0;world
+    Items:
+      it1:
+        Material: QUARTZ
+        Quantidade: 2
+        Nome: '&aLimite de Máquinas'
+        Lore:
+        - ' &fQuantia: &73'
+        - ''
+        - '&aClique para aumentar seu limite de compra de máquinas.'
+        Chance: 10.0
+      it2:
+        Material: QUARTZ
+        Quantidade: 3
+        Nome: '&aLimite de Máquinas'
+        Lore:
+        - ' &fQuantia: &72'
+        - ''
+        - '&aClique para aumentar seu limite de compra de máquinas.'
+        Chance: 10.0
+      it3:
+        Material: DIRT
+        Chance: 10.0
+      it4:
+        Material: DIRT
+        Chance: 10.0
+      it5:
+        Material: DIRT
+        Chance: 10.0
+      it6:
+        Material: QUARTZ
+        Quantidade: 2
+        Nome: '&aLimite de Máquinas'
+        Lore:
+        - ' &fQuantia: &73'
+        - ''
+        - '&aClique para aumentar seu limite de compra de máquinas.'
+        Chance: 10.0
+      it7:
+        Material: QUARTZ
+        Quantidade: 2
+        Nome: '&aLimite de Máquinas'
+        Lore:
+        - ' &fQuantia: &73'
+        - ''
+        - '&aClique para aumentar seu limite de compra de máquinas.'
+        Chance: 10.0
+      it8:
+        Material: DIRT
+        Chance: 10.0
+      it9:
+        Material: DIRT
+        Chance: 10.0

@@ -1,0 +1,37 @@
+Mobs:
+  VILLAGER:
+    Drop: '388:0'
+    XP: 10
+    Quantia: 5
+  ZOMBIE:
+    Drop: '367:0'
+    XP: 16
+    Quantia: 8
+  SPIDER:
+    Drop: '287:0'
+    XP: 24
+    Quantia: 16
+  SLIME:
+    Drop: '341:0'
+    XP: 28
+    Quantia: 24
+  CREEPER:
+    Drop: '289:0'
+    XP: 32
+    Quantia: 28
+  BLAZE:
+    Drop: '369:0'
+    XP: 46
+    Quantia: 32
+  GUARDIAN:
+    Drop: '409:0'
+    XP: 64
+    Quantia: 36
+  IRON_GOLEM:
+    Drop: '285:0'
+    XP: 68
+    Quantia: 38
+  WITHER:
+    Drop: '399:0'
+    XP: 82
+    Quantia: 40

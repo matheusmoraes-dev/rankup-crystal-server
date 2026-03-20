@@ -1,0 +1,47 @@
+message:
+  noPermission: '&cSem permissao.'
+  noConsole: '&cVoce nao pode executar este comando no console!'
+  notIntenger: '&cVoce usou numeros demais.'
+  reload: '&aConfig recarregada com sucesso!'
+  broadcast: '&cAviso: &aO jogador &f%player &atem &f%amount &ade cash!'
+  command:
+    unknown: ''
+    give: '&c/cash dar (jogador) (quantia)'
+    giveall: '&c/cash * (quantia)'
+    take: '&c/cash remover (jogador) (quantia)'
+    look: '&c/cash ver (jogador)'
+    pay: '&c/cash dar (jogador) (quantia)'
+    set: '&c/cash setar (jogador) (quantia)'
+    reset: '&c/cash resetar (jogador)'
+    me: '&c/cash meu'
+    lead: '&c/cash top'
+    broadcast: '&c/cash anunciar (jogador)'
+  points:
+    success: '&aJogador &f%player &atem agora &f%amount &ade cash.'
+    successall: '&aEnviado &f%amount &ade cash para todos jogadores online.'
+    fail: '&cErro.'
+    failall: '&cErro ao enviar &f%amount &cde cash para todos jogadores.'
+    look: '&cAviso: &aO jogador &f%player &atem &f%amount &ade cash!'
+    pay:
+      send: '&aVoce enviou &f%amount &ade cash para o jogador &f%player.'
+      receive: '&aVoce recebeu &f%amount &ade cash do jogador &f%player.'
+      invalid: '&cVoce nao pode enviar 0 de cash ou uma quantia negativa.'
+    lack: '&cVoce nao tem cash suficiente!'
+    reset: '&eCash do jogador &f%player &efoi resetado com sucesso.'
+    me: '&eVoce tem &f%amount &ede cash'
+  help:
+    header: ''
+    me: '&e/cash meu &0- &7Mostrar seu cash atual.'
+    give: '&e/cash dar (jogador) (quantia) &0- &7De cash ao um Jogador.'
+    giveall: '&e/cash * (quantia) &0- &7De cash a todos jogadores online.'
+    take: '&e/cash remover (jogador) (quantia) &0- &7Remova o cash de um jogador.'
+    look: '&e/cash ver  (jogador) &0- &7Veja o cash de um jogador.'
+    set: '&e/cash setar (jogador) (quantia) &0- &7Sete uma quantia de cash para um
+      jogador.'
+    reset: '&e/cash resetar (jogador) &0- &7Resete o cash de um jogador.'
+    pay: '&e/cash enviar (jogador) (quantia) &0- &7Envia uma quantia do seu cash para
+      o jogador.'
+    lead: '&e/cash top &0- &7Veja a classificação de quem tem mais cash no servidor.'
+    broadcast: '&e/cash anunciar (jogador) &0- &7Anuncie a quantia de cash de um jogador
+      para todos online.'
+    reload: '&e/cash reload &0- &7Recarregar a config do plugin.'

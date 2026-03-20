@@ -1,0 +1,31 @@
+#customize the item of clear plot
+cpItemStack:
+  name: "&aClearPlot"
+  lore:
+  - ''
+  - '&aClear your plot with this'
+  - '&aActivate in one of your plots'
+  itemid: 369
+  itemdata: 0
+
+#customize how cp works
+ItemClearOnCP:
+  BlockMaterials:
+  - GRASS
+  - AIR
+  - DIRT
+  - STONE
+  StartY: 65
+  
+#customize the messages of plugin
+Messages:
+  ActivateCP: "&cClearing the ground.."
+  EndClearCP: "&bYour plot has been cleared"
+  NotYourPlot: "&cThis is not your plot"
+  BeingCleaned: "&cThis plot is being cleaned"
+  GiveCP: "�a{player} receive {amount} cp's"
+  OnlyNumbers: "&cUse only numbers"
+  OnlyPositiveNumbers: "&cUse only positive numbers"
+  IsntPlayer: "&cThis player isn't online"
+  CmdUsage: "&6Use /cpgive (player) (number of cp's)"
+  NoPerm: "&cYou don't have permission"

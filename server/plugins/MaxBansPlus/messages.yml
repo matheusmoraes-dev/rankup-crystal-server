@@ -1,0 +1,103 @@
+ban:
+    kick: |
+      You've been banned by &a{{source}}&r
+      Reason: &a{{reason|no reason}}&r
+      Expires: &a{{duration|never}}&r
+
+    broadcast: "&a{{name|address}}&r was banned by &a{{source}}&r for &a{{reason|no reason}}&r. Expires: &a{{duration|never}}&r"
+    denied: |
+      You're banned by &a{{source}}&r
+      Reason: &a{{reason|no reason}}&r
+      Expires: &a{{duration|never}}&r
+
+    unban: "&f{{name|address}} was unbanned by {{source}}."
+
+ipban:
+    kick: |
+      You've been IP banned by &a{{source}}&r
+      Reason: &a{{reason|no reason}}&r
+      Expires: &a{{duration|never}}&r
+
+    broadcast: "{{name|address}} was banned by {{source}} for {{reason|no reason}}. Expires: {{duration|never}}"
+    denied: |
+      You're IP banned by &a{{source}}&r
+      Reason: &a{{reason|no reason}}&r
+      Expires: &a{{duration|never}}&r
+
+    unban: "{{name|address}} was unbanned by {{source}}."
+
+mute:
+    muted: "&fYou've been muted by &a{{source}}&r for &a{{reason|no reason}}&r. Expires: &a{{duration|never}}&r"
+    broadcast: "&a{{name|address}}&r was muted by &a{{source}}&r for &a{{reason|no reason}}&r. Expires: &a{{duration|never}}&r"
+    denied: "&fYou're muted for &a{{reason|no reason}}&r. Expires: &a{{duration|never}}&r"
+    unmute: "&a{{name|address}}&r was unmuted by &a{{source}}&r"
+    error:
+        not-muted: "&a{{name}}&r is not muted"
+
+warn:
+    warned: "&fYou've been warned by &a{{source}}&r for &a{{reason|no reason}}&r. The warning expires in &a{{duration}}&r"
+    broadcast: "&a{{name}}&r was warned by &a{{source}}&r for &a{{reason|no reason}}&r."
+
+kick:
+    broadcast: "&a{{name}}&r was kicked by &a{{source}}&r for &a{{reason|no reason}}&r."
+    message: |
+      You've been kicked by &a{{source}}&r
+      Reason: &a{{reason|none}}&r
+
+lockdown:
+    broadcast: |
+      The server has been switched to lockdown mode: &a{{type}}&r by &a{{source}}&r
+      This means: &a{{description}}&r.
+      The reason was: &a{{reason|none}}&r
+
+    message: |
+      The server is currently in lockdown.
+      Reason: &a{{reason|none}}&r
+
+notification:
+    ipbanned: "&a{{name|address}}&r tried to join but is currently banned."
+    banned: "&a{{name}}&r tried to join but is currently banned."
+    ipmuted: "&a{{name|address}}&r tried to chat, but is currently muted."
+    muted: "&a{{name}}&r tried to chat, but is currently muted."
+    lockdown: "&a{{name}}&r tried to join, but the server is in lockdown."
+
+permission:
+    required: "That requires &c{{permission}}&r permission"
+
+iplookup:
+    never: "&a{{name}}&r has no IP history"
+    user: |
+      &a{{name}}&r User Report:
+      First Login: &a{{firstActive|Never}}&r
+      Last Login: &a{{lastActive|Never}}&r
+      Ban: &a{{ban.reason|none}}&r (by: {{ban.source|nobody}}, expires: {{ban.expires|never}})
+      Mute: &a{{mute|none}}&r (by: {{mute.source|nobody}}, expires: {{mute.expires|never}})
+      &a{{name}}&r has used the following IP addresses:
+      &a{{addresses|none}}&r
+
+    ip: |
+      &a{{ip}}&r IP Address Report:
+      First Seen: &a{{firstActive|Never}}&r
+      Last Seen: &a{{lastActive|Never}}&r
+      Country: &a{{country|Unknown}}&r (&a{{continent|Unknown}}&f)
+      Ban: &a{{ban.reason|none}}&r (by: {{ban.source|nobody}}, expires: {{ban.expires|never}})
+      Mute: &a{{mute|none}}&r (by: {{mute.source|nobody}}, expires: {{mute.expires|never}})
+      The following users have used the IP Address:
+      &a{{users|none}}&r
+
+history:
+    ban: "&a{{name|address}}&r was banned by &a{{source|console}}&r. Reason: &a{{reason|No reason}}&r. Expires &a{{duration|never}}&r"
+    unban: "&a{{name|address}}&r was unbanned by &a{{source|console}}&r"
+    mute: "&a{{name|address}}&r was muted by &a{{source|console}}&r. Reason: &a{{reason|No reason}}&r. Expires &a{{duration|never}}&r"
+    unmute: "&a{{name|address}}&r was muted by &a{{source|console}}&r. Reason: &a{{reason|No reason}}&r. Expires &a{{duration|never}}&r"
+    warn: "&a{{name|address}}&r was warned by &a{{source|console}}&r. Reason: &a{{reason|No reason}}&r. Expires &a{{duration|never}}&r"
+
+# The prefix and suffix for messages which are silent
+# These are activated by the -s flag in a command eg "/ban netherfoam -s Ninja ban"
+silent:
+    prefix: "&a&o[Silent]&r&r "
+    suffix: ""
+
+# The locale to use for time units. Valid examples include:
+# en, fr, de, it, ja, ko, zh
+locale: en

@@ -1,0 +1,12 @@
+name: AtlasMaquinas
+author: dont
+version: 4.2
+main: com.dont.maquinas.Terminal
+depend: [Vault, PlaceholderAPI]
+commands:
+  drops:
+  givemaquina:
+  givecombustivel:
+  maquinas:
+    aliases: [maquina]
+  maquinaadmin:

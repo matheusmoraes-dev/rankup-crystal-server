@@ -1,0 +1,8 @@
+name: AtlasTrocas
+author: dont
+version: 1.4
+main: com.dont.trade.Terminal
+depend: [Vault]
+commands:
+  trade:
+    aliases: [trocar, troca]

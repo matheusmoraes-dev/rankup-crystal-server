@@ -1,0 +1,8 @@
+name: AtlasDimensoes
+author: dont
+version: 1.5
+main: com.dont.dimensoes.Terminal
+depend: [Vault]
+commands:
+  dimensoes:
+  dimensoesadmin:

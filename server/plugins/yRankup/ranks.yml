@@ -1,0 +1,1593 @@
+Ranks:
+  VillagerIII:
+    Ordem: 1 #o player quando se registra começa na ordem 1
+    Tag: '&e[VillagerIII]'
+    Libera em: '01/01/2020-10:00'
+    Precos:
+      Money: 0.0 #money do vault
+      Cash: 0.0 #sua segunda economia (ex: PlayerPoints, yPoints)
+      Almas: 0.0 #almas do yAlmas
+      Fragmentos: 0.0 #economia própria do yRankup
+      Blocos: 0.0
+      Kills: 0 #kills do yKillRank
+      Heads:
+         Usar: false
+         Heads:
+         - '' #head,quantia (heads.yml) ( caso não queira deixe - '')
+    Comandos: #caso não queira deixe - 'none' ( esses comandos são executados também ao registrar caso a ordem do rank seja 1 )
+    - pex user {player} group add VillagerIII
+    Mensagens: #( essas mensagens são executadas também ao registrar caso a ordem do rank seja 1 )
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cregistrou-se e é agora  &eVillagerIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cregistrou-se e é agora &7PorcoIII&c.'
+        - ''
+    Item: #este é o item que aparece no /ranks
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&eVillagerIII'
+      Lore:
+      - ''
+      - '&fPreço: &aGrátis&f.'
+      - '&7Próximo: &eVillagerII'
+      - ''
+      - '&7Este é o primeiro rank, portanto é gratuito.'
+      - ''
+  VillagerII:
+    Ordem: 2
+    Tag: '&e[VillagerII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 100000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 10000.0
+      Blocos: 8000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add VillagerII
+    - pex user {player} group remove VillagerIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &eVillagerII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&eVillagerII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7100k coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b10k&7 em fragmentos'
+      - '&f • &b8k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &eVillagerI.'
+      - ''
+  VillagerI:
+    Ordem: 3
+    Tag: '&e[VillagerI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 150000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 12000.0
+      Blocos: 8500.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add VillagerI
+    - pex user {player} group remove VillagerII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &eVillagerI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&eVillagerI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7150k coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b12k&7 em fragmentos'
+      - '&f • &b8k500&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &2ZombieIII.'
+      - ''
+  ZombieIII:
+    Ordem: 4
+    Tag: '&2[ZombieIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 5000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 30000.0
+      Blocos: 10000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add ZombieIII
+    - pex user {player} group remove VillagerI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &2ZombieIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&2ZombieIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &75M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b30k&7 em fragmentos'
+      - '&f • &b10K&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &2ZombieII.'
+      - ''
+  ZombieII:
+    Ordem: 5
+    Tag: '&2[ZombieII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 5500000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 60000.0
+      Blocos: 12000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add ZombieII
+    - pex user {player} group remove ZombieIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &2ZombieII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&2ZombieII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &75M500k coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b60k&7 em fragmentos'
+      - '&f • &b12k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &2ZombieI.'
+      - ''
+  ZombieI:
+    Ordem: 6
+    Tag: '&2[ZombieI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 6000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 80000.0
+      Blocos: 15000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add ZombieI
+    - pex user {player} group remove ZombieII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &2ZombieI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&2ZombieI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &76M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b80k&7 em fragmentos'
+      - '&f • &b15k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &7SpiderIII.'
+      - ''
+  SpiderIII:
+    Ordem: 7
+    Tag: '&7[SpiderIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 100000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 200000.0
+      Blocos: 18000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add SpiderIII
+    - pex user {player} group remove ZombieI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &7SpiderIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&7SpiderIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7100M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b200k&7 em fragmentos'
+      - '&f • &b18k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &7SpiderII.'
+      - ''
+  SpiderII:
+    Ordem: 8
+    Tag: '&7[SpiderII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 100500000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 280000.0
+      Blocos: 20000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add SpiderII
+    - pex user {player} group remove SpiderIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &7SpiderII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&7SpiderII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7100M500K coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b280k&7 em fragmentos'
+      - '&f • &b20k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &7SpiderI.'
+      - ''
+  SpiderI:
+    Ordem: 9
+    Tag: '&7[SpiderI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 105000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 380000.0
+      Blocos: 22000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add SpiderI
+    - pex user {player} group remove SpiderII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &7SpiderI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&7SpiderI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7105M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b380k&7 em fragmentos'
+      - '&f • &b22k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &2CreeperIII.'
+      - ''
+  CreeperIII:
+    Ordem: 10
+    Tag: '&2[CreeperIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 610000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 450000.0
+      Blocos: 24000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add CreeperIII
+    - pex user {player} group remove SpiderI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &2CreeperIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/f4254838c33ea227ffca223dddaabfe0b0215f70da649e944477f44370ca6952
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&2CreeperIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7610M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b450k&7 em fragmentos'
+      - '&f • &b24k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &2CreeperII.'
+      - ''
+  CreeperII:
+    Ordem: 11
+    Tag: '&2[CreeperII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 610500000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 480000.0
+      Blocos: 26000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add CreeperII
+    - pex user {player} group remove CreeperIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &2CreeperII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/f4254838c33ea227ffca223dddaabfe0b0215f70da649e944477f44370ca6952
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&2CreeperII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7610M500K coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b480k&7 em fragmentos'
+      - '&f • &b26k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &2CreeperI.'
+      - ''
+  CreeperI:
+    Ordem: 12
+    Tag: '&2[CreeperI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 611000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 500000.0
+      Blocos: 28000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add CreeperI
+    - pex user {player} group remove CreeperII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &2CreeperI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/f4254838c33ea227ffca223dddaabfe0b0215f70da649e944477f44370ca6952
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&2CreeperI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7611M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b500k&7 em fragmentos'
+      - '&f • &b28k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &aSlimeIII.'
+      - ''
+  SlimeIII:
+    Ordem: 13
+    Tag: '&a[SlimeIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 822000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 550000.0
+      Blocos: 30000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add SlimeIII
+    - pex user {player} group remove CreeperI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &aSlimeIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/895aeec6b842ada8669f846d65bc49762597824ab944f22f45bf3bbb941abe6c
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aSlimeIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7822M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b550k&7 em fragmentos'
+      - '&f • &b30k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &aSlimeII.'
+      - ''
+  SlimeII:
+    Ordem: 14
+    Tag: '&a[SlimeII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 822500000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 580000.0
+      Blocos: 32000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add SlimeII
+    - pex user {player} group remove SlimeIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &aSlimeII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/895aeec6b842ada8669f846d65bc49762597824ab944f22f45bf3bbb941abe6c
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aSlimeII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7822M500K coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b580k&7 em fragmentos'
+      - '&f • &b32k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &aSlimeI.'
+      - ''
+  SlimeI:
+    Ordem: 15
+    Tag: '&a[SlimeI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 823000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 600000.0
+      Blocos: 34000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add SlimeI
+    - pex user {player} group remove SlimeII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &aSlimeI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/895aeec6b842ada8669f846d65bc49762597824ab944f22f45bf3bbb941abe6c
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aSlimeI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &7823M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b600k&7 em fragmentos'
+      - '&f • &b34k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &6BlazeIII.'
+      - ''
+  BlazeIII:
+    Ordem: 16
+    Tag: '&6[BlazeIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 1600000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 800000.0
+      Blocos: 60000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add BlazeIII
+    - pex user {player} group remove SlimeI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &6BlazeIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&6BlazeIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &71B600M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b800k&7 em fragmentos'
+      - '&f • &b60k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &6BlazeII.'
+      - ''
+  BlazeII:
+    Ordem: 17
+    Tag: '&6[BlazeII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 1600500000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 840000.0
+      Blocos: 62000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add BlazeII
+    - pex user {player} group remove BlazeIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &6BlazeII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&6BlazeII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &71B600M500K coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b840k&7 em fragmentos'
+      - '&f • &b62k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &6BlazeI.'
+      - ''
+  BlazeI:
+    Ordem: 18
+    Tag: '&6[BlazeI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 1610000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 890000.0
+      Blocos: 82000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add BlazeI
+    - pex user {player} group remove BlazeII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &6BlazeI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&6BlazeI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &71B610M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b890k&7 em fragmentos'
+      - '&f • &b82k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &9GuardianIII.'
+      - ''
+  GuardianIII:
+    Ordem: 19
+    Tag: '&9[GuardianIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 8000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 1000000.0
+      Blocos: 90000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add GuardianIII
+    - pex user {player} group remove BlazeI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &9GuardianIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/a0bf34a71e7715b6ba52d5dd1bae5cb85f773dc9b0d457b4bfc5f9dd3cc7c94
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&9GuardianIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &78B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b1M&7 em fragmentos'
+      - '&f • &b90k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &9GuardianII.'
+      - ''
+  GuardianII:
+    Ordem: 20
+    Tag: '&9[GuardianII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 8500000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 1200000.0
+      Blocos: 100000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add GuardianII
+    - pex user {player} group remove GuardianIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &9GuardianII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/a0bf34a71e7715b6ba52d5dd1bae5cb85f773dc9b0d457b4bfc5f9dd3cc7c94
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&9GuardianII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &78B500M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b1M200K&7 em fragmentos'
+      - '&f • &b100k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &9GuardianI.'
+      - ''
+  GuardianI:
+    Ordem: 21
+    Tag: '&9[GuardianI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 9000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 1800000.0
+      Blocos: 140000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add GuardianI
+    - pex user {player} group remove GuardianII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &9GuardianI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/a0bf34a71e7715b6ba52d5dd1bae5cb85f773dc9b0d457b4bfc5f9dd3cc7c94
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&9GuardianI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &79B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b1M800K&7 em fragmentos'
+      - '&f • &b140k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &4IronGolemIII.'
+      - ''
+  IronGolemIII:
+    Ordem: 22
+    Tag: '&4[IronGolemIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 12000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 2200000.0
+      Blocos: 180000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add IronGolemIII
+    - pex user {player} group remove GuardianI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &4IronGolemIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&4IronGolemIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &712B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b2M200K&7 em fragmentos'
+      - '&f • &b180k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &4IronGolemII.'
+      - ''
+  IronGolemII:
+    Ordem: 23
+    Tag: '&4[IronGolemII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 12500000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 2400000.0
+      Blocos: 220000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add IronGolemII
+    - pex user {player} group remove IronGolemIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &4IronGolemII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&4IronGolemII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &712B500M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b2M400K&7 em fragmentos'
+      - '&f • &b220k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &4IronGolemI.'
+      - ''
+  IronGolemI:
+    Ordem: 24
+    Tag: '&4[IronGolemI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 13000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 2800000.0
+      Blocos: 240000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add IronGolemI
+    - pex user {player} group remove IronGolemII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &4IronGolemI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&4IronGolemI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &713B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b2M800K&7 em fragmentos'
+      - '&f • &b240k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &8WitherIII.'
+      - ''
+  WitherIII:
+    Ordem: 25
+    Tag: '&8[WitherIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 22000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 3400000.0
+      Blocos: 280000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add WitherIII
+    - pex user {player} group remove IronGolemI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &8WitherIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/cdf74e323ed41436965f5c57ddf2815d5332fe999e68fbb9d6cf5c8bd4139f
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&8WitherIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &722B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b3M400K&7 em fragmentos'
+      - '&f • &b280k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &8WitherII.'
+      - ''
+  WitherII:
+    Ordem: 26
+    Tag: '&8[WitherII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 22500000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 3800000.0
+      Blocos: 330000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add WitherII
+    - pex user {player} group remove WitherIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &8WitherII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/cdf74e323ed41436965f5c57ddf2815d5332fe999e68fbb9d6cf5c8bd4139f
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&8WitherII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &722B500M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b3M800K&7 em fragmentos'
+      - '&f • &b330k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &8WitherI.'
+      - ''
+  WitherI:
+    Ordem: 27
+    Tag: '&8[WitherI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 23000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 4100000.0
+      Blocos: 350000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add WitherI
+    - pex user {player} group remove WitherII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &8WitherI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/cdf74e323ed41436965f5c57ddf2815d5332fe999e68fbb9d6cf5c8bd4139f
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&8WitherI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &723B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b4M100K&7 em fragmentos'
+      - '&f • &b350k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &5EnderDragonIII.'
+      - ''
+  EnderDragonIII:
+    Ordem: 28
+    Tag: '&5[EnderDragonIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 32000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 4400000.0
+      Blocos: 380000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add EnderDragonIII
+    - pex user {player} group remove WitherI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &5EnderDragonIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/74ecc040785e54663e855ef0486da72154d69bb4b7424b7381ccf95b095a
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&5EnderDragonIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &732B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b4M400K&7 em fragmentos'
+      - '&f • &b380k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &5EnderDragonII.'
+      - ''
+  EnderDragonII:
+    Ordem: 29
+    Tag: '&5[EnderDragonII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 32500000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 4800000.0
+      Blocos: 430000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add EnderDragonII
+    - pex user {player} group remove EnderDragonIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &5EnderDragonII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/74ecc040785e54663e855ef0486da72154d69bb4b7424b7381ccf95b095a
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&5EnderDragonII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &732B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b4M800K&7 em fragmentos'
+      - '&f • &b430k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &5EnderDragonI.'
+      - ''
+  EnderDragonI:
+    Ordem: 30
+    Tag: '&5[EnderDragonI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 33000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 5200000.0
+      Blocos: 460000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add EnderDragonI
+    - pex user {player} group remove EnderDragonII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &5EnderDragonI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/74ecc040785e54663e855ef0486da72154d69bb4b7424b7381ccf95b095a
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&5EnderDragonI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &733B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b5M200K&7 em fragmentos'
+      - '&f • &b460k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &4HerobrineIII.'
+      - ''
+  HerobrineIII:
+    Ordem: 31
+    Tag: '&4[HerobrineIII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 46000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 5600000.0
+      Blocos: 480000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add HerobrineIII
+    - pex user {player} group remove EnderDragonI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &4HerobrineIII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/98b7ca3c7d314a61abed8fc18d797fc30b6efc8445425c4e250997e52e6cb
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&4HerobrineIII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &746B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b5M600K&7 em fragmentos'
+      - '&f • &b480k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &4HerobrineII.'
+      - ''
+  HerobrineII:
+    Ordem: 32
+    Tag: '&4[HerobrineII]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 46500000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 5800000.0
+      Blocos: 520000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add HerobrineII
+    - pex user {player} group remove HerobrineIII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &4HerobrineII'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/98b7ca3c7d314a61abed8fc18d797fc30b6efc8445425c4e250997e52e6cb
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&4HerobrineII'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &746B500M coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b5M800K&7 em fragmentos'
+      - '&f • &b520k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &4HerobrineI.'
+      - ''
+  HerobrineI:
+    Ordem: 33
+    Tag: '&4[HerobrineI]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 60000000000.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 8200000.0
+      Blocos: 820000.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add HerobrineI
+    - pex user {player} group remove HerobrineII
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &4HerobrineI'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/98b7ca3c7d314a61abed8fc18d797fc30b6efc8445425c4e250997e52e6cb
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&4HerobrineI'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &760B coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b8M200K&7 em fragmentos'
+      - '&f • &b820k&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &cImperador.'
+      - ''
+  Imperador:
+    Ordem: 34
+    Tag: '&c[Imperador]'
+    Libera em: '15/12/2020-17:35'
+    Precos:
+      Money: 0.0
+      Cash: 0.0
+      Almas: 0.0
+      Fragmentos: 0.0
+      Blocos: 0.0
+      Kills: 0
+      Heads:
+         Usar: false
+         Heads:
+         - 'porco,100'
+    Comandos:
+    - pex user {player} group add Imperador
+    - pex user {player} group remove HerobrineI
+    Mensagens:
+      Actionbar:
+        Ativar: true
+        Msg: '&cO jogador &7{player} &cupou para &cImperador'
+      Chat:
+        Ativar: false
+        Msg:
+        - ''
+        - '&cO jogador &7{player} &cupou para &7PorcoII&c.'
+        - ''
+    Item:
+      CustomSkull: true
+      URL: http://textures.minecraft.net/texture/621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&cImperador'
+      Lore:
+      - ''
+      - '&fPreço:'
+      - '&f • &70 coins'
+      - '&f • &f0&7 em cash'
+      - '&f • &50&7 em almas'
+      - '&f • &b0&7 em fragmentos'
+      - '&f • &b0&7 em blocos'
+      - '&f • &d0&7 Cabeças de Porco'
+      - ''
+      - '&7Próximo: &4Nenhum.'
+      - ''

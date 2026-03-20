@@ -1,0 +1,7 @@
+AdaptarEconomia: # caso queira trocar os valores dos botões de adicionar cash/money
+  Cash:
+    1: 1000
+    10: 20000
+  Money:
+    1000: 1000000
+    100000: 1000000000

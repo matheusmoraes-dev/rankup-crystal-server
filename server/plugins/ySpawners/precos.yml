@@ -1,0 +1,37 @@
+Precos:
+  Preco1:
+    Drop: '388:0'
+    Preco: 3250.0
+    Nome: '&aEsmeralda'
+  Preco2:
+    Drop: '367:0'
+    Preco: 3850.0
+    Nome: '&cCarne De Zombie'
+  Preco3:
+    Drop: '287:0'
+    Preco: 4250.0
+    Nome: '&7Linha'
+  Preco4:
+    Drop: '341:0'
+    Preco: 5250.0
+    Nome: '&2Slime Ball'
+  Preco5:
+    Drop: '289:0'
+    Preco: 5850.0
+    Nome: '&7Pólvora'
+  Preco6:
+    Drop: '369:0'
+    Preco: 6250.0
+    Nome: '&cBlaze Rood'
+  Preco7:
+    Drop: '409:0'
+    Preco: 6650.0
+    Nome: '&bPrismarinho'
+  Preco8:
+    Drop: '265:0'
+    Preco: 6850.0
+    Nome: '&fIron'
+  Preco9:
+    Drop: '399:0'
+    Preco: 7250.0
+    Nome: '&fNether Star'

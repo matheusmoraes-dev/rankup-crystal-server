@@ -1,0 +1,23 @@
+Heads:
+   porco:
+      Nome: 'Porco' #pode usar cor
+      Item: #este item será dado ao jogador
+         CustomSkull: true
+         URL: http://textures.minecraft.net/texture/621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4
+         ID: 0
+         Data: 0
+         Glow: true
+         Name: '&dCabeça de porco'
+         Lore:
+         - '&7Quantia armazenada: &f{quantia} cabeça(s) de porco.&f'
+         - ''
+         - '&7Clique com botão direito para armazenar.'
+      Display: #este irá mostrar na seção de heads do /rank
+         CustomSkull: true
+         URL: http://textures.minecraft.net/texture/621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4
+         ID: 0
+         Data: 0
+         Glow: true
+         Name: '&dCabeça de porco'
+         Lore:
+         - '&7Quantidade: &f{quantia}&7.'

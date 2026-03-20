@@ -1,0 +1,505 @@
+# Citizens NPC Storage
+
+
+
+
+
+
+
+last-created-npc-id: 133
+npc:
+  '38925':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjc2NzI1NzQyNSwKICAicHJvZmlsZUlkIiA6ICJhMmY5ODQ3MmIzY2Y0YmMzOTM2ZWNiZjBhNGZmMTcyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWxpdmVyeU1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOThiYzYzZjA1ZjYzNzhiZjI5ZWYxMGUzZDgyYWNiM2NlYjczYTcyMGJmODBmMzBiYzU3NmQwYWQ4YzQwY2ZiIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: deliveryman
+      cached-skin-uuid: a2f98472-b3cf-4bc3-936e-cbf0a4ff1729
+      player-skin-signature: qKn55Z5QimS5lKas5IVBUQejT3n9iXv0ncuIZVZ5KnfFF/i7j9mP43/rMLEPezSu1B2rq4474m1AbOxV1uR9gciHi/zP4wGaEaZSdU7NXJMa9kwW0xWAQiW6n4379aHDiwpzpmAMCOKIIsnL407R0k5J323IW9vVigYYGEkh7dtL+su5BL5TTJ3MaRn2IpJsDjodS1HdO3ADIm7k0jRM/CUIxCv8DmJpjOnzwD/lF+a43kajSCvSY1YdljjPZ2V9niJPA4ddPDFumDUlZOvDMADLsNoLGzjK3vPYeBf4JpF9WA/tqgpsYBcR/ouXvLMaVSB99Eu+lPDudhofs5AANh5iHjx5so5tbqG17SS00Iek4kxUd3SMrQl5lvGYfPTg5qtFXAjT7Z56+9WmnT6yjnirk1AjkGmdk0UwSFrctghC9dZkjArnSo2zWKAesTtecDKYHS1kakXFXyolBjm8r2cOjIO7j38+6BH6viMQNBaWmn2riQP4lnqFRAJAEIQWksomUZ6LDmIIewL29s6CPMw3RFJScQTjrXmOiONSV3hVZfOu2JeTe4mqazCQmUiP8WNBPPxm75wsvmNhBYcM+5L+LIoM9Mchxn/ypyjoP5UFpwfK24SmwWxSD2yZmfqN4M/4lcifd5inSsOoXWaTrgM9SI8jcAvP8Zde2u7WZIs=
+    name: §7
+    uuid: ae4c520d-4720-4cfa-a4ca-bc03a0189189
+    traits:
+      location:
+        world: world
+        x: '533.3288'
+        y: '54.0'
+        z: '-543.6544'
+        yaw: '-222.9000244140625'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      gravity:
+        enabled: false
+      inventory: {}
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '6':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxMzUxMDMzODAyMSwKICAicHJvZmlsZUlkIiA6ICJhYTZiMWNiZTI2YTQ0Yjc3OTM1ZGFjYjc4NWEyOTU1ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJrZXQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY3ZjUxNTNkODM2NjI2NzI2MmVhMTM1N2E3Nzc0OGRlM2MwNDJkODIyNGMzNzg4Y2I4YjYyY2JjZTU1ZDNhMSIKICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: market
+      cached-skin-uuid: aa6b1cbe-26a4-4b77-935d-acb785a2955f
+      player-skin-name: market
+      player-skin-signature: UsNAZiwBH4ChR6uXpLB7zLJEqVYAvl3PMJZGYYe5ytn1weeXpwxH9jHoGxMFXEtpPVWVlE6iDUL3rPxqekM4W54NVh7Aju0M/sayjokzthN8MP5ynwO0g6yqNdY1Z4h9ngBO8VK3o7VOhT8aQ6ZVOcUhUIznmr6ekf4FkRxel89oryynEWIGztKHluEnTW+3qEvDe/ynoEoJunpPssYm2nHhlKzhB9FTARF3i7JmXrAMDSexPP58xcFs6tlpZ8hnhtTtkHjMOy1sUXS/zmN3OqnA0OZZXpNCCQbtXne7GKSdl+WYWXSW/7p8kGKvC3/J2DZM2KPfuf6hFCjobmxVI7sdO9vavj8X57aDU4Az3DmZhxM/EG6dD2x7YDckECrr3WdmjUPm5vlNqtPOW63Mi6DTckWT+9zUcnhEH8S8qnmAzs27Hne2vjh/BOfik7rdRKuyZ44COGyy9VpoPnZbziSwM2RF2rs18DQzljTl8UsLvu9w516n6RWdVRiIposavOp/yXFEJx0K6UiTV1f/af+u1bIbHpJh+iDgGgPf0IjiCzIvg0LM6YZjtPN+TKGUzUhdvcjdSBLQUPBW/6Ly2W8nG5tND+M7esYujBGZfcGp4kGpx6PuVg3P5Fxxu0WTOtk9QQ7T9EUyko7jCGvlvJYbV6X90yrYK9OyVuy7qno=
+    name: §e§lLoja
+    uuid: 6069481d-4e95-4fe5-b69f-3bac7bd1af8c
+    traits:
+      location:
+        world: world
+        x: '502.2989'
+        y: '56.0'
+        z: '-602.4858'
+        yaw: '-124.22871398925781'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      gravity:
+        enabled: false
+      inventory: {}
+      owner:
+        owner: NinjaDark99
+        uuid: e2c318b1-79f4-3957-b3ec-c13e278340c7
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '4':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxMzUxMDE1ODY2MiwKICAicHJvZmlsZUlkIiA6ICJiNjRkZmI5YzgyZWM0MjZkOTE4YzczZjYyYWZjNGUwMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHYW1lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82M2I4NTExMmUxM2VjNGY4MmNlOTAxMzU0ZWNkMDk1MWI2NWY4YmNjMjljZjMxOGEwMzBkYTYxOGE5OWI5NzA0IgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: gamer
+      cached-skin-uuid: b64dfb9c-82ec-426d-918c-73f62afc4e01
+      player-skin-name: gamer
+      player-skin-signature: WJT3Ri8EV60b2C6iswVyFNN83B2zLGPJRIX3eiNNabj+LNUrN1R9nYProKQQcPgInHGKlaPHlv1Tv00dTCIDIgD70xDYyxS6UHeSjLmbj59jvPg7ghE+HgY6K3cYJmqhK131YmgCTQgwGrIm1xYmcwuRgcuxN2s2aCYrgKmnoaG6a5ij0q8qmiRyv2RHeN3+/zypGt68Cxygsc/aR2HG005GnYb+9bTVVulyAGrwMmppRJdLIJYD0LcYRknPBAKpUGBGQ2hfYQ6LzEmW3xHoUcg0la0ZldvCKkieiQQdPUUQwaw/gZjCam7eTraQMcnNJ9qX63nX9VBoLGVpMN01ECivEMSAL6f6bFBfUPduAw5aoJJBcNVRc8ZVopKYB9lBqA960fKKwmza9PwZGP8H8eG2FWWuTeMc+07uf5Qf7iI3nY3hpsBegL3oeyU4B3g/0SKjtfW7W6freBd1Mxi5FqhroPITWCHdSbb1ILWFWXral6bZODAx2UiF+XJXuTVa/AoMCPWElR9KzNMeIwaR4fCa41W44l97bfvRKtvdajVF2iAvyaDq6/dp/oFihTOK4rbpUR4R2qchYd1gEBbcZT155PSy1/hcky/ABzkQXqECZ5WgGm/2R1ji6O4yY5O1QOtCAO01uR373bDs+WRX2V9L/GjVIiKJjW88eIPl3KQ=
+    name: §b§lMissões
+    uuid: 195df55f-f836-4583-a6a4-6e9b43645e1e
+    traits:
+      location:
+        world: world
+        x: '531.3333'
+        y: '54.0'
+        z: '-554.4858'
+        yaw: '-279.9000244140625'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      gravity:
+        enabled: false
+      inventory: {}
+      owner:
+        owner: NinjaDark99
+        uuid: e2c318b1-79f4-3957-b3ec-c13e278340c7
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '3':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxMzUxMDE3MDE1NywKICAicHJvZmlsZUlkIiA6ICJiOGY2MmEzMjExOGQ0NzA2YmMxMWU0ZjMyNzdhZDk5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJGYXJtZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjk0MjcyY2NmNmRjOWM4MDgyMWRkYWQzMjYxYTkzMDI2NjAxNTc4ZTAwNGY1MzlhNGI4MDdkOTkxYmM3N2UxZiIKICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: farmer
+      cached-skin-uuid: b8f62a32-118d-4706-bc11-e4f3277ad99e
+      player-skin-name: farmer
+      player-skin-signature: qECZdrhu0OjzE4Y0iAP9BvJmxUUlFa13rE9YsPztoQo5/ZMG+LPSFlNumA/8OyobhTpENCYsmT0TJAZRzI3Lxw7Kn7pCdDibjXmS6TXirmUweX5SyqItjmyNtjbwpUAbGOBz2Tgr4qnF6oJlao5egRmJOCf4jRMkdxNof2LpN9hUixoTmBPpiVU2ZjVwbNTck8/JFGleRID+a8lcrwAHGtRfpDpU5hTnq063uLQXkAleKsY4a5cTCoVcaUCTYs1YzUYNBM/7uZVpunEDa98b5XXisFX7pCjhUKb01qRvL6/Fi2ONvnhHMIW7SOvlL4kZWK6D1G+Qa/aJP0C2eHmuHB8WUxEnSAEzbZNHnwybA/9mmXJ2oREDKcwIBfua2NUtCkbh60njugmC1tBV6x/UAUthFPj8YuNF8072tHkL91DmGoDKx13oYlkE8Pe042NUWRvk61cwgBZBXOdsC49AAOrA7SyKNTZzQxh9aipFkhIXECnziLLtSzM/kXnukWs5DLKJMSS7S4X7hUqxB+mhohjk8MiMd+7Zslz/j2R1c8NkG2MCAfDDad4hsIF1sSLl+QJOXjGyFl9v2qZ5mJt3BZQ4ldcHmBeuw6B65UM6qO1tzP0zuAVOCgrTqf5jitJY+eFqTgiN6ne4jTKy/CDaNiJxAALXSHN6ThYeXNdaW/c=
+    name: §e§lFarm
+    uuid: 3a16b4b0-7ff2-49b1-9422-1bb4c1e76d81
+    traits:
+      location:
+        world: world
+        x: '508.0643'
+        y: '52.0'
+        z: '-551.541'
+        yaw: '-106.1999740600586'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      gravity:
+        enabled: false
+      inventory: {}
+      owner:
+        owner: NinjaDark99
+        uuid: e2c318b1-79f4-3957-b3ec-c13e278340c7
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '2':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxMzUwOTk3NzcyOSwKICAicHJvZmlsZUlkIiA6ICI4ZWM3YTQwOTgxYTI0N2ZlYjA0MjEzNDZjMWM5ZDM0NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEdW5nZW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5ZjkxNjRkYjUwZWQ4MjJhOTdjNDRiMWQxMDg1Mjk2NTAyYjRiZmYzNTg1ZjVjZjU4YTBkM2YzMzE5NGIzODMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: dungeon
+      cached-skin-uuid: 8ec7a409-81a2-47fe-b042-1346c1c9d344
+      player-skin-signature: UcA4259iA4FpOgkatG84XV8Zwk5KOj9vI746GZ6zCEL2Quj5T6+SpyDaF0vcUUcU3xGY7/r6oHr8gpsHaN0KHpqjnkn2ZSLpHa/ZAufQkHa6EbcemAGhJGP0dZCcwrEwun1wkepULq59H69chDmX0SiFasMLY4/+zrPxY3zvC3alaNg4YaelFgkr62MIDvektWH2tNVOyLMVc+uuWEweU3U2Wjzo+4cR9NpkrPuADWHenfX5QvbSOktTr6P7CyFtPtPrBP6Cv015bwg3KMy7bW+3R2xbTNCKamtO0CmC5b1NUNWOU9QeEMDmAYc1SzZf+HZ6WgNqwR9c8fhe39myYSS7ZlArilo+yCml0ZEchXJBrXJ+pQL0q+4JMSXStdH1ZbJEzVNqzLbeECuwWziA6YvLxGPOlQoP7UiaaR5QYNJoPpJXTNxCp3NkUZuFOzNbushmQw7Z0qxpw79Zf9Ij4C0dmuuTUsRI9fLP0jB+LKsC0XHO87f5sc5HXfLpkFreUqK9C8afQJWlInkDjJJCfWSNL50DCKszD9MOGdfXwwfF4dDHDdB8DguKUV6bH+Enf4AULclvVYH3hkahrARVC0qtdbHgNXabvKwtPgCQxtUSPAbrurngduYwzzOEN3cwkdbsQmR3aYkbqWNZicTyLd+UIYZwWKSipXmW/rDDlRg=
+    name: §a§lDungeon
+    uuid: f8110131-725d-4084-874b-8536d3cb3c84
+    traits:
+      location:
+        world: world
+        x: '513.5874'
+        y: '52.0'
+        z: '-571.6535'
+        yaw: '-137.69993591308594'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      gravity:
+        enabled: false
+      inventory: {}
+      owner:
+        owner: NinjaDark99
+        uuid: e2c318b1-79f4-3957-b3ec-c13e278340c7
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '1':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxMzUxMDE4MDc4MiwKICAicHJvZmlsZUlkIiA6ICI0ZTk0ZjQ1Yzc1OWM0MjkzYWYxNmZkZjIxOTIzN2E1ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNaW5lciIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80NDg4NzBjYTc3YWE2OTlkMDE3MDkzYjgyNzc5ZDBhNTk4ZGM0ZjNmNDlkMzUxNTMyYWU0ZDk2MzNkY2MyYTVhIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: miner
+      cached-skin-uuid: 4e94f45c-759c-4293-af16-fdf219237a5d
+      player-skin-name: miner
+      player-skin-signature: N3Zly9GwmqLQw70PWkAPi0/u9bzLAME7oRIBJw1MXPapr4Lw2deV00bzAwL4IuQH5tQ3LI7J8Rbh+lXvo9EZ8wbrtLD4t5cC1hkBVBZSDMwoArQCv82AyrYjmKSZk5Qx4bxKIEredCuhfXPV7tqUujrkBX1zpjT0qETHROIWRFVGBylf92kLz0BXK1De34ka2EGxKwl63H2titQh4qeaGhNd44FUovWU2k0fmhCcSyqXluz3tf0nhPx3Di3uitiwabtBIgzMwvtPTfDBL8GdSevhnnOdw4LbBnha4fb9hNxojVx0w/lgI7myUV1n2WNd3xN1KKdc8K736Ud2keR3bnbkuF1pWFgEhFzzck55fB/r4c4R1KrGYsk+6o4hmC2SE3NRunGQUoUm/aVGjAEjp+VZTe8rv5Fv/PxrC3W3ZFOnRfyEXVLhxZapsJepWqtg3CRQB4sj4f179Ch2W5nerPL2FWMeLNtYJY87LdlI0BvNCnFRoL15eY7kjLB8zWqirMj37ZryXFaP2dZv1eYriyp82/tbOQ+M0P67NXhMkEb4UpdxBi8/UYliw1qDBDXhGyMA6fXGH5yg6i3l9/So2jxtfWbinT1XeqyQLDofWU07C59rW/CAyr8WFMp5MWEbwzpie5Q3LI3TLC272S8/xY2awOjeMO/YyW+mPI45Ftw=
+    name: §e§lMineiro
+    uuid: 8e00a022-3fcf-428b-8ee9-3ff87061b3fe
+    traits:
+      location:
+        world: world
+        x: '519.4325'
+        y: '57.0'
+        z: '-605.4298'
+        yaw: '89.85003662109375'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      gravity:
+        enabled: false
+      inventory: {}
+      owner:
+        owner: NinjaDark99
+        uuid: e2c318b1-79f4-3957-b3ec-c13e278340c7
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '0':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxMzUwOTk1Mjg0MSwKICAicHJvZmlsZUlkIiA6ICI2NDQzZWVlOWYwMDc0MmZhYTAxMjA4ZjNmYjdkYTliMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJsb2phIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQwMDQxZWE2ZjQzNGJkYWJmNWRiN2U0N2UxN2VkMjZiYTY1ZjQ1MTRjNmY0OTA4YmMxODNjZWFmODIzOWEyYTYiCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: loja
+      cached-skin-uuid: 6443eee9-f007-42fa-a012-08f3fb7da9b3
+      player-skin-signature: wziB03GBz8CzH++FjjfsyGqRxvMH1nX9fE8dr/G8JvfI5oB3IipiSo4iPoZp2pBDl6osdrawa3ho2CWRELFSelCt+KlcN7GeLIyAsWJwCfsreIvGimmyd5T08V3WUAG3bLUF/YjT63zrLI3ytDcRSBslJbZPMLqjX848JjRKzuqc1fZe+UXZ2OazgWDdmCLiClmC9pe+UnmQSREXXLb/HJBKTRYTuocqYWsTa+GmVE4t/xujbRx9M5LmYuO5C+XuMh2DwOzMPqyq/5o1+kTPjI+b+5jaLWKMlsf+9opsBe2T0Yjsl5OatIBAn5aZnxaCQfDn9HJn2J2E4XL3ovrUKZJoerghuPUcRMTQXLNXpuN9WaDr+7bMlSAOgZKNqkEUP9n/Q8ToQaz/BQZHo2ZzXBuwnXyepLK01V6M5E9BIbeCbus7ZAzE0meSCK7Dm89U6fm9lUa0Ih0B5vDHfrnXsTaCctJzaNVOaeCbYudD8hk8eLR+XSyE5BWkIh4/FOdRRZcuKldPcW8UPu7kMJbMx1/PBVH4E2ouKI4TMdlX8FemfUKzoBAdv9G1XI/dR/dAoPx9RYYGrtjDFm+frvT8qeMGm29MHpuhLyHhLZ8zKvOWY1CubJefqzAf1ad/QUlA4zRaiLgkZPEI3eejOGPmSLKM5Ce1NyFnM0O3rVm8Nm8=
+    name: §e§lLoja
+    uuid: ce27fabf-1fd8-41ee-a27d-dfd7cfc24139
+    traits:
+      location:
+        world: world
+        x: '502.6999'
+        y: '-8.65418877637E7'
+        z: '-602.6997'
+        yaw: '213.89999389648438'
+        pitch: '0.0'
+      spawned: true
+      type: PLAYER
+      gravity:
+        enabled: false
+      inventory: {}
+      owner:
+        owner: NinjaDark99
+        uuid: e2c318b1-79f4-3957-b3ec-c13e278340c7
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '9':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjQyNTAyNDczMCwKICAicHJvZmlsZUlkIiA6ICI0ZjdjZThkYjdjZDQ0ZWEzOGE2Y2UwOWIwMmI0Mjk2NSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaW5qYV9EYXJrOTkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTIzYjMwNTdlYjdmOTQ5OTFjYTBmZmNiNDU5NTVlMzQ4YTU1MDYwNmY1OTUzZjk4Njc4ZTViNTQwM2RiYmE2MSIKICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: ninja_dark99
+      cached-skin-uuid: 4f7ce8db-7cd4-4ea3-8a6c-e09b02b42965
+      player-skin-name: ninja_dark99
+      player-skin-signature: exnuwPtHe0Uw/lnYmPfL96YuiEtrB3ORA/evksiztiQDRoi8k6JtCQi2GRzpOUwNLlQQPfcGqpSh877ylKmivxaUigWDIJJMcryRc0H7Gj03FXI5UZUol12518YNYTJ0jLMgWAcoZ9hBc6ha4U/lD5rh/NgdfH1byitA98c5U0NdKuYTKOESqOj9jwfKjNIfV84GifCnuvVD63oM1mWJ20/mQNedvVZ8F4m7umWVkyB0tfbQ3DbGrBvMkdZPKGf3+oNv+5NOFGfFaFJrXMsTlrUcDf+1gAP6OGFuIOG2nGEekofY4ymOpLE/0DasT692O26+euEWeCocn4KI12JbuIJwVjQmULNXFG7rxGyBJkyE3TxTzf3JeLgyIeWNiYqpFK6ZDyuJ/9XL9UviLeHHx/OqFS44XBx99NC5PZ8mvzBEq95q+8UKw1I9xPZBa1Cgwwj6Zl1+VfW+JT7A0AsscgK7iVeZunW9JBAwunFspxYSgjJ/6OesISD272w4XDXYprQCAu+mf/qxilj5sGocpHKe1u/6q9jMfev+ko91D/JY/V8EpQHwC2OG4mzWUKAv5/MAH2/pxhN2RDhr5ebzfo6N/k1GAO17quzW/gBZjzRe/lz8qj1nShuEP+QE+CpKw6ZO8gzQn/DuiGCs0ro6Cf2b18v+/CsagRVnBtFhReg=
+    name: §4§lCaçador
+    uuid: 50f2f58a-1042-45a3-b6e0-9526e509c60a
+    traits:
+      gravity:
+        enabled: false
+      type: PLAYER
+      location:
+        world: world
+        x: '1044.538'
+        y: '65.0'
+        z: '-9260.3016'
+        yaw: '359.9284362792969'
+        pitch: '0.0'
+      spawned: true
+      inventory: {}
+      owner:
+        owner: NinjaDark99
+        uuid: eb8cadfe-d557-47c7-835d-930c1d0391ad
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '20':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjQ2MTgwMjc4MiwKICAicHJvZmlsZUlkIiA6ICIxMjI5MmQ3NjZiMGY0MTc2OWRkMjU0YWQ1MDZmMTk2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBanVkYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hZDg0ZjI1MjViY2VmMDE4OGQ4M2ZkZWNlZDlmMzExM2Y0MDc1ZTVlODdlNjZkOTQ1ODM3Yjg1YzE5Y2MyNjZhIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: ajuda
+      cached-skin-uuid: 12292d76-6b0f-4176-9dd2-54ad506f1963
+      player-skin-name: ajuda
+      player-skin-signature: DLrF0aG6MblvmwsPLtiu4KYzl5QqKcBJwGuQhrDje199MyZmGfaNg0lVxLgHOpRJaGJSWt/HbS/e6wgbuXtu7z2t2TX2M6b7ecnxcuCk3RgXaAn1xjWyR4hMDzoiGuiN/hXAYX0CIsvBmM8LtA0uHPxlObBu4GM3ohWciUxgLv1P1hpGBEUm3/g8GJ7/8kYnTZICFvZzlanPBLtPECToet5iDwXRO3P86s9BLS88VEl7AQhiBoUqDOYwClxHP7X9RVomMFfpOy1LQr+SVBjYQTnKeBiLVjD7+53y41pev3ih8bZ9eoqQkJx9m6l/bzh1x6IZaFRmQMpHVU9mppHuUj4Lw6ojT6GlKcRNsQxTgAPVDnjukHMFvdyWqc3VHtWs86htESmjx77rCLMT3FQOyEJlhokd51fuYM6FmtsQDAlzyHmTZrk1jX1hhpzW15GQ6synkKEJxEzWmdNvnhgpNcFXCpO4DbZXfreZVC/wnzyTOS2jowEBSjL8G0miw+pEnPjAsLinhPOpFvaKQA/czfuENUeCyiejeYiMH4BwB0IMTPgzcknOxlPk6RK8NDzY2Rt+tA01UriOExTK9HXH5bQK8XbSSF4jrxMIybmb0KRKfqAwx+AGhTybx4kJ8JmkCyUDHKdLHR4fkM4l9T8uxTHEZE8j8wjrCPs5phpjwZU=
+    name: §e§lAjudante
+    uuid: 30ec5159-18a8-407d-89f3-1b0f5bebe9b0
+    traits:
+      inventory: {}
+      type: PLAYER
+      spawned: true
+      gravity:
+        enabled: false
+      location:
+        world: world
+        x: '510.2547'
+        y: '57.5'
+        z: '-611.5176'
+        yaw: '-219.0006103515625'
+        pitch: '0.0'
+      owner:
+        owner: NinjaDark99
+        uuid: eb8cadfe-d557-47c7-835d-930c1d0391ad
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '19':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjQ2MTcwODk1NSwKICAicHJvZmlsZUlkIiA6ICI1ZDkxMTY2ZWRjOWU0Njk1YTlmZjBiOWYzODc0OTM1MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJwaXJhdGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOThhMjVlZDEzYzA1YmEwYmRjMDlhMTY5NTRiZWRiOGQxODYzOWZmNTg1ZGQ4Y2VjOTBkYjVjMjM3OWM0ZjdjMiIKICAgIH0KICB9Cn0=
+      cached-skin-uuid-name: pirata
+      cached-skin-uuid: 5d91166e-dc9e-4695-a9ff-0b9f38749353
+      player-skin-name: pirata
+      player-skin-signature: kbJRWeUrYnvQBHtbCapNl3+LuJPsGNqQjk73RXDCECVGQBV0fnfZRjbQl1hldtm8K4JHAoX47DATboatcOUg/dboWYZB10mjM7z001HU+1SPwJK45GWP8Bep5AI2uXNoL/nc6jv2Kp4PrFNmaAHzK42W/SD4sCT5JVK31Bz0U/h2kA2RcJyG9lCagKc6dGe8AEYKUc3EEcqe+/l0RwPU6CwsVrg7tm1jarIQImJ8logVQCQywgFaLTdsgNpiWxfzSW5TMdE8c9JciYgu1HJ1rMBr5SDwVNJ9IQ698QAyPuWXDF3kO/HKkphXhYGVd4Te9Uu6IgYDN88kmt6oSLCWzt8PuiQ5uGLQGeQoqkrYKb4+MHHHTw5DN07voVfWPJjIirI5K1aJqIVXitefsb1wKzWvGkETVTJK0MqpMRGy+wG5iH8HrSrd0oc4YGKJAyHPoNRsm9eB+rl53cv8PIKvtkToNFGArgtcDxfspjEqZOtdfdNuQUWsI7ND8+FOjn+GXxhpXAoTWVBquPsqCXAR9Sm6fDgUy35CoWzsLzPryDlIeeJU/6bFcGKEUOBR/kf3/Hu2aBVTNZlMzXvCMxL/E+9m9Yv+764TrxZfnKitebWt1t+AuzrwRp3GLBbFa4Ab53QUfraa2Lc8KEvQbdBH6gcYqlpPqeU6R9Ld1lUkCJw=
+    name: §b§lRanks
+    uuid: c0019feb-ca07-406d-b33a-d56803702be5
+    traits:
+      inventory: {}
+      type: PLAYER
+      spawned: true
+      gravity:
+        enabled: false
+      location:
+        world: world
+        x: '506.7395'
+        y: '57.5'
+        z: '-611.3477'
+        yaw: '-157.5'
+        pitch: '0.0'
+      owner:
+        owner: NinjaDark99
+        uuid: eb8cadfe-d557-47c7-835d-930c1d0391ad
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '24':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjUxODQyOTc3MiwKICAicHJvZmlsZUlkIiA6ICI1ZmM2OTI2MmE4OGE0NTQ1YjQxYjgzOTVjMmZhZDZhMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJmbmFmMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMTljZjY3ZDRjNDhjMzhlNGQyYzIyYzdjOTJjYTYyYjU0MWY2Mzc4MzI0NjI4MmViOWY2MTEzMGM0Y2IyYjA5IgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: fnaf3
+      cached-skin-uuid: 5fc69262-a88a-4545-b41b-8395c2fad6a0
+      player-skin-name: fnaf3
+      player-skin-signature: DzyYe5WSdoX3K+F4R/0nRthDK53u21w+nJP6Ww82zCjyckaXsueX1FsSWmCh+5k8z2orXfKwt+6II+KW49sOM9gyNI70Q9+VfhPNJySLeLkmZAEUzkxPzYC+eXuU6dbeh4SSiUjt419rjYjPrEb4Apv5RLjnwm3gszpwKyzs2KWXV4RSKNXnF+glclqqmX70ftSNIU2zG5lA6No35pF6AJHLXx/0hy+0Z5MsqbuJIov/pgEoSf0YPIdMQ5JyOwpWU0TuhfSNG/f5zG7CRLQGZrAaGO+v+suyDplUDYhWhPFAkgAvPXAAYB42i3tZf7J3hzdGN3q5O3IEwG/4St1D67n+Q5M4E3HFchmYWM1EVZA5/NL3lquNchGL4a8Co6PLZBXAwQbxIrw8v5TWb2eI/Ma52Chl3pvGSx7iNyRMQWXpxmGM6UDaoZcNsgVOl/37xhcN3aYIkfyi++Jlw+Eh5dsrSnXOKUqflfKxQQU8Uz+JrNZ6lwsPm1apnvg9AUnJMcUQwcY3DpBBV0S6PNGlueDtn4FHCMHcreMvDWTHOOFH7ggR3pBVX+Cva97mK0GPQEGKuqGP+D25YRZMv0zKzlN+LDiFc2MR8o3FMNLHj4VLHsPLBgjf0wYRfJ8hn7EGgqyXXD0cS3q7Z2gyiTTUPqMjH3vwd93d3E6Gm7qSMpM=
+    name: §c§lKill Rank
+    uuid: 16d737eb-821b-4103-b438-cece95b0d5d9
+    traits:
+      type: PLAYER
+      inventory: {}
+      location:
+        world: world
+        x: '1030.4411'
+        y: '62.0'
+        z: '-9279.3538'
+        yaw: '-43.87155532836914'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+      owner:
+        owner: NinjaDark99
+        uuid: eb8cadfe-d557-47c7-835d-930c1d0391ad
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '38921':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjc2NzI1NzQyNSwKICAicHJvZmlsZUlkIiA6ICJhMmY5ODQ3MmIzY2Y0YmMzOTM2ZWNiZjBhNGZmMTcyOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWxpdmVyeU1hbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOThiYzYzZjA1ZjYzNzhiZjI5ZWYxMGUzZDgyYWNiM2NlYjczYTcyMGJmODBmMzBiYzU3NmQwYWQ4YzQwY2ZiIgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: deliveryman
+      cached-skin-uuid: a2f98472-b3cf-4bc3-936e-cbf0a4ff1729
+      player-skin-signature: qKn55Z5QimS5lKas5IVBUQejT3n9iXv0ncuIZVZ5KnfFF/i7j9mP43/rMLEPezSu1B2rq4474m1AbOxV1uR9gciHi/zP4wGaEaZSdU7NXJMa9kwW0xWAQiW6n4379aHDiwpzpmAMCOKIIsnL407R0k5J323IW9vVigYYGEkh7dtL+su5BL5TTJ3MaRn2IpJsDjodS1HdO3ADIm7k0jRM/CUIxCv8DmJpjOnzwD/lF+a43kajSCvSY1YdljjPZ2V9niJPA4ddPDFumDUlZOvDMADLsNoLGzjK3vPYeBf4JpF9WA/tqgpsYBcR/ouXvLMaVSB99Eu+lPDudhofs5AANh5iHjx5so5tbqG17SS00Iek4kxUd3SMrQl5lvGYfPTg5qtFXAjT7Z56+9WmnT6yjnirk1AjkGmdk0UwSFrctghC9dZkjArnSo2zWKAesTtecDKYHS1kakXFXyolBjm8r2cOjIO7j38+6BH6viMQNBaWmn2riQP4lnqFRAJAEIQWksomUZ6LDmIIewL29s6CPMw3RFJScQTjrXmOiONSV3hVZfOu2JeTe4mqazCQmUiP8WNBPPxm75wsvmNhBYcM+5L+LIoM9Mchxn/ypyjoP5UFpwfK24SmwWxSD2yZmfqN4M/4lcifd5inSsOoXWaTrgM9SI8jcAvP8Zde2u7WZIs=
+    name: §7
+    uuid: 86220e58-cb7a-4878-bf67-2a2083a93c6c
+    traits:
+      gravity:
+        enabled: false
+      type: PLAYER
+      inventory: {}
+      spawned: true
+      location:
+        world: world
+        x: '529.3492'
+        y: '54.0'
+        z: '-552.6487'
+        yaw: '126.451171875'
+        pitch: '0.0'
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '63':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjYxMjEwNjU5OCwKICAicHJvZmlsZUlkIiA6ICJmZDM2MzE4MzZlZjU0MThmYjhiZjI1N2FkYjExY2NlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJXaXphcmQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTMxNWRjNzRiNTQxMDUxMTAxODhlZGQwYzU0MmQ4NjZhNjM3ZjE1NzUzNmNhZjAzNzhhMDZkNTRjNWI3ZWQ1MSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9
+      cached-skin-uuid-name: wizard
+      cached-skin-uuid: fd363183-6ef5-418f-b8bf-257adb11cce5
+      player-skin-signature: ofUKxCZcWG1fuPh4X8RwM1YG+y4QhMi6GnWUSdjKyr6Trfg4KyIVyOFj9ovpmWst3xYkDsSMHu5a+qZ+S/oZCfco5BvCwlLeN/rAp2d6JdDmJIk5xwGBBfkMgPKpfwiO8inKC5+Hjk7fM/B16e4G4qDQOjLWA05N65AIlUsX5pgVg4Q38fH3owt2QJLuH2fJgH33QRegIUOuH6whNR+qPiaJZm5VjbOoVEVUc55FZBggvFIdKaxU1V9LpTN2OGj9g1tWwOf9oXJDcyviwAVkcsMWXe+D7xwfp922SSIAUBeLk2rtntGXczPdwkcHmFkh42ayuYo5oXZMY8I3c/T3H/oCJXAaYqPAEeKmENbYV0WQAZ6q6eHBPNlkYxgKaOHRXQrv9jvPkgYizVUZHlm33Fs5HMUORSCH3wLKnRpnjJrsviFhSwVagrsFsIvXTxU4lp+ZHmFRtwukaofa7MLUCQmwJlVfD9XBqtzLh1AsHWlK3FAgg4tbK00Ct9eh3fbqhb9S5GIxwZ76N+1gKFZ5L1CBZRo9ydLbDtuuE54AQBE23bvPZUCEweAhluniKR7DpWEgbrrrWnR8kz+LA30timXtdv+xfMIoyH8cbd21oOlEAnxyPax17/AGSX+wQWgwCYXZUzlxPRcsLApPB0Da/xEvCXLVyh44NuDRPSeXq9U=
+    name: §5Dimensões
+    uuid: 3da4de0a-4a5b-41a8-9b56-6614fc10f717
+    traits:
+      type: PLAYER
+      location:
+        world: eventos
+        x: '3003.695'
+        y: '21.0'
+        z: '-19289.3372'
+        yaw: '-315.60015869140625'
+        pitch: '0.0'
+      inventory: {}
+      gravity:
+        enabled: false
+      spawned: true
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '77':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjY0MDI3NzA3OCwKICAicHJvZmlsZUlkIiA6ICI5ZTI4OWYzNTI5ZTQ0NDZjYjdjZTcyNTU3YTU1MzIyMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWF0aCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84YmQyOGMyODA1YTY4NzM1OWIwYzRjMDY1YWZjNGE0NGFhY2RlNmUzZjIyNGUzMDQ2MzVlMmYyY2I5MDcwMjM0IgogICAgfQogIH0KfQ==
+      cached-skin-uuid-name: death
+      cached-skin-uuid: 9e289f35-29e4-446c-b7ce-72557a553221
+      player-skin-name: death
+      player-skin-signature: ZS7S+JOs0s+1UtOmPswlhYAJIz7iIafUeueK8gUPeNX2gB062ttaqtBtPyc7LX9gpZEtbzjC66ma39RN2DH/L0ybsji04IYtx/uojncjPdtW/le67djcwfC18Y85ONTvK7EEleRE3LlBLhQQC1HRFCkH6eAkgdm2ROF8r+g7kr/YdOtWj5dE7y4fSDQBuWne9oHIvkarkirhXZiUtjrcrmxUjxEhzoHSKfCVEjGNHSABOcGMHI6+nKo1jF5QSECiii4X+mzAjDKYtHG8G9lKcBEUVyjqG5IZoYuGO/hVqCNQmwGrEcssCkUOix8aVFZI331rhWTTlTXwqt/T3/2X8mrDq3EVX4J7uMAkfya8VYQOvOCwo4nYrpa/xv1b6gj3X1xzDjWadACTyC+LnzxUQCIBy6zcPwYPBy+JXKgSPDHuclN/mqK+PvLRngGdR023BOVAjRtczASobWP/4TTa0sLD42m1ppzA5OUBo7vy8L3q/JZNB7ymrYcPLpZnHZ4Fu09oZcUxK0wRrYvc5LZke4zB+gXOtyxT8RfjqPAWC2Jnxier5IKLQHvbgGjC2GxAe40uHg90aJhASWU/Y8Kn0D4un2wJhDteRPrCxzufynRos9rXpgBb+LcGN/B5rnb/J/4yXINxal3BAB3ghhQwPiLYl+M5/GWm1jhwcxz5zJ8=
+    name: §8MercadoDasAlma
+    uuid: 4f90dfea-2e60-4d49-8e7f-6ca7ed18ccd3
+    traits:
+      gravity:
+        enabled: false
+      spawned: true
+      type: PLAYER
+      location:
+        world: world
+        x: '1033.6992'
+        y: '65.0'
+        z: '-9255.5053'
+        yaw: '270.0783386230469'
+        pitch: '0.0'
+      inventory: {}
+      owner:
+        owner: NinjaDark99
+        uuid: eb8cadfe-d557-47c7-835d-930c1d0391ad
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '70150':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjc2NzcwNTk5MywKICAicHJvZmlsZUlkIiA6ICJhOTI3NmRmYjNhODc0ZGJmYTNlNWI1ODRiOGViOGY3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5U3BlZWRfIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ1N2ExMTMyMDllZmFkNGU4MDFiNGFjYjZkZGM1NjVhZmQwY2Q4NGUzM2RjMjY5NGMxY2YwYzZjOTJiYzAxOGIiCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: yspeed_
+      cached-skin-uuid: a9276dfb-3a87-4dbf-a3e5-b584b8eb8f77
+      player-skin-signature: wRzwDUqQYPs1QsTzsxGbSUBRgdnCpjz5HJQBUwqvZU4sj707csvXvvuwe+reJlDyMhyOGvk30mYdbSJHVZf7Px6lv3lHGDe6lKMQDzcwSPB/sK8l37bcP2z4KWsWV8r0t4SvAeFFvDhcD66OkvmMD4MWYwDMjGZrr41/NW+zrrT43lw3l5rQg7vYxTMZALW0wYwvkWJWUnkP0ZJOl4wnvHrZJFCARSPXNBH6VEjUJyEAEWsXrAd+tPnHjtqq7YTASYMpb32sD5LPcvAgZtBd/lz2AuPxXHKG2XuinPtY/wmOw5opvP8alES8E6tf501+POTP1wN3o2gcOJ35BMvvl8oKKTq7CEMTpiQnxm09Qh1x3KP+YVUvUbvVXXxgPz8fhVCp6tlm1gYhFcsYJiKkuN2DaNjrUTfjvLlhyTobRQhmuE+Que3R00N4aTXdhW2mUb/PuGRiC48yl5qxBPDC8Q35SRilVEZ0NowcD+5rAgW+PoYiPAUhn/ZQjY0+Iw42ncrVyhsjHAMh1QZmPX2PQsfj5Xxl9JCYyQg2xZn6y+GDvp7D1fmx8aRswKTiu4UrCVE1A5NIV/R0BhsH4MbIbyAp9Moe91Y2ILruMnd9TXkWJR/k6jYvsL6tQhHODj+w9r4whJA4rxs4RmAY0+W2vopcw2qKXcMbdXBtmURs8tk=
+      player-skin-name: yspeed_
+    name: §c§lTutorial
+    uuid: d5e59d9d-280e-477f-b842-601f3fb2468f
+    traits:
+      inventory: {}
+      spawned: true
+      gravity:
+        enabled: false
+      location:
+        world: world
+        x: '503.4415'
+        y: '58.0'
+        z: '-612.2784'
+        yaw: '-133.7999725341797'
+        pitch: '0.0'
+      type: PLAYER
+      owner:
+        owner: server
+        uuid: ''
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '104':
+    metadata:
+      cached-skin-uuid: b3d6598b-940e-4b93-9a11-63b3768cb828
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjcyNjIwNzM1MCwKICAicHJvZmlsZUlkIiA6ICJiM2Q2NTk4Yjk0MGU0YjkzOWExMTYzYjM3NjhjYjgyOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJmYWRmZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk1MGFhMTZkOTY0NTJmMGY5MjVkNmM4OGFiOTJkZDZjODFlZjQwYzEzMzA4M2I1MmMyNmYwMmEzNWQ0MzRlMCIKICAgIH0KICB9Cn0=
+      player-skin-signature: Yb8qDXkV4EHnvQ6k2lUHjW+cUCQmurEY74xHQ7l6y0W9S2gpmJLd18d8FXNRiMEBR7n00UD8t0qy6V4SSHsOEPuTixbEqCpvoYlyipgjE1b53J+++FjykVnFPL92pxFX95AKjSTWREnQ9a+1yt6DhvroLRFy2hDe611AtIhtafGQuadq1jT92X7vEe2ANbGgZ3Np8m9lY7ZsLgoUIM9SVQCe3dnjkx1BzSbj0vnJFWFl9Y/eAd/9DfAgKNowLZhKw4jtmwFiXnS9Kog2qnTLp9Yh96RIyWt1fxQ5aVl3+DCjjdf69dnzl3TpSnUC0uOV/YAKdMH/Ro3LNS8CfLNUmsx4VB0SU+yGFdiuKyW3hHvqTBBOHM+N2eUJ9TYCkvPURSPFr4WpLdIMH+s0pC5YJDwA/RJfhTfsstEMLXbB6RBEtGO0mDwi1GIjZTCTsRuMY3dr4A5MQt+kIxyHlaaL5yqoCIDPCIsp8JZ6S5Vw/GM5d0APGeMgSmoSTXsL4p7RRWYkP1PLaXJGpQaVlH+3en2u2JiAF8NqMPWJVCFpc1p/h/Snwn9pNlMdYIqPPJ9LRrtv/tQlee3NmAhKWFnEIQHHlNwMyDgglDEZHvX90NM2TtmUh7nKmw+o4j79Vq2DFOEPi27hfD4yyXmGA2mBys5T0k0TBzRGpQINIF4lAUQ=
+      cached-skin-uuid-name: fadfex
+    name: ''
+    uuid: e02864ce-62c0-4305-b38c-e28ce91fc78f
+    traits:
+      type: PLAYER
+      inventory: {}
+      location:
+        world: world
+        x: '1048.6999'
+        y: '65.0625'
+        z: '-9270.5823'
+        yaw: '270.828369140625'
+        pitch: '0.0'
+      spawned: true
+      gravity:
+        enabled: false
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true
+  '112':
+    metadata:
+      player-skin-textures: ewogICJ0aW1lc3RhbXAiIDogMTYxNjc2OTMzNDU4OCwKICAicHJvZmlsZUlkIiA6ICIwYjFjMTIzN2E5ZmM0MDkzOTg1NzhmOTgwOWI2N2U0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJCcnV4byIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xNDA5OGVjODliNjQxYmZlNzJkOWFkYzM5NjZmZjFmNDZmYzlkZTcyNWYwMDQwMDI3YzBiZjY2MWQ0YTZmNmQiCiAgICB9CiAgfQp9
+      cached-skin-uuid-name: bruxo
+      cached-skin-uuid: 0b1c1237-a9fc-4093-9857-8f9809b67e4f
+      player-skin-name: bruxo
+      player-skin-signature: DyQ+n2Oz8O4ephFpCpM+BLPvBk35VteBwCoZjQgjbhcot3oq503kD8VFxluKjb44KZntMW2tVPHD05Bzc2tX3vqursYz3w4YHT1hyJuH7mJuao4WpTvYfHVXjy/Q1fbLQQ1ChIERGdJgxuzY8fo8y950l1SkJmya2+TTCGZkB+IAVUU0d2yfPROunJ1Rd4G1i0Igbx6WFQ5lUPEoWQz51ADutETGWwzRbBq0MleX9u6GTJui79aLDyWQVtD0uQFF76QHuKi9RcQ0BQHmvJoJY1x+2DV/tjqx1ZQm8swO8nBB7Onyt/7o3dRXV7dCsM4XjyhwQ8bHqZBELWIZ64xaqsHZdsaZkjBRjUDgvJj2gkLh/F0oOz3mt7+9mxB07vbn1HzR3sqn6K28kYExO0CeeEENJCWPdOn0j6Bd0jpL5ADcvgrH1+6i+WP1MuQ2z+0ItDkioyqqS/mHvt6mnABtpwobo4UElPhjf4EMkWCbYAfHAacuslVlqlk7N20GNbsX0mx3h6hHhbrJfZcr92buGxuzgm9BdXLONXCOdb/TV0DRYJjfxvIWTN//DSTjrC4kNqQ/zIxR+0s0gbfUUwTpbHZKG7TUzCfbE/zEdFU5hC7XcM18RDXGsrE/J5WjQ0gjejexMAQvAOkqQfPsB8yW9qLvwsYdiFsU1RwLSOVs3Lk=
+    name: §5Feiticeiro
+    uuid: 889e6563-9bea-4300-8a6a-9f978e0bf190
+    traits:
+      location:
+        world: world
+        x: '28421.6762'
+        y: '136.0'
+        z: '3011.4607'
+        yaw: '224.09072875976562'
+        pitch: '0.0'
+      type: PLAYER
+      spawned: true
+      gravity:
+        enabled: false
+      inventory: {}
+      owner:
+        owner: NinjaDark99
+        uuid: eb8cadfe-d557-47c7-835d-930c1d0391ad
+    traitnames: inventory,location,mounttrait,equipment,type,spawned,owner,gravity
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: true

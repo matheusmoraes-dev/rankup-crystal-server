@@ -1,0 +1,131 @@
+Parkour:
+  Controlador:
+    Tempo: 30
+    Anuncios: 8
+    Minimo: 4
+    Tag: '&e[Parkour]'
+    Ultimo: NinjaDark99
+    Comando: parkour
+    Aliases: {}
+  AutoStart:
+    Ativar: false
+    Horarios:
+    - 1-2:10:1
+    - 2-2:10:1
+    - 3-2:10:1
+    - 4-2:10:1
+    - 5-2:10:1
+    - 6-2:10:1
+    - 7-2:10:1
+    - 8-2:10:1
+  Cmd whitelist:
+  - /g
+  Custo:
+    Valor: 750000.0
+  Comando:
+    Ajuda:
+    - '&eComandos do evento &7Parkour&e:'
+    - ''
+    - '&8-> &f/parkour &8- &eParticipar do evento.'
+    - '&8-> &f/parkour &7ajuda &8- &eMostra essa mensagem.'
+    - '&8-> &f/parkour &7setsaida &8- &eSetar a saída do parkour.'
+    - '&8-> &f/parkour &7setespera &8- &eSetar a espera do parkour.'
+    - '&8-> &f/parkour &7setentrada &8- &eSetar a entrada do parkour.'
+    - '&8-> &f/parkour &7iniciar &8- &eIniciar um parkour.'
+    - '&8-> &f/parkour &7parar &8- &eParar um parkour.'
+    - ''
+    Nao pode iniciar: '&c&lERRO! &cO parkour já está ocorrendo.'
+    Nao pode parar: '&c&lERRO! &cO parkour ocorrendo.'
+    Nao ativo: '&c&lERRO! &cO parkour não está ativo.'
+    Esvazie: '&c&lERRO! &cEsvazie seu inventário para entrar no evento parkour.'
+    Entrou: '&a&lSUCESSO! &aVocê entrou no evento parkour.'
+    Saiu: '&a&lSUCESSO! &aVocê saiu do evento parkour.'
+    Iniciou: '&a&lSUCESSO! &aParkour iniciado.'
+    Parou: '&a&lSUCESSO! &aParkour parado.'
+    Permissao: '&c&lERRO! &cVocê não tem permissão para fazer isto.'
+    Checkpoint setado: '&a&lSUCESSO! &aVocê setou seu checkpoint para este local.'
+    Teleportado: '&a&lSUCESSO! &aVocê foi teleportado para teu checkpoint.'
+  Mensagens:
+    Anuncio:
+    - ''
+    - '&f[&eEvento &7Parkour&f]'
+    - ''
+    - '&fParticipe do parkour: &e/parkour&f.'
+    - '&fPrêmio: &a{premio}&f em money.'
+    - '&fJogadores participando: &e{jogadores}&f.'
+    - '&fChamada &8{min} &fde &8{max}&f.'
+    - ''
+    Insuficiente:
+    - ''
+    - '&f[&eEvento &7Parkour&f]'
+    - ''
+    - '&cJogadores insuficientes, cancelando...'
+    - ''
+    Sairam:
+    - ''
+    - '&f[&eEvento &7Parkour&f]'
+    - ''
+    - '&cJogador(es) sairam e a quantia ficou abaixo do mínimo, cancelando evento...'
+    - ''
+    Comecou:
+    - ''
+    - '&f[&eEvento &7Parkour&f]'
+    - ''
+    - '&fJogadores teleportados.'
+    - '&fPrêmio: &a{premio}&f em money.'
+    - '&fJogadores participando: &e{jogadores}&f.'
+    - ''
+    Ganhou:
+    - ''
+    - '&f[&eEvento &7Parkour&f]'
+    - ''
+    - '&f[Parkour] O jogador &a{player}&f foi o mais ágil!'
+    - '&fO mesmo ganhou &a{premio}&f em money.'
+    - ''
+    Ganhou P:
+    - ''
+    - '&f[&eEvento &7Parkour&f]'
+    - ''
+    - '&fVocê conseguiu!'
+    - '&fVocê ganhou &a{premio}&f em money.'
+    - ''
+    Cancelou:
+    - ''
+    - '&f[&eEvento &7Parkour&f]'
+    - ''
+    - '&cO parkour foi cancelado por um admin.'
+    - ''
+  Premio:
+    Comando:
+      Usar: false
+      Comando:
+      - give {player} diamond 1
+    Money:
+      Usar: true
+      Money: 750000.0
+  Efeitos:
+    Ativar: true
+    Lista:
+    - INVISIBILITY:1-100
+  Ganhar:
+    Pressure plate: STONE_PLATE
+    Placa:
+      Linha1: '&3[Parkour]'
+      Linha2: '&aClique aqui'
+      Linha3: '&apara ganhar o'
+      Linha4: '&aevento.'
+  Setar checkpoint:
+    Pressure plate: WOOD_PLATE
+    Placa:
+      Linha1: '&3[Parkour]'
+      Linha2: '&aClique aqui'
+      Linha3: '&apara setar seu'
+      Linha4: '&acheckpoint'
+  Teleportar checkpoint:
+    Pressure plate: GOLD_PLATE
+    Agua: true
+    Placa:
+      Linha1: '&3[Parkour]'
+      Linha2: '&aClique aqui'
+      Linha3: '&apara ir ao'
+      Linha4: '&acheckpoint'

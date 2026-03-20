@@ -1,0 +1,15 @@
+Jogadores:
+  default:
+    recompensa: false
+  NinjaDark99:
+    diamante: false
+    pedra: false
+    Chave: false
+  ZcraftNinja:
+    Chave: false
+    pedra: false
+    diamante: false
+  pot_pvp_blatant:
+    pedra: false
+    Chave: false
+    diamante: false

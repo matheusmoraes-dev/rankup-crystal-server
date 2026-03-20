@@ -1,0 +1,136 @@
+Batalhar:
+  Slot: 16
+  Material: DIAMOND_SWORD
+  Nome: "§aBatalhar"
+  Lore:
+    - "&7Clique para desafiar um clan para batalha."
+
+BatalharAceitar:
+  Slot: 16
+  Material: DIAMOND_SWORD
+  Nome: "§aAceitar"
+  Lore:
+    - "&7O clan {desafiante}&7 pediu uma batalha com seu clan."
+    - ""
+    - "&f Detalhes"
+    - "&f  Arena: {arena}"
+    - "&f  Inimigos: {inimigos}"
+    - ""
+    - "&7Clique para aceitar."
+    - "&7Caso queira recusar, apenas ignore."
+
+BatalharNaoPode:
+  Slot: 16
+  Material: DIAMOND_SWORD
+  Nome: "§aBatalhar"
+  Lore:
+    - "&cVocê não tem um clan para batalhar."
+
+ClanInfo:
+  Slot: 10
+  Texture: "{lider}"
+  Nome: "&a{clan}"
+  Lore:
+    - ""
+    - "&7Seu clan"
+    - "&f Vitórias: &a{vitorias}"
+    - "&f Derrotas: &a{derrotas}"
+    - "&f Arregadas: &a{arregadas}"
+    - ""
+    - "&f Kills: &a{kills}"
+    - "&f Mortes: &a{mortes}"
+    - ""
+
+ClansOnline:
+  Slot: 11
+  Texture: "fa6d51c22c8958285c00aaaf93b621c15be10aa04838afe1d89cd9c3603144df"
+  Nome: "&aClans Online"
+  Lore:
+    - "&7Clique para ver os clans que estão online."
+
+TopClans:
+  Slot: 12
+  Material: BOOK
+  Nome: "&aTop Clans"
+  Lore:
+    - "&7Clique para ver os tops clans."
+
+Arenas:
+  Slot: 13
+  Material: EMPTY_MAP
+  Nome: "&aArenas"
+  Lore:
+    - "&7Clique para ver nossas arenas"
+
+TopItem:
+  Texture: "{lider}"
+  Nome: "&7#&f{pos} &7- &e{clan}"
+  Lore:
+    - ""
+    - "&f Vitórias: &a{vitorias}"
+    - "&f Derrotas: &a{derrotas}"
+    - "&f Arregadas: &a{arregadas}"
+    - ""
+    - "&f Kills: &a{kills}"
+    - "&f Mortes: &a{mortes}"
+    - ""
+
+
+SemClanInfo:
+  Slot: 10
+  Texture: "3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025"
+  Nome: "&aSeu clan"
+  Lore:
+    - "&7Aqui ficariam as informações do seu clan"
+    - "&7se você tivesse um..."
+
+OnlineClanItem:
+  Texture: "{lider}"
+  Nome: "{clan}"
+  Lore:
+    - ""
+    - "&f Líder: &a{lider}"
+    - "&f Online: &a{on}/10"
+    - ""
+    - "&7Clique para desafiar esse clan"
+
+MenuArena:
+  Slot: 11
+  Material: EMPTY_MAP
+  Nome: "&aArena"
+  Lore:
+    - ""
+    - " &fArena atual: &c{arena}"
+    - ""
+    - "&7Clique para selecionar uma arena."
+
+MenuPlayers:
+  Slot: 13
+  Texture: "{player}"
+  Nome: "&aJogadores"
+  Lore:
+    - "&7Clique para selecionar os jogadores."
+
+MenuConfirmar:
+  Slot: 15
+  Texture: "d27ca46f6a9bb89a24fcaf4cc0acf5e8285a66db7521378ed2909ae449697f"
+  Nome: "&aConfirmar"
+  Lore:
+    - "&7Clique aqui para confirmar o pedido."
+
+MenuConfirmarFalta:
+  Slot: 15
+  Texture: "5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b"
+  Nome: "&aConfirmar"
+  Lore:
+    - "&7Por favor selecione uma arena e"
+    - "&7selecione no mínimo 2 jogadores e"
+    - "&7no máximo 8 jogadores."
+
+Voltar:
+  Material: ARROW
+  Nome: "&7Voltar"
+
+Vazio:
+  Material: WEB
+  Nome: "&7Nada encontrado"

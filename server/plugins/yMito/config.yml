@@ -1,0 +1,52 @@
+Mito: ''
+Tag: '&c[MITO]'
+NPC:
+  Holograma:
+  - '&c&lMITO'
+  - '&7Mito Atual &c{player}&7.'
+  Mensagens:
+    Setado: '&aNPC do mito setado com sucesso.'
+    Removido: '&aNPC do mito removido com sucesso'
+    Nao setado: '&cO NPC não está setado.'
+Soltar raio: true
+Spawnar morcegos: true
+Usar som: true
+Som: ENDERDRAGON_GROWL
+Mensagens:
+  Broadcast:
+    Ativar: true
+    Mensagem matou:
+    - ''
+    - '&c[MITO] O jogador &7{matou} &cmatou o antigo mito &7{morreu} &ce ganhou a
+      tag.'
+    - ''
+    Mensagem:
+    - ''
+    - '&c[MITO] O jogador &7{player} &cé agora o novo [MITO].'
+    - ''
+  Title:
+    Ativar: true
+    Title: '&c[MITO]'
+    Subtitle: '&7{player} &cé o novo [MITO]'
+  Actionbar:
+    Ativar: true
+    Mensagem matou: O jogador &7{matou} &cmatou o antigo mito &7{morreu} &ce ganhou a tag.
+    Mensagem: O jogador &7{player} &cé agora o novo [MITO].
+  Mito atual: '&c[MITO] &7{player} &cé o mito atual.'
+  Nenhum: '&cNão há nenhum mito.'
+Eventos:
+  Broadcast:
+    Ativar: true
+    Mensagem entrou:
+    - ''
+    - '&c[MITO] O jogador &7{player} &centrou no servidor.'
+    - ''
+    Mensagem saiu:
+    - ''
+    - '&c[MITO] O jogador &7{player} &csaiu do servidor.'
+    - ''
+  Actionbar:
+    Ativar: true
+    Mensagem entrou: '&c[MITO] &7{player} &centrou no servidor.'
+    Mensagem saiu: '&c[MITO] &7{player} &csaiu do servidor.'
+Mito local: none

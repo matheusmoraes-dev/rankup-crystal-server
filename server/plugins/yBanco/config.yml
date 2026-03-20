@@ -1,0 +1,151 @@
+MySQL:
+  IP: localhost:3306
+  DB: test
+  User: root
+  Pass: ''
+NPC:
+  Skin: deliveryman
+  Holograma:
+  - '&6&lBanco'
+  - '&7Clique para abrir o banco.'
+  Mensagens:
+    Permissao: '&cTu não tens permissão para isto.'
+    Setado: '&aNPC do entregador setado com sucesso.'
+    Removido: '&aNPC removido com sucesso.'
+    Nao setado: '&cO NPC n�o est� setado.'
+Mensagens:
+  Digite:
+  - ''
+  - '&aDigite a quantia que gostaria no chat.'
+  - '&7para cancelar essa ação digite &ncancelar&7.'
+  - ''
+  Cancelado: '&cTu cancelastes a operação.'
+  Numero: '&cTu não digitastes um número.'
+  Possui: '&cTu não possui esta quantia.'
+  Minimo: '&cMínimo para esta operação: {minimo}.'
+  Inventario: '&cTeu inventário está cheio.'
+  Concluida: '&aOperação concluida.'
+  Cheque: '&aCheque utilizado, o dinheiro foi para teu banco.'
+  Limite: '&cTu já atingiu o limite para esta operação: ({limite})'
+  Rendeu:
+  - ''
+  - '&eTeu dinheiro rendeu:'
+  - '&eSaldo anterior: &c{antigo}'
+  - '&eSaldo atual: &a{novo}'
+  - ''
+  Resetou:
+  - ''
+  - '&eO limite de saque e criação de cheque foi resetado:'
+  - ''
+Juros ativar: true
+Juros tempo: 3601
+Limites:
+  Limite saque: 5
+  Limite cheque: 10
+  Taxa: 15000
+  Horarios:
+  - '15:25'
+  - '12:22'
+  - '18:30'
+Minimos:
+  Deposito: 25000
+  Saque: 15000
+  Cheque: 25000
+Cheque:
+  CustomSkull: true
+  URL: http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9
+  ID: 339
+  Data: 0
+  Name: '&aCheque de dinheiro'
+  Glow: true
+  Lore:
+  - '&aCheque feito por: &e{player}'
+  - '&aQuantia: &e{valor}'
+  - ''
+  - '&eClique com direito para ativar.'
+  - ''
+Menu:
+  Nome: '&8yBanco - Banco'
+  Depositar:
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9
+    ID: 35
+    Data: 5
+    Glow: false
+    Name: '&aDepositar Dinheiro'
+    Lore:
+    - ''
+    - '&eClique para depositar dinheiro ao teu banco.'
+    - ''
+  Sacar:
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9
+    ID: 35
+    Data: 14
+    Glow: false
+    Name: '&cSacar Dinheiro'
+    Lore:
+    - ''
+    - '&eClique para sacar dinheiro do teu banco.'
+    - ''
+  Cheque:
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9
+    ID: 339
+    Data: 0
+    Glow: false
+    Name: '&bCriar cheque'
+    Lore:
+    - ''
+    - '&eClique para criar um cheque com o dinheiro do teu banco.'
+    - ''
+  Player:
+    Glow: false
+    Nome: '&bInformações'
+    Lore:
+    - ''
+    - '&fDinheiro em mãos: &e{money}'
+    - '&fDinheiro no banco: &e{saldo}'
+    - '&fStatus da Bolsa: &e{bolsa}%'
+    - '&fLimite de Saque usado: &e{limitesaque}'
+    - '&fLimite de Cheque usado: &e{limitecheque}'
+    - ''
+    - '&eSeu dinheiro rende de acordo com a bolsa.'
+    - ''
+Banco: world;533.328838306864;54.0;-543.6544370994054;-222.90002;1.4999967
+Formats:
+  - ''
+  - ''
+  - 'K'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'O'
+  - 'N'
+  - 'D'
+  - 'UN'
+  - 'DD'
+  - 'TR'
+  - 'QT'
+  - 'QN'
+  - 'SD'
+  - 'SPD'
+  - 'OD'
+  - 'ND'
+  - 'VG'
+  - 'UVG'
+  - 'DVG'
+  - 'TVG'
+  - 'QTV'
+  - 'QNV'
+  - 'SEV'
+  - 'SPG'
+  - 'OVG'
+  - 'NVG'
+  - 'TGN'
+  - 'UTG'
+  - 'DTG'

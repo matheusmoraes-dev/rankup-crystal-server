@@ -1,0 +1,13 @@
+Localizacao: eventos,1193.9338012081148,42.0,9368.52085452003,-185.84991,36.15
+Permissao: system.warp.parkour
+MensagemSemPermissao: §cVocê não tem permissão para se teleportar para a warp parkour.
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: §aVocê sera teleportado para a warp parkour em 5 segundos!
+MensagemFinal: §aTeleportado com sucesso para a warp parkour!
+EnviarTitle: true
+Title: §aVOCÊ FOI TELEPORTADO
+SubTitle: §ePARA A WARP parkour
+MensagemPlayerTeleportado: §aVocê foi teleportado para a warp parkour!
+MensagemPlayerTeleportadoStaff: §a%player% teleportado com sucesso para a warp parkour.

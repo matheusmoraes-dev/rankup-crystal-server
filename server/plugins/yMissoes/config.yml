@@ -1,0 +1,310 @@
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Opcoes:
+  Recompensar ao terminar: false
+  Resetar ao terminar: TODOS
+  Contabilizar nao tem: false
+Mensagens:
+  Terminou auto: '&aVocê completou o desafio {desafio} e ganhou suas recompensas automaticamente.'
+  Terminou manual: '&aVocê completou o desafio {desafio}. Acesse /missoes e clique
+    nela para receber as recompensas.'
+  Terminou sem perm: '&aVocê completou o desafio {desafio} mas não ganhou nem pode
+    coletar as recompensas pois não possui a permissão.'
+  Coletada: '&aVocê coleteu as recompensas do desafio {desafio}'
+  Nenhum: '&cVocê não está segurando nenhum item.'
+  Nao requer: '&cSua missão não requer entregas'
+  Errado: '&cVocê está entregando o item errado.'
+  Entregue: '&aVocê entregou este item.'
+Menu: '&8Desafios'
+Menu slots:
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+Lores:
+  Ja realizada:
+  - ''
+  - '&aVocê já completou esta missão.'
+  - ''
+  Desbloqueie:
+  - ''
+  - '&cComplete a missão anterior para desbloquear esta.'
+  - ''
+  Coletar:
+  - ''
+  - '&aVocê completou essa missão, clique para coletar as recompensas.'
+  - ''
+Flechas:
+  Voltar:
+    CustomSkull: false
+    URL: ''
+    ID: 262
+    Data: 0
+    Glow: false
+    Name: '&8Voltar'
+    Lore:
+    - ''
+    - '&eClique para voltar.'
+    - ''
+  Proxima:
+    CustomSkull: false
+    URL: ''
+    ID: 262
+    Data: 0
+    Glow: false
+    Name: '&8Próxima'
+    Lore:
+    - ''
+    - '&eClique para ir para a próxima página.'
+    - ''
+Items:
+  Completou:
+    Usar: true
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/78d58a7651fedae4c03efebc226c03fd791eb74a132babb974e8d838ac6882
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '{nome}'
+  Bloqueada:
+    Usar: true
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '{nome}'
+  Atrasadas:
+    Slot: 45
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/e9e4bdcf172d5dc77c2bd4e37ad985399a9f2cdebf72463929ea4b666ef6f80
+    ID: 0
+    Data: 0
+    Glow: false
+    Name: '&aRecompensas atrasadas'
+    Lore:
+    - '&7Clique para recolher as recompensas'
+    - '&7atrasadas.'
+NPC:
+  Skin: deliveryman
+  Altura: 3.1
+  Holograma:
+  - '&6&lEntregador'
+  - '&7Clique para entregar seu item.'
+  Mensagens:
+    Setado: '&aNPC do entregador setado com sucesso.'
+NPC Local: world;529.34920910349;54.0;-552.6487706183088;126.45117;0.3000002
+Desafios:
+  Desafio01:
+    Ordem: 1
+    Permissao: ''
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&8#Desafio 1'
+    Lore:
+    - ''
+    - '&7Quebre 800 blocos de terra, mate 1 player, '
+    - '&7entregue 150 Cobblestone e pesque 1 peixe para completar,'
+    - '&7a primeira missão do servidor'
+    - ''
+    - '&aRecompensas:'
+    - ' &a• 260k money'
+    - ' &a• 2800 fragmentos'
+    - ''
+    - '&8Blocos quebrados: &7({quebrarmin} &8[{quebrarbar}&8] &7{quebrarmax})'
+    - '&8Blocos colocados: &7({colocarmin} &8[{colocarbar}&8] &7{colocarmax})'
+    - '&8Mobs matados: &7({matarmin} &8[{matarbar}&8] &7{matarmax})'
+    - '&8Players matados: &7({matarpmin} &8[{matarpbar}&8] &7{matarpmax})'
+    - '&8Itens entregues: &7({entreguemin} &8[{entregarbar}&8] &7{entreguemax})'
+    - '&8Peixes pescados: &7({pescamin} &8[{pescarbar}&8] &7{pescamax})'
+    - '&8Blocos andados: &7({andarmin} &8[{andarbar}&8] &7{andarmax})'
+    - '&8Itens craftados: &7({craftarmin} &8[{craftarbar}&8] &7{craftarmax})'
+    - '&8Morrer: &7({morrermin} &8[{morrerbar}&8] &7{morrermax})'
+    - ''
+    Quebrar blocos:
+      Ativar: true
+      Ativar tipo especifico: true
+      Tipo especifico: DIRT
+      Data: 0
+      Quantia: 800
+      Mundos:
+      - terenos
+      - world
+    Colocar blocos:
+      Ativar: false
+      Ativar tipo especifico: false
+      Tipo especifico: CHEST
+      Data: 0
+      Quantia: 1
+      Mundos:
+      - terenos
+      - world
+    Matar mobs:
+      Ativar: false
+      Ativar tipo especifico: false
+      Tipo especifico: ZOMBIE
+      Quantia: 4000
+      Mundos:
+      - terenos
+      - world
+    Matar players:
+      Ativar: true
+      Quantia: 1
+      Mundos:
+      - terenos
+      - world
+    Entregador:
+      Ativar: true
+      Tipo: COBBLESTONE
+      Data: 0
+      Nome: none
+      Quantia: 150
+    Pescar:
+      Ativar: true
+      Quantia: 1
+      Mundos:
+      - terenos
+      - world
+    Andar:
+      Ativar: true
+      Quantia: 1
+      Mundos:
+      - terenos
+      - world
+    Craftar:
+      Ativar: false
+      Ativar tipo especifico: false
+      Tipo especifico: CHEST
+      Data: 0
+      Quantia: 1
+    Morrer:
+      Ativar: false
+      Quantia: 1
+    Recompensas:
+    - money add {player} 260k
+    - rank givefragmentos  {player} 2800
+  Desafio02:
+    Ordem: 2
+    Permissao: ''
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&8#Desafio 2'
+    Lore:
+    - ''
+    - '&7Coloque 2500 blocos de terra para completar,'
+    - '&7Pesque 40 peixes, mate 10 players'
+    - ''
+    - '&aRecompensas:'
+    - ' &a• 360k money'
+    - ' &a• 8800 fragmentos'
+    - ''
+    - '&8Blocos quebrados: &7({quebrarmin} &8[{quebrarbar}&8] &7{quebrarmax})'
+    - '&8Blocos colocados: &7({colocarmin} &8[{colocarbar}&8] &7{colocarmax})'
+    - '&8Mobs matados: &7({matarmin} &8[{matarbar}&8] &7{matarmax})'
+    - '&8Players matados: &7({matarpmin} &8[{matarpbar}&8] &7{matarpmax})'
+    - '&8Itens entregues: &7({entreguemin} &8[{entregarbar}&8] &7{entreguemax})'
+    - '&8Peixes pescados: &7({pescamin} &8[{pescarbar}&8] &7{pescamax})'
+    - '&8Blocos andados: &7({andarmin} &8[{andarbar}&8] &7{andarmax})'
+    - '&8Itens craftados: &7({craftarmin} &8[{craftarbar}&8] &7{craftarmax})'
+    - '&8Morrer: &7({morrermin} &8[{morrerbar}&8] &7{morrermax})'
+    - ''
+    Quebrar blocos:
+      Ativar: false
+      Ativar tipo especifico: false
+      Tipo especifico: DIRT
+      Data: 0
+      Quantia: 2
+      Mundos:
+      - terenos
+      - world
+    Colocar blocos:
+      Ativar: true
+      Ativar tipo especifico: true
+      Tipo especifico: DIRT
+      Data: 0
+      Quantia: 2500
+      Mundos:
+      - terenos
+      - world
+    Matar mobs:
+      Ativar: false
+      Ativar tipo especifico: false
+      Tipo especifico: ZOMBIE
+      Quantia: 4000
+      Mundos:
+      - terenos
+      - world
+    Matar players:
+      Ativar: true
+      Quantia: 10
+      Mundos:
+      - terenos
+      - world
+    Entregador:
+      Ativar: false
+      Tipo: DIRT
+      Data: 0
+      Nome: none
+      Quantia: 40
+    Pescar:
+      Ativar: true
+      Quantia: 40
+      Mundos:
+      - terenos
+      - world
+    Andar:
+      Ativar: true
+      Quantia: 1
+      Mundos:
+      - terenos
+      - world
+    Craftar:
+      Ativar: false
+      Ativar tipo especifico: false
+      Tipo especifico: CHEST
+      Data: 0
+      Quantia: 1
+    Morrer:
+      Ativar: false
+      Quantia: 0
+      Mundos:
+      - terenos
+      - world
+    Recompensas:
+    - money add {player} 260k
+    - rank givefragmentos  {player} 2800

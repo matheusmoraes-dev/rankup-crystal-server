@@ -1,0 +1,61 @@
+Recompensas:
+  Reco1:
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 1
+      Data: 0
+      Glow: true
+      Name: '&8Fragmentos'
+      Amount: 1
+      Lore:
+      - ''
+      - '&aParabens você ganhou 8k de fragmentos'
+      - ''
+      Enchants:
+      - ''
+    Chance: 28.0
+    Command:
+      Use: true
+      List:
+      - rank givefragmentos {player} 8000
+  Reco2:
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 1
+      Data: 0
+      Glow: true
+      Name: '&5Joia do Poder'
+      Amount: 1
+      Lore:
+      - ''
+      - '&aParabens você ganhou joia do poder'
+      - ''
+      Enchants:
+      - ''
+    Chance: 25.0
+    Command:
+      Use: true
+      List:
+      - joias dar {player} poder 1
+  Reco3:
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 1
+      Data: 0
+      Glow: true
+      Name: '&aMoney'
+      Amount: 1
+      Lore:
+      - ''
+      - '&aParabens você ganhou 350k de money'
+      - ''
+      Enchants:
+      - ''
+    Chance: 25.0
+    Command:
+      Use: true
+      List:
+      - money add {player} 350k

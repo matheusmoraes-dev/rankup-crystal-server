@@ -1,0 +1,29 @@
+mina:
+  location: world, 1975.619, 128.200, 2222.618
+  lines:
+  - '&a&lVantagens Rank:'
+  - .
+  - '&eVillager 2% &7&l/&f &2Zombie 6%'
+  - '&7Spider 8% &7&l/&f &2Creeper 10%'
+  - '&6Blaze 14% &7&l/&f &9Guardian 16%'
+  - '&4Iron-Golem 18% &7&l/&f &8Wither 20%'
+  - '&5Dragon 22% &7&l/&f &4HeroBrine 24%'
+  - '&cImperador 26%'
+  - .
+  - '&a&lVantagens Vip:'
+  - '&cAce 16% &7&l/&f &4Fenix 22%'
+  - '&bCrystal 26%'
+minapvp:
+  location: world, 28457.265, 140.645, 2991.835
+  lines:
+  - '&a&lBem Vindo {player} &c&la MinaPvP'
+  - '&a&lInfo:'
+  - '&a&lDepois Da linha &4&lVermelha o PvP e ativado'
+lobby:
+  location: world, 508.733, 61.724, -611.533
+  lines:
+  - '&b&lBem Vindo &a&l{player}'
+  - '&bAo &6&lRankup &b&lCrystal'
+  - '&aPara Começar veja o tutorial no NPC'
+  - '&bOu simplesmente Va para a área de mineração'
+  - '&bDigitando /mina'

@@ -1,0 +1,216 @@
+##############################
+#+                          +#
+#   CONFIGURAÇÕES DO MENU    #
+#+                          +#
+##############################
+
+menu-settings:
+
+  # Nome - É o titulo do menu - OBRIGATÓRIO
+  name: '&8Categoria: Kits VIPs'
+
+  # Linhas - O número de linhas que tera o seu menu - OBRIGATÓRIO
+  # O número de linhas sera ignorado caso o tipo não for CHEST!
+  rows: 5
+  
+  # Tipo - O tipo do inventario que sera aberto(bau, dispenser etc..) - OBRIGATÓRIO
+  # Para ver a lista dos tipos validos acesse o arquivo ajuda.yml
+  type: CHEST
+
+  # Comando - Comando usado para abrir o menu. - OPCIONAL
+  # Para não queira usar um comando para abrir o menu deixe apenas as duas aspas em brancos. Exemplo: ''
+  # Caso você queira criar aliases para o comando coloque um ; depois do comando. Exemplo: 'menu; abrirmenu; abre;'
+  command: ''
+
+  # Atualização automatica - OPCIONAL
+  # Isto serve para atualizar os itens do menu automaticamente a cada X segundos.
+  auto-refresh: 5
+
+  # Comandos ao abrir - Comandos ou tarefas executadas ao abrir o menu - OPCIONAL
+  # Util caso você queira colocar um mvp ao abrir o MENU ou caso você queira colocar uma mensagem.
+  open-action: 'sound: notepling'
+
+  # Abrir menu com - Item que ao ser clicado abre o men - OPCIONAL
+  # Este menu sera aberto quando o player clicar com o botão direito segurando uma lã laranja [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+# ID/Nome do Icone (não pode ser repetido!)
+GuerreiroDiario:
+  LEFT-CLICK-COMMAND: 'kit acediario'
+  RIGHT-CLICK-COMMAND: 'verkit acediario'
+  KEEP-OPEN: true
+  NAME: '&c[Ace] Diário'
+  LORE:
+    - ''
+    - '&eBotão Esquerdo: &fAdquirir Kit.'
+    - '&eBotão Direito: &fVer Conteúdo.'
+    - '&eTempo: &f24 Horas.'
+    - ''
+    - '&7  &fKit exclusivo para o &c&LAce&F.'
+    - '&7  &fTenha vantagens ao comprar &b&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 10
+  SKULL-URL: 'http://textures.minecraft.net/texture/f88fa973ea444cc808768ea48bf2657ae9a56c0af60275e84463b195629bce'
+ArqueiroDiario:
+  LEFT-CLICK-COMMAND: 'kit fenixdiario'
+  RIGHT-CLICK-COMMAND: 'verkit fenixdiario'
+  KEEP-OPEN: true
+  NAME: '&4[Fenix] Diário'
+  LORE:
+    - ''
+    - '&eBotão Esquerdo: &fAdquirir Kit.'
+    - '&eBotão Direito: &fVer Conteúdo.'
+    - '&eTempo: &f24 Horas.'
+    - ''
+    - '&7  &fKit exclusivo para o &4&LFenix&F.'
+    - '&7  &fTenha vantagens ao comprar &b&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 12
+  SKULL-URL: 'http://textures.minecraft.net/texture/2328f378f28a9872226f5ce04d6e1dfa111618587f48dfa1fe82d043216a5cf'
+ImperadorDiario:
+  LEFT-CLICK-COMMAND: 'kit crystaldiario'
+  RIGHT-CLICK-COMMAND: 'verkit crystaldiario'
+  KEEP-OPEN: true
+  NAME: '&b[Crystal] Diário'
+  LORE:
+    - ''
+    - '&eBotão Esquerdo: &fAdquirir Kit.'
+    - '&eBotão Direito: &fVer Conteúdo.'
+    - '&eTempo: &f24 Horas.'
+    - ''
+    - '&7  &fKit exclusivo para o &b&LCrystal&F.'
+    - '&7  &fTenha vantagens ao comprar &b&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 14
+  SKULL-URL: 'http://textures.minecraft.net/texture/a5a6adc1af3d97863af0a70928ea5da6f6d663913c8f8af456f31e1c964'
+GuerreiroSemanal:
+  LEFT-CLICK-COMMAND: 'kit acesemanal'
+  RIGHT-CLICK-COMMAND: 'verkit acesemanal'
+  KEEP-OPEN: true
+  NAME: '&c[Ace] Semanal'
+  LORE:
+    - ''
+    - '&eBotão Esquerdo: &fAdquirir Kit.'
+    - '&eBotão Direito: &fVer Conteúdo.'
+    - '&eTempo: &f7 Dias.'
+    - ''
+    - '&7  &fKit exclusivo para o &c&LAce&F.'
+    - '&7  &fTenha vantagens ao comprar &b&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 19
+  SKULL-URL: 'http://textures.minecraft.net/texture/f88fa973ea444cc808768ea48bf2657ae9a56c0af60275e84463b195629bce'
+bruxos:
+  LEFT-CLICK-COMMAND: 'kit fenixsemanal'
+  RIGHT-CLICK-COMMAND: 'verkit fenixsemanal'
+  KEEP-OPEN: true
+  NAME: '&4[Fenix] Semanal'
+  LORE:
+    - ''
+    - '&eBotão Esquerdo: &fAdquirir Kit.'
+    - '&eBotão Direito: &fVer Conteúdo.'
+    - '&eTempo: &f7 Dias.'
+    - ''
+    - '&7  &fKit exclusivo para o &4&LFenix&F.'
+    - '&7  &fTenha vantagens ao comprar &b&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 21
+  SKULL-URL: 'http://textures.minecraft.net/texture/2328f378f28a9872226f5ce04d6e1dfa111618587f48dfa1fe82d043216a5cf'
+Wizards:
+  LEFT-CLICK-COMMAND: 'kit crystalsemanal'
+  RIGHT-CLICK-COMMAND: 'verkit crystalsemanal'
+  KEEP-OPEN: true
+  NAME: '&b[Crytal] Semanal'
+  LORE:
+    - ''
+    - '&eBotão Esquerdo: &fAdquirir Kit.'
+    - '&eBotão Direito: &fVer Conteúdo.'
+    - '&eTempo: &f7 Dias.'
+    - ''
+    - '&7  &fKit exclusivo para o &b&LCrystal&F.'
+    - '&7  &fTenha vantagens ao comprar &b&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 23
+  SKULL-URL: 'http://textures.minecraft.net/texture/a5a6adc1af3d97863af0a70928ea5da6f6d663913c8f8af456f31e1c964'
+betam:
+  LEFT-CLICK-COMMAND: 'kit acemensal'
+  RIGHT-CLICK-COMMAND: 'verkit acemensal'
+  KEEP-OPEN: true
+  NAME: '&c[Ace] Mensal'
+  LORE:
+    - ''
+    - '&eBotão Esquerdo: &fAdquirir Kit.'
+    - '&eBotão Direito: &fVer Conteúdo.'
+    - '&eTempo: &f30 Dias.'
+    - ''
+    - '&7  &fKit exclusivo para o &c&LAce&F.'
+    - '&7  &fTenha vantagens ao comprar &b&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 28
+  SKULL-URL: 'http://textures.minecraft.net/texture/f88fa973ea444cc808768ea48bf2657ae9a56c0af60275e84463b195629bce'
+bruxom:
+  LEFT-CLICK-COMMAND: 'kit fenixmensal'
+  RIGHT-CLICK-COMMAND: 'verkit fenixmensal'
+  KEEP-OPEN: true
+  NAME: '&4[Fenix] Mensal'
+  LORE:
+    - ''
+    - '&eBotão Esquerdo: &fAdquirir Kit.'
+    - '&eBotão Direito: &fVer Conteúdo.'
+    - '&eTempo: &f30 Dias.'
+    - ''
+    - '&7  &fKit exclusivo para o &4&LFenix&F.'
+    - '&7  &fTenha vantagens ao comprar &b&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 30
+  SKULL-URL: 'http://textures.minecraft.net/texture/2328f378f28a9872226f5ce04d6e1dfa111618587f48dfa1fe82d043216a5cf'
+Wizardm:
+  LEFT-CLICK-COMMAND: 'kit crystalmensal'
+  RIGHT-CLICK-COMMAND: 'verkit crystalmensal'
+  KEEP-OPEN: true
+  NAME: '&b[Crystal] Mensal'
+  LORE:
+    - ''
+    - '&eBotão Esquerdo: &fAdquirir Kit.'
+    - '&eBotão Direito: &fVer Conteúdo.'
+    - '&eTempo: &f30 Dias.'
+    - ''
+    - '&7  &fKit exclusivo para o &b&LCrystal&F.'
+    - '&7  &fTenha vantagens ao comprar &b&lVIP&f.'
+    - ''
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 32
+  SKULL-URL: 'http://textures.minecraft.net/texture/a5a6adc1af3d97863af0a70928ea5da6f6d663913c8f8af456f31e1c964'
+voltar:
+  LEFT-CLICK-COMMAND: 'open:kits.yml'
+  RIGHT-CLICK-COMMAND: 'open:kits.yml'
+  KEEP-OPEN: true
+  NAME: '&cRetornar'
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 25
+  SKULL-URL: 'http://textures.minecraft.net/texture/bd69e06e5dadfd84e5f3d1c21063f2553b2fa945ee1d4d7152fdc5425bc12a9'

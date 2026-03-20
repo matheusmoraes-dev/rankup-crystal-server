@@ -1,0 +1,13 @@
+Comecou:
+  - ""
+  - "&b&lEVENTO DOMINE A ARENA COMEÇOU"
+  - "&bO clan que dominar a arena por &f60 segundos&b irá ganhar o evento."
+  - "&bDigite &f/arena&b e vá à batalha."
+
+Dominando: "&aSeu clan está dominando a arena."
+Batalha: "&cBatalha de clans: {0}&c."
+
+Ganhou:
+  - ""
+  - "&b&lEVENTO DOMINE A ARENA ACABOU"
+  - "&bO clan &f{0}&b ganhou o evento."

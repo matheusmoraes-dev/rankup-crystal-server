@@ -1,0 +1,12 @@
+Mobs:
+   porco:
+      Entidade: 'PIG'
+      Fragmentos:
+         Chance: 100.0
+         Quantia: 50.0
+      Apenas um tipo: false #se tiver ativado, será dada apenas 1 head ( a que ele tiver a chance )
+      Heads:
+         head1:
+            Head: 'porco'
+            Chance: 100.0
+            Quantia: 1

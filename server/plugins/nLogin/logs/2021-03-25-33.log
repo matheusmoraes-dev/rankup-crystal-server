@@ -1,0 +1,60 @@
+[25 de Março de 2021 18:22:50]: [nLogin]          __             _       
+[25 de Março de 2021 18:22:50]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[25 de Março de 2021 18:22:50]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[25 de Março de 2021 18:22:50]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[25 de Março de 2021 18:22:50]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[25 de Março de 2021 18:22:50]: [nLogin]                   |___/            
+[25 de Março de 2021 18:22:50]: [nLogin]  By: www.nickuc.com - V 9.2.0
+[25 de Março de 2021 18:22:50]: [nLogin] 
+[25 de Março de 2021 18:22:50]: [DEBUG] [nLogin] Detectando configurações de hardware/software...
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Todas as configurações do plugin foram carregadas em 392 ms.
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_br.yml'
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_en.yml'
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_es.yml'
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_pl.yml'
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_ru.yml'
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_fr.yml'
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_lt.yml'
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_de.yml'
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_tr.yml'
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Todas as mensagens foram carregadas em 603 ms.
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Inicializando controlador de configurações...
+[25 de Março de 2021 18:22:51]: [nLogin] Carregando tarefas para inicialização...
+[25 de Março de 2021 18:22:51]: [nLogin] [Ativação] Your key was nya'd by Catboy <3 ~ https://t.me/catboygang
+[25 de Março de 2021 18:22:51]: [DEBUG] [nLogin] Inicializando o controlador de banco de dados...
+[25 de Março de 2021 18:22:53]: [DEBUG] [nLogin] Inicializando controlador de tarefas (pos start)...
+[25 de Março de 2021 18:22:53]: [nLogin] nLogin foi carregado em 3672ms.
+[25 de Março de 2021 18:24:16]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.169', `regdate` = '1615856558909', `lastlogin` = '1616693056953', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[25 de Março de 2021 18:24:17]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[25 de Março de 2021 18:24:17]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[25 de Março de 2021 20:04:22]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'pot_pvp_blatant', `password` = '$SHA256$5761742d47873a9806db3a72a837195e5bdab16967bbedd782ba870af2406988@WQuFvhhZnojUjXuMmBVkiuNi', `address` = '177.133.85.183', `regdate` = '1616020435765', `lastlogin` = '1616699062638', `email` = null, `twitter` = null, `discord` = null, `settings` = 'q65qFvZL8OekQvRTmMHT+pUXGLX0MObwk/SEWoNNkVmMQahSpReZ/gSEMgelzo1QXyR9JNylfk8myVGb+yaQ82MGVacl3OicmsSqLsVKl+MjVDeZFcqitMzLZAf6M7sVAuMsvfB2q+lxdfRS8xRmmX0DUaS1VzsT5FyspRycDuLU7A/OPMHklzPR6TU1q/zELGLWJ7htmGarZnFPdYwXoa3AFsS6mHSPpgDzOjhkH2yEeyq8ORg63eSoz2UVxINsck9gnxnPwkCiN9mIG23nEgmpUH/cPzT4Vvs=' WHERE `name` = 'pot_pvp_blatant'"
+[25 de Março de 2021 20:04:22]: [nLogin] O usuário pot_pvp_blatant autenticou com sucesso.
+[25 de Março de 2021 20:04:22]: [nLogin] O usuário pot_pvp_blatant logou automaticamente por ter uma conta original.
+[25 de Março de 2021 22:32:41]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.169', `regdate` = '1615856558909', `lastlogin` = '1616707961252', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[25 de Março de 2021 22:32:41]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[25 de Março de 2021 22:32:41]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[25 de Março de 2021 22:32:53]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.169', `regdate` = '1615856558909', `lastlogin` = '1616707973624', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[25 de Março de 2021 22:32:53]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[25 de Março de 2021 22:32:53]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[25 de Março de 2021 22:33:42]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.169', `regdate` = '1615856558909', `lastlogin` = '1616708022200', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[25 de Março de 2021 22:33:42]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[25 de Março de 2021 22:33:42]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[25 de Março de 2021 22:34:08]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.169', `regdate` = '1615856558909', `lastlogin` = '1616708048778', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[25 de Março de 2021 22:34:08]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[25 de Março de 2021 22:34:08]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[25 de Março de 2021 22:34:15]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.169', `regdate` = '1615856558909', `lastlogin` = '1616708055431', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[25 de Março de 2021 22:34:15]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[25 de Março de 2021 22:34:15]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[25 de Março de 2021 22:34:44]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.169', `regdate` = '1615856558909', `lastlogin` = '1616708084397', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[25 de Março de 2021 22:34:44]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[25 de Março de 2021 22:34:44]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[25 de Março de 2021 22:39:25]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.169', `regdate` = '1615856558909', `lastlogin` = '1616708365681', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[25 de Março de 2021 22:39:25]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[25 de Março de 2021 22:39:25]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[26 de Março de 2021 00:31:30]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'pot_pvp_blatant', `password` = '$SHA256$5761742d47873a9806db3a72a837195e5bdab16967bbedd782ba870af2406988@WQuFvhhZnojUjXuMmBVkiuNi', `address` = '177.133.85.183', `regdate` = '1616020435765', `lastlogin` = '1616715090009', `email` = null, `twitter` = null, `discord` = null, `settings` = 'q65qFvZL8OekQvRTmMHT+pUXGLX0MObwk/SEWoNNkVmMQahSpReZ/gSEMgelzo1QXyR9JNylfk8myVGb+yaQ82MGVacl3OicmsSqLsVKl+MjVDeZFcqitMzLZAf6M7sVAuMsvfB2q+lxdfRS8xRmmX0DUaS1VzsT5FyspRycDuLU7A/OPMHklzPR6TU1q/zELGLWJ7htmGarZnFPdYwXoa3AFsS6mHSPpgDzOjhkH2yEeyq8ORg63eSoz2UVxINsck9gnxnPwkCiN9mIG23nEgmpUH/cPzT4Vvs=' WHERE `name` = 'pot_pvp_blatant'"
+[26 de Março de 2021 00:31:30]: [nLogin] O usuário pot_pvp_blatant autenticou com sucesso.
+[26 de Março de 2021 00:31:30]: [nLogin] O usuário pot_pvp_blatant logou automaticamente por ter uma conta original.
+[26 de Março de 2021 00:39:53]: [nLogin] 
+[26 de Março de 2021 00:39:53]: [nLogin] Desativando módulos do nLogin V 9.2.0...
+[26 de Março de 2021 00:39:53]: [nLogin] 
+[26 de Março de 2021 00:39:53]: [nLogin] nLogin foi encerrado em 0ms.

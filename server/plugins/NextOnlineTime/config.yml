@@ -1,0 +1,51 @@
+#      _   _           _     _____  _             _                    #
+#     | \ | |         | |   |  __ \| |           (_)                   #
+#     |  \| | _____  _| |_  | |__) | |_   _  __ _ _ _ __  ___          #
+#     | . ` |/ _ \ \/ / __| |  ___/| | | | |/ _` | | '_ \/ __|         #
+#     | |\  |  __/>  <| |_  | |    | | |_| | (_| | | | | \__ \         #
+#     |_| \_|\___/_/\_\\__| |_|    |_|\__,_|\__, |_|_| |_|___/         #
+#                                           __/ |                      #
+#                                          |___/                       #
+#                          Servidor de Suporte                         #
+#                         discord.gg/JtTN7E6A2q                        #
+
+connection:
+  mysql:
+    enable: false
+    address: "localhost:3306"
+    username: "root"
+    password: ""
+    database: "test"
+  sqlite:
+    file: "plugins/NextOnlineTime/online-time.sql"
+
+# O plugin possui suporte para placeholders
+# Placeholder: {placeholderapi_onlinetime_time} ou {onlinetime_time}
+
+# De quanto em quantos minutos irá atualizar o tempo dos jogadores
+# Recomendado: 5 minutos
+updaterTime: 5
+
+# Formatos: MINUTES ou HOURS
+# Recomendado: MINUTES
+timeFormat: MINUTES
+
+# O plugin trabalha com dois tipos de sistema
+# false - Formato padrão do sistema
+# true - Quando pegar uma recompensa, o tempo dela é retirado da quantidade de tempo do jogador
+# Exemplo: Caso o jogador tenha 1 hora de tempo online e pega uma recompensa de 20 minutos, ele passará a ter 40 minutos
+type: false
+
+# Taxa na criação de cheques
+# Para desabilitar o sistema de cheque, coloque -1
+# O valor de exemplo abaixo siginifica 10% de taxa, caso ele coloque 10 horas, o cheque só terá 9 horas
+checkTax: 10
+
+# Item do cheque de tempo
+checkItem:
+  name: '&3&LCHEQUE DE TEMPO'
+  id: 339
+  data: 0
+  description:
+    - '&fTempo: &b%time%'
+    - '&7Você receberá o tempo em seu /tempo'

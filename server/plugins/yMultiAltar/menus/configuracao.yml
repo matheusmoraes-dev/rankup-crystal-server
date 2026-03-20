@@ -1,0 +1,73 @@
+Tamanho: 27
+Back slot: 18
+Itens:
+  Tempo:
+    Slot: 10
+    CustomSkull: false
+    URL: ''
+    ID: 264
+    Data: 0
+    Name: '&bTempo'
+    Glow: true
+    Lore:
+    - ''
+    - '&fTempo: &e{tempo} minutos'
+    - ''
+    - '&7Clique para modificar o tempo.'
+    - ''
+  Quantia de drops:
+    Slot: 11
+    CustomSkull: false
+    URL: ''
+    ID: 264
+    Data: 0
+    Name: '&bQuantia de drops'
+    Glow: true
+    Lore:
+    - ''
+    - '&fQuantia: &e{quantia} drops'
+    - ''
+    - '&7Clique para modificar a quantia de drops.'
+    - ''
+  Minimo player:
+    Slot: 13
+    CustomSkull: false
+    URL: ''
+    ID: 264
+    Data: 0
+    Name: '&aPlayers m�nimos'
+    Glow: true
+    Lore:
+    - ''
+    - '&fPlayers: &e{players}'
+    - ''
+    - '&7Clique para modificar o m�nimo de players.'
+    - ''
+  Ativar broadcast:
+    Slot: 15
+    CustomSkull: false
+    URL: ''
+    ID: 264
+    Data: 0
+    Name: '&aAtivar broadcast'
+    Glow: true
+    Lore:
+    - ''
+    - '&fEstado: &e{estado}'
+    - ''
+    - '&7Clique para ativar/desativar o broadcast.'
+    - ''
+  Jogar pra cima:
+    Slot: 16
+    CustomSkull: false
+    URL: ''
+    ID: 264
+    Data: 0
+    Name: '&aJogar pra cima'
+    Glow: true
+    Lore:
+    - ''
+    - '&fEstado: &e{estado}'
+    - ''
+    - '&7Clique para ativar/desativar o jogar pra cima.'
+    - ''

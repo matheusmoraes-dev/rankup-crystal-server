@@ -1,0 +1,47 @@
+Deletar hologramas: true #deletar os hologramas do plugin quando desligar
+Delay: 1 #em segundos (tempo que leva para atualizar o holograma)
+
+Mensagens:
+   Recebeu: '&aVocê recebeu o altar &7{altar}&a.'
+   Removido: '&aAltar &7{altar}&a removido com sucesso.'
+   Ja setado: '&cO altar &7{altar}&c já está setado. Gerencie o altar em /altar'
+   Setado: '&aAltar &7{altar}&a setado com sucesso.'
+   Salvo: '&aItens do altar &7{altar}&a salvo com sucesso.'
+   Nao pode: '&cVocê não pode quebrar o altar &7{altar}&c. Gerencie o altar em /altar'
+   Nao setado: '&cO altar &7{altar} &cnão está setado.'
+   Cancelou: '&cVocê cancelou a operação.'
+   Nao e numero: '&cO argumento não é um número.'
+   Setado tempo: '&aVocê setou o tempo para &7{tempo}&a.'
+   Setado drops: '&aVocê setou a quantia de drops para &7{drops}&a.'
+   Setado players: '&aVocê setou o mínimo de players para &7{players}&a.'
+   Colocar tempo:
+   - ''
+   - '&aDigite no chat o tempo em minutos, use números'
+   - '&7para cancelar coloque: &7&ncancelar&7.'
+   - ''
+   Colocar drops:
+   - ''
+   - '&aDigite no chat a quantia de drops, use números'
+   - '&7para cancelar coloque: &7&ncancelar&7.'
+   - ''
+   Colocar players:
+   - ''
+   - '&aDigite no chat o mínimo de players, use números'
+   - '&7para cancelar coloque: &7&ncancelar&7.'
+   - ''
+   
+Formatador:
+   B true: '&aAtivado'
+   B false: '&cDesativado'
+
+Voltar:
+   CustomSkull: false
+   URL: ''
+   ID: 262
+   Data: 0 
+   Name: '&cVoltar'
+   Glow: true
+   Lore:
+   - ''
+   - '&7Clique para voltar ao menu anterior.'
+   - ''

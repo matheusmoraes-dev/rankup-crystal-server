@@ -1,0 +1,54 @@
+# Comandos e aliases do plugin
+Comando:
+ Comando: 'screenshare'
+ Aliases: [ss, sharescreen, telar, telagem]
+# Comandos a serem executados quando o jogador quitar.
+Quitar comandos:
+- 'ban {player}'
+# Formatos do chat
+Formatos:
+ Suspeito: '&c[TS] {player}&7: {msg}'
+ Staff: '&b[ST] {player}&7: {msg}'
+# Mensagens do plugin
+Mensagens:
+ Permissao: '&cVocê não tem permissão para isto.'
+ Ja telando: '&cVocê já está telando um jogador.'
+ Ja sendo telado: '&cEste jogador já está sendo telado.'
+ Nao encontrado: '&cJogador não encontrado.'
+ Si mesmo: '&cVocê não pode telar a si mesmo.'
+ Telar staff: '&cVocê não pode telar outro staff.'
+ Nenhum local: '&cNenhum local disponível.'
+ Telando: '&aVocê está telando o jogador &7{player}&a.'
+ Comando: '&cVocê não pode usar comandos enquanto estiver sendo telado.'
+ Staff quitou: '&cO staffer que estava te telando saiu do servidor, você foi liberado.'
+ Saida nao: '&cA saída não foi setada.'
+ Nao telando: '&cVocê não está telando nenhum jogador.'
+ Liberado:
+ - ''
+ - '&cO jogador &7{player} &cfoi liberado pelo staff &7{staff}&c.'
+ - ''
+ Quitou:
+ - ''
+ - '&cO jogador &7{player} &cque estava sendo telado pelo staff &7{staff}&c saiu do servidor.'
+ - '&cO mesmo foi banido.'
+ - ''
+# Setas dos menus
+Setas:
+ Anterior:
+  CustomSkull: false
+  URL: ''
+  ID: 262
+  Data: 0
+  Glow: true
+  Name: '&cVoltar'
+  Lore:
+  - '&7Clique para voltar à página anterior.'
+ Proximo:
+  CustomSkull: false
+  URL: ''
+  ID: 262
+  Data: 0
+  Glow: true
+  Name: '&aPróxima'
+  Lore:
+  - '&7Clique para ir à próxima página.'

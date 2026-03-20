@@ -1,0 +1,12 @@
+Taxado:
+  - ""
+  - "&cO jogador &f{0}&c, membro do seu clan, foi banido e por isso todos membros do seu clan foram taxados em &4$&c50.000 coins."
+  - ""
+Desfeito:
+  - ""
+  - "&cTrês jogadores do seu banidos no período de 7 dias e por isso seu clan foi desfeito."
+  - ""
+DesfeitoBroadcast:
+  - ""
+  - "&cO clan {0}&c foi desfeito por ter três membros banidos em um período de 7 dias."
+  - ""

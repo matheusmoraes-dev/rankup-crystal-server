@@ -1,0 +1,264 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja - Corantes'
+
+  rows: 5
+  
+  type: CHEST
+
+  command: 'corantes'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+slot1:
+  LEFT-CLICK-COMMAND: 'give: 351:5, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:5, 16'
+  NAME: '&eCorante Lilás'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 5
+  KEEP-OPEN: true
+  SLOT: 11
+slot2:
+  LEFT-CLICK-COMMAND: 'give: 351:6, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:6, 16'
+  NAME: '&eCorante Ciano'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 6
+  KEEP-OPEN: true
+  SLOT: 12
+slot3:
+  LEFT-CLICK-COMMAND: 'give: 351:7, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:7, 16'
+  NAME: '&eCorante Cinza Claro'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 7
+  KEEP-OPEN: true
+  SLOT: 13
+slot4:
+  LEFT-CLICK-COMMAND: 'give: 351:8, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:8, 16'
+  NAME: '&eCorante Cinza'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 8
+  KEEP-OPEN: true
+  SLOT: 14
+slot5:
+  LEFT-CLICK-COMMAND: 'give: 351:9, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:9, 16'
+  NAME: '&eCorante Rosa'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 9
+  KEEP-OPEN: true
+  SLOT: 15
+slot6:
+  LEFT-CLICK-COMMAND: 'give: 351:10, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:10, 16'
+  NAME: '&eCorante Verde Limão'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 10
+  KEEP-OPEN: true
+  SLOT: 20
+slot7:
+  LEFT-CLICK-COMMAND: 'give: 351:12, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:12, 16'
+  NAME: '&eCorante Azul Claro'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 12
+  KEEP-OPEN: true
+  SLOT: 21
+slot8:
+  LEFT-CLICK-COMMAND: 'give: 351:13, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:13, 16'
+  NAME: '&eCorante Magenta'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 13
+  KEEP-OPEN: true
+  SLOT: 22
+slot9:
+  LEFT-CLICK-COMMAND: 'give: 351:14, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:14, 16'
+  NAME: '&eCorante Laranja'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 14
+  KEEP-OPEN: true
+  SLOT: 23
+slot10:
+  LEFT-CLICK-COMMAND: 'give: 351, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351, 16'
+  NAME: '&eBolsa de Tinta'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 0
+  KEEP-OPEN: true
+  SLOT: 24
+slot11:
+  LEFT-CLICK-COMMAND: 'give: 351:1, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:1, 16'
+  NAME: '&eCorante Vermelho'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 1
+  KEEP-OPEN: true
+  SLOT: 29
+slot12:
+  LEFT-CLICK-COMMAND: 'give: 351:2, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:2, 16'
+  NAME: '&eCorante Verde'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 2
+  KEEP-OPEN: true
+  SLOT: 30
+slot13:
+  LEFT-CLICK-COMMAND: 'give: 351:4, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:4, 16'
+  NAME: '&eLapis Lazuli'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 4
+  KEEP-OPEN: true
+  SLOT: 31
+slot14:
+  LEFT-CLICK-COMMAND: 'give: 351:3, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:3, 16'
+  NAME: '&eSementes de Cacau'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 3
+  KEEP-OPEN: true
+  SLOT: 32
+slot15:
+  LEFT-CLICK-COMMAND: 'give: 351:11, 16'
+  RIGHT-CLICK-COMMAND: 'give: 351:11, 16'
+  NAME: '&eCorante Amarelo'
+  PRICE: 8500
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8.500'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  ID: 351
+  DATA-VALUE: 11
+  KEEP-OPEN: true
+  SLOT: 33
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 36

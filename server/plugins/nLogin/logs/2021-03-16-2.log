@@ -1,0 +1,30 @@
+[16 de Março de 2021 15:49:56]: [nLogin]          __             _       
+[16 de Março de 2021 15:49:56]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[16 de Março de 2021 15:49:56]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[16 de Março de 2021 15:49:56]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[16 de Março de 2021 15:49:56]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[16 de Março de 2021 15:49:56]: [nLogin]                   |___/            
+[16 de Março de 2021 15:49:56]: [nLogin]  By: www.nickuc.com - V 9.2.0
+[16 de Março de 2021 15:49:56]: [nLogin] 
+[16 de Março de 2021 15:49:56]: [DEBUG] [nLogin] Detectando configurações de hardware/software...
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Todas as configurações do plugin foram carregadas em 158 ms.
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_br.yml'
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_en.yml'
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_es.yml'
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_pl.yml'
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_ru.yml'
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_fr.yml'
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_lt.yml'
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_de.yml'
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_tr.yml'
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Todas as mensagens foram carregadas em 339 ms.
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Inicializando controlador de configurações...
+[16 de Março de 2021 15:49:57]: [nLogin] Carregando tarefas para inicialização...
+[16 de Março de 2021 15:49:57]: [nLogin] [Ativação] Your key was nya'd by Catboy <3 ~ https://t.me/catboygang
+[16 de Março de 2021 15:49:57]: [DEBUG] [nLogin] Inicializando o controlador de banco de dados...
+[16 de Março de 2021 15:49:59]: [DEBUG] [nLogin] Inicializando controlador de tarefas (pos start)...
+[16 de Março de 2021 15:49:59]: [nLogin] nLogin foi carregado em 2763ms.
+[16 de Março de 2021 15:51:21]: [nLogin] 
+[16 de Março de 2021 15:51:21]: [nLogin] Desativando módulos do nLogin V 9.2.0...
+[16 de Março de 2021 15:51:21]: [nLogin] 
+[16 de Março de 2021 15:51:21]: [nLogin] nLogin foi encerrado em 56ms.

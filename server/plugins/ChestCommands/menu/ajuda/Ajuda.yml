@@ -1,0 +1,149 @@
+##############################
+#+                          +#
+#   CONFIGURAÇÕES DO MENU    #
+#+                          +#
+##############################
+
+menu-settings:
+
+  # Nome - É o titulo do menu - OBRIGATÓRIO
+  name: '&eCategoria: Ajuda'
+
+  # Linhas - O número de linhas que tera o seu menu - OBRIGATÓRIO
+  # O número de linhas sera ignorado caso o tipo não for CHEST!
+  rows: 5
+  
+  # Tipo - O tipo do inventario que sera aberto(bau, dispenser etc..) - OBRIGATÓRIO
+  # Para ver a lista dos tipos validos acesse o arquivo ajuda.yml
+  type: CHEST
+
+  # Comando - Comando usado para abrir o menu. - OPCIONAL
+  # Para não queira usar um comando para abrir o menu deixe apenas as duas aspas em brancos. Exemplo: ''
+  # Caso você queira criar aliases para o comando coloque um ; depois do comando. Exemplo: 'menu; abrirmenu; abre;'
+  command: 'ajuda;ajudas;ajude'
+
+  # Atualização automatica - OPCIONAL
+  # Isto serve para atualizar os itens do menu automaticamente a cada X segundos.
+  auto-refresh: 5
+
+  # Comandos ao abrir - Comandos ou tarefas executadas ao abrir o menu - OPCIONAL
+  # Util caso você queira colocar um mvp ao abrir o MENU ou caso você queira colocar uma mensagem.
+  open-action: 'sound: notepling'
+
+  # Abrir menu com - Item que ao ser clicado abre o men - OPCIONAL
+  # Este menu sera aberto quando o player clicar com o botão direito segurando uma lã laranja [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+# ID/Nome do Icone (não pode ser repetido!)
+1:
+  LEFT-CLICK-COMMAND: 'spawn'
+  NAME: '&bSpawn'
+  LORE:
+    - ''
+    - '&b&nSpawn:&7 É o local principal do servidor'
+    - '&7onde todos os players estão conectados.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 13
+  SKULL-URL: 'http://textures.minecraft.net/texture/6ddd4a12da1cc2c9f9d6cd49fc778e3a11f3757de6dd312d70a0d47885189c0'
+2:
+  LEFT-CLICK-COMMAND: 'warps'
+  NAME: '&aWarps'
+  LORE:
+    - ''
+    - '&a&nWarps:&7 Um lugar onde você pode'
+    - '&7Em econtrar todas as Warps do servidor'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 21
+  SKULL-URL: 'http://textures.minecraft.net/texture/8449b9318e33158e64a46ab0de121c3d40000e3332c1574932b3c849d8fa0dc2'
+3:
+  LEFT-CLICK-COMMAND: 'regras'
+  NAME: '&7Regras'
+  LORE:
+    - ''
+    - '&9&nRegras:&7Regras eo lugar onde você achara'
+    - '&7As regras do servidor e do discord'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 22
+  SKULL-URL: 'http://textures.minecraft.net/texture/a7ed66f5a70209d821167d156fdbc0ca3bf11ad54ed5d86e75c265f7e5029ec1' 
+4:
+  LEFT-CLICK-COMMAND: 'warp loja'
+  NAME: '&8Loja'
+  LORE:
+    - ''
+    - '&e&nLoja:&7 A loja e onde vende os itens para você'
+    - '&7Colocar na sua plot e também você podera comprar'
+    - '&7Maquinas,spawners,farms e etc'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 23
+  SKULL-URL: 'http://textures.minecraft.net/texture/a9d08c0a8d001a788e260d6ba1f4f08ada0ea719a0f4e611d6c4b7ac83bb035e'
+5:
+  LEFT-CLICK-COMMAND: 'yt'
+  NAME: '&cRequisitos Para YT'
+  LORE:
+    - ''
+    - '&c&nRequisitos Para YT:&7 E onde você encontrara o lugar'
+    - '&7onde você podera virar um youtuber de nossos servidor'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 30
+  SKULL-URL: 'http://textures.minecraft.net/texture/d2f6c07a326def984e72f772ed645449f5ec96c6ca256499b5d2b84a8dce'
+6:
+  LEFT-CLICK-COMMAND: 'open: Ajuda.yml'
+  NAME: '&bDiscord de nosso servidor'
+  LORE:
+    - ''
+    - '&b&nDiscord:&7 https://discord.gg/'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 31
+  SKULL-URL: 'http://textures.minecraft.net/texture/dc59e5c7b0738b579f3b444c13a47bed496b30838b2ee2b127cc59cd798aee77'
+7:
+  LEFT-CLICK-COMMAND: 'eventos'
+  NAME: '&cHorario dos Eventos'
+  LORE:
+    - ''
+    - '&e&nEventos:&7Aqui você podera ver '
+    - '&7os horarios dos eventos'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 32
+  SKULL-URL: 'http://textures.minecraft.net/texture/3420cdf2af57cc757773ace3f1915cb72b5432a2fda3373b1678f98bea7ac7'
+8:
+  LEFT-CLICK-COMMAND: 'kits'
+  NAME: '&eKits'
+  LORE:
+    - ''
+    - '&7&nKits:&7Aqui você podera ver '
+    - '&7Todos os kits do servidor'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 40
+  SKULL-URL: 'http://textures.minecraft.net/texture/6b42c4d7efc516fe343d21f149eed17840dd151eb94fbf6dd8d66ca8377dcef7'

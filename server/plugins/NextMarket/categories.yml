@@ -1,0 +1,321 @@
+# Categorias do /mercado ver
+
+# Para que serve?
+# Ao anunciar, o item irá diretamente para categoria qual corresponde,
+# além de também, servir para melhor organização do mercado.
+
+inventory:
+  main: # Inventário principal onde serão exibidas todas as categorias
+    title: "&8Categorias do Mercado"
+    lines: 5
+    buttons:
+      personalMarket:
+        material: CHEST
+        data: 0
+        displayName: "&aMercado pessoal"
+        lore:
+          - '&7Clique para ver os itens que estão vendendo para você'
+        inventorySlot: 39
+      sellingMarket:
+        material: EYE_OF_ENDER
+        data: 0
+        displayName: "&aItens Anunciados"
+        lore:
+          - '&7Clique para ver os seus itens anunciados no mercado'
+        inventorySlot: 41
+  category: # Inventário onde será exibido os itens daquela categoria
+    title: "&8Categoria: %category_name%"
+    lines: 6
+    lore: # A lore (modificada) que será adicionada em baixo da lore (padrão) do item.
+      - ''
+      - '&7Vendedor: &f%seller%'
+      - '&7Preço: &e%price% coins'
+      - ''
+      - '&aClique para comprar este item!'
+    buttons:
+      update:
+        material: BARRIER # Deixe o material como "BARRIER" para ser colocado o item da categoria que estiver aberta
+        data: 0
+        displayName: "&6Atualizar"
+        lore:
+          - '&7Clique para atualizar os itens desta categoria!'
+        inventorySlot: 39
+  selling: # Inventário de itens que você anunciou
+    title: "&8Seus itens no mercado"
+    lines: 6
+    expiredTag: "&8EXPIRADO" # Tag que será adicionada ao final da lore do item caso ele esteja expirado
+    lore: # A lore (modificada) que será adicionada em baixo da lore (padrão) do item.
+      - ''
+      - '&aClique para coletar seu item.'
+    buttons:
+      update:
+        material: SKULL_ITEM # LEGACY_SKULL_ITEM para versões iguais ou superiores à 1.12
+        data: 3
+        displayName: "&6Atualizar"
+        lore:
+          - '&7Clique para atualizar os seus itens anunciados!'
+        inventorySlot: 39
+  personal:
+    title: "&8Mercado pessoal"
+    lines: 6
+    lore: # A lore (modificada) que será adicionada em baixo da lore (padrão) do item.
+      - ''
+      - '&7Vendedor: &f%seller%'
+      - '&7Preço: &e%price% coins'
+      - ''
+    buttons:
+      update:
+        material: SKULL_ITEM # LEGACY_SKULL_ITEM para versões iguais ou superiores à 1.12
+        data: 3
+        displayName: "&6Atualizar"
+        lore:
+          - '&7Clique para atualizar os itens do mercado pessoal!'
+        inventorySlot: 39
+
+categories:
+  weapons:
+    displayName: "&aArmas &8(%amount% itens)" # Nome da categoria
+    description: # Descrição da categoria
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Espadas de diamante'
+      - '&f▪ Arco'
+      - ''
+      - '&aClique para abrir.'
+    icon: # Ícone da categoria
+      material: DIAMOND_SWORD
+      data: 0
+      enchant: true
+      inventorySlot: 10
+    configuration:
+      inventoryTitle: "Armas" # Identificador do inventário (nome do inventário)
+      materials: # Materiais permitidos na categoria
+        - "DIAMOND_SWORD"
+        - "BOW"
+  armors:
+    displayName: "&aArmaduras &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Elmos de Diamante'
+      - '&f▪ Peitorais de Diamante'
+      - '&f▪ Calças de Diamante'
+      - '&f▪ Botas de Diamante'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: DIAMOND_CHESTPLATE
+      data: 0
+      enchant: true
+      inventorySlot: 11
+    configuration:
+      inventoryTitle: "Armaduras"
+      materials:
+        - "DIAMOND_HELMET"
+        - "DIAMOND_CHESTPLATE"
+        - "DIAMOND_LEGGINGS"
+        - "DIAMOND_BOOTS"
+  tools:
+    displayName: "&aFerramentas &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Picaretas de Diamante'
+      - '&f▪ Machados de Diamante'
+      - '&f▪ Pás de Diamante'
+      - '&f▪ Enxadas de Diamante'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: DIAMOND_PICKAXE
+      data: 0
+      enchant: true
+      inventorySlot: 12
+    configuration:
+      inventoryTitle: "Ferramentas"
+      materials:
+        - "DIAMOND_PICKAXE"
+        - "DIAMOND_AXE"
+        - "DIAMOND_SPADE"
+        - "DIAMOND_HOE"
+  books:
+    displayName: "&aLivros de Encantamento &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Livros'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: BOOK
+      data: 0
+      enchant: true
+      inventorySlot: 13
+    configuration:
+      inventoryTitle: "Livros"
+      materials:
+        - "BOOK"
+  potions:
+    displayName: "&aPoções &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Qualquer tipo de poção'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: POTION
+      data: 0
+      enchant: false
+      inventorySlot: 14
+    configuration:
+      inventoryTitle: "Poções"
+      materials:
+        - "POTION"
+  redstone:
+    displayName: "&aRedstone &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Dinamite'
+      - '&f▪ Redstone'
+      - '&f▪ Bloco de Redstone'
+      - '&f▪ Tocha de Redstone'
+      - '&f▪ Repetidor de Redstone'
+      - '&f▪ Comparador de Redstone'
+      - '&f▪ Liberador'
+      - '&f▪ Ejetor'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: REDSTONE
+      data: 0
+      enchant: false
+      inventorySlot: 15
+    configuration:
+      inventoryTitle: "Redstone"
+      materials:
+        - "TNT"
+        - "REDSTONE"
+        - "REDSTONE_BLOCK"
+        - "DROPPER"
+        - "DISPENSER"
+  protection:
+    displayName: "&aBlocos de Proteção &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Obsidiana'
+      - '&f▪ Pedra do Fim'
+      - '&f▪ Rocha Matriz'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: BEDROCK
+      data: 0
+      enchant: false
+      inventorySlot: 16
+    configuration:
+      inventoryTitle: "Blocos de Proteção"
+      materials:
+        - "OBSIDIAN"
+        - "BEDROCK"
+  monsters:
+    displayName: "&aMonstros &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Invocar'
+      - '&f▪ Geradores de Monstros'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: MOB_SPAWNER
+      data: 0
+      enchant: false
+      inventorySlot: 19
+    configuration:
+      inventoryTitle: "Monstros"
+      materials:
+        - "MOB_SPAWNER"
+  heads:
+    displayName: "&aCabeças &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Cabeças de Monstros'
+      - '&f▪ Cabeças de Jogadores'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: SKULL_ITEM
+      data: 3
+      enchant: false
+      inventorySlot: 20
+    configuration:
+      inventoryTitle: "Cabeças"
+      materials:
+        - "SKULL"
+        - "SKULL_ITEM"
+  ores:
+    displayName: "&aMinérios &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Esmeralda'
+      - '&f▪ Bloco de Esmeralda'
+      - '&f▪ Diamante'
+      - '&f▪ Bloco de Diamante'
+      - '&f▪ Barras de Ouro'
+      - '&f▪ Bloco de Ouro'
+      - '&f▪ Barras de Ferro'
+      - '&f▪ Bloco de Ferro'
+      - '&f▪ Lápis-Lazúli'
+      - '&f▪ Bloco de Lápis-Lazúli'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: DIAMOND_ORE
+      data: 0
+      enchant: false
+      inventorySlot: 21
+    configuration:
+      inventoryTitle: "Minérios"
+      materials:
+        - "EMERALD"
+        - "EMERALD_BLOCK"
+        - "DIAMOND"
+        - "DIAMOND_BLOCK"
+        - "GOLD_INGOT"
+        - "GOLD_BLOCK"
+        - "IRON_INGOT"
+        - "IRON_BLOCK"
+        - "LAPIS_ORE"
+  especials:
+    displayName: "&aItens Especiais &8(%amount% itens)"
+    description:
+      - '&7Itens que você encontra nesta'
+      - '&7categoria:'
+      - ''
+      - '&f▪ Poder máximo'
+      - ''
+      - '&aClique para abrir.'
+    icon:
+      material: NETHER_STAR
+      data: 0
+      enchant: true
+      inventorySlot: 22
+    configuration:
+      inventoryTitle: "Especiais"
+      materials:
+        - "NETHER_STAR"

@@ -1,0 +1,82 @@
+Mobs:
+  Mob1:
+    Entidade: VILLAGER
+    Quantia: 25.0
+    Chance: 60.0
+    Boss:
+      Chance: 45.0
+      Quantia: 1
+    Mundos:
+    - terrenos
+  Mob2:
+    Entidade: ZOMBIE
+    Quantia: 32.0
+    Chance: 25.0
+    Boss:
+      Chance: 42.0
+      Quantia: 2
+    Mundos:
+    - terrenos
+  Mob3:
+    Entidade: SPIDER
+    Quantia: 38.0
+    Chance: 39.0
+    Boss:
+      Chance: 8.0
+      Quantia: 3
+    Mundos:
+    - terrenos
+  Mob4:
+    Entidade: SLIME
+    Quantia: 42.0
+    Chance: 36.0
+    Boss:
+      Chance: 6.0
+      Quantia: 5
+    Mundos:
+    - terrenos
+  Mob5:
+    Entidade: CREEPER
+    Quantia: 48.0
+    Chance: 32.0
+    Boss:
+      Chance: 6.0
+      Quantia: 7
+    Mundos:
+    - terrenos
+  Mob6:
+    Entidade: BLAZE
+    Quantia: 55.0
+    Chance: 28.0
+    Boss:
+      Chance: 5.0
+      Quantia: 8
+    Mundos:
+    - terrenos
+  Mob7:
+    Entidade: GUARDIAN
+    Quantia: 58.0
+    Chance: 26.0
+    Boss:
+      Chance: 4.0
+      Quantia: 9
+    Mundos:
+    - terrenos
+  Mob8:
+    Entidade: IRON_GOLEM
+    Quantia: 62.0
+    Chance: 25.0
+    Boss:
+      Chance: 3.0
+      Quantia: 10
+    Mundos:
+    - terrenos
+  Mob9:
+    Entidade: WITHER
+    Quantia: 68.0
+    Chance: 24.0
+    Boss:
+      Chance: 2.0
+      Quantia: 12
+    Mundos:
+    - terrenos

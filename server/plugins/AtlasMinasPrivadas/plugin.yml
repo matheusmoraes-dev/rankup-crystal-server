@@ -1,0 +1,10 @@
+name: AtlasMinasPrivadas
+author: dont
+version: 1.9
+main: com.dont.minaspv.Terminal
+depend: [Vault, FastAsyncWorldEdit]
+commands:
+  minapv:
+    aliases: [minaprivada, minasprivadas, minaspv]
+  givemina:
+  giveminabooster:

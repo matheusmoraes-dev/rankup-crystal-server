@@ -1,0 +1,145 @@
+worlds:
+  terrenos:
+    ==: MVWorld
+    hidden: 'false'
+    alias: terrenos
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: NORMAL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 0.0
+      y: 75.0
+      z: 0.0
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '5867672418101831579'
+    generator: PlotSquared
+    playerLimit: '-1'
+    allowFlight: 'true'
+  world:
+    ==: MVWorld
+    hidden: 'false'
+    alias: world
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: NORMAL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'false'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 508.41367593666
+      y: 58.5
+      z: -617.2007103608695
+      pitch: 1.6499981
+      yaw: -0.89999205
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '-4734543639125647007'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'
+  eventos:
+    ==: MVWorld
+    hidden: 'false'
+    alias: eventos
+    color: WHITE
+    style: NORMAL
+    pvp: 'true'
+    scale: '1.0'
+    respawnWorld: ''
+    allowWeather: 'true'
+    difficulty: NORMAL
+    spawning:
+      ==: MVSpawnSettings
+      animals:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+      monsters:
+        ==: MVSpawnSubSettings
+        spawn: 'true'
+        spawnrate: '-1'
+        exceptions: []
+    entryfee:
+      ==: MVEntryFee
+      amount: '0.0'
+      currency: '-1'
+    hunger: 'true'
+    autoHeal: 'true'
+    adjustSpawn: 'true'
+    portalForm: ALL
+    gameMode: SURVIVAL
+    keepSpawnInMemory: 'true'
+    spawnLocation:
+      ==: MVSpawnLocation
+      x: 1.5
+      y: 4.0
+      z: 0.5
+      pitch: 0.0
+      yaw: 0.0
+    autoLoad: 'true'
+    bedRespawn: 'true'
+    worldBlacklist: []
+    environment: NORMAL
+    seed: '5186863374612468206'
+    generator: 'null'
+    playerLimit: '-1'
+    allowFlight: 'true'

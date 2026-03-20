@@ -1,0 +1,30 @@
+NaoComecou: "&cO gladiador não está acontencendo no momento."
+NaoTemClan: "&cVocê precisa ter um clan para participar do gladiador."
+Participando: "&aVocê está participando do gladiador agora."
+NaoParticipando: "&aVocê saiu da fila do gladiador."
+Errou: "&cO evento gladiador não pode começar pois não teve nenhum participante."
+NaoPode: "&cVocê não pode executar comandos durante o gladiador."
+Morto: "&c({0}&c) {1} foi morto por ({2}&c) {3}."
+Drops: "&aVocê tem 60 segundos para recolher os drops."
+
+ComecarTitle: "&c&lGLADIADOR<nl>&fO pvp será ativado em {0} minuto{1}."
+ComecouTitle: "&c&lGLADIADOR<nl>&fO evento COMEÇOU."
+
+Comecou:
+  - ""
+  - "&4&lEVENTO GLADIADOR"
+  - "&cO evento irá começar em &f{0}&c minuto{1}."
+  - "&cClans participando: &f{2}"
+  - ""
+
+Ganhou:
+  - ""
+  - "&4&lEVENTO GLADIADOR"
+  - "&cO clan {0}&c ganhou o evento."
+  - ""
+
+ComecouMesmo:
+  - ""
+  - "&4&lEVENTO GLADIADOR"
+  - "&cO evento começou."
+  - ""

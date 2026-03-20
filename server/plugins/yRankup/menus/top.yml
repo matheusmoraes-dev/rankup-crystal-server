@@ -1,0 +1,40 @@
+Nome: '&8TOP Rankup'
+Tamanho: 45
+Slots: [10, 11, 12, 13, 14, 15, 16]
+BackSlot: 30
+
+Item prestigio:
+   CustomSkull: true
+   URL: '{player}'
+   ID: 0
+   Data: 0
+   Name: '&f{player}'
+   Lore:
+   - ''
+   - '&fPrestígio: &7{prestigio}'
+   - '&fPosição: &e{pos}º'
+   - ''
+   
+Item fragmentos:
+   CustomSkull: true
+   URL: '{player}'
+   ID: 0
+   Data: 0
+   Name: '&f{player}'
+   Lore:
+   - ''
+   - '&fFragmentos: &7{fragmentos}'
+   - '&fPosição: &e{pos}º'
+   - ''
+
+Seletor:
+   Slot: 31
+   CustomSkull: true
+   URL: 'http://textures.minecraft.net/texture/22d145c93e5eac48a661c6f27fdaff5922cf433dd627bf23eec378b9956197'
+   ID: 0
+   Data: 0
+   Name: '&aSeletor do TOP'
+   
+Formato:
+   Visualizando: ' &f• &a{nome}'
+   Selecionar: ' &f• &7{nome}'

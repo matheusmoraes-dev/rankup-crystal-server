@@ -1,0 +1,38 @@
+Nome: '&8Auto-Click'
+AtivarDesativar slot: 11
+Tamanho: 27
+Itens:
+  Ativar:
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/8e9b27fccd80921bd263c91dc511d09e9a746555e6c9cad52e8562ed0182a2f
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&aAtivar'
+    Lore:
+    - ''
+    - '&7Clique para &aATIVAR &7o autoclick.'
+    - ''
+  Desativar:
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&cDesativar'
+    Lore:
+    - ''
+    - '&7Clique para &cDESATIVAR &7o autoclick.'
+    - ''
+  Mobs:
+    Slot: 15
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/1366483655533fb3d9da4939f354a0a3396c717330b817102e779aab757ee990
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&bMobs'
+    Lore:
+    - ''
+    - '&7Clique para ver os mobs compatíveis.'
+    - ''

@@ -1,0 +1,93 @@
+Raio:
+   X: 3
+   Y: 3
+   Z: 3
+Delay: 30 #em ticks, ex: 20 ticks = 1 segundo, 30 ticks = 1,5 segundos.
+
+Antiafk:
+   Ativar: true
+   Maximo hits: 100
+
+Mensagens:
+   Permissao: '&cVocê não tem permissão para isto!'
+   Ativado: '&aO Auto-Click foi &eATIVADO&a com sucesso!'
+   Desativado: '&aO Auto-Click foi &eDESATIVADO&a com sucesso!'
+   Desativado automaticamente: '&aO Auto-Click foi &eDESATIVADO&a para evitar AFK, reative-o novamente!'
+   Nao permitido: '&c&lERRO! &cEste mundo não é permitido o autoclick.'
+   
+Mundos permitidos:
+- 'world'
+
+Mcmmo forca:
+   Espadas: 20.0
+   Machados: 20.0
+   Unarmed: 20.0
+   
+Setas:
+   Voltar:
+      CustomSkull: false
+      URL: ''
+      ID: 262
+      Data: 0
+      Glow: true
+      Name: '&cVoltar'
+      Lore:
+      - ''
+      - '&7Clique para voltar.'
+      - ''
+      
+Mobs:
+   VILLAGER:
+      Permissao: 'yspawners.villager'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1
+   ZOMBIE:
+      Permissao: 'yspawners.zumbi'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1
+   SPIDER:
+      Permissao: 'yspawners.spider'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1
+   CREEPER:
+      Permissao: 'yspawners.creeper'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1    
+   SLIME:
+      Permissao: 'yspawners.slime'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1
+   BLAZE:
+      Permissao: 'yspawners.blaze'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1
+   GUARDIAN:
+      Permissao: 'yspawners.guardian'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1
+   IRON_GOLEM:
+      Permissao: 'yspawners.iron'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1
+   WITHER:
+      Permissao: 'yspawners.wither'
+      XP: 1
+      Mcmmo espadas: 1
+      Mcmmo machados: 1
+      Mcmmo unarmed: 1

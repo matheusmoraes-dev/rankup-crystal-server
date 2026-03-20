@@ -1,0 +1,17 @@
+Nome: '&8Rankup Heads'
+Tamanho: 45
+Slots: [10, 11, 12, 13, 14, 15, 16]
+BackSlot: 40
+VoltarSlot: 27
+ProximoSlot: 35
+
+Vazio:
+   Slot: 22
+   CustomSkull: true
+   URL: 'http://textures.minecraft.net/texture/3ed1aba73f639f4bc42bd48196c715197be2712c3b962c97ebf9e9ed8efa025'
+   ID: 0
+   Data: 0
+   Glow: false
+   Name: '&cSem cabeças'
+   Lore:
+   - '&cNão há nenhuma cabeça armazenada :c'

@@ -1,0 +1,35 @@
+Nome: '&8Eventos - Principal'
+Tamanho: 27
+Itens:
+  Perfil:
+    Slot: 11
+    CustomSkull: true
+    URL: '{player}'
+    ID: 0
+    Data: 0
+    Name: '&6Estatísticas'
+    Lore:
+    - ''
+    - '&fVitórias: &a{vitorias} &7({pos}º)'
+    - ''
+    - '&7Clique para acessar suas estatísticas.'
+  Informacoes:
+    Slot: 13
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/d01afe973c5482fdc71e6aa10698833c79c437f21308ea9a1a095746ec274a0f
+    ID: 340
+    Data: 0
+    Glow: false
+    Name: '&eInformações'
+    Lore:
+    - '&7Clique para ver mais sobre os eventos.'
+  Top:
+    Slot: 15
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/4ea96c49302132167c81c87b79e06dd343020ff20923fce87d388c462409261c
+    ID: 65
+    Data: 0
+    Glow: false
+    Name: '&aTOP Jogadores'
+    Lore:
+    - '&7Clique para ver os jogadores com mais vitórias.'

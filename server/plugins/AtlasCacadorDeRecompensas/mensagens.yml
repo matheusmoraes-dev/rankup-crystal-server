@@ -1,0 +1,7 @@
+DigiteNome: "&aDigite o nome do jogador que você quer por a recompensa."
+DigitePreco: "&aDigite o quanto você quer pagar pela morte de &f{0}&a."
+SemDinheiro: "&cVocê não possui essa quantia de dinheiro."
+Minimo: "&cA recompensa mínima é de &4$&c50.000."
+RecompensaColocada: "&aRecompensa colocada com sucesso."
+ColocouRecompensa: "&c[Recompensa] &f{0} &ccolocou uma recompensa pela morte de &f{1}&c por &4$&c{2}."
+GanhouRecompensa: "&c[Recompensa] &f{0} &crecolheu a recompensa de &4$&c{1} pela morte de &f{2}&c."

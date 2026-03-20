@@ -1,0 +1,7 @@
+name: AtlasTutorial
+author: dont
+version: 1.6
+main: com.dont.tutorial.Terminal
+depend: [Vault]
+commands:
+  settutorial:

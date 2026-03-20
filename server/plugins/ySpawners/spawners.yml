@@ -1,0 +1,226 @@
+Spawners:
+  '1':
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 383
+      Data: 120
+      Glow: true
+      Name: '&aSpawner de Villager'
+      Lore:
+      - ''
+      - '&fAtivo: {ativo}'
+      - '&fQuantidade: &b{quantia}'
+      - '&fTempo de spawn: &a{tempo} &e-{tempoplayer}s'
+      - ''
+      - '&7Clique com o botão esquerdo para ativar/desativar.'
+      - '&7Clique com o botão direito para setar o local de spawn.'
+      - '&7Clique com o scroll para remover o local de spawn.'
+      - '&7Clique com shift+botão esquerdo para recolher.'
+      - ''
+    Delay de spawn: 6
+    Tipo: VILLAGER
+    Libera em: 01/01/2020-10:00
+    Comprar:
+      Preco: 250000000.0
+      Permissao: yspawners.villager
+  '2':
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 383
+      Data: 54
+      Glow: true
+      Name: '&aSpawner de Zumbi'
+      Lore:
+      - ''
+      - '&fAtivo: {ativo}'
+      - '&fQuantidade: &b{quantia}'
+      - '&fTempo de spawn: &a{tempo} &e-{tempoplayer}s'
+      - ''
+      - '&7Clique com o botão esquerdo para ativar/desativar.'
+      - '&7Clique com o botão direito para setar o local de spawn.'
+      - '&7Clique com o scroll para remover o local de spawn.'
+      - '&7Clique com shift+botão esquerdo para recolher.'
+      - ''
+    Delay de spawn: 12
+    Tipo: ZOMBIE
+    Libera em: 16/10/2020-10:00
+    Comprar:
+      Preco: 600000000.0
+      Permissao: yspawners.zumbi
+  '3':
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 383
+      Data: 52
+      Glow: true
+      Name: '&aSpawner de spider'
+      Lore:
+      - ''
+      - '&fAtivo: {ativo}'
+      - '&fQuantidade: &b{quantia}'
+      - '&fTempo de spawn: &a{tempo} &e-{tempoplayer}s'
+      - ''
+      - '&7Clique com o botão esquerdo para ativar/desativar.'
+      - '&7Clique com o botão direito para setar o local de spawn.'
+      - '&7Clique com o scroll para remover o local de spawn.'
+      - '&7Clique com shift+botão esquerdo para recolher.'
+      - ''
+    Delay de spawn: 22
+    Tipo: SPIDER
+    Libera em: 16/10/2020-10:00
+    Comprar:
+      Preco: 1200000000.0
+      Permissao: yspawners.spider
+  '4':
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 383
+      Data: 50
+      Glow: true
+      Name: '&aSpawner de Creeper'
+      Lore:
+      - ''
+      - '&fAtivo: {ativo}'
+      - '&fQuantidade: &b{quantia}'
+      - '&fTempo de spawn: &a{tempo} &e-{tempoplayer}s'
+      - ''
+      - '&7Clique com o botão esquerdo para ativar/desativar.'
+      - '&7Clique com o botão direito para setar o local de spawn.'
+      - '&7Clique com o scroll para remover o local de spawn.'
+      - '&7Clique com shift+botão esquerdo para recolher.'
+      - ''
+    Delay de spawn: 26
+    Tipo: CREEPER
+    Libera em: 16/10/2020-10:00
+    Comprar:
+      Preco: 2600000000.0
+      Permissao: yspawners.creeper
+  '5':
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 383
+      Data: 55
+      Glow: true
+      Name: '&aSpawner de Slime'
+      Lore:
+      - ''
+      - '&fAtivo: {ativo}'
+      - '&fQuantidade: &b{quantia}'
+      - '&fTempo de spawn: &a{tempo} &e-{tempoplayer}s'
+      - ''
+      - '&7Clique com o botão esquerdo para ativar/desativar.'
+      - '&7Clique com o botão direito para setar o local de spawn.'
+      - '&7Clique com o scroll para remover o local de spawn.'
+      - '&7Clique com shift+botão esquerdo para recolher.'
+      - ''
+    Delay de spawn: 28
+    Tipo: SLIME
+    Libera em: 16/10/2020-10:00
+    Comprar:
+      Preco: 3400000000.0
+      Permissao: yspawners.slime
+  '6':
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 383
+      Data: 61
+      Glow: true
+      Name: '&aSpawner de blaze'
+      Lore:
+      - ''
+      - '&fAtivo: {ativo}'
+      - '&fQuantidade: &b{quantia}'
+      - '&fTempo de spawn: &a{tempo} &e-{tempoplayer}s'
+      - ''
+      - '&7Clique com o botão esquerdo para ativar/desativar.'
+      - '&7Clique com o botão direito para setar o local de spawn.'
+      - '&7Clique com o scroll para remover o local de spawn.'
+      - '&7Clique com shift+botão esquerdo para recolher.'
+      - ''
+    Delay de spawn: 32
+    Tipo: BLAZE
+    Libera em: 16/10/2020-10:00
+    Comprar:
+      Preco: 4300000000.0
+      Permissao: yspawners.blaze
+  '7':
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 383
+      Data: 68
+      Glow: true
+      Name: '&aSpawner de Guardian'
+      Lore:
+      - ''
+      - '&fAtivo: {ativo}'
+      - '&fQuantidade: &b{quantia}'
+      - '&fTempo de spawn: &a{tempo} &e-{tempoplayer}s'
+      - ''
+      - '&7Clique com o botão esquerdo para ativar/desativar.'
+      - '&7Clique com o botão direito para setar o local de spawn.'
+      - '&7Clique com o scroll para remover o local de spawn.'
+      - '&7Clique com shift+botão esquerdo para recolher.'
+      - ''
+    Delay de spawn: 36
+    Tipo: GUARDIAN
+    Libera em: 16/10/2020-10:00
+    Comprar:
+      Preco: 5250000000.0
+      Permissao: yspawners.guardian
+  '8':
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 383
+      Data: 51
+      Glow: true
+      Name: '&aSpawner de Iron_Golem'
+      Lore:
+      - ''
+      - '&fAtivo: {ativo}'
+      - '&fQuantidade: &b{quantia}'
+      - '&fTempo de spawn: &a{tempo} &e-{tempoplayer}s'
+      - ''
+      - '&7Clique com o botão esquerdo para ativar/desativar.'
+      - '&7Clique com o botão direito para setar o local de spawn.'
+      - '&7Clique com o scroll para remover o local de spawn.'
+      - '&7Clique com shift+botão esquerdo para recolher.'
+      - ''
+    Delay de spawn: 38
+    Tipo: IRON_GOLEM
+    Libera em: 16/10/2020-10:00
+    Comprar:
+      Preco: 5850000000.0
+      Permissao: yspawners.iron
+  '9':
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 383
+      Data: 58
+      Glow: true
+      Name: '&aSpawner de wither'
+      Lore:
+      - ''
+      - '&fAtivo: {ativo}'
+      - '&fQuantidade: &b{quantia}'
+      - '&fTempo de spawn: &a{tempo} &e-{tempoplayer}s'
+      - ''
+      - '&7Clique com o botão esquerdo para ativar/desativar.'
+      - '&7Clique com o botão direito para setar o local de spawn.'
+      - '&7Clique com o scroll para remover o local de spawn.'
+      - '&7Clique com shift+botão esquerdo para recolher.'
+      - ''
+    Delay de spawn: 42
+    Tipo: WITHER
+    Libera em: 16/10/2020-10:00
+    Comprar:
+      Preco: 6800000000.0
+      Permissao: yspawners.wither

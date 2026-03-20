@@ -1,0 +1,10 @@
+Boosters:
+  Booster1:
+    Tempo: 30
+    Bonus: 10.0
+  Booster2:
+    Tempo: 46
+    Bonus: 18.0
+  Booster3:
+    Tempo: 60
+    Bonus: 24.0

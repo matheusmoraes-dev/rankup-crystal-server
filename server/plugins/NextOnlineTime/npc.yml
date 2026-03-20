@@ -1,0 +1,15 @@
+# 
+# Nick da skin do npc
+skin-nick: Yuhtin
+name: '&6Entregador'
+lookclose: true
+hologram:
+  height: 4
+  message:
+  - '&6&LTEMPO ONLINE'
+  - '&fReceba recompensas utilizando'
+  - '&fseu tempo de jogo no servidor'
+  - '&7(/tempo menu)'
+  - ''
+  - '&aClique direito para ver!'
+position: world,512.4091640270494,58.0,-613.5094503995138,-225.59961,4.7999763

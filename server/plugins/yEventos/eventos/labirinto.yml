@@ -1,0 +1,112 @@
+Labirinto:
+  Controlador:
+    Tempo: 30
+    Anuncios: 8
+    Minimo: 2
+    Tag: '&7[Labirinto]'
+    Ultimo: NinjaDark99
+    Comando: labirinto
+    Aliases: {}
+  AutoStart:
+    Ativar: false
+    Horarios:
+    - 1-6:10:1
+    - 2-6:10:1
+    - 3-6:10:1
+    - 4-6:10:1
+    - 5-6:10:1
+    - 6-6:10:1
+    - 7-6:10:1
+    - 8-6:10:1
+  Cmd whitelist:
+  - /g
+  Custo:
+    Valor: 600000.0
+  Comando:
+    Ajuda:
+    - '&7Comandos do evento &fLabirinto&7:'
+    - ''
+    - '&8-> &f/labirinto &8- &7Participar do evento.'
+    - '&8-> &f/labirinto ajuda &8- &7Mostra essa mensagem.'
+    - '&8-> &f/labirinto setsaida &8- &7Setar a saída do labirinto.'
+    - '&8-> &f/labirinto setespera &8- &7Setar a espera do labirinto.'
+    - '&8-> &f/labirinto setentrada &8- &7Setar a entrada do labirinto.'
+    - '&8-> &f/labirinto iniciar &8- &7Iniciar um labirinto.'
+    - '&8-> &f/labirinto parar &8- &7Parar um labirinto.'
+    - ''
+    Nao pode iniciar: '&c&lERRO! &cO labirinto já está ocorrendo.'
+    Nao pode parar: '&c&lERRO! &cO labirinto ocorrendo.'
+    Nao ativo: '&c&lERRO! &cO labirinto não está ativo.'
+    Esvazie: '&c&lERRO! &cEsvazie seu inventário para entrar no evento labirinto.'
+    Entrou: '&a&lSUCESSO! &aVocê entrou no evento labirinto.'
+    Saiu: '&a&lSUCESSO! &aVocê saiu do evento labirinto.'
+    Iniciou: '&a&lSUCESSO! &aLabirinto iniciado.'
+    Parou: '&a&lSUCESSO! &aLabirinto parado.'
+    Permissao: '&c&lERRO! &cVocê não tem permissão para fazer isto.'
+  Mensagens:
+    Anuncio:
+    - ''
+    - '&f[&7Evento Labirinto&f]'
+    - ''
+    - '&fParticipe do &7labirinto: &8/labirinto&f.'
+    - '&fPrêmio: &a{premio}&f em money.'
+    - '&fJogadores participando: &e{jogadores}&f.'
+    - '&fChamada &8{min} &fde &8{max}&f.'
+    - ''
+    Insuficiente:
+    - ''
+    - '&f[&7Evento Labirinto&f]'
+    - ''
+    - '&cJogadores insuficientes, cancelando...'
+    - ''
+    Sairam:
+    - ''
+    - '&f[&7Evento Labirinto&f]'
+    - ''
+    - '&cJogador(es) sairam e a quantia ficou abaixo do mínimo, cancelando evento...'
+    - ''
+    Comecou:
+    - ''
+    - '&f[&7Evento Labirinto&f]'
+    - ''
+    - '&fJogadores teleportados.'
+    - '&fPrêmio: &a{premio} &fem money.'
+    - '&fJogadores participando: &e{jogadores}&f.'
+    - ''
+    Encontrou:
+    - ''
+    - '&f[&7Evento Labirinto&f]'
+    - ''
+    - '&fO jogador &a{player}&f encontrou o caminho!'
+    - '&fO mesmo ganhou &a{premio}&f em money.'
+    - ''
+    Encontrou P:
+    - ''
+    - '&f[&7Evento Labirinto&f]'
+    - ''
+    - '&fVocê encontrou a saída'
+    - '&fVocê ganhou &a{premio}&f em money.'
+    - ''
+    Cancelou:
+    - ''
+    - '&f[&7Evento Labirinto&f]'
+    - ''
+    - '&cO labirinto foi cancelado por um admin.'
+    - ''
+  Premio:
+    Comando:
+      Usar: false
+      Comando:
+      - give {player} diamond 1
+    Money:
+      Usar: true
+      Money: 800000.0
+  Efeitos:
+    Ativar: true
+    Lista:
+    - INVISIBILITY:1-100
+  Placa:
+    Linha1: '&3[Labirinto]'
+    Linha2: '&aClique aqui'
+    Linha3: '&apara ganhar o'
+    Linha4: '&aevento.'

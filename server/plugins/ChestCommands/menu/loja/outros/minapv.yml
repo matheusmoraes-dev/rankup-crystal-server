@@ -1,0 +1,54 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'MinaPrivadas'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: 'M1'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Minapv:
+  LEFT-CLICK-COMMAND: 'givemina {player} mina1; open: minapv.yml'
+  RIGHT-CLICK-COMMAND: 'givemina {player} mina1; open: minapv.yml'
+  NAME: '&aMinaPv'
+  ID: '120'
+  PRICE: 800000000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f800M '
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+
+  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja1.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja1.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

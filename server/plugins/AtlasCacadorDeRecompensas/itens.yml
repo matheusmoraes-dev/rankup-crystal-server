@@ -1,0 +1,46 @@
+ProximaPagina:
+  Slot: 26
+  Material: INK_SACK
+  Data: 10
+  Nome: "&aPágina <page>"
+
+PaginaAnterior:
+  Slot: 18
+  Material: INK_SACK
+  Data: 8
+  Nome: "&aPágina <page>"
+
+Vazio:
+  Material: WEB
+  Nome: "&7Nada encontrado"
+
+Adicionar:
+  Slot: 40
+  Material: SKULL_ITEM
+  Texture: 60b55f74681c68283a1c1ce51f1c83b52e2971c91ee34efcb598df3990a7e7
+  Nome: "&cAdicionar recompensa"
+  Lore:
+    - "&7Coloque um preço pela cabeça de um jogador."
+
+Perfil:
+  Slot: 39
+  Material: SKULL_ITEM
+  Data: 3
+  Texture: "{player}"
+  Nome: "&aPerfil"
+  Lore:
+    - "&7Este é você."
+    - ""
+    - " {status}"
+    - " &7Já colocaram um total de &2$&a{total}&7 na sua cabeça."
+    - ""
+
+Organizar:
+  Slot: 41
+  Material: BOOK
+  Nome: "&aOrganizar"
+  Lore:
+    - ""
+    - "{status}"
+    - ""
+    - "&7Clique para mudar o método de comparação."

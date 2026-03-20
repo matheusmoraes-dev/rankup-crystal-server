@@ -1,0 +1,36 @@
+SemClan: "&cVocê não está em nenhum clan."
+NaoLider: "&cVocê precisa o líder do clan para iniciar uma batalha."
+Digite: "&aDigite o nome do clan o qual você quer batalhar."
+Inexistente: "&cNenhum clan com este nome."
+NaoOnline: "&cO líder do outro clan precisa estar online."
+ProprioClan: "&cVocê não pode desafiar seu próprio clan."
+Pendente: "&cEste clan já está em batalha ou com um pedido pendente."
+Selecionado: "&aO líder do seu clan lhe selecionou para a batalha contra {0}&a. Você será teleportardo em 30 segundos."
+Comecou: "&aA batalha contra o clan {0}&a começou."
+Morreu: "&c({0}&c) {1} foi morto por ({2}&c) {3}."
+Tempo: "&aVocê tem 30 segundos para pegar os drops."
+Pedido:
+  - ""
+  - "&c&lCLAN X CLAN"
+  - "&cO clan {0}&c desafiou o clan {1}&c para uma batalha."
+  - "&cO líder &7{2}&c terá 120 segundos para aceitar o pedido."
+  - ""
+
+Aceitou:
+  - ""
+  - "&c&lCLAN X CLAN"
+  - "&cO clan {0}&c aceitou o pedido de batalha do clan {1}&c."
+  - "&cA batalha irá começar em 30 segundos."
+  - ""
+
+Arregou:
+  - ""
+  - "&c&lCLAN X CLAN"
+  - "&cO clan {0}&c arregou o pedido de batalha do clan {1}&c."
+  - ""
+
+Ganhou:
+  - ""
+  - "&c&lCLAN X CLAN"
+  - "&cO clan {0}&c ganhou a batalha contra o clan {1}&c."
+  - ""

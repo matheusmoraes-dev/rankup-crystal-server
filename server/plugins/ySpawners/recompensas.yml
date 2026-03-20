@@ -1,0 +1,21 @@
+Recompensas:
+  Reco1:
+    Item:
+      CustomSkull: false
+      URL: ''
+      ID: 1
+      Data: 0
+      Glow: true
+      Name: '&8Pedra'
+      Amount: 64
+      Lore:
+      - ''
+      - '&aTu ganhou uma pedra.'
+      - ''
+      Enchants:
+      - ''
+    Chance: 30.0
+    Command:
+      Use: false
+      List:
+      - give {player} stone 1

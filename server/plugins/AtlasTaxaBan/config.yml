@@ -1,0 +1,16 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+TaxaBan:
+  Valor: 500000
+
+DesfazerClan:
+  Ativar: true # se 3 jogadores de um clan/facção forem banidos em 7 dias, o clan/facção é desfeito
+  BansNecessario: 3
+  Tempo: 7
+  Broadcast: true # mandar para todos jogadores do servidor

@@ -1,0 +1,9 @@
+name: AtlasCaixasV2
+author: dont
+version: 2.0
+main: com.dont.caixasv2.Terminal
+depend: [Vault, HolographicDisplays]
+commands:
+  setcrate:
+  darcrate:
+  setitenscrate:

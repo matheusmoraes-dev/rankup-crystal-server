@@ -1,0 +1,10 @@
+name: AtlasGladiador
+author: dont
+version: 1.4
+main: com.dont.gladiador.Terminal
+depend: [Vault]
+commands:
+  gladiadoradmin:
+    aliases: [gladadmin, setglad]
+  gladiador:
+    aliases: [glad]

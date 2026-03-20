@@ -1,0 +1,252 @@
+Database:
+   Tipo: SQLITE #Tipos: MYSQL, SQLITE
+   IP: localhost:3306
+   DB: test
+   User: admin
+   Pass: ''
+ 
+Mundo Plot:
+ - 'terrenos' 
+ 
+Update inventario: true #essa opção pode gerar lag
+
+Vender: true
+Coletar: true
+Bolsa: true #compatível apenas com HeroBolsa e yBolsa
+ 
+Gerenciar:
+    Lore vender:
+       Tem: '&7[ &a&lV &7] &fVender items do armazem.'
+       Nao tem: '&7[ &c&lX &7] &fVender items do armazem.'
+    Lore recolher:
+       Tem: '&7[ &a&lV &7] &fRecolher items do armazem.'
+       Nao tem: '&7[ &c&lX &7] &fRecolher items do armazem.'
+    Item lore:
+    - ''
+    - '{vender}'
+    - '{recolher}'
+    - ''
+    - '&fClique com esquerdo para gerenciar as permissões.'
+    - '&fClique com direito para remover este amigo.'
+    Vender:
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aVender itens'
+      Lore has:
+      - ''
+      - '&7Clique para &cdesabilitar &7esta permissão.'
+      - ''
+      Lore no has:
+      - ''
+      - '&7Clique para &ahabilitar &7esta permissão.'
+      - ''
+    Recolher:
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aRecolher itens'
+      Lore has:
+      - ''
+      - '&7Clique para &cdesabilitar &7esta permissão.'
+      - ''
+      Lore no has:
+      - ''
+      - '&7Clique para &ahabilitar &7esta permissão.'
+      - ''
+    
+Amigos:
+   Permitir sim:
+      CustomSkull: false
+      URL: ''
+      ID: 160
+      Data: 5
+      Glow: true
+      Name: '&aEstado: Ativo'
+      Lore:
+      - ''
+      - '&eClique para bloquear as pessoas te adicionarem como amigo.'
+      - ''
+   Permitir nao:     
+      CustomSkull: false
+      URL: ''
+      ID: 160
+      Data: 14
+      Glow: true
+      Name: '&cEstado: Desativado'
+      Lore:
+      - ''
+      - '&eClique para permitir as pessoas te adicionarem como amigo.'
+      - ''
+     
+Menu items:
+   Armazens:
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&8Armazéns de amigos'
+      Lore:
+      - ''
+      - '&eClique para ver os armazens de seus amigos.'
+      - ''
+   Gerenciar:
+      CustomSkull: false
+      URL: ''
+      ID: 378
+      Data: 0
+      Glow: true
+      Name: '&aGerenciar amigos'
+      Lore:
+      - ''
+      - '&eClique para gerenciar os seus amigos.'
+      - ''
+   Adicionar:
+      CustomSkull: false
+      URL: ''
+      ID: 378
+      Data: 0
+      Glow: true
+      Name: '&aAdicionar amigo'
+      Lore:
+      - ''
+      - '&eClique para adicionar um amigo.'
+      - ''
+   Vender:
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/24c22b8df0a853a49cb82e90a618d65012122361c8398062fcbaf74d5696c2a9'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&6Vender tudo'
+      Lore:
+      - '&7Quantidade: &f{quantia}'
+      - '&7Valor: &f{valor}'
+      - ''
+      - '&7Clique para vender todos os itens'
+   Fechar:
+      CustomSkull: false
+      URL: ''
+      ID: 166
+      Data: 0
+      Glow: true
+      Name: '&cFechar menu'
+      Lore:
+      - ''
+      - '&eClique para fechar o menu.'
+      - ''
+   Voltar:
+      CustomSkull: false
+      URL: ''
+      ID: 166
+      Data: 0
+      Glow: true
+      Name: '&cVoltar'
+      Lore:
+      - ''
+      - '&eClique para voltar ao menu anterior.'
+      - ''
+ 
+Items:
+   CACTUS:
+      Data: 0
+      Preco: 2650.0
+
+Multiplicadores:
+   Vip:
+      Perm: 'yarmazem.vip'
+      Multiplicador: 1.5
+   Vip3:
+      Perm: 'yarmazem.vip3'
+      Multiplicador: 2
+   Vip2:
+      Perm: 'yarmazem.vip2'
+      Multiplicador: 2.6
+   Yt:
+      Perm: 'yarmazem.yt'
+      Multiplicador: 1.5
+   MiniYT:
+      Perm: 'yarmazem.miniyt'
+      Multiplicador: 1.2
+      
+Limites:
+   Membro:
+      Perm: 'yarmazem.membro'
+      Limite: 0 #deixe 0 caso não queira limite.
+ 
+Mensagens:
+   Vendeu: '&eVocê vendeu &f{quantia}&e de itens e ganhou &f{money} &eem money.'
+   Vip: '&eVocê precisa ser vip.'
+   Cheio: '&cVocê está com o inventário cheio.'
+   Dono off: '&cO dono deste armazem está offline.'
+   Removeu: '&aVocê removeu o jogador &e{player} &a dos amigos do teu armazém.'
+   Vender item: '&cVocê não tem permissão para vender itens.'
+   Coletar item: '&cVocê não tem permissão para coletar itens.'
+   Cancelada: '&cAção cancelada.'
+   Nao encontrado: '&cJogador não encontrado.'
+   Si mesmo: '&cVocê não pode adicionar a amigo a si mesmo.'
+   Ja esta: '&cEste player já está adicionado.'
+   Adicionado: '&aJogador &e {player} &aadicionado ao seu armazem.'
+   Nenhum: '&cVocê não está adicionado em nenhum armazem.'
+   Bloqueou: '&cEste jogador bloqueou os outros de adicionar ele como amigo.'
+   Vender amigo: '&cSeu amigo não te deu perm para vender.'
+   Recolher amigo: '&cSeu amigo não te deu perm para recolher.'
+   Digite o nome:
+   - ''
+   - '&aDigite o nome do jogador que queira adicionar ao seu armazém.'
+   - '&7Para cancelar digite &7&ncancelar&7.'
+   - ''
+ 
+Menu:
+   Vazio: '&eO seu armazem está vazio.'
+   Vazio amigo: '&eO armazem de &a{player}&e está vazio.'
+   Nome: '&8Armazem'
+   Unitario:
+    - '&7Quantidade: &f{quantia}'
+    - '&7Valor: &f{valor}'
+    - '&7Valor Unitário: &f{valor_unitario}'
+    - ''
+    - '&7Clique com esquerdo para vender este item'
+    - '&7Clique com direito para recolher este item'
+    
+Formats:
+  - ''
+  - ''
+  - 'K'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'O'
+  - 'N'
+  - 'D'
+  - 'UN'
+  - 'DD'
+  - 'TR'
+  - 'QT'
+  - 'QN'
+  - 'SD'
+  - 'SPD'
+  - 'OD'
+  - 'ND'
+  - 'VG'
+  - 'UVG'
+  - 'DVG'
+  - 'TVG'
+  - 'QTV'
+  - 'QNV'
+  - 'SEV'
+  - 'SPG'
+  - 'OVG'
+  - 'NVG'
+  - 'TGN'
+  - 'UTG'
+  - 'DTG'

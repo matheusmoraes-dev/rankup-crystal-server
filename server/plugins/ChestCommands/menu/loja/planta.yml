@@ -1,0 +1,99 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'FARM'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: 'Farm;farms'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Melancia:
+  LEFT-CLICK-COMMAND: 'give: 391, 16; open: planta.yml'
+  RIGHT-CLICK-COMMAND: 'give: 391, 16; open: planta.yml'
+  NAME: '&6Cenoura'
+  ID: '391'
+  PRICE: 65000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f65k '
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+
+
+Fungo:
+  LEFT-CLICK-COMMAND: 'give: 372, 16; open: planta.yml'
+  RIGHT-CLICK-COMMAND: 'give: 372, 16; open: planta.yml'
+  NAME: '&4Fungo'
+  ID: '372'
+  PRICE: 3500000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f3M500K '
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 12
+
+
+cactus:
+  LEFT-CLICK-COMMAND: 'give: 81, 16; open: planta.yml'
+  RIGHT-CLICK-COMMAND: 'give: 81, 16; open: planta.yml'
+  NAME: '&eCacto'
+  ID: 'CACTUS'
+  PRICE: 10000000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10M'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+
+
+Enxada:
+  LEFT-CLICK-COMMAND: 'give: 293, 1; open: planta.yml'
+  RIGHT-CLICK-COMMAND: 'give: 293, 1; open: planta.yml'
+  NAME: '&7Enxada'
+  ID: 'Diamond_Hoe'
+  PRICE: 15000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f15k'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 14
+
+  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

@@ -1,0 +1,134 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja-1'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: 'loja'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+utilidades:
+  LEFT-CLICK-COMMAND: 'open: utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'open: utilitarios.yml'
+  NAME: ' &b&lCRYSTAL NETWORK '
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fApertando aqui você podera encontrar'
+  - '&fblocos que te ajudarão com funções úteis!'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 10
+  SKULL-URL: 'http://textures.minecraft.net/texture/1762a15b04692a2e4b3fb3663bd4b78434dce1732b8eb1c7a9f7c0fbf6f'
+decoracao:
+  LEFT-CLICK-COMMAND: 'open: blocos1.yml'
+  RIGHT-CLICK-COMMAND: 'open: blocos1.yml'
+  NAME: ' &b&lCRYSTAL NETWORK '
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá encontar'
+  - '&fblocos que te ajudarão a decorar suas construções!'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 11
+  SKULL-URL: 'http://textures.minecraft.net/texture/a9f9584dd02367feadc9d79926d0f7a30ef65455d0d64e3f2302a23c5b6887a0'
+corantes:
+  LEFT-CLICK-COMMAND: 'open: corantes.yml'
+  RIGHT-CLICK-COMMAND: 'open: corantes.yml'
+  NAME: ' &b&lCRYSTAL NETWORK '
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá encontar'
+  - '&fpara tingir vidros e lãs!'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 12
+  SKULL-URL: 'http://textures.minecraft.net/texture/a5d53ef428b369fd5cce94ce205d0d2d7b095fad676a9b383971ee1049e367ad'
+Planta:
+  LEFT-CLICK-COMMAND: 'open: planta.yml'
+  RIGHT-CLICK-COMMAND: 'open: planta.yml'
+  NAME: ' &b&lCRYSTAL NETWORK '
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá encontrar'
+  - '&fPlantacoes'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 13
+  SKULL-URL: 'http://textures.minecraft.net/texture/2b8220e534eec0c3ef71a497097a41560ae0154e344ccfd51f3fa97f41ff5395'
+Spawners:
+  LEFT-CLICK-COMMAND: 'spawners'
+  RIGHT-CLICK-COMMAND: 'spawners'
+  NAME: ' &b&lCRYSTAL NETWORK '
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá encontrar'
+  - '&fSpawners'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 14
+  KEEP-OPEN: true
+  SKULL-URL: 'http://textures.minecraft.net/texture/647e2e5d55b6d04943519bed2557c6329e33b60b909dee8923cd88b115210'
+Maquinas:
+  LEFT-CLICK-COMMAND: 'maquinas'
+  RIGHT-CLICK-COMMAND: 'maquinas'
+  NAME: ' &b&lCRYSTAL NETWORK'
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá encontrar'
+  - '&fMaquinas'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 15
+  KEEP-OPEN: true
+  SKULL-URL: 'http://textures.minecraft.net/texture/9ac52419b99025828c89fa825945e6948e45bb5a22e4425a59e9096e4c1ac38'
+prox:
+  LEFT-CLICK-COMMAND: 'open: Loja1.yml'
+  RIGHT-CLICK-COMMAND: 'open: Loja1.yml'
+  NAME: ' &b&lCRYSTAL NETWORK'
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá ir'
+  - '&fpara aproxima aba'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 17
+  KEEP-OPEN: true
+  SKULL-URL: 'http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499'

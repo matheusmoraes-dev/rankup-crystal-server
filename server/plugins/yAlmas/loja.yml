@@ -1,0 +1,49 @@
+Loja:
+  Nome: '&8Mercado Negro'
+  Tamanho: 54
+  Back slot: 27
+  Items:
+    Pedra preciosa:
+      Slot: 10
+      Preco: 2500.0
+      CustomSkull: false
+      URL: ''
+      Name: '&6joia da Mente'
+      ID: 351
+      Data: 11
+      Quantia: 1
+      Usar lore: true
+      Lore:
+      - ''
+      - '&cCompre para se tornar um mago.'
+      - ''
+      Usar lore preco: true
+      Lore preco:
+      - '&fPreco: 2.5k'
+      Encantamentos:
+      - DIG_SPEED:1
+      Usar comandos: true
+      Comandos:
+      - 'joias dar {player} mente 1'
+    Diamante:
+      Slot: 11
+      Preco: 4000.0
+      CustomSkull: false
+      URL: ''
+      Name: '&7Fragmentos'
+      ID: 409
+      Data: 0
+      Quantia: 1
+      Usar lore: true
+      Lore:
+      - ''
+      - '&cCompre para upar de rank.'
+      - ''
+      Usar lore preco: true
+      Lore preco:
+      - '&fPreco: 2.5K'
+      Encantamentos:
+      - ''
+      Usar comandos: true
+      Comandos:
+      - rank givefragmentos {player} 2500

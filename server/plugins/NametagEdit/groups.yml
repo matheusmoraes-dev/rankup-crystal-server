@@ -1,0 +1,56 @@
+Groups:
+  Fundador:
+    Permission: nte.fundador
+    Prefix: '&b[Fundador] '
+    Suffix: '&f'
+    SortPriority: 1
+  Gerente:
+    Permission: nte.gerente
+    Prefix: '&4[Gerente] '
+    Suffix: '&f'
+    SortPriority: 2
+  Admin:
+    Permission: nte.admin
+    Prefix: '&c[Admin] '
+    Suffix: '&f'
+    SortPriority: 3
+  Moderador:
+    Permission: nte.moderador
+    Prefix: '&2[Moderador] '
+    Suffix: '&f'
+    SortPriority: 4
+  Ajudante:
+    Permission: nte.ajudante
+    Prefix: '&e[Ajudante] '
+    Suffix: '&f'
+    SortPriority: 5
+  Youtuber:
+    Permission: nte.youtuber
+    Prefix: '&4[YouTuber] '
+    Suffix: '&f'
+    SortPriority: 6
+  MiniYT:
+    Permission: nte.miniyt
+    Prefix: '&c[MiniYT] '
+    Suffix: '&f'
+    SortPriority: 7
+  Imperador:
+    Permission: nte.imperador
+    Prefix: '&b[Crystal] '
+    Suffix: '&f'
+    SortPriority: 8
+  Arqueiro:
+    Permission: nte.arqueiro
+    Prefix: '&4[Fenix] '
+    Suffix: '&f'
+    SortPriority: 9
+  Guerreiro:
+    Permission: nte.guerreiro
+    Prefix: '&c[Ace] '
+    Suffix: '&f'
+    SortPriority: 10
+  Membro:
+    Permission: nte.membro
+    Prefix: '&7[Membro] '
+    Suffix: '&f'
+    SortPriority: 11

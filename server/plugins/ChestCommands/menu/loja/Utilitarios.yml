@@ -1,0 +1,144 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja - Utilitarios'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: 'utilitarios'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+enderchest:
+  LEFT-CLICK-COMMAND: 'give: 130, 1; open: Utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'give: 130, 1; open: Utilitarios.yml'
+  NAME: '&eBaú do Fim'
+  ID: '130'
+  PRICE: 50000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f50.000'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+chest:
+  LEFT-CLICK-COMMAND: 'give: 54, 1; open: Utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'give: 54, 1; open: Utilitarios.yml'
+  NAME: '&eBaú'
+  ID: 'CHEST'
+  PRICE: 300
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f300'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 12
+chestcomarmadilha:
+  LEFT-CLICK-COMMAND: 'give: 146, 1; open: Utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'give: 146, 1; open: Utilitarios.yml'
+  NAME: '&eBaú com Armadilha'
+  ID: '146'
+  PRICE: 1000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1.000'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+agua:
+  LEFT-CLICK-COMMAND: 'give: 326, 1; open: Utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'give: 326, 1; open: Utilitarios.yml'
+  NAME: '&eBalde de Água'
+  ID: '326'
+  PRICE: 15000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f15.000'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 14
+lava:
+  LEFT-CLICK-COMMAND: 'give: 327, 1; open: Utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'give: 327, 1; open: Utilitarios.yml'
+  NAME: '&eBalde de Lava'
+  ID: '327'
+  PRICE: 15000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f15.000'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 15
+Dourada:
+  LEFT-CLICK-COMMAND: 'give: 322:1, 1; open: Utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'give: 322:1, 1; open: Utilitarios.yml'
+  NAME: '&eCapitoro'
+  ID: '322'
+  PRICE: 10000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10.000'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 16
+Beacon:
+  LEFT-CLICK-COMMAND: 'give: 138, 1; open: Utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'give: 138, 1; open: Utilitarios.yml'
+  NAME: '&eBeacon'
+  ID: '138'
+  PRICE: 500000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f500.000'
+    - '&7Quantidade: &fx1'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 17
+Diamante:
+  LEFT-CLICK-COMMAND: 'give: 57, 64; open: Utilitarios.yml'
+  RIGHT-CLICK-COMMAND: 'give: 57, 64; open: Utilitarios.yml'
+  NAME: '&eBloco de diamante'
+  ID: '57'
+  PRICE: 10000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f10.000'
+    - '&7Quantidade: &fx64'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 10
+  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

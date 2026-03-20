@@ -1,0 +1,13 @@
+Localizacao: world,515.0912946729995,52.0625,-572.8705909621807,49.50002,4.200009
+Permissao: system.warp.dungeon
+MensagemSemPermissao: §cVocê não tem permissão para se teleportar para a warp dungeon.
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: §aVocê sera teleportado para a warp dungeon em 5 segundos!
+MensagemFinal: §aTeleportado com sucesso para a warp dungeon!
+EnviarTitle: true
+Title: §aVOCÊ FOI TELEPORTADO
+SubTitle: §ePARA A WARP dungeon
+MensagemPlayerTeleportado: §aVocê foi teleportado para a warp dungeon!
+MensagemPlayerTeleportadoStaff: §a%player% teleportado com sucesso para a warp dungeon.

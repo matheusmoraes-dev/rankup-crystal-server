@@ -1,0 +1,60 @@
+Database:
+   Tipo: SQLITE #Tipos: MYSQL, SQLITE
+   IP: localhost:3306
+   DB: test
+   User: admin
+   Pass: ''
+
+Comando:
+   Comando: 'recomendar'
+   Aliases: {}
+
+Msg coleta: true
+
+Mensagens:
+   Cancelou: '&cVocê cancelou a ação.'
+   Recomendou: '&aVocê recomendou o jogador &7{player}&a, ele já foi recomendado &7{vezes}&a vezes.'
+   Nao encontrado: '&cJogador não encontrado.'
+   Permissao: '&cVocê não tem permissão para isto.'
+   Coletou: '&aVocê coletou a recompensa.'
+   Si mesmo: '&cVocê não pode recomendar a si mesmo.'
+   Digite:
+   - ''
+   - '&aDigite o nome do jogador que deseja recomendar.'
+   - '&7para cancelar digite &ncancelar&7.'
+   - ''
+   
+Setas:
+   Voltar:
+      CustomSkull: false
+      URL: ''
+      ID: 262
+      Data: 0
+      Glow: true
+      Name: '&cVoltar'
+      Lore:
+      - ''
+      - '&7Clique para voltar.'
+      - ''
+   Proximo:
+      CustomSkull: false
+      URL: ''
+      ID: 262
+      Data: 0
+      Glow: true
+      Name: '&aPróximo'
+      Lore:
+      - ''
+      - '&7Clique para ir à próxima página.'
+      - ''
+      
+Lores:
+   Coletar:
+      Sobrepor: false
+      Lore:
+      - ''
+      - '&aClique para coletar essa recompensa'
+   Ja coletou:
+      Sobrepor: true
+      Lore:
+      - '&cVocê já coletou essa recompensa.'

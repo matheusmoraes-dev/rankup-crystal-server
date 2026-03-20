@@ -1,0 +1,9 @@
+name: AtlasClanXClan
+author: dont
+version: 1.4
+main: com.dont.clanxclan.Terminal
+depend: [Vault]
+commands:
+  setarena:
+  clanxclan:
+    aliases: [desafiarclan, clanfronto, xclan]

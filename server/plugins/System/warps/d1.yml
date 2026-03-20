@@ -1,0 +1,13 @@
+Localizacao: world,11112.262454520485,103.0,111112.18413264205,80.400116,28.200014
+Permissao: system.warp.d1
+MensagemSemPermissao: §cVocê não tem permissão para se teleportar para a warp d1.
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: §aVocê sera teleportado para a warp d1 em 5 segundos!
+MensagemFinal: §aTeleportado com sucesso para a warp d1!
+EnviarTitle: true
+Title: §aVOCÊ FOI TELEPORTADO
+SubTitle: §ePARA A WARP d1
+MensagemPlayerTeleportado: §aVocê foi teleportado para a warp d1!
+MensagemPlayerTeleportadoStaff: §a%player% teleportado com sucesso para a warp d1.

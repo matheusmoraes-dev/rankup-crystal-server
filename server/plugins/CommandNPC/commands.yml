@@ -1,0 +1,40 @@
+NPCS:
+  '4':
+    Commands:
+    - 1~~~missoes~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '1':
+    Commands:
+    - 1~~~mina~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '6':
+    Commands:
+    - 1~~~loja~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '2':
+    Commands:
+    - 1~~~dungeon~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '3':
+    Commands:
+    - 1~~~farm~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '5':
+    Commands:
+    - 1~~~warp solaryeconomy~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '8':
+    Commands:
+    - 1~~~caçador~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '9':
+    Commands:
+    - 1~~~recompensa~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '19':
+    Commands:
+    - 1~~~ranks~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '24':
+    Commands:
+    - 1~~~kills~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '20':
+    Commands:
+    - 1~~~ajuda~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '77':
+    Commands:
+    - 1~~~alma~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '112':
+    Commands:
+    - 1~~~encantar~~~noPerm~~~BOTH~~~~~~false~~~false~~~false~~~0.0~~~0~~~0~~~false~~~false

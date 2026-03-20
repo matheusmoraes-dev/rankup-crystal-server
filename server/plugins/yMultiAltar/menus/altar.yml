@@ -1,0 +1,40 @@
+Menu altar:
+  Back slot: 18
+  Tamanho: 27
+  Itens:
+    Gerenciar items:
+      Slot: 11
+      CustomSkull: false
+      URL: ''
+      ID: 264
+      Data: 0
+      Name: '&bGerenciar itens'
+      Glow: true
+      Lore:
+      - ''
+      - '&7Clique para gerenciar os drops do altar.'
+      - ''
+    Remover:
+      Slot: 13
+      CustomSkull: false
+      URL: ''
+      ID: 166
+      Data: 0
+      Name: '&cRemover'
+      Glow: true
+      Lore:
+      - ''
+      - '&7Clique para remover o altar.'
+      - ''
+    Gerenciar altar:
+      Slot: 15
+      CustomSkull: false
+      URL: ''
+      ID: 339
+      Data: 0
+      Name: '&aConfigura��es'
+      Glow: true
+      Lore:
+      - ''
+      - '&7Clique para configurar o altar.'
+      - ''

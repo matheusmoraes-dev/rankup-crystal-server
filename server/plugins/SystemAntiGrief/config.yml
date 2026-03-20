@@ -1,0 +1,29 @@
+# <\> Plugin criado por: SrLaion
+# <\> Para mais informa��es, acesse: https://systemplugins.com/plugins/detalhes/SystemAntiGrief
+
+Senha: "CrystalNetwork"
+MaxTentativas: 3
+ComandoPunir: "ban {jogador} Senha AntiGrief errada!"
+ComandosBloqueados:
+  - "//"
+  - "//wand"
+  - "//set"
+  - "/worldedit:"
+  - "/fawe"
+  - "/pex"
+  - "/pl"
+  - "/bukkit"
+  - "/minecraft:"
+  - "/version"
+  - "/plugins"
+  - "/worldedit"
+  
+Mensagens:
+  SemPermissao: "&cVoce nao tem permissao para executar este comando."
+  PedidoLogin: "&cUtilize /loginag <senha>."
+  SucessoLogin: "&aLogado com sucesso!"
+  JaLogado: "&cVoce ja esta logado."
+  ErrouSenha: "&cVoce errou a senha, tente novamente."
+  AlertaErrouSenha: "&cO jogador @jogador errou a senha do AntiGrief."
+  AlertaPunido: "&cO jogador @jogador foi banido por atingir o limite de tentativas de login no Antigrief."
+  AlertaLogou: "&cO jogador @jogador logou-se no sistema AntiGrief."

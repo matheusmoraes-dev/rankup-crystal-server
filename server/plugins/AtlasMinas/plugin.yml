@@ -1,0 +1,13 @@
+name: AtlasMinas
+author: dont
+version: 2.9
+main: com.dont.minas.Terminal
+depend: [Vault, FastAsyncWorldEdit]
+softdepend: [PombaEssency, ApolloRankup]
+commands:
+  setmina:
+  giveblocos:
+  mina:
+  minaadmin:
+  minapvp:
+  setblocos:

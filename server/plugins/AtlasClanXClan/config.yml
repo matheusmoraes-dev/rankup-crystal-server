@@ -1,0 +1,47 @@
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Comandos:
+- /clan desafiar
+- /f desafiar
+Settings:
+  Saida: 508.3823489457103;58.5;-617.4474238901375;0.7500154;5.5499945;world
+  Min: 2
+  Max: 8
+  TempoPraAceitar: 120
+  TempoParaTeleportar: 30
+Arenas:
+  a1:
+    Locations:
+      Clan1: -9284.411571834997;22.0;2829.0428442665875;90.750175;-4.499986;eventos
+      Clan2: -9404.040306176708;22.0;2828.7314036690946;-81.29978;-2.5499864;eventos
+      Spectator: -9416.579523070412;35.0;2833.682857070978;286.20035;24.750006;eventos
+    Icone:
+      Material: LAVA_BUCKET
+      Nome: '&bArena de Fogo'
+      Lore:
+      - '&7Características'
+      - ''
+      - ' &fTamanho: &aGrande'
+      - ' &fFPS: &a30'
+      - ' &fDisponível: &a{status}'
+      - ''
+  a2:
+    Locations:
+      Clan1: -2950.6366102471416;36.0;-8999.774368043178;-130.79974;3.5999892;eventos
+      Clan2: -2898.494936125573;36.0;-9021.4263473616;-272.99982;2.5499902;eventos
+      Spectator: -2908.2576566387347;68.0;-9002.43383373117;113.99998;0.90001905;eventos
+    Icone:
+      Material: ICE
+      Nome: '&cArena de Gelo'
+      Lore:
+      - '&7Características'
+      - ''
+      - ' &fTamanho: &aPequena'
+      - ' &fFPS: &a60'
+      - ' &fDisponível: &a{status}'
+      - ''

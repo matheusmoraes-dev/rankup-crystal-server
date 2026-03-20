@@ -1,0 +1,16 @@
+Bonus:
+  VIP:
+    Permissao: yspawners.vip1
+    Bonus: 15.0
+  VIP2:
+    Permissao: yspawners.vip2
+    Bonus: 20.0
+  VIP3:
+    Permissao: yspawners.vip3
+    Bonus: 25.0
+  YT:
+    Permissao: yspawners.yt
+    Bonus: 13.0
+  MINIYT:
+    Permissao: yspawners.miniyt
+    Bonus: 10.0

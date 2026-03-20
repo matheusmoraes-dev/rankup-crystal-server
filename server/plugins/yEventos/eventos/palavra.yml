@@ -1,0 +1,80 @@
+Palavra:
+  Controlador:
+    Tag: '&1[Palavra]'
+    Ultimo: yChusy
+    Comando: palavra
+    Aliases: {}
+  AutoStart:
+    Ativar: false
+    Horarios:
+    - 1-3:10:1
+    - 2-3:10:1
+    - 3-3:10:1
+    - 4-3:10:1
+    - 5-3:10:1
+    - 6-3:10:1
+    - 7-3:10:1
+    - 8-3:10:1
+  Custo:
+    Valor: 350000.0
+  Comando:
+    Ajuda:
+    - '&1Comandos do evento &7Palavra&1:'
+    - ''
+    - '&8-> &f/palavra &7ajuda &8- &1Mostra essa mensagem.'
+    - '&8-> &f/palavra &7iniciar &8- &1Iniciar um palavra.'
+    - '&8-> &f/palavra &7parar &8- &1Parar um palavra.'
+    - ''
+    Nao ativo: '&c&lERRO! &cO palavra não está ativo.'
+    Digitou: '&a&lSUCESSO! &aPalavra correta! Parabéns, você ganhou &7{premio}&a em
+      money.'
+    Nao pode iniciar: '&c&lERRO! &cO palavra já está ocorrendo.'
+    Nao pode parar: '&c&lERRO! &cO palavra ocorrendo.'
+    Iniciou: '&a&lSUCESSO! &aPalavra iniciado.'
+    Parou: '&a&lSUCESSO! &aPalavra parado.'
+    Permissao: '&c&lERRO! &cVocê não tem permissão para fazer isto.'
+  Mensagens:
+    Palavra certa:
+    - ''
+    - '&f[&1Evento &7Palavra&f]'
+    - ''
+    - '&fO jogador &a{player}&f digitou corretamente!'
+    - '&fO mesmo ganhou &a{premio}&f em money.'
+    - ''
+    Cancelou:
+    - ''
+    - '&f[&1Evento &7Palavra&f]'
+    - ''
+    - '&cO palavra foi cancelado por um admin.'
+    - ''
+    Anuncio:
+    - ''
+    - '&f[&1Evento &7Palavra&f]'
+    - ''
+    - '&fDiga: &a{palavra}'
+    - '&fDigite no chat local ou no global!'
+    - '&fPrêmio: &a{premio}&f em money.'
+    - ''
+  Palavras:
+    '1':
+      Premio:
+        Comando:
+          Usar: false
+          Comando:
+          - give {player} stone 1
+        Money:
+          Usar: true
+          Money: 950000.0
+      Palavra: CrystalNetwork
+      Case sensitive: true
+    '2':
+      Premio:
+        Comando:
+          Usar: false
+          Comando:
+          - give {player} stone 1
+        Money:
+          Usar: true
+          Money: 280000.0
+      Palavra: CrystalZone
+      Case sensitive: false

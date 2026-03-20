@@ -1,0 +1,32 @@
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Locations:
+  Arena: 293864.94972026115;24.0;-92855.32071735272;293.39993;0.75000507;eventos
+  Spectator: 293924.9963768506;33.0;-92874.21963767319;55.649933;10.350005;eventos
+  Saida: 508.63013069881254;58.5;-617.4234459627037;-0.14998865;2.0999954;world
+Custo: 5000
+LimitePorClan: 5
+Tag:
+  Tag: '&c[&4⚔&c] '
+  Ganhador: nulo
+Tempos:
+  Divulgar: 60
+  DivulgarVezes: 3
+  Title: 60
+  TitleVezes: 3
+  PegarDrops: 60
+Premios:
+  ParaLider:
+  - money add $player 10000
+  ParaMembros:
+  - money add $player 1000
+ComandosPermitidos:
+- /.
+Horarios:
+- Seg-13:00
+- Sex-14:00

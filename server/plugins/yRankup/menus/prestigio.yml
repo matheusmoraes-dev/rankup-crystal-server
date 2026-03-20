@@ -1,0 +1,37 @@
+Nome: '&8Prestigio'
+Tamanho: 27
+Back slot: 9
+Itens:
+   Confirmar:
+      Slot: 11
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/e9e4bdcf172d5dc77c2bd4e37ad985399a9f2cdebf72463929ea4b666ef6f80'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aConfirmar'
+      Lore:
+      - '&7Clique para evoluir seu prestígio.'
+   Prestigio:
+      Slot: 13
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/1ad6c81f899a785ecf26be1dc48eae2bcfe777a862390f5785e95bd83bd14d'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aEvoluir prestígio!'
+      Lore:
+      - '&7Quando evoluir seu prestígio, seu &frank&7 irá ser &cresetado.'
+      - ''
+      - '&fSeu level atual: &a{prestigio}&7 ( &f{prestigio_pct}%&7 )&f.'
+      - '&fPróximo level: &a{proximo_prestigio}&7 ( &f{proximo_prestigio_pct}%&7 )&f.'
+   Cancelar:
+      Slot: 15
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&cCancelar'
+      Lore:
+      - '&7Clique para cancelar e fechar o menu.'

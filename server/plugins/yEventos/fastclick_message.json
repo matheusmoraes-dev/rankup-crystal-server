@@ -1,0 +1,17 @@
+{
+  "mensagem": {
+    "text": "§8> §e§lEvento fast-click. \n§8> §e§lO primeiro a clicar no §a§l[X] §e§lganha. \n §7§l [X] §7§l[X] §7§l[X] ",
+    "extra":[
+    	{
+    		"text": "§a§l[X]",
+    		"clickEvent": {
+              "action": "run_command",
+              "value": "/fastclick id {id}"
+            }
+        },
+        {
+        	"text": "§7§l [X] §7§l[X] §7§l[X]\n §7§l [X] §7§l[X] §7§l[X] §7§l[X] §7§l[X] §7§l[X] §7§l[X] \n §7§l [X] §7§l[X] §7§l[X] §7§l[X] §7§l[X] §7§l[X] §7§l[X]"
+        }
+    ]
+  }
+}

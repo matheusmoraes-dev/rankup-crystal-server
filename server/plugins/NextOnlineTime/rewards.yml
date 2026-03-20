@@ -1,0 +1,49 @@
+reward1:
+  name: '&cPacote inicial'
+  description:
+    - '&7Utilize este pacote para começar'
+    - '&7sua jogatina no servidor'
+    - ''
+    - '&fItens:'
+    - ''
+    - '&8- &725k money'
+  time: 15 # in minutes
+  id: 388
+  glow: true
+  data: 0
+  commands:
+    - 'money add %player% 25k'
+
+reward2:
+  name: '&cPacote inicial 2'
+  description:
+    - '&7Utilize este pacote para melhorar'
+    - '&7seus equipamentos'
+    - ''
+    - '&fItens:'
+    - ''
+    - '&8- &712 cactus'
+    - '&8- &738k money'
+  time: 30 # in minutes
+  id: 7
+  data: 0
+  commands:
+    - 'money add %player% 38k'
+    - 'give %player% cactus 12'
+    
+reward3:
+  name: '&cPacote inicial 3'
+  description:
+    - '&7Utilize este pacote para melhorar'
+    - '&7seus equipamentos'
+    - ''
+    - '&fItens:'
+    - ''
+    - '&8- &732 cactus'
+    - '&8- &758k money'
+  time: 60 # in minutes
+  id: 7
+  data: 0
+  commands:
+    - 'money add %player% 58k'
+    - 'give %player% cactus 32'

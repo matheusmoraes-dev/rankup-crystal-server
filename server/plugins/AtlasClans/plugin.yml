@@ -1,0 +1,14 @@
+name: AtlasClans
+version: 4.2.2
+author: Atlas,Dont
+main: com.atlasplugins.atlasclans.AtlasClans
+depend: [Vault, PlaceholderAPI]
+softdepend: [Legendchat, OpenNChat LuckPerms]
+commands:
+ clan:
+ c:
+  aliases: [.]
+ a:
+  aliases: [ally]
+ clanconversor:
+  aliases: [cconversor]

@@ -1,0 +1,173 @@
+Nome: '&8Eventos - Informações'
+Tamanho: 45
+Backslot: 40
+Itens:
+  Bolao:
+    Slot: 11
+    CustomSkull: false
+    URL: ''
+    ID: 371
+    Data: 0
+    Glow: false
+    Name: '&aBolão'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Corrida:
+    Slot: 12
+    CustomSkull: false
+    URL: ''
+    ID: 313
+    Data: 0
+    Glow: false
+    Name: '&aCorrida'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Fastclick:
+    Slot: 13
+    CustomSkull: false
+    URL: ''
+    ID: 288
+    Data: 0
+    Glow: false
+    Name: '&aFastClick'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Sumo:
+    Slot: 14
+    CustomSkull: false
+    URL: ''
+    ID: 352
+    Data: 0
+    Glow: false
+    Name: '&aSumo'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Labirinto:
+    Slot: 15
+    CustomSkull: false
+    URL: ''
+    ID: 35
+    Data: 15
+    Glow: false
+    Name: '&aLabirinto'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Loteria:
+    Slot: 16
+    CustomSkull: false
+    URL: ''
+    ID: 266
+    Data: 0
+    Glow: false
+    Name: '&aLoteria'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Matematica:
+    Slot: 20
+    CustomSkull: false
+    URL: ''
+    ID: 331
+    Data: 0
+    Glow: false
+    Name: '&aMatemática'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Palavra:
+    Slot: 21
+    CustomSkull: false
+    URL: ''
+    ID: 386
+    Data: 0
+    Glow: false
+    Name: '&aPalavra'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Parkour:
+    Slot: 22
+    CustomSkull: false
+    URL: ''
+    ID: 88
+    Data: 0
+    Glow: false
+    Name: '&aParkour'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Quiz:
+    Slot: 23
+    CustomSkull: false
+    URL: ''
+    ID: 395
+    Data: 0
+    Glow: false
+    Name: '&aQuiz'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Fight:
+    Slot: 24
+    CustomSkull: false
+    URL: ''
+    ID: 276
+    Data: 0
+    Glow: false
+    Name: '&aFight'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  PaintBall:
+    Slot: 25
+    CustomSkull: false
+    URL: ''
+    ID: 276
+    Data: 0
+    Glow: false
+    Name: '&aPaintBall'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''
+  Killer:
+    Slot: 26
+    CustomSkull: false
+    URL: ''
+    ID: 276
+    Data: 0
+    Glow: false
+    Name: '&aKiller'
+    Lore:
+    - ''
+    - '&7Horários:'
+    - ' &fTodo dia'
+    - ''

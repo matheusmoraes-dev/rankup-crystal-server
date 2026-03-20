@@ -1,0 +1,42 @@
+Nome: '&8Eventos - Status'
+Tamanho: 27
+Backslot: 18
+Itens:
+  Chat:
+    Slot: 12
+    CustomSkull: true
+    URL: '{player}'
+    ID: 0
+    Data: 0
+    Name: '&aChat'
+    Lore:
+    - ''
+    - '&fVitórias e posição:'
+    - ''
+    - ' &fBolão: &a{bolao} &7({bolaopos}º)'
+    - ' &fFastClick: &a{fastclick} &7({fastclickpos}º)'
+    - ' &fLoteria: &a{loteria} &7({loteriapos}º)'
+    - ' &fMatematica: &a{matematica} &7({matematicapos}º)'
+    - ' &fQuiz: &a{quiz} &7({quizpos}º}'
+    - ' &fPalavra: &a{palavra} &7({palavrapos}º)'
+    - ''
+  Presencial:
+    Slot: 14
+    CustomSkull: true
+    URL: '{player}'
+    ID: 340
+    Data: 0
+    Glow: false
+    Name: '&aPresenciais'
+    Lore:
+    - ''
+    - '&fVitórias e posição:'
+    - ''
+    - ' &fCorrida: &a{corrida} &7({corridapos}º)'
+    - ' &fLabirinto: &a{labirinto} &7({labirintopos}º)'
+    - ' &fParkour: &a{parkour} &7({parkourpos}º)'
+    - ' &fSumo: &a{sumo} &7({sumopos}º)'
+    - ' &fFight: &a{fight} &7({fightpos}º)'
+    - ' &fPaintBall: &a{paintball} &7({paintballpos}º)'
+    - ' &fKiller: &a{killer} &7({killerpos}º)'
+    - ''

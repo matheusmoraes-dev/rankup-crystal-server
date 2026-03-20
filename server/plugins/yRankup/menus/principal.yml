@@ -1,0 +1,79 @@
+Nome: '&8Rank principal'
+Tamanho: 36
+Itens:
+   Perfil:
+      Slot: 10
+      CustomSkull: true
+      URL: '{player}'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aSuas informações'
+      Lore:
+      - ''
+      - '&fSeu rank: {rank}&f.'
+      - '&fPróximo rank: {proximo_rank}&f.'
+      - ''
+      - '&fSeu prestígio: &7{prestigio}&f.'
+      - '&fPróximo prestígio: &7{proximo_prestigio}&f.'
+      - '&fPorcentagem de preço: &a{prestigio_pct}%&f.'
+      - ''
+      - '&fSeu bônus: &a{bonus}%&f.'
+      - '&fSeu desconto: &a{desconto}%&f.'
+      - ''
+      - '&fFragmentos: &a{fragmentos}&f.'
+      - ''
+      - '***&7Clique com botão esquerdo para evoluir seu prestígio.'
+   Rankup:
+      Slot: 12
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/1ad6c81f899a785ecf26be1dc48eae2bcfe777a862390f5785e95bd83bd14d'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aRankUP'
+      Lore:
+      - '&7Clique para acessar o menu de rankup.'
+      Lore nao:
+      - '&cParabéns, você chegou no último rank.'
+   Ranks:
+      Slot: 13
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/152353641d287ce9ed30906f938ae9c517ec04caa8da71571954c81b09db454c'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aRanks'
+      Lore:
+      - '&7Clique para acessar o menu de ranks.'
+   Heads:
+      Slot: 14
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aHeads'
+      Lore:
+      - '&7Clique para ver suas heads armazenadas.'
+      - '&7Você possui &f{quantia}&7 de heads.'
+   Loja:
+      Slot: 16
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/7e3deb57eaa2f4d403ad57283ce8b41805ee5b6de912ee2b4ea736a9d1f465a7'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aLoja'
+      Lore:
+      - '&7Clique para acessar a loja de fragmentos.'
+   Top:
+      Slot: 25
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/15a7ee9a86de203674a93b570bc8992e500363dd32f2b9813daaeeabccf92151'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aTOP'
+      Lore:
+      - '&7Clique para acessar o top prestígios e fragmentos.'

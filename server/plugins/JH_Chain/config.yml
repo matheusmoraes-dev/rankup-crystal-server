@@ -1,0 +1,99 @@
+prefix: '&3[&eChain&3] '
+whitelistCommands:
+- /g
+- /tell
+- /r
+- /.
+- /etell
+- /msg
+mensagens:
+  join:
+    jogadores:
+    - ''
+    - '&eO jogador {jogador} entrou na arena chain'
+    - ''
+    jogador:
+    - ''
+    - '&eVoce entrou na arena chain'
+    - '&ePara sair use /chain sair'
+    - ''
+  quit:
+    jogadores:
+    - ''
+    - '&eO jogador {jogador} saiu da arena chain'
+    - ''
+    jogador:
+    - ''
+    - '&eVoce saiu da arena chain'
+    - ''
+  matou: '&f{jogador} foi morto por {killer} &d{kills} kills.'
+  morreuSozinho: '&e{jogador} morreu sozinho'
+  arenaFechada: '&cDesculpe, a arena esta fechada.'
+  jogadorInvalido: '&cVoce nao pode fazer isso neste jogador.'
+  noCommands: '&cVoce nao pode usar este comando na arena chain'
+  estaNaArena: '&4ERRO: &cVoce ja esta na arena chain.'
+  NaoEstaNaArena: '&4ERRO: &cVoce nao esta na arena chain.'
+  NaoSetado: '&cA arena chain ainda nao foi definida.'
+  noTeleport: '&cO teleport e bloqueiado na arena Chain.'
+  noDrop: '&cVoce nao pode dropar itens na arena Chain.'
+  invItens: '&cVoce deve retirar os itens do seu inventario antes de entrar na arena
+    Chain.'
+options:
+  join:
+  - bc &7O jogador {jogador} entrou na arena Chain [/chain]
+  teleportDistance: 20
+  removeDeathMessage: true
+  PropriosItens: false
+  DroparItensQ: false
+  DroparItensAoMorrer: false
+  PodePegarItensDropados: false
+locais:
+  entrada:
+    mundo: eventos
+    X: -2819.300000011921
+    Y: 29.0
+    Z: 19217.507960692586
+    Pitch: 10.2000065
+    Yaw: 88.79938
+  saida:
+    mundo: world
+    X: 508.63013069881254
+    Y: 58.5
+    Z: -617.4234459627037
+    Pitch: 2.0999954
+    Yaw: -0.14998865
+itens:
+  '0':
+    type: STONE_SWORD:0
+    slot: 0
+    quantidade: 1
+    enchants: []
+  '1':
+    type: GOLDEN_APPLE:0
+    slot: 1
+    quantidade: 8
+    enchants: []
+  '36':
+    type: CHAINMAIL_BOOTS:0
+    slot: 36
+    quantidade: 1
+    enchants:
+    - PROTECTION_ENVIRONMENTAL:2
+  '37':
+    type: CHAINMAIL_LEGGINGS:0
+    slot: 37
+    quantidade: 1
+    enchants:
+    - PROTECTION_ENVIRONMENTAL:2
+  '38':
+    type: CHAINMAIL_CHESTPLATE:0
+    slot: 38
+    quantidade: 1
+    enchants:
+    - PROTECTION_ENVIRONMENTAL:2
+  '39':
+    type: CHAINMAIL_HELMET:0
+    slot: 39
+    quantidade: 1
+    enchants:
+    - PROTECTION_ENVIRONMENTAL:2

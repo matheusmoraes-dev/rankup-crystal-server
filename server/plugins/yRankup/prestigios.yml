@@ -1,0 +1,42 @@
+Prestigios:
+   prestigio1:
+       Ordem: 0 #o player começa no 0
+       Tag: '&c[0]'
+       Acrescimo: 0.0 #acrescimo em % para o valor dos ranks
+       Comandos: #caso não queira deixe - 'none' ( caso for 0 a ordem, ao se registrar os comandos também são executados )
+       - 'none'
+   prestigio2:
+       Ordem: 1
+       Tag: '&c[1]'
+       Acrescimo: 30.0
+       Comandos:
+       - 'alerta {player} evoluiu seu prestigio'
+       - 'pex user {player} group remove Imperador'
+   prestigio3:
+       Ordem: 2
+       Tag: '&c[2]'
+       Acrescimo: 45.0
+       Comandos:
+       - 'alerta {player} evoluiu seu prestigio'
+       - 'pex user {player} group remove Imperador'
+   prestigio4:
+       Ordem: 3
+       Tag: '&c[3]'
+       Acrescimo: 56.0
+       Comandos:
+       - 'alerta {player} evoluiu seu prestigio'
+       - 'pex user {player} group remove Imperador'
+   prestigio5:
+       Ordem: 4
+       Tag: '&c[4]'
+       Acrescimo: 68.0
+       Comandos:
+       - 'alerta {player} evoluiu seu prestigio'
+       - 'pex user {player} group remove Imperador'
+   prestigio6:
+       Ordem: 5
+       Tag: '&c[5]'
+       Acrescimo: 72.0
+       Comandos:
+       - 'alerta {player} evoluiu seu prestigio'
+       - 'pex user {player} group remove Imperador'

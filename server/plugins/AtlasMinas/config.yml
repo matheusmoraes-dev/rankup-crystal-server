@@ -1,0 +1,357 @@
+# 
+# EFICIENCIA
+# FORTUNA
+# DESTRUIDOR
+# EXPLOSAO
+# LASER
+# SORTUDO
+# SUMONADOR
+# VELOCIDADE
+# PRESSA
+# MINERADOR
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Settings:
+  PorcentagemResetar: 60
+  PermissaoDefault: usar.minas
+  EntrarMina:
+    Titulo: '&bRANKUP CRYSTAL<nl>&fBem vindo a mineração'
+    Som: LEVEL_UP
+Mensagens:
+  ActionBar: '&2$&a<valor> de coins adicionados! &6<bonus>'
+  UsarValeBlocos: '&e <valor> blocos foram adicionados a sua conta.'
+  QuebradoEmMassa: '&6<blocos>x blocos quebrados gerando &f <money>&6 em dinheiro.'
+  CompactarBlocos:
+  - ''
+  - '&e Transformados <qntd> blocos de ativação em 1 bloco com o total de'
+  - '&e <total> blocos.'
+  - ''
+  LuckBlock:
+  - ''
+  - '&6&l LUCKY BLOCK'
+  - '&f Você quebrou <qntd> lucky block e recebeu:'
+  - ''
+  - '&8  <bolinha> &e<valor> &fde &e<nome>'
+Minas:
+  minaglobal:
+    Locations:
+      Entrada: 1987.496098178436;124.0;2222.5597793291145;-270.00003;0.3000074;world
+      Loc1: 1973.0;122.0;2195.0;0.0;0.0;world
+      Loc2: 1931.0;106.0;2248.0;0.0;0.0;world
+    Prioridade: 3
+    MinaPVP: false
+    Permissao: usar.minas
+    Icone: '285:0'
+    Nome: '&eMina Global'
+    Rank: '&7um jogador comum'
+    Blocos:
+      bloco1:
+        Valor: 5
+        ID: 121
+        Data: 0
+        Porcentagem: 45
+        LuckBlock: false
+      bloco2:
+        Valor: 5
+        ID: 4
+        Data: 0
+        Porcentagem: 45
+        LuckBlock: false
+      bloco3:
+        Valor: 15
+        ID: 41
+        Data: 0
+        Porcentagem: 1
+        LuckBlock: true
+  minapvp:
+    Locations:
+      Entrada: 28461.271402841634;138.0;2995.4361820459635;-224.69987;1.4999837;world
+      Loc1: 28434.0;132.0;2978.0;0.0;0.0;world
+      Loc2: 28408.0;117.0;2952.0;0.0;0.0;world
+    Prioridade: 2
+    MinaPVP: true
+    Permissao: usar.minas
+    Icone: '278:0'
+    Nome: '&cMina PvP'
+    Rank: '&7um jogador comum'
+    Blocos:
+      bloco1:
+        Valor: 15
+        ID: 4
+        Data: 0
+        Porcentagem: 24
+        LuckBlock: false
+      bloco2:
+        Valor: 15
+        ID: 1
+        Data: 0
+        Porcentagem: 24
+        LuckBlock: false
+      bloco3:
+        Valor: 15
+        ID: 56
+        Data: 0
+        Porcentagem: 25
+        LuckBlock: false
+      bloco4:
+        Valor: 15
+        ID: 73
+        Data: 0
+        Porcentagem: 25
+        LuckBlock: false
+      bloco5:
+        Valor: 30
+        ID: 41
+        Data: 0
+        Porcentagem: 2
+        LuckBlock: true
+  minavip:
+    Locations:
+      Entrada: 3036.7235406161412;17.0;-19320.659409995103;-52.637577;-3.0000255;eventos
+      Loc1: 3051.0;19.0;-19319.0;0.0;0.0;eventos
+      Loc2: 3076.0;1.0;-19303.0;0.0;0.0;eventos
+    Prioridade: 1
+    MinaPVP: false
+    Permissao: atlasminas.vip
+    Icone: '57:0'
+    Nome: '&eMina VIP'
+    Rank: '&aInicial, Soberano, Platinum, Extreme'
+    Blocos:
+      bloco1:
+        Valor: 30
+        ID: 56
+        Data: 0
+        Porcentagem: 33
+        LuckBlock: false
+      bloco2:
+        Valor: 30
+        ID: 57
+        Data: 0
+        Porcentagem: 32
+        LuckBlock: false
+      bloco3:
+        Valor: 30
+        ID: 73
+        Data: 0
+        Porcentagem: 32
+        LuckBlock: false
+      bloco4:
+        Valor: 45
+        ID: 41
+        Data: 0
+        Porcentagem: 3
+        LuckBlock: true
+Recompensas:
+  recompensa1:
+    Nome: 500 Blocos
+    Title: '&e+ 500 blocos'
+    Comando: giveblocos $player 500
+    Chance: 1
+  recompensa2:
+    Nome: 1500 Blocos
+    Title: '&e+ 1500 blocos'
+    Comando: giveblocos $player 1500
+    Chance: 0.5
+  recompensa3:
+    Nome: Key Comum
+    Title: '&e+ 1 key comum'
+    Comando: darcrate $player c1 1
+    Chance: 0.3
+  recompensa4:
+    Nome: Key Master
+    Title: '&e+ 1 key master'
+    Comando: darcrate $player c2 1
+    Chance: 0.1
+  recompensa5:
+    Nome: Key Limite
+    Title: '&e+ 1 key limite'
+    Comando: darcrate $player c4 1
+    Chance: 0.1
+  recompensa6:
+    Nome: Combustível básico
+    Title: '&e+ Combustível básico'
+    Comando: givecombustivel $player c1 1
+    Chance: 0.1
+  recompensa7:
+    Nome: Combustível avançado
+    Title: '&e+ Combustível avançado'
+    Comando: givecombustivel $player c2 1
+    Chance: 0.08
+  recompensa8:
+    Nome: Combustível lunar
+    Title: '&e+ Combustível lunar'
+    Comando: givecombustivel $player c3 1
+    Chance: 0.1
+  recompensa9:
+    Nome: Fragmento
+    Title: '&e+ 200 Fragmentos'
+    Comando: rank givefragmentos $player 200
+    Chance: 0.3
+LuckBlock:
+  recompensa1:
+    Nome: Blocos
+    Comando: giveblocos $player $valor
+    ValorBase: 1300
+    Chance: 4.5
+  recompensa2:
+    Nome: Blocos
+    Comando: giveblocos $player $valor
+    ValorBase: 3000
+    Chance: 2.5
+Bonus:
+- atlas.novato:2:&e[villager]
+- atlas.lendario:6:&2[zombie]
+- atlas.global:8:&7[spider]
+- atlas.hades:10:&2[creeper]
+- atlas.poseidon:12:&a[slime]
+- atlas.kronos:14:&6[blaze]
+- atlas.kratos:16:&9[guardian]
+- atlas.titan:18:&4[Iron-Golem]
+- atlas.viking:20:&8[wither]
+- atlas.ragnarok:22:&5[dragon]
+- atlas.breaker:24:&4[herobrine]
+- atlas.leativan:26:&c[Imperador]
+- atlas.miniyt:10:&c[MiniYT]
+- atlas.yt:12:&c[YT]
+- atlas.streamer:16:&c[Ace]
+- atlas.soberano:22:&4[Fenix]
+- atlas.platinum:26:&b[Crystal]
+Minerador:
+  recompensa1:
+    TitleAll: <nl>&6&l<player> desenterrou uma key vip
+    Chance: 0.002
+    Comando: cc giveall p vip 1
+  recompensa2:
+    TitleAll: <nl>&6&l<player> desenterrou um vale blocos
+    Chance: 0.01
+    Comando: giveblocos $player 10000
+ValeBlocos:
+  Material: MOSSY_COBBLESTONE
+  Nome: '&a+<valor> Blocos'
+  Lore:
+  - '&7Receba &f<valor> &7Blocos'
+  - '&7em seu saldo de mineração.'
+  - ''
+  - '&aClique para ativar.'
+Picareta:
+  Material: DIAMOND_PICKAXE
+  Nome: '&Picareta Crystal &e[<blocos>]'
+  Lore:
+  - ''
+DesativarPicareta: false
+ModificarEnchants:
+  Eficiencia:
+    Slot: 19
+    DefaultLevel: 2
+    MaxLevel: 100
+    DefaultPrice: 1500
+    PricePerUpgrade: 1600
+    ChancePerUpgrade: 1
+  FORTUNA:
+    Slot: 20
+    DefaultLevel: 0
+    MaxLevel: 10
+    DefaultPrice: 3200
+    PricePerUpgrade: 2200
+    ChancePerUpgrade: 1
+  DESTRUIDOR:
+    Slot: 21
+    DefaultLevel: 0
+    MaxLevel: 100
+    DefaultPrice: 4000
+    PricePerUpgrade: 3600
+    ChancePerUpgrade: 0.01
+  EXPLOSAO:
+    Slot: 22
+    DefaultLevel: 0
+    MaxLevel: 100
+    DefaultPrice: 4000
+    PricePerUpgrade: 2600
+    ChancePerUpgrade: 0.1
+  LASER:
+    Slot: 23
+    DefaultLevel: 0
+    MaxLevel: 50
+    DefaultPrice: 3000
+    PricePerUpgrade: 2350
+    ChancePerUpgrade: 0.01
+  SORTUDO:
+    Slot: 24
+    DefaultLevel: 0
+    MaxLevel: 5
+    DefaultPrice: 2500
+    PricePerUpgrade: 1800
+    ChancePerUpgrade: 0.1
+  SUMONADOR:
+    Slot: 25
+    DefaultLevel: 0
+    MaxLevel: 10
+    DefaultPrice: 2500
+    PricePerUpgrade: 1860
+    ChancePerUpgrade: 0.05
+  VELOCIDADE:
+    Slot: 30
+    DefaultLevel: 0
+    MaxLevel: 5
+    DefaultPrice: 2500
+    PricePerUpgrade: 1890
+    ChancePerUpgrade: 1
+  PRESSA:
+    Slot: 31
+    DefaultLevel: 0
+    MaxLevel: 10
+    DefaultPrice: 1000
+    PricePerUpgrade: 1750
+    ChancePerUpgrade: 1
+  MINERADOR:
+    Slot: 32
+    DefaultLevel: 0
+    MaxLevel: 50
+    DefaultPrice: 2600
+    PricePerUpgrade: 2600
+    ChancePerUpgrade: 0.01
+Mcmmo:
+  Min: 3
+  Max: 8
+ItensNoMenu:
+  Encantamentos:
+    Slot: 10
+    Material: GOLD_PICKAXE
+    Nome: '&aEncantamentos'
+    Lore:
+    - '&7Veja todos os encantamentos disponíveis'
+    - '&7no nosso servidor.'
+  TopBlocos:
+    Slot: 11
+    Material: ARMOR_STAND
+    Nome: '&aTOP Blocos'
+    Lore:
+    - '&7Clique para visualizar os jogadores'
+    - '&7que mais quebraram blocos.'
+  Minas:
+    Slot: 12
+    Material: GOLD_INGOT
+    Nome: '&aMinas'
+    Lore:
+    - '&7Clique para ver todas minas disponíveis.'
+  IrMinerar:
+    Slot: 16
+    SemAcesso:
+      Material: DIAMOND_PICKAXE
+      Nome: '&aIr Minerar'
+      Lore:
+      - '&7Você não tem acesso a nenhuma mina.'
+    ComAcesso:
+      Material: DIAMOND_PICKAXE
+      Nome: '&aIr Minerar'
+      Lore:
+      - ''
+      - ' &7Você é &a$rank'
+      - ' &7por isso tem acesso a &b$mina&7.'
+      - ''
+      - '&aClique para ir minerar.'

@@ -1,0 +1,101 @@
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Comando:
+  Comando: evento
+  Aliases:
+  - eventos
+  - events
+  - event
+Mensagens:
+  Comando: '&c&lAtenção! &cVocê não pode usar comandos no evento.'
+  Custo: '&c&lAtenção! &cVocê precisa ter &7{custo} &cpara participar.'
+  Permissao: '&cVocê não tem permissão para isto.'
+Setas:
+  Voltar:
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/f84f597131bbe25dc058af888cb29831f79599bc67c95c802925ce4afba332fc
+    ID: 262
+    Data: 0
+    Glow: true
+    Name: '&c&lVoltar'
+    Lore:
+    - ''
+    - '&7Clique para voltar.'
+    - ''
+  Proximo:
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/4ef356ad2aa7b1678aecb88290e5fa5a3427e5e456ff42fb515690c67517b8
+    ID: 262
+    Data: 0
+    Glow: true
+    Name: '&a&lPróximo'
+    Lore:
+    - ''
+    - '&7Clique para ir à próxima página.'
+    - ''
+Formats:
+- ''
+- ''
+- K
+- M
+- B
+- T
+- Q
+- QQ
+- S
+- SS
+- O
+- N
+- D
+- UN
+- DD
+- TR
+- QT
+- QN
+- SD
+- SPD
+- OD
+- ND
+- VG
+- UVG
+- DVG
+- TVG
+- QTV
+- QNV
+- SEV
+- SPG
+- OVG
+- NVG
+- TGN
+- UTG
+- DTG
+Locais:
+  Sumo:
+    Pos1: eventos;302.69999998807907;40.20000004768368;258.30000001192093;-13.650452;17.550001
+    Pos2: eventos;263.30000001192093;25.0;302.69999998807907;-133.80045;67.95003
+    Entrada: eventos;274.4389251665389;32.0;277.7088401899279;-359.85034;1.0500264
+    Espera: eventos;998.5300771774478;108.0;989.5167589997876;268.95044;-1.6500534
+    Saida: world;508.5144781695144;58.5;-617.2946782992815;-1.2000024;4.8000054
+  Fight:
+    Espera: eventos;998.5300771774478;108.0;989.5167589997876;268.95044;-1.6500534
+    Entrada: eventos;0.9992513465170687;25.0;16.48127704456933;-179.92346;1.3081516
+    Pos1: eventos;-52.5;125.0;62.5;214.87654;51.408142
+    Pos2: eventos;57.63842468890704;4.0;-38.78449924055497;46.4263;90.0
+    Saida: world;508.5144781695144;58.5;-617.2946782992815;-0.6000053;2.8500085
+  Parkour:
+    Entrada: eventos;1194.1877172953577;45.0;9362.468438187245;-270.80957;4.7999496
+    Espera: eventos;998.5300771774478;108.0;989.5167589997876;268.95044;-1.6500534
+    Saida: world;508.5144781695144;58.5;-617.2946782992815;-1.2000024;4.8000054
+  Labirinto:
+    Entrada: eventos;859.5771397510416;34.0;2411.440695352863;268.8048;-1.6499879
+    Espera: eventos;998.5300771774478;108.0;989.5167589997876;268.80032;0.89999986
+    Saida: world;508.5144781695144;58.5;-617.2946782992815;1.1999973;12.15
+  Corrida:
+    Entrada: eventos;-28224.32078852928;4.0;6115.174356797856;-87.29761;1.1405349E-5
+    Espera: eventos;998.5998184612329;108.0;989.4410234834882;268.65048;0.30000195
+    Saida: world;508.63013069881254;58.5;-617.4234459627037;-0.14998865;2.0999954

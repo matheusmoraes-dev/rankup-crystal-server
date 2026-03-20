@@ -1,0 +1,79 @@
+# Elemental Plantation - 1.0.0
+#
+# Criador: Ninja_Dark99
+#
+# Meu Discord: Ninja_Dark99#5254
+# ElementalPlugins: https://discord.gg/bGYcxqhfA8
+
+Permissions:
+ 1:
+  Perm: "Elemental.Vip" 
+  Multiplicador: 2
+ 2:
+  Perm: "Elemental.Vip2"
+  Multiplicador: 3
+ 3:
+  Perm: "Elemental.Vip3"
+  Multiplicador: 4
+ 4:
+  Perm: "Elemental.miniyt"
+  Multiplicador: 2
+ 5:
+  Perm: "Elemental.yt"
+  Multiplicador: 3
+ 6:
+  Perm: "Elemental.membro"
+  Multiplicador: 1
+  
+Plantações:
+  Cenoura:
+   preço: 650
+  Trigo:
+   preço: 0
+  Batata:
+   preço: 0
+  Fungos:
+   preço: 1250
+   
+Mensagens:
+  # {money} = puxa o ganho do jogador
+  Ganhos: "&6Você ganhou &2$&a{money}"
+
+Formatador:
+  FormatCase: "%s%s"
+  DecimalCase: "#.##"
+  CasasDecimais:
+  - ""
+  - "K"
+  - "M"
+  - "B"
+  - "T"
+  - "Q"
+  - "QQ"
+  - "S"
+  - "SS"
+  - "O"
+  - "N"
+  - "D"
+  - "UN"
+  - "DD"
+  - "TR"
+  - "QT"
+  - "QN"
+  - "SD"
+  - "SPD"
+  - "OD"
+  - "ND"
+  - "VG"
+  - "UVG"
+  - "DVG"
+  - "TVG"
+  - "QTV"
+  - "QNV"
+  - "SEV"
+  - "SPG"
+  - "OVG"
+  - "NVG"
+  - "TGN"
+  - "UTG"
+  - "DTG"

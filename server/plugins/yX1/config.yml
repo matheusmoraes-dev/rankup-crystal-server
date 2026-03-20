@@ -1,0 +1,66 @@
+Mensagens:
+  Console: '&cApenas jogadores podem utilizar isso.'
+  Perm: '&cVocê não tem permissão para isso.'
+  Perm target: '&cEste jogador não tem permissão para aceitar o x1.'
+  Ja tem: '&cEste jogador já tem solicitações pendentes.'
+  Sem duelo: '&cNão há solicitações ocorrendo.'
+  Sem duelo Player: '&cNão há solicitações para ti.'
+  Local nao setado: '&cO local não foi setado.'
+  Nao ocorrendo: '&cO X1 não está ocorrendo.'
+  Ja ocorrendo: '&cO X1 já está ocorrendo.'
+  Teleportado: '&aTeleportado para o local.'
+  Local setado: '&aLocal setado com sucesso.'
+  Aguarde: '&aAguarde 10 segundos para começar o pvp.'
+  Offline: '&cEste jogador está offline.'
+  Liberado: '&aO pvp foi liberado.'
+  Colete: '&aVocê tem 30 segundos para coletar os itens.'
+  Sem money: '&cUm dos dois jogadores não tem money suficiente.'
+  Mito recusou p: '&cVocê era o mito e recusou o x1, portanto perdeu sua tag.'
+  Mito recusou:
+  - ''
+  - '&c[MITO] O jogador &e{player}&c era o mito e recusou o x1, portanto a tag irá
+    ser sorteada.'
+  - ''
+  Desafiou:
+  - ''
+  - '&cO jogador &e{player1} &cpimbado desafiou ao x1 contra o jogador &e{player2}&c.'
+  - ''
+  Recusou:
+  - ''
+  - '&cO jogador &e{player1} &ccagão recusou o x1 contra o jogador &e{player2}&c.'
+  - ''
+  Aceitou:
+  - ''
+  - '&cO jogador &e{player1} &cfortão aceitou o x1 contra o jogador &e{player2}&c.'
+  - ''
+  Ganhou:
+  - ''
+  - '&cO jogador &e{player1} &cbombastico ganhou o x1 contra o jogador &e{player2}&c.'
+  - ''
+  Help:
+  - '&aComandos:'
+  - ''
+  - '&f &8-> &7/x1 &adesafiar &7<player>'
+  - '&f &8-> &7/x1 &aaceitar'
+  - '&f &8-> &7/x1 &anegar'
+  - '&f &8-> &7/x1 &acamarote'
+  Help admin:
+  - '&aComandos:'
+  - ''
+  - '&f &8-> &7/x1 &adesafiar &7<player>'
+  - '&f &8-> &7/x1 &aaceitar'
+  - '&f &8-> &7/x1 &anegar'
+  - '&f &8-> &7/x1 &acamarote'
+  - '&f &8-> &7/x1 &asetsaida'
+  - '&f &8-> &7/x1 &asetcamarote'
+  - '&f &8-> &7/x1 &asetpos1'
+  - '&f &8-> &7/x1 &asetpos2'
+Money: 0.0
+Tempo para pvp: 10
+Tempo recolher: 30
+Tempo expirar: 10
+Locais:
+  Saida: world;508.63013069881254;58.5;-617.4234459627037;-0.14998865;2.0999954
+  Camarote: eventos;-12407.991021652178;17.0;2886.033433820688;-53.295105;17.849993
+  Pos1: eventos;-12391.414145132587;15.0;2890.5359604799273;-0.045273267;-2.7
+  Pos2: eventos;-12391.477333157456;15.0;2915.432131612099;-179.74524;0.1500141

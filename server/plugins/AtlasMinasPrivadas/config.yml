@@ -1,0 +1,115 @@
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+SpawnGlobal: 508.54015482598;58.5;-617.2713444204264;-0.90002143;4.050016;world
+MenuPrincipalTamanho: 27
+TexturaCabeca: http://textures.minecraft.net/texture/b6ea2135838461534372f2da6c862d21cd5f3d2c7119f2bb674bbd42791
+Booster:
+  Material: FIREBALL
+  Nome: '&aBooster de Mina Privada'
+  Lore:
+  - ''
+  - '&f Duração:&c {duracao}'
+  - '&f Multiplier:&c {multiplier}x'
+  - ''
+ComandosPermitidos:
+- /g
+- /.
+- /minaspv
+- /minapv
+URL: '  &cSite em Breve'
+Minas:
+  mina1:
+    Nome: '&c&lMina de Redstone'
+    Schematic: mina_padrao.schematic
+    Composicao: REDSTONE_BLOCK
+    Menu:
+      SlotMenuPrincipal: 13
+      SairSlot: 39
+      ResetSlot: 41
+      Tamanho: 45
+    Icone:
+      Material: ENDER_PORTAL_FRAME
+      Nome: '&6&lMINA PARTICULAR'
+      Lore:
+      - ''
+      - ' &fTipo: &cRedstone'
+      - ''
+      - ' &fRecompensas por bloco'
+      - '  &f1K de &acoins &7(100%)'
+      - '  &f500 &6blocos &7(0.5%)'
+      - '  &f1 &bfragmentos &7(0.05%)'
+      - ''
+      - $info
+    Upgrades:
+      Reset:
+        Default: 30
+        Custo: 50000
+        Tipo: CASH
+        PerLevel: -1
+        Maximo: 25
+        Slot: 13
+        Icone:
+          Material: ANVIL
+          Nome: '&aUpgrade - Reset'
+          Lore:
+          - '&7Clique para diminuir a seu'
+          - '&7tempo de espera para resetar a mina.'
+          - ''
+          - '&f Cooldown atual: &a$lvl minutos'
+          - '&f Preço: &a50K de cash'
+          - ''
+    Recompensas:
+      r1:
+        Comando: 'money: 1000'
+        Title: '&a+1K de coins'
+        Upgrade:
+          Default: 100
+          Custo: 0
+          Tipo: COINS
+          PerLevel: 0
+          Maximo: 0
+      r2:
+        Comando: giveblocos $player 500
+        Title: '&6+500 de bloco'
+        Upgrade:
+          Default: 0.5
+          Custo: 500000000
+          Tipo: COINS
+          PerLevel: 0.2
+          Maximo: 20
+          Slot: 11
+          Icone:
+            Material: MOSSY_COBBLESTONE
+            Nome: '&aUpgrade - Blocos'
+            Lore:
+            - '&7Clique para aumentar a sua'
+            - '&7chance de ganhar Blocos ao minerar.'
+            - ''
+            - '&f Chance atual: &a$lvl%'
+            - '&f Preço: &a500M coins'
+            - ''
+      r3:
+        Comando: rank givefragmentos $player 350
+        Title: '&a+350 fragmentos'
+        Upgrade:
+          Default: 0.05
+          Custo: 15000000
+          Tipo: COINS
+          PerLevel: 0.5
+          Maximo: 5
+          Slot: 15
+          Icone:
+            Material: TRIPWIRE_HOOK
+            Nome: '&aUpgrade - Fragmentos'
+            Lore:
+            - '&7Clique para aumentar a sua'
+            - '&7chance de ganhar fragmentos ao minerar.'
+            - ''
+            - '&f Chance atual: &a$lvl%'
+            - '&f Preço: &a150M de Coins'
+            - ''

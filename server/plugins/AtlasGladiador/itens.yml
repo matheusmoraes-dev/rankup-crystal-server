@@ -1,0 +1,55 @@
+Top:
+  Slot: 11
+  Material: BOOK
+  Nome: "&aTop Gladiador"
+  Lore:
+    - "&7Clique para ver os clans tops gladiadores do servidor."
+
+Ir:
+  Slot: 15
+  Texture: "d27ca46f6a9bb89a24fcaf4cc0acf5e8285a66db7521378ed2909ae449697f"
+  Nome: "&aParticipar do Gladiador"
+  Lore:
+    - "&7O evento &cgladiador&7 começou."
+    - "&7Caso queira participar, clique aqui."
+
+IrMasNaoTem:
+  Slot: 15
+  Texture: "5fde3bfce2d8cb724de8556e5ec21b7f15f584684ab785214add164be7624b"
+  Nome: "&cParticipar do Gladiador"
+  Lore:
+    - "&7O evento &cgladiador&7 começou, porém"
+    - "&7você não tem um clan para participar."
+
+JaComecou:
+  Slot: 15
+  Texture: "c641682f43606c5c9ad26bc7ea8a30ee47547c9dfd3c6cda49e1c1a2816cf0ba"
+  Nome: "&aEspectar o Gladiador"
+  Lore:
+    - "&7O evento já começou, mas você"
+    - "&7ainda pode espectar-lo."
+
+NaoComecou:
+  Slot: 15
+  Texture: "2a17e97037ce353f85f5c65df435d29449a88da4442e4361cf99abbe1f892fb"
+  Nome: "&eParticipar do Gladiador"
+  Lore:
+    - "&7O evento não está acontecendo."
+
+TopItem:
+  Texture: "{lider}"
+  Nome: "&7#&f{pos} &7- &e{clan}"
+  Lore:
+    - ""
+    - "&f Vitórias: &a{vitorias}"
+    - "&f Kills: &a{kills}"
+    - "&f Mortes: &a{mortes}"
+    - ""
+
+Voltar:
+  Material: ARROW
+  Nome: "&7Voltar"
+
+Vazio:
+  Material: WEB
+  Nome: "&7Nada encontrado"

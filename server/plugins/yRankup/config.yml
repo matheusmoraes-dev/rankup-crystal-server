@@ -1,0 +1,272 @@
+Database:
+ Tipo: SQLITE #Tipos: MYSQL, SQLITE, MYSQL_FAST
+ IP: localhost:3306
+ DB: test
+ User: admin
+ Pass: ''
+ Debug: true
+# Configure o comando e as aliases de cada opção
+# Menu de ranks
+Comando ranks:
+ Comando: 'ranks'
+ Aliases: []
+# Menu principal
+Comando rank:
+ Comando: 'rank'
+ Aliases: []
+# Menu de rankup
+Comando rankup:
+ Comando: 'rankup'
+ Aliases: []
+# Gerenciamento de fragmentos
+Comando fragmentos:
+ Comando: 'fragmentos'
+ Aliases: []
+# Gerenciamento de prestígio
+Comando prestigio:
+ Comando: 'prestigio'
+ Aliases: []
+# Quando o jogador ativar um item de prestigio ou o staff mudar o prestigio do 
+# jogador pelo: addprestigio, setprestigio ou removeprestigio, o rank ser resetado
+Resetar rank: true
+#Coloque yPoints, PlayerPoints, JH_Shop, yCash, TGCash, AtlasEconomiaSecundaria, MageCash, WheavelGems, LegendaryEconomy
+Plugin de Pontos: 'PlayerPoints'
+# Habilitar o sistema de prestígio
+Usar prestigio: true
+# Habilitar o sistema de rankup heads
+Usar heads: true
+# Habilitar o uso dos blocos do AtlasMinas
+Usar minas: true
+# Bloqueia staff de dar rankup
+Bloquear staff: true
+# Metadata do plugin de mob-stack para multiplicar as heads e/ou fragmentos
+# Deixe vazio '' para não usar
+Metadata: 'ySpawners-MobStacked'
+# Ativar o multiplicador de fragmentos usando a metadata
+Fragmentos metadata: true
+# Placeholder da progressbar concluida
+Rankup placeholder: '&a/rankup'
+# Mundos que não dão fragmentos matando mobs e quebrando blocos
+Fragmentos world blacklist:
+- 'MundoPlot'
+# Mundos que não dão heads matando mobs
+Heads world blacklist:
+- 'MundoPlot'
+# Mensagens do plugin
+Mensagens:
+ Permissao: '&c&lERRO! &cVocê não tem permissão para fazer isto.'   
+ Nao encontrado: '&c&lERRO! &cJogador não encontrado.'   
+ Nao e numero: '&c&lERRO! &cEste argumento não é um número.'
+ Ja prestigio: '&c&lERRO! &cEste jogador já possui este prestígio.'
+ Ja rank: '&c&lERRO! &cEste jogador já possui este rank.'
+ Ultimo: '&c&lERRO! &cVocê não possui mais rankups.'
+ Setou prestigio: '&a&lSUCESSO! &aVocê setou &7{quantia} &ade prestígio para o jogador &7{player}&a.'
+ Setou rank: '&a&lSUCESSO! &aVocê setou o rank &7{rank} &apara o jogador &7{player}&a.'
+ Alterado prestigio: '&a&lINFORMATIVO! &aVocê teve seu prestígio alterado para &7{quantia}&a.'
+ Alterado rank: '&a&lINFORMATIVO! &aVocê teve seu rank alterado para &7{rank}&a.'
+ Prestigio ver: '&a&lINFORMATIVO! &aO jogador &7{player} &apossui &7{quantia}&a de prestígio.'
+ Adicionou: '&a&lSUCESSO! &aVocê adicionou &7{fragmentos} &afragmentos para o jogador &7{player}&a.'
+ Pagar si mesmo: '&c&lERRO! &cVocê não pode pagar a si mesmo.'
+ Pagou: '&a&lSUCESSO! &aVocê pagou ao jogador &7{player} &auma quantia de &7{fragmentos} &afragmentos.'
+ Pagou player: '&a&lSUCESSO! &aVocê recebeu do jogador &7{player} &auma quantia de &7{fragmentos} &afragmentos.'
+ Removeu: '&a&lSUCESSO! &aVocê removeu &7{fragmentos} &afragmentos do jogador &7{player}&a.'
+ Remover mais: '&c&lERRO! &cVocê não pode remover esta quantia, o jogador &7{player} &ctem apenas &7{fragmentos}&c fragmentos.'
+ Setou: '&a&lSUCESSO! &aVocê setou &7{fragmentos} &apara o jogador &7{player}&a.'
+ Olhar: '&a&lSUCESSO! &aO jogador &7{player} &apossui &7{fragmentos} &afragmentos.'
+ Suficiente: '&c&lERRO! &cVocê não tem fragmentos suficiente &7{fragmentos}&c.'
+ Possui: '&a&lINFORMATIVO! &aVocê possui &7{fragmentos} &afragmentos.'
+ Inv cheio: '&c&lERRO! &cSeu inventário está cheio.'
+ Comprou: '&a&lSUCESSO! &aVocê adquiriu coisas na loja por: &7{fragmentos}&a. Desconto: &7{desconto}%&a.'
+ Prestigio desativado: '&c&lERRO! &cO seu servidor desativou o sistema de prestígio.'
+ Heads desativado: '&c&lERRO! &cO seu servidor desativou o sistema de heads.'
+ Deu head: '&a&lSUCESSO! &aVocê deu &7{quantia} &ade heads do tipo &7{head}&a para o jogador &7{player}&a.'
+ Deu fragmento: '&a&lSUCESSO! &aVocê deu &7{quantia} &ade fragmentos para o jogador &7{player}&a.'
+ Deu prestigio item: '&a&lSUCESSO! &aVocê deu &7{quantia} &ade itens prestigio para o jogador &7{player}&a.'
+ Deu rankup item: '&a&lSUCESSO! &aVocê deu &7{quantia} &ade itens rankup para o jogador &7{player}&a.'
+ Converteu fragmentos: '&a&lSUCESSO! &aVocê compactou todos seus fragmentos em 1.'
+ Ativou fragmentos: '&a&lSUCESSO! &aVocê ativou &e{quantia} &ade fragmentos.'
+ Converteu heads: '&a&lSUCESSO! &aVocê compactou todas as suas heads &7{head}&a em 1.'
+ Ativou heads: '&a&lSUCESSO! &aVocê ativou &e{quantia} &ade heads &7{head}&a.'
+ Nao ha prestigios: '&c&lERRO! &cNão há mais prestígios disponíveis para você, parece que chegastes no último!'
+ Nao ha rankups: '&c&lERRO! &cNão há mais rankups disponíveis para você, parece que chegastes no último!'
+ Ativou prestigio: '&a&lSUCESSO! &aVocê ativou &7+1&a prestígio.'
+ Ativou rankup: '&a&lSUCESSO! &aVocê ativou &7+1&a rankup.'
+ Ultimo rank: '&c&lERRO! &cVocê deve estar no último rank para evoluir seu prestígio.'
+ Evoluiu prestigio: '&a&lSUCESSO! &aVocê evoluiu seu prestígio.'
+ Head formato: '{nome}&f [&b{quantia}&7/&b{quantiatem}&f]&7'
+ Nao pode staff: '&c&lERRO! &cVocê não pode upar de rank pois é um membro da equipe!'
+ Recebeu add: '&aVocê recebeu &7{quantia} &afragmentos' #deixe '' para não usar
+ Recebeu set: '&aVocê possui agora &7{quantia} &afragmentos' #deixe '' para não usar
+ Nao liberado:
+ - ''
+ - '&c&lERRO! &cEste rank não foi liberado.'
+ - '&cLibera em: &7{data} - {hora}'
+ - ''
+ Sem algo:
+ - ''
+ - '&c&lERRO! &cOlá &7{player}&c parece que você não possui algum dos tipos de fundos abaixo:'
+ - ''
+ - '&cMoney: &7{money}/{moneytem}&c.'
+ - '&cCash: &7{cash}/{cashtem}&c.'
+ - '&cAlmas: &7{almas}/{almastem}&c.'
+ - '&cKills: &7{kills}/{killstem}&c.'
+ - '&cBlocos: &7{blocos}/{blocostem}&c.'
+ - '&cFragmentos: &7{fragmentos}/{fragmentostem}&c.'
+ - '&cBlocos: &7{blocos}/{blocostem}&c.'
+ - '&cHeads: &7{heads}&c.'
+ - ''
+ - '&cVerifique se possui a quantia necessária e tente dar rankup novamente.'
+ Rankup:
+  Ativar: true
+  Msg:
+  - ''
+  - '&a&lSUCESSO! &aParabéns &7{player}&a você acaba de upar'
+  - '&apara o rank: &7{rank}&a.'
+  - ''
+ Fragmentos help:
+ - ''
+ - '&fComandos disponíveis:'
+ - ''
+ - '&8-> &7/fragmentos &8- &cMostra seus fragmentos.'
+ - '&8-> &7/fragmentos <player> &8- &cMostra os fragmentos de outro jogador.'
+ - '&8-> &7/fragmentos ajuda &8- &cMostra essa mensagem.'
+ - '&8-> &7/fragmentos add <player> <quantia> &8- &cAdiciona fragmentos para um jogador.'
+ - '&8-> &7/fragmentos remover <player> <quantia> &8- &cRemove fragmentos de um jogador'
+ - '&8-> &7/fragmentos setar <player> <quantia> &8- &cSeta fragmentos para um jogador.'
+ - '&8-> &7/fragmentos pagar <player> <quantia> &8- &cEnvia seus fragmentos para um jogador'
+ - ''
+ Rank help:
+ - ''
+ - '&fComandos disponíveis:'
+ - ''
+ - '&8-> &7/rank &8- &cAbre o menu principal.'
+ - '&8-> &7/rank setprestigio <player> <quantia> &8- &cSeta prestígio para um jogador.'
+ - '&8-> &7/rank addprestigio <player> <quantia> &8- &cAdiciona prestígio para um jogador.'
+ - '&8-> &7/rank delprestigio <player> <quantia> &8- &cRemove prestígio de um jogador.'
+ - '&8-> &7/rank prestigio <player> &8- &cVê o prestígio de um jogador.'
+ - '&8-> &7/rank giveheads &8- &cDá heads para um jogador.'
+ - '&8-> &7/rank givefragmentos &8- &cDá fragmentos para um jogador.'
+ - '&8-> &7/rank giveprestigios &8- &cDá itens prestígio para um jogador.'
+ - '&8-> &7/rank giverankups &8- &cDá itens rankup para um jogador.'
+ - '&8-> &7/rank setrank &8- &cSeta o rank do jogador.'
+ - '&8-> &7/rank addrank &8- &cAdiciona rank para o jogador.'
+ - '&8-> &7/rank delrank &8- &cRemover rank de um jogador.'
+ - ''
+# As setas dos menus
+Setas:
+ # Voltar ao menu anterior
+ Voltar:
+  CustomSkull: false
+  URL: ''
+  ID: 262
+  Data: 0
+  Glow: true
+  Name: '&cVoltar'
+  Lore:
+  - '&7Clique para voltar ao menu anterior.'
+ # Voltar a página anterior
+ Anterior:
+  CustomSkull: false
+  URL: ''
+  ID: 262
+  Data: 0
+  Glow: true
+  Name: '&cVoltar'
+  Lore:
+  - '&7Clique para voltar à página anterior.'
+ # Ir para a próxima página
+ Proximo:
+  CustomSkull: false
+  URL: ''
+  ID: 262
+  Data: 0
+  Glow: true
+  Name: '&aPróxima'
+  Lore:
+  - '&7Clique para ir à próxima página.'
+# Item que ao ativar, é dado fragmentos
+Fragmento:
+ CustomSkull: true
+ URL: 'http://textures.minecraft.net/texture/137dcfb66a61c529f2a128aeef93c25f9d0b0439b59fb199d2b04acfe0b85aac'
+ ID: 0
+ Data: 0
+ Glow: true
+ Name: '&aFragmento'
+ Lore:
+ - '&fEste item equivale à &a{quantia} &fde fragmento(s).'
+ - ''  
+ - '&7Clique com botão direito para armazenar.'
+ - '&7Clique com shift+botão direito para juntar.'
+# Item para evoluir o prestígio
+Prestigio:
+ CustomSkull: true
+ URL: 'http://textures.minecraft.net/texture/885620b88e0de9b34f76027c7f9c1def5e1de5ae542c6920b5f28693a54'
+ ID: 0
+ Data: 0
+ Glow: true
+ Name: '&aPrestigio'
+ Lore:
+ - '&fEste item equivale à &7+1 &fnível de prestígio.'
+ - ''  
+ - '&7Clique com botão direito para ativar.'
+# Item para evoluir o rank
+Rankup:
+ CustomSkull: true
+ URL: 'http://textures.minecraft.net/texture/1ad6c81f899a785ecf26be1dc48eae2bcfe777a862390f5785e95bd83bd14d'
+ ID: 0
+ Data: 0
+ Glow: true
+ Name: '&aRankup'
+ Lore:
+ - '&7Este item equivale à &f+1 &7nível de rankup.'
+ - ''  
+ - '&7Clique com botão direito para ativar.'
+# Formatos úteis
+Formatador:
+ Rank: '&cNenhum'
+ Proximo rank: '&cNenhum'
+ Prestigio: '&cNenhum'
+ Proximo prestigio: '&cNenhum'
+# Configuração da progressbar
+Progress bar:
+ Quantia: 20
+ Simbolo: ':'
+ Cor sim: '&a'
+ Cor nao: '&7'
+# Formatos de money e quantia
+Formats:
+  - ''
+  - ''
+  - 'K'
+  - 'M'
+  - 'B'
+  - 'T'
+  - 'Q'
+  - 'QQ'
+  - 'S'
+  - 'SS'
+  - 'O'
+  - 'N'
+  - 'D'
+  - 'UN'
+  - 'DD'
+  - 'TR'
+  - 'QT'
+  - 'QN'
+  - 'SD'
+  - 'SPD'
+  - 'OD'
+  - 'ND'
+  - 'VG'
+  - 'UVG'
+  - 'DVG'
+  - 'TVG'
+  - 'QTV'
+  - 'QNV'
+  - 'SEV'
+  - 'SPG'
+  - 'OVG'
+  - 'NVG'
+  - 'TGN'
+  - 'UTG'
+  - 'DTG'

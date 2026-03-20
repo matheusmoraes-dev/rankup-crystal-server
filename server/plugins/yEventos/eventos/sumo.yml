@@ -1,0 +1,116 @@
+Sumo:
+  Controlador:
+    Tempo: 10
+    Anuncios: 2
+    Minimo: 1
+    Tag: '&d[Sumo]'
+    Ultimo: yChusy
+    Comando: sumo
+    Aliases: {}
+  AutoStart:
+    Ativar: fa3se
+    Horarios:
+    - 1-10:10:1
+    - 2-10:10:1
+    - 3-10:10:1
+    - 4-10:10:1
+    - 5-10:10:1
+    - 6-10:10:1
+    - 7-10:10:1
+    - 8-10:10:1
+  Cmd whitelist:
+  - /g
+  Custo:
+    Valor: 200000.0
+  Comando:
+    Ajuda:
+    - '&dComandos do evento &7Sumo&d:'
+    - ''
+    - '&8-> &7/sumo &8- &cParticipar do evento.'
+    - '&8-> &7/sumo &fajuda &8- &cMostra essa mensagem.'
+    - '&8-> &7/sumo &fsetsaida &8- &cSetar a saída do sumo.'
+    - '&8-> &7/sumo &fsetespera &8- &cSetar a espera do sumo.'
+    - '&8-> &7/sumo &fsetentrada &8- &cSetar a entrada do sumo.'
+    - '&8-> &7/sumo &fsetpos1 &8- &cSetar o local (1) do duelo do sumo.'
+    - '&8-> &7/sumo &fsetpos2 &8- &cSetar o local (2) do duelo do sumo.'
+    - '&8-> &7/sumo &finiciar &8- &cIniciar um sumo.'
+    - '&8-> &7/sumo &fparar &8- &cParar um sumo.'
+    - ''
+    Nao pode iniciar: '&c&lERRO! &cO sumo já está ocorrendo.'
+    Nao pode parar: '&c&lERRO! &cO sumo não está ocorrendo.'
+    Nao ativo: '&c&lERRO! &cO sumo não está ativa.'
+    Esvazie: '&c&lERRO! &cEsvazie seu inventário para entrar no evento sumo.'
+    Entrou: '&a&lSUCESSO! &aVocê entrou no evento sumo.'
+    Saiu: '&a&lSUCESSO! &aVocê saiu do evento sumo.'
+    Iniciou: '&a&lSUCESSO! &aSumo iniciado.'
+    Parou: '&a&lSUCESSO! &aSumo parado.'
+    Permissao: '&c&lERRO! &cVocê não tem permissão para fazer isto.'
+  Mensagens:
+    Anuncio:
+    - ''
+    - '&f[&dEvento &7Sumo&f]'
+    - ''
+    - '&fParticipe do &dsumo: &8/sumo&f.'
+    - '&fPrêmio: &a{premio} &fem money.'
+    - '&fJogadores participando: &e{jogadores}&f.'
+    - '&fChamada &8{min} &fde &8{max}&f.'
+    - ''
+    Insuficiente:
+    - ''
+    - '&f[&dEvento &7Sumo&f]'
+    - ''
+    - '&cJogadores insuficientes, cancelando...'
+    - ''
+    Sairam:
+    - ''
+    - '&f[&dEvento &7Sumo&f]'
+    - ''
+    - '&cJogador(es) sairam e a quantia ficou abaixo do mínimo, cancelando evento...'
+    - ''
+    Comecou:
+    - ''
+    - '&f[&dEvento &7Sumo&f]'
+    - ''
+    - '&fJogadores teleportados.'
+    - '&fPrêmio: &a{premio} &fem money.'
+    - '&fJogadores participando: &e{jogadores}&f.'
+    - ''
+    Ganhou:
+    - ''
+    - '&f[&dEvento &7Sumo&f]'
+    - ''
+    - '&eO jogador &a{player}&e foi o melhor!'
+    - '&eO mesmo ganhou &a{premio}&e em money.'
+    - ''
+    Ganhou P:
+    - ''
+    - '&f[&dEvento &7Sumo&f]'
+    - ''
+    - '&fVocê conseguiu!'
+    - '&fVocê ganhou &a{premio}&f em money.'
+    - ''
+    Cancelou:
+    - ''
+    - '&f[&dEvento &7Sumo&f]'
+    - ''
+    - '&cO sumo foi cancelada por um admin.'
+    - ''
+  Premio:
+    Comando:
+      Usar: true
+      Comando:
+      - money add {player} 150000
+    Money:
+      Usar: true
+      Money: 400000.0
+  Verificar:
+    Void: true
+    Agua: true
+    Lava: true
+  Graveto:
+    Ativar: false
+    Level: 100
+  Efeitos:
+    Ativar: false
+    Lista:
+    - INVISIBILITY:1-100

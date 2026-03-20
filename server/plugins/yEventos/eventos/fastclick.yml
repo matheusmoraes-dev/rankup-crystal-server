@@ -1,0 +1,52 @@
+FastClick:
+  Controlador:
+    Tag: '&5[FastClick]'
+    Ultimo: yChusy
+    Comando: fastclick
+    Aliases: {}
+  AutoStart:
+    Ativar: false
+    Horarios:
+    - 1-7:10:1
+    - 2-7:10:1
+    - 3-7:10:1
+    - 4-7:10:1
+    - 5-7:10:1
+    - 6-7:10:1
+    - 7-7:10:1
+    - 8-7:10:1
+  Comando:
+    Ajuda:
+    - '&5Comandos do evento &7FastClick&b:'
+    - ''
+    - '&8-> &7/fastclick &fajuda &8- &5Mostra essa mensagem.'
+    - '&8-> &7/fastclick &finiciar &8- &5Iniciar um fastclick.'
+    - '&8-> &7/fastclick &fparar &8- &5Parar um fastclick.'
+    - ''
+    Nao pode iniciar: '&c&lERRO! &cO fastclick já está ocorrendo.'
+    Nao pode parar: '&c&lERRO! &cO fastclick não está ocorrendo.'
+    Iniciou: '&a&lSUCESSO! &aFastClick iniciado.'
+    Parou: '&a&lSUCESSO! &aFastClick parado.'
+    Permissao: '&c&lERRO! &cVocê não tem permissão para fazer isto.'
+  Mensagens:
+    Clicou:
+    - ''
+    - '&f[&5Evento &7FastClick&f]'
+    - ''
+    - '&fO jogador &a{player}&f clicou primeiro!'
+    - '&fO mesmo ganhou &a{premio}&f em money.'
+    - ''
+    Cancelou:
+    - ''
+    - '&f[&5Evento &7FastClick&f]'
+    - ''
+    - '&cO fastclick foi cancelado por um admin.'
+    - ''
+  Premio:
+    Comando:
+      Usar: true
+      Comando:
+      - rank givefragmentos 2000
+    Money:
+      Usar: true
+      Money: 320000.0

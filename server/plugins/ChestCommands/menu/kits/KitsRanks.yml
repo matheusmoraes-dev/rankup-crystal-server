@@ -1,0 +1,279 @@
+##############################
+#+                          +#
+#   CONFIGURAÇÕES DO MENU    #
+#+                          +#
+##############################
+
+menu-settings:
+
+  # Nome - É o titulo do menu - OBRIGATÓRIO
+  name: '&8Categoria: Kits de Ranks'
+
+  # Linhas - O número de linhas que tera o seu menu - OBRIGATÓRIO
+  # O número de linhas sera ignorado caso o tipo não for CHEST!
+  rows: 5
+  
+  # Tipo - O tipo do inventario que sera aberto(bau, dispenser etc..) - OBRIGATÓRIO
+  # Para ver a lista dos tipos validos acesse o arquivo ajuda.yml
+  type: CHEST
+
+  # Comando - Comando usado para abrir o menu. - OPCIONAL
+  # Para não queira usar um comando para abrir o menu deixe apenas as duas aspas em brancos. Exemplo: ''
+  # Caso você queira criar aliases para o comando coloque um ; depois do comando. Exemplo: 'menu; abrirmenu; abre;'
+  command: ''
+
+  # Atualização automatica - OPCIONAL
+  # Isto serve para atualizar os itens do menu automaticamente a cada X segundos.
+  auto-refresh: 5
+
+  # Comandos ao abrir - Comandos ou tarefas executadas ao abrir o menu - OPCIONAL
+  # Util caso você queira colocar um mvp ao abrir o MENU ou caso você queira colocar uma mensagem.
+  open-action: 'sound: notepling'
+
+  # Abrir menu com - Item que ao ser clicado abre o men - OPCIONAL
+  # Este menu sera aberto quando o player clicar com o botão direito segurando uma lã laranja [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+# ID/Nome do Icone (não pode ser repetido!)
+1:
+  LEFT-CLICK-COMMAND: 'kit villager'
+  NAME: '&eVillager'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &e[VillagerIII]'
+    - '  &f➟ &e[VillagerII]'
+    - '   &f➟ &e[VillagerI]'
+    - ''
+    - '&e&nOBS:&f Caso você não seja da classe &e[Villager]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 10
+  SKULL-URL: 'http://textures.minecraft.net/texture/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b'
+2:
+  LEFT-CLICK-COMMAND: 'kit zombie'
+  NAME: '&2Zombie'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &2[ZombieIII]'
+    - '  &f➟ &2[ZombieII]'
+    - '   &f➟ &2[ZombieI]'
+    - ''
+    - '&2&nOBS:&f Caso você não seja da classe &2[Zombie]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 11
+  SKULL-URL: 'http://textures.minecraft.net/texture/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11'
+3:
+  LEFT-CLICK-COMMAND: 'kit spider'
+  NAME: '&7Spider'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &7[SpiderIII]'
+    - '  &f➟ &7[SpiderII]'
+    - '   &f➟ &7[SpiderI]'
+    - ''
+    - '&7&nOBS:&f Caso você não seja da classe &7[Spider]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 12
+  SKULL-URL: 'http://textures.minecraft.net/texture/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1'
+4:
+  LEFT-CLICK-COMMAND: 'kit creeper'
+  NAME: '&2Creeper'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &2[CreeperIII]'
+    - '  &f➟ &2[CreeperII]'
+    - '   &f➟ &2[CreeperI]'
+    - ''
+    - '&2&nOBS:&f Caso você não seja da classe &2[Creeper]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 13
+  SKULL-URL: 'http://textures.minecraft.net/texture/f4254838c33ea227ffca223dddaabfe0b0215f70da649e944477f44370ca6952'
+5:
+  LEFT-CLICK-COMMAND: 'kit slime'
+  NAME: '&aSlime'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &a[SlimeIII]'
+    - '  &f➟ &a[SlimeII]'
+    - '   &f➟ &a[SlimeI]'
+    - ''
+    - '&a&nOBS:&f Caso você não seja da classe &a[Slime]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 14
+  SKULL-URL: 'http://textures.minecraft.net/texture/895aeec6b842ada8669f846d65bc49762597824ab944f22f45bf3bbb941abe6c'
+6:
+  LEFT-CLICK-COMMAND: 'kit blaze'
+  NAME: '&6Blaze'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &6[BlazeIII]'
+    - '  &f➟ &6[BlazeII]'
+    - '   &f➟ &6[BlazeI]'
+    - ''
+    - '&6&nOBS:&f Caso você não seja da classe &6[Blaze]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 19
+  SKULL-URL: 'http://textures.minecraft.net/texture/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0'
+7:
+  LEFT-CLICK-COMMAND: 'kit guardian'
+  NAME: '&9Guardian'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &9[GuardianIII]'
+    - '  &f➟ &9[GuardianII]'
+    - '   &f➟ &9[GuardianI]'
+    - ''
+    - '&9&nOBS:&f Caso você não seja da classe &9[Guardian]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 20
+  SKULL-URL: 'http://textures.minecraft.net/texture/a0bf34a71e7715b6ba52d5dd1bae5cb85f773dc9b0d457b4bfc5f9dd3cc7c94'
+8:
+  LEFT-CLICK-COMMAND: 'kit golem'
+  NAME: '&4Iron Golem'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &4[IronGolemIII]'
+    - '  &f➟ &4[IronGolemII]'
+    - '   &f➟ &4[IronGolemI]'
+    - ''
+    - '&4&nOBS:&f Caso você não seja da classe &4[IronGolem]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 21
+  SKULL-URL: 'http://textures.minecraft.net/texture/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714'
+9:
+  LEFT-CLICK-COMMAND: 'kit wither'
+  NAME: '&8Wither'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &8[WitherIII]'
+    - '  &f➟ &8[WitherII]'
+    - '   &f➟ &8[WitherI]'
+    - ''
+    - '&8&nOBS:&f Caso você não seja da classe &8[Wither]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 22
+  SKULL-URL: 'http://textures.minecraft.net/texture/cdf74e323ed41436965f5c57ddf2815d5332fe999e68fbb9d6cf5c8bd4139f'
+10:
+  LEFT-CLICK-COMMAND: 'kit dragon'
+  NAME: '&5EnderDragon'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &5[EnderDragonIII]'
+    - '  &f➟ &5[EnderDragonII]'
+    - '   &f➟ &5[EnderDragonI]'
+    - ''
+    - '&5&nOBS:&f Caso você não seja da classe &5[EnderDragon]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 23
+  SKULL-URL: 'http://textures.minecraft.net/texture/74ecc040785e54663e855ef0486da72154d69bb4b7424b7381ccf95b095a'
+11:
+  LEFT-CLICK-COMMAND: 'kit herobrine'
+  NAME: '&4Herobrine'
+  LORE:
+    - '&7Abaixo você consegue ver todas as Classes'
+    - '&7e Ranks que tem permissão para pegar este kit.'
+    - ''
+    - ' &f➟ &4[HerobrineIII]'
+    - '  &f➟ &4[HerobrineII]'
+    - '   &f➟ &4[HerobrineI]'
+    - ''
+    - '&4&nOBS:&f Caso você não seja da classe &4[Herobrine]&f,'
+    - '&fvocê não terá nenhum acesso aos kit dessa classe.'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 30
+  SKULL-URL: 'http://textures.minecraft.net/texture/98b7ca3c7d314a61abed8fc18d797fc30b6efc8445425c4e250997e52e6cb'
+12:
+  LEFT-CLICK-COMMAND: 'kit basico'
+  NAME: '&eKit Básico'
+  LORE:
+    - ''
+    - '&7Esse é o Kit Básico do servidor, sempre que um novo'
+    - '&7Player se conectar em nosso servidor pode pegar'
+    - '&7esse Kit para estar começando em nossa rede.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 16
+  SKULL-URL: 'http://textures.minecraft.net/texture/5c2a626f7fd095faa4afe1c2654cc5f7d38f1045d1fe9613e305fc3ae2817aad'
+13:
+  LEFT-CLICK-COMMAND: 'kit batalha'
+  NAME: '&cKit de Batalha'
+  LORE:
+    - ''
+    - '&7Esse é o Kit de Batalha, caso você é iniciante e não tem'
+    - '&7Bons itens para batalhar, esse Kit lhe recomenda'
+    - '&7Itens excelentes para você ter a batalha perfeita.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 25
+  SKULL-URL: 'http://textures.minecraft.net/texture/5609ac6127191296223852cf543fe9bd0b5072c5ab8ac378325b84625669eae8'
+14:
+  LEFT-CLICK-COMMAND: 'open:kits.yml'
+  NAME: '&cRetornar'
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 34
+  SKULL-URL: 'http://textures.minecraft.net/texture/bd69e06e5dadfd84e5f3d1c21063f2553b2fa945ee1d4d7152fdc5425bc12a9'

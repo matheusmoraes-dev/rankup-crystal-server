@@ -1,0 +1,125 @@
+##############################
+#+                          +#
+#   CONFIGURAÇÕES DO MENU    #
+#+                          +#
+##############################
+
+menu-settings:
+
+  # Nome - É o titulo do menu - OBRIGATÓRIO
+  name: '&8Categoria: Locais do Servidor-1'
+
+  # Linhas - O número de linhas que tera o seu menu - OBRIGATÓRIO
+  # O número de linhas sera ignorado caso o tipo não for CHEST!
+  rows: 3
+  
+  # Tipo - O tipo do inventario que sera aberto(bau, dispenser etc..) - OBRIGATÓRIO
+  # Para ver a lista dos tipos validos acesse o arquivo ajuda.yml
+  type: CHEST
+
+  # Comando - Comando usado para abrir o menu. - OPCIONAL
+  # Para não queira usar um comando para abrir o menu deixe apenas as duas aspas em brancos. Exemplo: ''
+  # Caso você queira criar aliases para o comando coloque um ; depois do comando. Exemplo: 'menu; abrirmenu; abre;'
+  command: 'warps1;warp1;locais1;mundos1'
+
+  # Atualização automatica - OPCIONAL
+  # Isto serve para atualizar os itens do menu automaticamente a cada X segundos.
+  auto-refresh: 5
+
+  # Comandos ao abrir - Comandos ou tarefas executadas ao abrir o menu - OPCIONAL
+  # Util caso você queira colocar um mvp ao abrir o MENU ou caso você queira colocar uma mensagem.
+  open-action: 'sound: notepling'
+
+  # Abrir menu com - Item que ao ser clicado abre o men - OPCIONAL
+  # Este menu sera aberto quando o player clicar com o botão direito segurando uma lã laranja [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+# ID/Nome do Icone (não pode ser repetido!)
+Voltar:
+  LEFT-CLICK-COMMAND: 'open: Warps.yml'
+  RIGHT-CLICK-COMMAND: 'open: Warps.yml'
+  NAME: ' &b&lCRYSTAL NETWORK '
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fApertando aqui você podera'
+  - '&fVoltar a categoria'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 9
+  SKULL-URL: 'http://textures.minecraft.net/texture/bd69e06e5dadfd84e5f3d1c21063f2553b2fa945ee1d4d7152fdc5425bc12a9'
+7:
+  LEFT-CLICK-COMMAND: 'warp Crates'
+  NAME: '&bWarp Crates'
+  LORE:
+    - ''
+    - '&b&nCrate:&7 Crate e onde você podera usar chaves'
+    - '&7Que Você podera diversos premios como:'
+    - '&7Maquinas,spawners, bosses e etc...'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 11
+  SKULL-URL: 'http://textures.minecraft.net/texture/8358fba2f1bdc519ba85e5366bab8def9bbe404ef639c2e3c654d10a1d8d3'
+8:
+  LEFT-CLICK-COMMAND: 'warp dungeon'
+  NAME: '&2Warp Dungeon'
+  LORE:
+    - ''
+    - '&2&nDungeon:&7 Dungeon e onde você podera'
+    - '&7Batalhar contra mobs e ganhar premios.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 12
+  SKULL-URL: 'http://textures.minecraft.net/texture/aa4255156a658db564475a41c881ad95dbd7a0abe272b4ad9d32840ea8418ca3'
+9:
+  LEFT-CLICK-COMMAND: 'warp banco'
+  NAME: '&6Warp Banco'
+  LORE:
+    - ''
+    - '&6&nBanco:&7 Banco e onde você podera'
+    - '&7Guarda seu dinheiro e multiplicar seu money.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 13
+  SKULL-URL: 'http://textures.minecraft.net/texture/539a9a4b15a5c7ed1c54e0e0f5a02b3b6d945dca3b73f510ef847bf94600c4b7'
+11:
+  LEFT-CLICK-COMMAND: 'warp missoes'
+  NAME: '&bWarp Missões'
+  LORE:
+    - ''
+    - '&8&nMissões:&7 Missões e onde'
+    - '&7Você irar poder completar missões e ganhar prêmios.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 14
+  SKULL-URL: 'http://textures.minecraft.net/texture/6881309256a064135c09d48b738881c702e9cdc13062dc9927cec4ec4fe5ed7b'
+12:
+  LEFT-CLICK-COMMAND: 'warp encantar'
+  NAME: '&5Warp Encantar'
+  LORE:
+    - ''
+    - '&5&nEncantar:&7Encantar onde '
+    - '&7Você irar poder encantar seus itens.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 15
+  SKULL-URL: 'http://textures.minecraft.net/texture/789aabeca94a312d7063b1c67b5333317fa55fbaccddbb8dc4c243217790f86c'

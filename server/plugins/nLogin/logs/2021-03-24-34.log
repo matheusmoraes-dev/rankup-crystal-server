@@ -1,0 +1,35 @@
+[24 de Março de 2021 22:55:36]: [nLogin]          __             _       
+[24 de Março de 2021 22:55:36]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[24 de Março de 2021 22:55:36]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[24 de Março de 2021 22:55:36]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[24 de Março de 2021 22:55:36]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[24 de Março de 2021 22:55:36]: [nLogin]                   |___/            
+[24 de Março de 2021 22:55:36]: [nLogin]  By: www.nickuc.com - V 9.2.0
+[24 de Março de 2021 22:55:36]: [nLogin] 
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Detectando configurações de hardware/software...
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Todas as configurações do plugin foram carregadas em 167 ms.
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_br.yml'
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_en.yml'
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_es.yml'
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_pl.yml'
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_ru.yml'
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_fr.yml'
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_lt.yml'
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_de.yml'
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_tr.yml'
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Todas as mensagens foram carregadas em 184 ms.
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Inicializando controlador de configurações...
+[24 de Março de 2021 22:55:36]: [nLogin] Carregando tarefas para inicialização...
+[24 de Março de 2021 22:55:36]: [nLogin] [Ativação] Your key was nya'd by Catboy <3 ~ https://t.me/catboygang
+[24 de Março de 2021 22:55:36]: [DEBUG] [nLogin] Inicializando o controlador de banco de dados...
+[24 de Março de 2021 22:55:37]: [DEBUG] [nLogin] Inicializando controlador de tarefas (pos start)...
+[24 de Março de 2021 22:55:37]: [nLogin] nLogin foi carregado em 1727ms.
+[24 de Março de 2021 23:03:24]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "INSERT INTO `nlogin` (`name`, `realname`, `password`, `address`, `regdate`, `lastlogin`, `email`, `twitter`, `discord`, `settings`) VALUES ('zcraftninja', 'ZcraftNinja', '$2a$10$0dzXdf5zHKCxcMPwrrrn5ecKmAyHQy5jDp4xS.2VUzc/5p9vIGJoa', '189.10.26.169', '1616623403476', '1616623403476', null, null, null, 'i3BwaTM9ZwwyS/OM9nTEweBj03lBfij7RQTgfDN6qKjfpajph6tI/riCe7jwMsyAFan8KKeGCrcqEZ5H8LcSE9ftxtVfLBNQiJ/jGP7c2rkZMsY0vBAMnIqiQmLnENAMv/z/bSne+ucGXwyaf1f4qh1TwGD2Dc5d0H7LdKMsHn7MghESjjVuQDjjKjGvNWw8syH1aG6xLKxHF+Nihi9vG3LK9wq49grxaVcJHV0h')"
+[24 de Março de 2021 23:03:24]: [nLogin] O usuário ZcraftNinja se registrou com sucesso.
+[24 de Março de 2021 23:10:28]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.169', `regdate` = '1615856558909', `lastlogin` = '1616623828721', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[24 de Março de 2021 23:10:28]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[24 de Março de 2021 23:10:28]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[25 de Março de 2021 01:31:15]: [nLogin] 
+[25 de Março de 2021 01:31:15]: [nLogin] Desativando módulos do nLogin V 9.2.0...
+[25 de Março de 2021 01:31:15]: [nLogin] 
+[25 de Março de 2021 01:31:15]: [nLogin] nLogin foi encerrado em 1ms.

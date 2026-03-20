@@ -1,0 +1,13 @@
+Localizacao: world,531.4927565018659,54.0,-546.10307278779,-44.849976,4.9500003
+Permissao: system.warp.banco
+MensagemSemPermissao: §cVocê não tem permissão para se teleportar para a warp banco.
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: §aVocê sera teleportado para a warp banco em 5 segundos!
+MensagemFinal: §aTeleportado com sucesso para a warp banco!
+EnviarTitle: true
+Title: §aVOCÊ FOI TELEPORTADO
+SubTitle: §ePARA A WARP banco
+MensagemPlayerTeleportado: §aVocê foi teleportado para a warp banco!
+MensagemPlayerTeleportadoStaff: §a%player% teleportado com sucesso para a warp banco.

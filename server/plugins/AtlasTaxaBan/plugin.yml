@@ -1,0 +1,5 @@
+name: AtlasTaxaBan
+author: dont
+version: 1.1
+main: com.dont.taxaban.Terminal
+depend: [Vault]

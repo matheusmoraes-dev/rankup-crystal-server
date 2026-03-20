@@ -1,0 +1,227 @@
+##############################
+#+                          +#
+#   CONFIGURAÇÕES DO MENU    #
+#+                          +#
+##############################
+
+menu-settings:
+
+  # Nome - É o titulo do menu - OBRIGATÓRIO
+  name: '&8Categoria: Caixas Misteriosas'
+
+  # Linhas - O número de linhas que tera o seu menu - OBRIGATÓRIO
+  # O número de linhas sera ignorado caso o tipo não for CHEST!
+  rows: 6
+  
+  # Tipo - O tipo do inventario que sera aberto(bau, dispenser etc..) - OBRIGATÓRIO
+  # Para ver a lista dos tipos validos acesse o arquivo ajuda.yml
+  type: CHEST
+
+  # Comando - Comando usado para abrir o menu. - OPCIONAL
+  # Para não queira usar um comando para abrir o menu deixe apenas as duas aspas em brancos. Exemplo: ''
+  # Caso você queira criar aliases para o comando coloque um ; depois do comando. Exemplo: 'menu; abrirmenu; abre;'
+  command: ''
+
+  # Atualização automatica - OPCIONAL
+  # Isto serve para atualizar os itens do menu automaticamente a cada X segundos.
+  auto-refresh: 1
+
+  # Comandos ao abrir - Comandos ou tarefas executadas ao abrir o menu - OPCIONAL
+  # Util caso você queira colocar um SOM ao abrir o MENU ou caso você queira colocar uma mensagem.
+  open-action: 'sound: notepling'
+
+  # Abrir menu com - Item que ao ser clicado abre o men - OPCIONAL
+  # Este menu sera aberto quando o player clicar com o botão direito segurando uma lã laranja [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+# ID/Nome do Icone (não pode ser repetido!)
+Básica1:
+  LEFT-CLICK-COMMAND: 'console:darcrate {player} c1 1 '
+  RIGHT-CLICK-COMMAND: 'console:darcrate {player} c1 1 '
+  KEEP-OPEN: true
+  NAME: '&6Caixa Misteriosa'
+  LORE:
+    - '&7Tipo: &6Básica'
+    - '&7Raridade: &6✩&f✩✩✩✩'
+    - ''
+    - '&7Preço: &a500 Cash'
+    - '&7Quantidade: &a1'
+    - ''
+    - '&aClique aqui para finalizar a compra.'
+  ID: 397
+  POINTS: 500
+  SLOT: 10
+  DATA-VALUE: 3
+  AMOUNT: 1
+  SKULL-URL: 'http://textures.minecraft.net/texture/d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622'
+  
+Básica2:
+  LEFT-CLICK-COMMAND: 'console:darcrate {player} c1 5'
+  RIGHT-CLICK-COMMAND: 'console:darcrate {player} c1 5'
+  KEEP-OPEN: true
+  NAME: '&6Caixa Misteriosa'
+  LORE:
+    - '&7Tipo: &6Básica'
+    - '&7Raridade: &6✩&f✩✩✩✩'
+    - ''
+    - '&7Preço: &a2.500 Cash'
+    - '&7Quantidade: &a5'
+    - ''
+    - '&aClique aqui para finalizar a compra.'
+  ID: 397
+  POINTS: 2500
+  SLOT: 19
+  DATA-VALUE: 3
+  AMOUNT: 1
+  SKULL-URL: 'http://textures.minecraft.net/texture/d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622'
+Básica3:
+  LEFT-CLICK-COMMAND: 'console: darcrate {player} c1 10'
+  RIGHT-CLICK-COMMAND: 'console: darcrate {player} c1 10'
+  KEEP-OPEN: true
+  NAME: '&6Caixa Misteriosa'
+  LORE:
+    - '&7Tipo: &6Básica'
+    - '&7Raridade: &6✩&f✩✩✩✩'
+    - ''
+    - '&7Preço: &a5.000 Cash'
+    - '&7Quantidade: &a10'
+    - ''
+    - '&aClique aqui para finalizar a compra.'
+  ID: 397
+  POINTS: 5000
+  SLOT: 28
+  DATA-VALUE: 3
+  AMOUNT: 1
+  SKULL-URL: 'http://textures.minecraft.net/texture/d5c6dc2bbf51c36cfc7714585a6a5683ef2b14d47d8ff714654a893f5da622'
+Avançada1:
+  LEFT-CLICK-COMMAND: 'console: cdarcrate {player} c2 1'
+  RIGHT-CLICK-COMMAND: 'console: darcrate {player} c2 1'
+  KEEP-OPEN: true
+  NAME: '&9Caixa Misteriosa'
+  LORE:
+    - '&7Tipo: &9Avançada'
+    - '&7Raridade: &6✩✩&f✩✩✩'
+    - ''
+    - '&7Preço: &a1.000 Cash'
+    - '&7Quantidade: &a1'
+    - ''
+    - '&aClique aqui para finalizar a compra.'
+  ID: 397
+  POINTS: 3200
+  SLOT: 12
+  DATA-VALUE: 3
+  AMOUNT: 1
+  SKULL-URL: 'http://textures.minecraft.net/texture/a6cc486c2be1cb9dfcb2e53dd9a3e9a883bfadb27cb956f1896d602b4067'
+Avançada2:
+  LEFT-CLICK-COMMAND: 'console: darcrate {player} c2 5'
+  RIGHT-CLICK-COMMAND: 'console: darcrate {player} c2 5'
+  KEEP-OPEN: true
+  NAME: '&9Caixa Misteriosa'
+  LORE:
+    - '&7Tipo: &9Avançada'
+    - '&7Raridade: &6✩✩&f✩✩✩'
+    - ''
+    - '&7Preço: &a5.000 Cash'
+    - '&7Quantidade: &a5'
+    - ''
+    - '&aClique aqui para finalizar a compra.'
+  ID: 397
+  POINTS: 5000
+  SLOT: 21
+  DATA-VALUE: 3
+  AMOUNT: 1
+  SKULL-URL: 'http://textures.minecraft.net/texture/a6cc486c2be1cb9dfcb2e53dd9a3e9a883bfadb27cb956f1896d602b4067'
+Avançada3:
+  LEFT-CLICK-COMMAND: 'console: darcrate {player} c2 10'
+  RIGHT-CLICK-COMMAND: 'console: darcrate {player} c2 10'
+  KEEP-OPEN: true
+  NAME: '&9Caixa Misteriosa'
+  LORE:
+    - '&7Tipo: &9Avançada'
+    - '&7Raridade: &6✩✩&f✩✩✩'
+    - ''
+    - '&7Preço: &a10.000 Cash'
+    - '&7Quantidade: &a10'
+    - ''
+    - '&aClique aqui para finalizar a compra.'
+  ID: 397
+  POINTS: 10000
+  SLOT: 30
+  DATA-VALUE: 3
+  AMOUNT: 1
+  SKULL-URL: 'http://textures.minecraft.net/texture/a6cc486c2be1cb9dfcb2e53dd9a3e9a883bfadb27cb956f1896d602b4067'
+Divina1:
+  LEFT-CLICK-COMMAND: 'console: darcrate {player} c3 1'
+  RIGHT-CLICK-COMMAND: 'console: darcrate {player} c3 1'
+  KEEP-OPEN: true
+  NAME: '&bCaixa Misteriosa'
+  LORE:
+    - '&7Tipo: &bDivina'
+    - '&7Raridade: &6✩✩&f✩✩✩'
+    - ''
+    - '&7Preço: &a2.000 Cash'
+    - '&7Quantidade: &a1'
+    - ''
+    - '&aClique aqui para finalizar a compra.'
+  ID: 397
+  POINTS: 2000
+  SLOT: 14
+  DATA-VALUE: 3
+  AMOUNT: 1
+  SKULL-URL: 'http://textures.minecraft.net/texture/1762a15b04692a2e4b3fb3663bd4b78434dce1732b8eb1c7a9f7c0fbf6f'
+Divina2:
+  LEFT-CLICK-COMMAND: 'console: darcrate {player} c3 5'
+  RIGHT-CLICK-COMMAND: 'console: darcrate {player} c3 5'
+  KEEP-OPEN: true
+  NAME: '&bCaixa Misteriosa'
+  LORE:
+    - '&7Tipo: &bDivina'
+    - '&7Raridade: &6✩✩✩✩&f✩'
+    - ''
+    - '&7Preço: &a10.000 Cash'
+    - '&7Quantidade: &a5'
+    - ''
+    - '&aClique aqui para finalizar a compra.'
+  ID: 397
+  POINTS: 10000
+  SLOT: 23
+  DATA-VALUE: 3
+  AMOUNT: 1
+  SKULL-URL: 'http://textures.minecraft.net/texture/1762a15b04692a2e4b3fb3663bd4b78434dce1732b8eb1c7a9f7c0fbf6f'
+Divina3:
+  LEFT-CLICK-COMMAND: 'console: darcrate {player} c3 10'
+  RIGHT-CLICK-COMMAND: 'console: darcrate {player} c3 10'
+  KEEP-OPEN: true
+  NAME: '&bCaixa Misteriosa'
+  LORE:
+    - '&7Tipo: &bDivina'
+    - '&7Raridade: &6✩✩✩✩&f✩'
+    - ''
+    - '&7Preço: &a20.000 Cash'
+    - '&7Quantidade: &a10'
+    - ''
+    - '&aClique aqui para finalizar a compra.'
+  ID: 397
+  POINTS: 20000
+  SLOT: 32
+  DATA-VALUE: 3
+  AMOUNT: 1
+  SKULL-URL: 'http://textures.minecraft.net/texture/1762a15b04692a2e4b3fb3663bd4b78434dce1732b8eb1c7a9f7c0fbf6f'
+Retornar:
+Retornar:
+  LEFT-CLICK-COMMAND: 'open:kits.yml'
+  RIGHT-CLICK-COMMAND: 'open:kits.yml'
+  KEEP-OPEN: true
+  NAME: '&cRetornar'
+  ID: 397
+  DATA-VALUE: 3
+  SLOT: 40
+  SKULL-URL: 'http://textures.minecraft.net/texture/bd69e06e5dadfd84e5f3d1c21063f2553b2fa945ee1d4d7152fdc5425bc12a9'

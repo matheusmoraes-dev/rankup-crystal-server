@@ -1,0 +1,91 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Loja-2'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: 'Loja1'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Voltar:
+  LEFT-CLICK-COMMAND: 'open: Loja.yml'
+  RIGHT-CLICK-COMMAND: 'open: Loja.yml'
+  NAME: ' &b&lCRYSTAL NETWORK '
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fApertando aqui você podera'
+  - '&fVoltar a categoria'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 9
+  SKULL-URL: 'http://textures.minecraft.net/texture/bd69e06e5dadfd84e5f3d1c21063f2553b2fa945ee1d4d7152fdc5425bc12a9'
+Minapv:
+  LEFT-CLICK-COMMAND: 'open: minapv.yml'
+  RIGHT-CLICK-COMMAND: 'open: minapv.yml'
+  NAME: ' &b&lCRYSTAL NETWORK '
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá encontar'
+  - '&fMinasprivadas que te ajudara a ter uma mina so sua'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 11
+  SKULL-URL: 'http://textures.minecraft.net/texture/366335847cba9aeaffc95cb109fdf55da13c95c97326a3bf5ddc7c99ee3'
+Com:
+  LEFT-CLICK-COMMAND: 'comb'
+  RIGHT-CLICK-COMMAND: 'comb'
+  NAME: ' &b&lCRYSTAL NETWORK'
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá encontrar'
+  - '&fCombustiveis'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 12
+  KEEP-OPEN: true
+  SKULL-URL: 'http://textures.minecraft.net/texture/ae8e670a79b616334bc1fb9139132fb35c57dda6975af9ce48333e94aa6c9573'
+Boss:
+  LEFT-CLICK-COMMAND: 'boss'
+  RIGHT-CLICK-COMMAND: 'boss'
+  NAME: ' &b&lCRYSTAL NETWORK'
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá encontrar'
+  - '&fBosses'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 13
+  KEEP-OPEN: true
+  SKULL-URL: 'http://textures.minecraft.net/texture/8321bd865442f7af8f3aae159cb42d78e8fe63b21f51b367dfb0a4e642273ec3'

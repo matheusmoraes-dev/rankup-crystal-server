@@ -1,0 +1,13 @@
+Localizacao: world,28423.732539902107,136.0,3008.971916001461,-310.34756,5.5578003
+Permissao: system.warp.encantar
+MensagemSemPermissao: §cVocê não tem permissão para se teleportar para a warp encantar.
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: §aVocê sera teleportado para a warp encantar em 5 segundos!
+MensagemFinal: §aTeleportado com sucesso para a warp encantar!
+EnviarTitle: true
+Title: §aVOCÊ FOI TELEPORTADO
+SubTitle: §ePARA A WARP encantar
+MensagemPlayerTeleportado: §aVocê foi teleportado para a warp encantar!
+MensagemPlayerTeleportadoStaff: §a%player% teleportado com sucesso para a warp encantar.

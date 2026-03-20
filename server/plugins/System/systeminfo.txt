@@ -1,0 +1,658 @@
++----------------------------------+
+| Variaveis de Ambiente do Sistema |
++----------------------------------+
+
+
+PATH : /usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+SERVER_PORT : 26133
+DL_PATH : 
+INTERNAL_IP : 998
+MINECRAFT_VERSION : latest
+JAVA_HOME : /usr/local/openjdk-8
+OLDPWD : /home/container
+TERM : xterm
+STARTUP : java -Xms128M -Xmx{{SERVER_MEMORY}}M -Dterminal.jline=false -Dterminal.ansi=true -jar {{SERVER_JARFILE}}
+USER : container
+SERVER_JARFILE : server.jar
+LANG : C.UTF-8
+P_SERVER_LOCATION : FREE-NA
+SERVER_IP : 116.202.52.161
+BUILD_NUMBER : latest
+HOSTNAME : d46d792a-4219-4eaa-8abe-6b0030d8bbab
+P_SERVER_UUID : d46d792a-4219-4eaa-8abe-6b0030d8bbab
+JAVA_VERSION : 8u282
+SERVER_MEMORY : 2048
+PWD : /home/container
+SHLVL : 1
+HOME : /home/container
+_ : /usr/local/openjdk-8/bin/java
+
+
++----------------------------------+
+|  Propriedades Gerais do Sistema  |
++----------------------------------+
+
+
+java.runtime.name : OpenJDK Runtime Environment
+sun.boot.library.path : /usr/local/openjdk-8/lib/amd64
+java.vm.version : 25.282-b08
+HolographicDisplaysLoaded : true
+java.vm.vendor : Oracle Corporation
+java.vendor.url : http://java.oracle.com/
+path.separator : :
+jna.loaded : true
+java.vm.name : OpenJDK 64-Bit Server VM
+file.encoding.pkg : sun.io
+sun.java.launcher : SUN_STANDARD
+sun.os.patch.level : unknown
+java.vm.specification.name : Java Virtual Machine Specification
+user.dir : /home/container
+java.runtime.version : 1.8.0_282-b08
+java.awt.graphicsenv : sun.awt.X11GraphicsEnvironment
+java.endorsed.dirs : /usr/local/openjdk-8/lib/endorsed
+os.arch : amd64
+java.io.tmpdir : /tmp
+line.separator : 
+
+java.vm.specification.vendor : Oracle Corporation
+terminal.ansi : true
+os.name : Linux
+sun.jnu.encoding : UTF-8
+jnidispatch.path : /home/container/?/.cache/JNA/temp/jna6642746895812287992.tmp
+java.library.path : /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.specification.name : Java Platform API Specification
+java.class.version : 52.0
+sun.management.compiler : HotSpot 64-Bit Tiered Compilers
+os.version : 5.4.0-60-generic
+user.home : ?
+user.timezone : Europe/Berlin
+java.awt.printerjob : sun.print.PSPrinterJob
+file.encoding : UTF-8
+java.specification.version : 1.8
+java.class.path : server.jar
+user.name : ?
+java.vm.specification.version : 1.8
+sun.java.command : server.jar
+java.home : /usr/local/openjdk-8
+sun.arch.data.model : 64
+user.language : en
+java.specification.vendor : Oracle Corporation
+awt.toolkit : sun.awt.X11.XToolkit
+java.vm.info : mixed mode
+java.version : 1.8.0_282
+java.ext.dirs : /usr/local/openjdk-8/lib/ext:/usr/java/packages/lib/ext
+sun.boot.class.path : /usr/local/openjdk-8/lib/resources.jar:/usr/local/openjdk-8/lib/rt.jar:/usr/local/openjdk-8/lib/sunrsasign.jar:/usr/local/openjdk-8/lib/jsse.jar:/usr/local/openjdk-8/lib/jce.jar:/usr/local/openjdk-8/lib/charsets.jar:/usr/local/openjdk-8/lib/jfr.jar:/usr/local/openjdk-8/classes
+java.vendor : Oracle Corporation
+io.netty.eventLoopThreads : 4
+file.separator : /
+java.vendor.url.bug : http://bugreport.sun.com/bugreport/
+sun.font.fontmanager : sun.awt.X11FontManager
+terminal.jline : false
+sun.io.unicode.encoding : UnicodeLittle
+sun.cpu.endian : little
+sun.cpu.isalist : 
+
+
++----------------------------------+
+|   Informações Gerais da Maquina  |
++----------------------------------+
+
+**********************************
+COMMAND: lscpu
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+Address sizes:       39 bits physical, 48 bits virtual
+CPU(s):              16
+On-line CPU(s) list: 0-15
+Thread(s) per core:  2
+Core(s) per socket:  8
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               158
+Model name:          Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+Stepping:            13
+CPU MHz:             3899.983
+CPU max MHz:         5000.0000
+CPU min MHz:         800.0000
+BogoMIPS:            7200.00
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            16384K
+NUMA node0 CPU(s):   0-15
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+**********************************
+
+**********************************
+COMMAND: cat /proc/meminfo
+MemTotal:       131834128 kB
+MemFree:        15612604 kB
+MemAvailable:   56347132 kB
+Buffers:         2633652 kB
+Cached:         37005448 kB
+SwapCached:      1398828 kB
+Active:         82053000 kB
+Inactive:       30878416 kB
+Active(anon):   65652968 kB
+Inactive(anon):  7334152 kB
+Active(file):   16400032 kB
+Inactive(file): 23544264 kB
+Unevictable:         116 kB
+Mlocked:             116 kB
+SwapTotal:       4189180 kB
+SwapFree:         487596 kB
+Dirty:               192 kB
+Writeback:             0 kB
+AnonPages:      71893956 kB
+Mapped:          1570464 kB
+Shmem:             35808 kB
+KReclaimable:    2047352 kB
+Slab:            2793492 kB
+SReclaimable:    2047352 kB
+SUnreclaim:       746140 kB
+KernelStack:       72880 kB
+PageTables:       198240 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    70106244 kB
+Committed_AS:   100359880 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       86012 kB
+VmallocChunk:          0 kB
+Percpu:           101824 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:      2048 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:     3406928 kB
+DirectMap2M:    128620544 kB
+DirectMap1G:     2097152 kB
+**********************************
+
+**********************************
+COMMAND: cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.952
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 0
+cpu cores	: 8
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.877
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 1
+cpu cores	: 8
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.881
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 2
+cpu cores	: 8
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3901.122
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 3
+cpu cores	: 8
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.889
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 4
+cpu cores	: 8
+apicid		: 8
+initial apicid	: 8
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.211
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 5
+cpu cores	: 8
+apicid		: 10
+initial apicid	: 10
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3901.084
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 6
+cpu cores	: 8
+apicid		: 12
+initial apicid	: 12
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.324
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 7
+cpu cores	: 8
+apicid		: 14
+initial apicid	: 14
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 8
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.127
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 0
+cpu cores	: 8
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 9
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.207
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 1
+cpu cores	: 8
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 10
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.955
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 2
+cpu cores	: 8
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 11
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.044
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 3
+cpu cores	: 8
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 12
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3901.101
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 4
+cpu cores	: 8
+apicid		: 9
+initial apicid	: 9
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 13
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.824
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 5
+cpu cores	: 8
+apicid		: 11
+initial apicid	: 11
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 14
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.867
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 6
+cpu cores	: 8
+apicid		: 13
+initial apicid	: 13
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 15
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 158
+model name	: Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz
+stepping	: 13
+microcode	: 0xde
+cpu MHz		: 3900.908
+cache size	: 16384 KB
+physical id	: 0
+siblings	: 16
+core id		: 7
+cpu cores	: 8
+apicid		: 15
+initial apicid	: 15
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 22
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp md_clear flush_l1d arch_capabilities
+bugs		: spectre_v1 spectre_v2 spec_store_bypass swapgs taa itlb_multihit srbds
+bogomips	: 7200.00
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+**********************************
+
+**********************************
+COMMAND: df -h
+Filesystem      Size  Used Avail Use% Mounted on
+overlay         934G  185G  702G  21% /
+tmpfs            64M     0   64M   0% /dev
+tmpfs            63G     0   63G   0% /sys/fs/cgroup
+shm              64M     0   64M   0% /dev/shm
+tmpfs            50M  1.3M   49M   3% /tmp
+/dev/md2        934G  185G  702G  21% /etc/timezone
+tmpfs            63G     0   63G   0% /proc/acpi
+tmpfs            63G     0   63G   0% /proc/scsi
+tmpfs            63G     0   63G   0% /sys/firmware
+**********************************
+
+
++----------------------------------+
+|  Informações de Rede da Maquina  |
++----------------------------------+
+
+**********************************
+COMMAND: ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+106955: eth0@if106956: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+    link/ether 02:42:ac:12:00:10 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+    inet 172.18.0.16/16 brd 172.18.255.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fdba:17c8:6c94::f/64 scope global nodad 
+       valid_lft forever preferred_lft forever
+    inet6 fe80::42:acff:fe12:10/64 scope link 
+       valid_lft forever preferred_lft forever
+**********************************

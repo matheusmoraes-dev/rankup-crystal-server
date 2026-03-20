@@ -1,0 +1,88 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # name - appears as the title - REQUIRED
+  name: '&8Regras Servidor/Discord'
+
+  # Linhas - O número de linhas que tera o seu menu - OBRIGATÓRIO
+  # O número de linhas sera ignorado caso o tipo não for CHEST!
+  rows: 3
+  
+  # Tipo - O tipo do inventario que sera aberto(bau, dispenser etc..) - OBRIGATÓRIO
+  # Para ver a lista dos tipos validos acesse o arquivo ajuda.yml
+  type: CHEST
+
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'regras; regra; rule; rules'
+  
+  # Atualização automatica - OPCIONAL
+  # Isto serve para atualizar os itens do menu automaticamente a cada X segundos.
+  auto-refresh: 5
+
+  # Comandos ao abrir - Comandos ou tarefas executadas ao abrir o menu - OPCIONAL
+  # Util caso você queira colocar um mvp ao abrir o MENU ou caso você queira colocar uma mensagem.
+  open-action: 'sound: notepling'
+
+  # Abrir menu com - Item que ao ser clicado abre o men - OPCIONAL
+  # Este menu sera aberto quando o player clicar com o botão direito segurando uma lã laranja [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+regrasservidor:
+  COMMAND: 'open: regras.yml;'
+  NAME: '&4REGRAS SERVIDOR'
+  LORE:
+  - ''
+  - '&e1. &7Proibido o uso de hacker/client'
+  - '&e2. &7Proibido o uso de macro.'
+  - '&e3. &7Proibido floodar o chat/tell.'
+  - '&e4. &7Proibido chingar no chat/tell.'
+  - '&e5. &7Proibido racismo no chat/tell.'
+  - '&e6. &7Proibido ofender jogadores/staffs.'
+  - '&e7. &7Proibido pedir itens a um staff.'
+  - '&e8. &7Proibido pedir staff.'
+  - '&e9. &7Proibido se aproveitar de bugs'
+  - '&e10. &7Proibido pedir cash/vip.'
+  - '&e11. &7Proibido divulgacao de servidores'
+  - ''
+  - '&e* Tem ideias para regras?'
+  - '&e* fale com um staff.'
+  - ''
+  ID: 166
+  KEEP-OPEN: true
+  SLOT: 12
+regrasforum:
+  COMMAND: 'open: regras.yml;'
+  NAME: '&4REGRAS DO DISCORD'
+  LORE:
+  - ''
+  - '&e1. &7Proibido chingar em topicos.'
+  - '&e2. &7Proibido divulgacao de servidores.'
+  - '&e3. &7Proibido divulgacao de hacker/client.'
+  - '&e4. &7Proibido racismo.'
+  - '&e5. &7Proibido topicos em locais errados.'
+  - '&e6. &7Proibido ofender jogadores/staffs.'
+  - '&e7. &7Proibido pedir staff.'
+  - '&e8. &7Proibido pedir cash/vip.'
+  - ''
+  - '&e* Tem ideias para regras?'
+  - '&e* fale com um staff.'
+  - ''
+  ID: 166
+  KEEP-OPEN: true
+  SLOT: 14

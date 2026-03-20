@@ -1,0 +1,89 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'YT'
+
+  rows: 5
+
+  command: 'yt'
+
+  auto-refresh: 5
+  
+  type: CHEST
+
+  open-action: ''
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+shopcmd:
+  COMMAND: ''
+  NAME: '&5MiniYT'
+  LORE:
+    - '&7*300 inscritos, gravar no servidor'
+    - 'e ainda pegar um bom feed! :)'
+  ID: 385
+  SLOT: 12
+  
+  
+shopcmd2:
+  COMMAND: ''
+  NAME: '&cYoutuber'
+  LORE:
+    - '&7*600 inscritos, gravar no servidor'
+    - 'e ainda pegar um bom feed! :)'
+  ID: 385
+  SLOT: 14
+  
+
+shopcmd3:
+  COMMAND: ''
+  NAME: '         &eRecompenças &f/ &aRequisitos'
+  LORE:
+    - '                    &5MiniYT '
+    - ''
+    - '      &6200 &7De cash por video + kit &cVIP Ace'
+    - ' &7Precisa bater a meta de &650 &7views por video'
+    - '   &7Divulgar o video no nosso canal do &6discord!'
+  ID: 339
+  SLOT: 21
+  
+
+shopcmd4:
+  COMMAND: ''
+  NAME: '         &eRecompenças &7/ &aRequisitos'
+  LORE:
+    - '                    &cYoutuber '
+    - ''
+    - '     &6500 &7De cash por video + kit &4VIP Fenix'
+    - ' &7Precisa bater a meta de &6100 &7views por video'
+    - '   &7Divulgar o video no nosso canal do &6discord!'
+  ID: 339
+  SLOT: 23
+  
+        
+shopcmd5:
+  COMMAND: ''
+  NAME: '&5Site'
+  LORE:
+    - 'indisponivel'
+  ID: 264
+  SLOT: 31
+
+
+shopcm6:
+  COMMAND: ''
+  NAME: '&ddiscord'
+  LORE:
+    - 'Indisponivel'
+  ID: 265
+  SLOT: 40

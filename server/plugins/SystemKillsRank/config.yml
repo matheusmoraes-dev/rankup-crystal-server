@@ -1,0 +1,51 @@
+# </> Plugin desenvolvido por: Dust
+# </> para mais informações acesse: https://systemplugins.com/plugins/detalhes/SystemBattlePass
+
+Configurações:
+  ranking-tempo: 2
+
+Recompensas:
+  pedra:
+    title: "&7Fragmentos"
+    lore:
+      - '&7Mate &f2 &7jogadores e ganhe'
+      - ' &7-> &a2500 fragmentos&7.'
+    commands:
+      - 'rank givefragmentos {player} 2500'
+    kills: 2
+  diamante:
+    title: "&aMoney"
+    lore:
+      - '&7Mate &f5 &7jogadores e ganhe'
+      - ' &7-> &a 30k de money&7.'
+    commands:
+      - 'money add {player} 30k'
+    kills: 5
+  Chave:
+    title: "&7Chave Comum"
+    lore:
+      - '&7Mate &f8 &7jogadores e ganhe'
+      - ' &7-> &f10 Chave comum &7.'
+    commands:
+      - 'give{player} '
+    kills: 8
+
+Ranks:
+  bronze:
+    prefix: "&7[Bronze]"
+    kills: 1
+  prata:
+    prefix: "&7[Prata]"
+    kills: 12
+  ouro:
+    prefix: "&6[Ouro]"
+    kills: 18
+  platina:
+    prefix: "&b[Platina]"
+    kills: 28
+  diamante:
+    prefix: "&d[Diamante]"
+    kills: 32
+  mestre:
+    prefix: "&4[Mestre]"
+    kills: 38

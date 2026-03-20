@@ -1,0 +1,22 @@
+Location: nulo
+
+Settings:
+  Raio: 6
+  Tempo: 60 # em segundos
+  Efeito: REDSTONE # disponiveis: REDSTONE, SPELL_MOB
+
+Horarios:
+  - "Seg-13:00" # começa as 13h segunda feira
+  - "Sex-14:00"
+
+Premios: # os prêmios só são dados para quem os membros do clan que ganhou que estavam dominando a arena
+  - "money give {player} 500000"
+
+Holograma:
+  - "item: diamond_sword"
+  - "§a§lDOMINE A ARENA"
+  - "§fStatus: §c{status}"
+  - ""
+  - "{top1}"
+  - "{top2}"
+  - "{top3}"

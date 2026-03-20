@@ -1,0 +1,40 @@
+Tempo: 60
+Quantia de drops: 1
+Minimo player: 1
+Ativar broadcast: true
+Jogar pra cima: true
+Dropou:
+- ''
+- '&b[Altar Místico] &fUm item foi dropado na arena. /arena'
+- ''
+Barrinhas:
+  Quantia: 16
+  Barra: █
+Raio:
+  X: 30
+  Y: 5
+  Z: 30
+Item:
+  CustomSkull: false
+  URL: ''
+  ID: 120
+  Data: 0
+  Name: '&bAltar Místico &7(Joias)'
+  Glow: true
+  Lore:
+  - ''
+  - '&7Coloque no chão para setar'
+  - '&7o altar místico (Joias).'
+Replaces:
+  Esperando: '&cAguardando Jogadores'
+  Pausado: '&cPausado'
+Holograma:
+- '&bAltar Místico &7(Joias)'
+- '&7Gerador de itens básicos.'
+- ''
+- '&fPróximo drop em:'
+- '&e{seg}'
+- ''
+- '{bar}'
+Local: eventos;128.0;29.0;1115.0;0.0;0.0
+Items: a0000g002d5i003bdd5n6aoric5j78ej4f5ig20058dnnarjk045000rkc5jgi004cln66q0a00000082001motjc000g4002d5i008g00c00ii39chikcr31ctpg00007s5001r4d5pn0r31f44g012cdtp6a20000002018oajjeap0a9im6pb2c4g70sj5edpm281i41o6ush0ehimqs3f41kmspj9dpkn8rpe10008jj1dlig04e2ktiklgtjd5gi0p3141mmarjkck0000g00p262rb1ctig02o0,5000080016ip0025mmirj5cdp62pjk79imqpbic5m680800l1mutbeeg0gk003ehgme2800himsor81800000108006r3mdg0020g009km8012001g02a8d5i6ahjcc5jn600000vgk007chkn6s3cc5sgi0049hnn4p88000000805j1aedpb4196aor5c9gi0srle1in483gelm6u81i41o6ush0ehimqs3f41kmspj9dpkn8rpe10008jj1dlig04e2ktgklgtjd5gi0p3f41q6arbgds0000g00p262rb1ctig0000,1800020009km800ddlkmspb3e9gmct1qchsma0800l1mutbeeg0gk003ehgme2800himsor81800000108006r3mdg0020g009km8012001g02a8d5i6ahjcc5jn600000vgk007chkn6s3cc5sgi0049hnn4p88000000805j1aedpb4196aor5c9gi0sj5edkn8pbecdkm281h41o6ush0ehimqs3f41kmspj9dpkn8rpe10008jj1dlig04e2ksqklgtjd5gi0p3f41o6up35e80000g00p262rb1ctig0180,1800020009km800idlkmspb3e9gmct1qe9im8srkdtn6a0800l1mutbeeg0gk003ehgme2800himsor81800000108006r3mdg0020g009km8012001g02a8d5i6ahjcc5jn600000vgk007chkn6s3cc5sgi0049hnn4p8800000080531aedpb4196aor5c9gi0pjfeb1qeo9068g70rri41q6arbgdsg6irj6d5n6it3f5o40012ec5mma00loajm6im3mdkm2834c4g74pb1dhkm8ob4ck0000g00p262rb1ctig0000,2g0004000j9cg00qrb9dpim6sj1cpq3kp3pck0g01a3dtqmst0118006t31cs4g0135dphmg2g0000020g00dm7cr00041000j9cg024003004kgqb4cl36oob7ec00001v1800ep39edo6oobp14008j3fe9igg000000g0bu2ksrim82iclhmaoj141p6apr5dpin4oe3kv1q6rp06cg70rri41q6arbgdsg6irj6d5n6it3f5o40012ec5mma00goajjcim3mdkm2834c4g62r3dc40000g00p262rb1ctig03g0,2g0004000j9cg00qrb9dpim6sj1cpq3kp3pck0g01a3dtqmst0118006t31cs4g0135dphmg2g0000020g00dm7cr00041000j9cg024003004kgqb4cl36oob7ec00001v1800ep39edo6oobp14008j3fe9igg000000g0b62ksrim82iclhmaoj141r6ar3fcdkm8ob4ckg3483gdtp20t35dlo6u839dpj6irj9ehnis2000h762rb5009s59ph9b1r6qb141i6u835edo63gt7ds0000g00p262rb1ctig0100,

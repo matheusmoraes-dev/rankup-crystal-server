@@ -1,0 +1,118 @@
+Killer:
+  Controlador:
+    Tempo: 40
+    Anuncios: 4
+    Preparacao: 30
+    Tp saida: 10
+    Minimo: 2
+    Tag: '&d[Killer]'
+    Ultimo: yChusy
+    Comando: killer
+    Aliases: {}
+    Itens setados: true
+    Dropar itens: false
+  AutoStart:
+    Ativar: false
+    Horarios:
+    - 1-10:10:1
+    - 2-10:10:1
+    - 3-10:10:1
+    - 4-10:10:1
+    - 5-10:10:1
+    - 6-10:10:1
+    - 7-10:10:1
+    - 8-10:10:1
+  Cmd whitelist:
+  - /g
+  Custo:
+    Valor: 1000000.0
+  Comando:
+    Ajuda:
+    - '&dComandos do evento &dKiller&d:'
+    - ''
+    - '&8-> &7/killer &8- &cParticipar do evento.'
+    - '&8-> &7/killer &fajuda &8- &cMostra essa mensagem.'
+    - '&8-> &7/killer &fsetsaida &8- &cSetar a saída do killer.'
+    - '&8-> &7/killer &fsetespera &8- &cSetar a espera do killer.'
+    - '&8-> &7/killer &fsetentrada &8- &cSetar a entrada do killer.'
+    - '&8-> &7/killer &finiciar &8- &cIniciar um killer.'
+    - '&8-> &7/killer &fparar &8- &cParar um killer.'
+    - '&8-> &7/killer &fitens &8- &cSetar os itens do killer.'
+    - '&8-> &7/killer &fcapacete &8- &cSetar o capacete do killer.'
+    - '&8-> &7/killer &fpeitoral &8- &cSetar o peitoral do killer.'
+    - '&8-> &7/killer &fcalca &8- &cSetar a calça do killer.'
+    - '&8-> &7/killer &fbotas &8- &cSetar as botas do killer.'
+    - ''
+    Nao pode iniciar: '&c&lERRO! &cO killer já está ocorrendo.'
+    Nao pode parar: '&c&lERRO! &cO killer não está ocorrendo.'
+    Nao ativo: '&c&lERRO! &cO killer não está ativa.'
+    Esvazie: '&c&lERRO! &cEsvazie seu inventário para entrar no evento killer.'
+    Leve itens: '&c&lERRO! &cVocê deve levar itens para entrar no evento killer.'
+    Entrou: '&a&lSUCESSO! &aVocê entrou no evento killer.'
+    Saiu: '&a&lSUCESSO! &aVocê saiu do evento killer.'
+    Iniciou: '&a&lSUCESSO! &aKiller iniciado.'
+    Parou: '&a&lSUCESSO! &aKiller parado.'
+    Permissao: '&c&lERRO! &cVocê não tem permissão para fazer isto.'
+  Mensagens:
+    Anuncio:
+    - ''
+    - '&f[&4Evento &7Killer&f]'
+    - ''
+    - '&fParticipe do &7killer: &8/killer&f.'
+    - '&fPrêmio: &a{premio} &fem money.'
+    - '&fJogadores participando: &e{jogadores}&f.'
+    - '&fChamada &8{min} &fde &8{max}&f.'
+    - ''
+    Insuficiente:
+    - ''
+    - '&f[&4Evento &7Killer&f]'
+    - ''
+    - '&cJogadores insuficientes, cancelando...'
+    - ''
+    Sairam:
+    - ''
+    - '&f[&4Evento &7Killer&f]'
+    - ''
+    - '&cJogador(es) sairam e a quantia ficou abaixo do mínimo, cancelando evento...'
+    - ''
+    Comecou:
+    - ''
+    - '&f[&4Evento &7Killer&f]'
+    - ''
+    - '&fJogadores teleportados.'
+    - '&fPrêmio: &a{premio} &fem money.'
+    - '&fJogadores participando: &e{jogadores}&f.'
+    - ''
+    Ganhou:
+    - ''
+    - '&f[&4Evento &7Killer&f]'
+    - ''
+    - '&eO jogador &a{player}&e foi o melhor!'
+    - '&eO mesmo ganhou &a{premio}&e em money.'
+    - '&eTeleportando para a saida em 30 segundos'
+    - ''
+    Ganhou P:
+    - ''
+    - '&f[&4Evento &7Killer&f]'
+    - ''
+    - '&fVocê conseguiu!'
+    - '&fVocê ganhou &a{premio}&f em money.'
+    - ''
+    Cancelou:
+    - ''
+    - '&f[&4Evento &7Killer&f]'
+    - ''
+    - '&cO killer foi cancelado por um admin.'
+    - ''
+  Premio:
+    Comando:
+      Usar: false
+      Comando:
+      - give {player} diamond 1
+    Money:
+      Usar: true
+      Money: 2500000.0
+  Efeitos:
+    Ativar: false
+    Lista:
+    - INVISIBILITY:1-100

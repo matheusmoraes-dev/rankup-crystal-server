@@ -1,0 +1,13 @@
+Localizacao: world,1003.6999603680624,89.0,-9231.617047023889,217.12846,21.44999
+Permissao: system.warp.mercadonegro
+MensagemSemPermissao: §cVocê não tem permissão para se teleportar para a warp mercadonegro.
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: §aVocê sera teleportado para a warp mercadonegro em 5 segundos!
+MensagemFinal: §aTeleportado com sucesso para a warp mercadonegro!
+EnviarTitle: true
+Title: §aVOCÊ FOI TELEPORTADO
+SubTitle: §ePARA A WARP mercadonegro
+MensagemPlayerTeleportado: §aVocê foi teleportado para a warp mercadonegro!
+MensagemPlayerTeleportadoStaff: §a%player% teleportado com sucesso para a warp mercadonegro.

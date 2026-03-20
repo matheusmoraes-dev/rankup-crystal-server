@@ -1,0 +1,112 @@
+Nome: '&8Auto-Click (Mobs)'
+BackSlot: 11
+Tamanho: 27
+Itens:
+  Villager:
+    Slot: 12
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&eVillager'
+    Lore:
+    - ''
+    - '&eVillager.'
+    - ''
+  Zombie:
+    Slot: 13
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&2Zombie'
+    Lore:
+    - ''
+    - '&7Ovelha.'
+    - ''
+  Spider:
+    Slot: 14
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&7Spider'
+    Lore:
+    - ''
+    - '&7Spider.'
+    - ''
+  Creeper:
+    Slot: 14
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/f4254838c33ea227ffca223dddaabfe0b0215f70da649e944477f44370ca6952
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&2Creeper'
+    Lore:
+    - ''
+    - '&2Creeper.'
+    - ''
+  Slime:
+    Slot: 19
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/895aeec6b842ada8669f846d65bc49762597824ab944f22f45bf3bbb941abe6c
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&2Slime'
+    Lore:
+    - ''
+    - '&2Slime.'
+    - ''
+  Blaze:
+    Slot: 20
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&6Blaze'
+    Lore:
+    - ''
+    - '&6Blaze.'
+    - ''
+  Guardian:
+    Slot: 21
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/a0bf34a71e7715b6ba52d5dd1bae5cb85f773dc9b0d457b4bfc5f9dd3cc7c94
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&9Guardian'
+    Lore:
+    - ''
+    - '&9Guardian.'
+    - ''
+  Iron Golem:
+    Slot: 22
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&4Iron Golem'
+    Lore:
+    - ''
+    - '&4Iron Golem.'
+    - ''
+  Wither:
+    Slot: 23
+    CustomSkull: true
+    URL: http://textures.minecraft.net/texture/cdf74e323ed41436965f5c57ddf2815d5332fe999e68fbb9d6cf5c8bd4139f
+    ID: 0
+    Data: 0
+    Glow: true
+    Name: '&8Wither'
+    Lore:
+    - ''
+    - '&8Wither.'
+    - ''

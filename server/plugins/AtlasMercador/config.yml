@@ -1,0 +1,91 @@
+NomeCash: de Cash
+Delay: 1
+Mercadores:
+  '1':
+    Location: 1048.699999988079;65.0625;-9270.582328419561;270.82837;1.6499879;world
+    Skin: fadfex
+    Nome: '&5&lMERCADOR PIRATA'
+    Horarios:
+    - Seg-10:00>Seg-10:30
+    - Seg-18:00>Seg-18:30
+    - Ter-18:00>Ter-18:30
+    - Ter-12:00>Ter-12:30
+    Broadcast:
+    - ''
+    - '&5&lMERCADOR PIRATA'
+    - '&fO mercador chegou!'
+    - '&fVeja suas mercadorias no &d/pirata&f agora mesmo.'
+    - ''
+    BroadcastFim:
+    - ''
+    - '&5&lMERCADOR PIRATA'
+    - '&fO mercador se foi!'
+    - ''
+    MensagemNaoChegou:
+    - ''
+    - '&c Ops! Parece que o pirata ainda não chegou com novos itens.'
+    - '&c Quando ele chegar, um anúncio será enviado a todos, fique'
+    - '&c esperto.'
+    - ''
+    Hologramas:
+      Ativado:
+      - '&fChuguei de viagem, estou com'
+      - '&fmercadorias magnificos aqui.'
+      - '&fCompre &dagora&f mesmo!'
+      Desativado:
+      - '&fEstou viajando, em breve'
+      - '&firei trazer novos itens...'
+      - '&fFique esperto com os &davisos&f no chat!'
+    Itens:
+      '1':
+        Estoque: 100
+        Preco: 180000000
+        Tipo: MONEY
+        Slot: 10
+        Comando: false
+        DarItem: true
+        Comandos:
+        - nulo
+        Material: DIAMOND_SWORD
+        Data: 0
+        Quantidade: 1
+        Name: nulo
+        Lore:
+        - nulo
+        Enchants:
+        - DAMAGE_ALL:10
+      '2':
+        Estoque: 90
+        Preco: 500000
+        Tipo: MONEY
+        Slot: 11
+        Comando: true
+        DarItem: false
+        Comandos:
+        - givecombustivel $player c2 16
+        Material: COAL
+        Data: 0
+        Quantidade: 16
+        Name: '&aCombustível Tipo 2'
+        Lore:
+        - '&7Abasteça suas máquinas xD.'
+        Enchants:
+        - nulo
+      '3':
+        Estoque: 90
+        Preco: 2000000
+        Tipo: MONEY
+        Slot: 12
+        Comando: true
+        DarItem: false
+        Comandos:
+        - rank givefragmentos $player 8500
+        Material: COAL
+        Data: 0
+        Quantidade: 8500
+        Name: '&aFragmentos'
+        Lore:
+        - '&7Upe de Rank xD.'
+        Enchants:
+        - nulo
+NaoGerarNPC: false

@@ -1,0 +1,8 @@
+name: AtlasBosses
+author: dont
+version: 2.0
+main: com.dont.bosses.Terminal
+depend: [Vault]
+commands:
+  giveboss:
+  boss:

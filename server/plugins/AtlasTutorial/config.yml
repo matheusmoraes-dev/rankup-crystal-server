@@ -1,0 +1,66 @@
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Saida: 508.5118327011303;58.5;-617.4664949546475;-359.40015;2.250005;world
+Opcoes:
+  SempreLimparChat: true
+  BloquearLegendchat: true
+  ForcarTutorialPrimeiroJoin: false
+  BloquearMovimento: true
+DigiteExit: '&a&lUtilize o comando /exit para &c&lSAIR &a&ldo tutorial.'
+Premios:
+- money add $player 10k
+PremioMensagens:
+- ''
+- '&aEsperamos que você se divirta em nosso servidor.'
+- '&aComo recompensa por ter completado o tutorial, você ganhou $50k'
+- ''
+Passos:
+  '0':
+    Titulo: '&e&lBEM-VINDO AO TUTORIAL<nl>&fSe liga no &c&lCHAT!'
+    Som: ORB_PICKUP
+    Location: 508.5118327011303;58.5;-617.4664949546475;-359.40015;2.250005;world
+    Mensagens:
+    - '&7A seguir, vou te mostrar as warps'
+    - '&f&lSPAWNS&7 &f&lMINAS&7, &f&lMercado Negro&7, &f&lPLOTS'
+    - '&7Venha conhecer mais sobre o servidor, &e&lNOVATO!'
+  '1':
+    Titulo: '&9&lSpawn<nl>&fEste eo spawn do servidor'
+    Som: ORB_PICKUP
+    Location: 499.45218249544274;69.40152226372008;-570.1639683250528;-126.59998;42.149994;world
+    Mensagens:
+    - '&7Nessa primeira warp, temos o &a&lSPAWN'
+  '2':
+    Titulo: '&9&lMINA<nl>&f'
+    Som: ORB_PICKUP
+    Location: 1977.3668298093605;127.36944877458205;2214.94515960471;-319.95035;36.14999;world
+    Mensagens:
+    - '&7Nessa segunda warp, temos o &c&lMina'
+    - '&7Aqui você pode minerar e conseguir dinheiro.'
+  '3':
+    Titulo: '&9&lMERCADO NEGRO<nl>&f'
+    Som: ORB_PICKUP
+    Location: 1032.8853387319914;71.79946264250304;-9257.386695581794;226.57835;45.599953;world
+    Mensagens:
+    - '&7Aqui você podera Comprar coisas mais fortes'
+    - '&7e baratas.'
+    - ''
+  '4':
+    Titulo: '&9&lPLOTS<nl>&fCompre seu terreno aqui.'
+    Som: ORB_PICKUP
+    Location: -17.580415833520863;79.0;18.547501675957363;227.39984;31.799969;terrenos
+    Mensagens:
+    - '&7Por último, mas não menos importante, aqui você pode'
+    - '&7comprar seu terreno.'
+    - ''
+    - '&7Faça sua casa e se divirta!'
+  '5':
+    Titulo: '&9&lSpawn<nl>&fDe volta ao ínicio.'
+    Som: ORB_PICKUP
+    Location: 508.5118327011303;58.5;-617.4664949546475;-359.40015;2.250005;world
+    Mensagens:
+    - '&7Aproveite nosso servidor!'

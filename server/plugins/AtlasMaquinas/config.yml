@@ -1,0 +1,217 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+DesativarLimite: false
+UpgradeGastarCash: false
+UpgradeMoeda: "coins"
+
+Booster:
+  Material: FIREBALL
+  Nome: "&aBooster de Máquinas"
+  Lore:
+    - "&7Clique com o botão direito"
+    - "&7para ativar esse booster de &6<multiplier>x."
+    - ""
+    - "&7Duração: &f<tempo>"
+
+Limite:
+  Padrao: 2.0
+  Item:
+    Material: QUARTZ
+    Nome: "&aLimite de Máquinas"
+    Lore:
+      - " &fQuantia: &7<qntd>"
+      - ""
+      - "&aClique para aumentar seu limite de compra de máquinas."
+
+Descontos:
+  - "atlas.miniyt:10:&c[MiniYT]"
+  - "atlas.yt:16:&c[YT]"
+  - "atlas.streamer:25:&c[Ace]"
+  - "atlas.soberano:30:&4[Fenix]"
+  - "atlas.platinum:40:&b[Crystal]"
+
+Bonus:
+  - "atlas.miniyt:10:&c[MiniYT]"
+  - "atlas.yt:12:&c[YT]"
+  - "atlas.streamer:16:&c[Ace]"
+  - "atlas.soberano:22:&4[Fenix]"
+  - "atlas.platinum:26:&b[Crystal]"
+
+Mensagens:
+  Colocar: "&f <seta> <qntd> <maquina> &7colocada<s>."
+  Remover: "&f <seta> &7Máquina removida com sucesso."
+  Upgrade: "&aVocê aumentou a <upgrade> da sua máquina."
+  Abastecer: "&7 Máquina abastecida com mais &f<qntd>L."
+  AbastecerGlobal: "&7 Você usou &f<qntd>L&7 abastacendo todas suas máquinas."
+  Vender: "&7 Foram vendidos &e<qntd> drops&7 gerando um total de &a<money>&7! &a<bonus>"
+  Comprar: "&7 Você comprou &f<qntd> <maquina>&7 por um total de &a<money>&7!"
+  SemDinheiro: "&c Você não tem dinheiro suficiente. &f(&aR$ <money>&f)"
+  DelayCombustivel: "&c Você só poderá usar esse tipo de combustível novamente em &f<tempo>."
+  SemPermissao: "&cVocê não tem o rank necessário para usar esta máquina."
+  SemPermissaoUpgrade: "&cVocê precisa ser &6[Vip+]&c para poder evoluir esta máquina."
+
+Combustiveis:
+  c1:
+    Infinito: false
+    Global: false
+    Delay: 0
+    Material: COAL
+    Nome: "&aCombustível"
+    Lore:
+      - "&7Utilize este item para"
+      - "&7abastecer suas máquinas."
+      - ""
+      - "&7 Este combustível possui"
+      - "&f <qntd>&7 litros!"
+      - ""
+      - "&aClique com o combustível em uma máquina."
+    Litros: 20
+    
+  c2:
+    Infinito: false
+    Global: false
+    Delay: 0
+    Material: MAGMA_CREAM
+    Nome: "&aCombustível"
+    Lore:
+      - "&7Utilize este item para"
+      - "&7abastecer suas máquinas."
+      - ""
+      - "&7 Este combustível possui"
+      - "&f <qntd>&7 litros!"
+      - ""
+      - "&aClique com o combustível em uma máquina."
+    Litros: 50
+    
+  c3:
+    Infinito: false # não acaba ao ser utilizado
+    Global: true # pode-se ativar de qualquer lugar
+    Delay: 0 # atenção: o delay não é salvo no banco de dados, recomendo usar delays pequenosm, pois o mesmo sai ao plugin ser reiniciado # em minutos
+    Material: BLAZE_POWDER
+    Nome: "&aCombustível Especial"
+    Lore:
+      - "&7Utilize este item para"
+      - "&7abastecer suas máquinas."
+      - ""
+      - "&7 Este combustível possui"
+      - "&f <qntd>&7 litros!"
+      - ""
+      - "&aClique com o combustível em uma máquina."
+    Litros: 120
+
+LimiteAmigos: 3
+PrecisaPermissao: false
+
+Maquinas:
+  celeste:
+    Permissao: maquina.celeste
+    PrecisaPermissaoUpgrade: false # caso sim, o player precisará dá permissão maquina.<maquina>.upgrades
+    Preco: 9250000000
+    Combustiveis:
+      - c1
+      - c2
+    Drop:
+      Material: PRISMARINE_SHARD
+      Data: 0
+      Preco: 7650
+    Upgrades:
+      Capacidade: # de combustivel
+        PrecoPorLevel: 180000000
+        LevelMaximo: 10
+        Default: 120
+        PorLevel: 45
+      Drops: # quantidade de drops por rodada
+        PrecoPorLevel: 266000000
+        LevelMaximo: 5
+        Default: 2
+        PorLevel: 4
+      Velocidade:
+        PrecoPorLevel: 150000000
+        LevelMaximo: 15
+        Default: 15
+        PorLevel: 1
+    Icone:
+      Nome: "&eMáquina Celeste"
+      Material: STAINED_GLASS
+      Data: 9
+      
+  revolution:
+    Permissao: maquina.revolution
+    PrecisaPermissaoUpgrade: false # caso sim, o player precisará dá permissão maquina.<maquina>.upgrades
+    Preco: 14280500000
+    Combustiveis:
+      - c2
+      - c3
+    Drop:
+      Material: SLIME_BALL
+      Data: 0
+      Preco: 9250
+    Upgrades:
+      Capacidade: # de combustivel
+        PrecoPorLevel: 360000000
+        LevelMaximo: 16
+        Default: 320
+        PorLevel: 60
+      Drops: # quantidade de drops por rodada
+        PrecoPorLevel: 426000000
+        LevelMaximo: 8
+        Default: 4
+        PorLevel: 4
+      Velocidade:
+        PrecoPorLevel: 250000000
+        LevelMaximo: 15
+        Default: 18
+        PorLevel: 3
+    Icone:
+      Nome: "&eMáquina Revolution"
+      Material: STAINED_GLASS
+      Data: 13
+      
+  crystal:
+    Permissao: maquina.crystal
+    PrecisaPermissaoUpgrade: false # caso sim, o player precisará dá permissão maquina.<maquina>.upgrades
+    Preco: 28580850000
+    Combustiveis:
+      - c3
+    Drop:
+      Material: DIAMOND
+      Data: 0
+      Preco: 12850
+    Upgrades:
+      Capacidade: # de combustivel
+        PrecoPorLevel: 496000000
+        LevelMaximo: 24
+        Default: 820
+        PorLevel: 80
+      Drops: # quantidade de drops por rodada
+        PrecoPorLevel: 846000000
+        LevelMaximo: 12
+        Default: 6
+        PorLevel: 5
+      Velocidade:
+        PrecoPorLevel: 380000000
+        LevelMaximo: 18
+        Default: 24
+        PorLevel: 6
+        
+    Icone:
+      Nome: "&eMáquina Crystal"
+      Material: STAINED_GLASS
+      Data: 11
+
+Drops:
+  PrecisaPerm: false # se sim, precisará da permissão atlasmaquinas.drops, ideal para vips
+  SemPerm:
+    - "&b&lRede Crystal"
+    - "&bVocê precisa ser VIP+ para utilizar este comando."
+    - "&bAdquira agora mesmo em &cSite em Breve"
+    - ""
+
+#Permissoes: atlasmaquinas.give, atlasmaquinas.admin, atlasmaquinas.vendertudo
+#Placeholder: %atlasmaquinas_limite%

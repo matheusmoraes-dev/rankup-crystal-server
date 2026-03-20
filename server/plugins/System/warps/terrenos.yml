@@ -1,0 +1,13 @@
+Localizacao: terrenos,-0.42831102810421356,67.0,0.6417909895877054,89.54991,3.2999663
+Permissao: system.warp.terrenos
+MensagemSemPermissao: §cVocê não tem permissão para se teleportar para a warp terrenos.
+Delay: 5
+DelayParaVips: false
+EnviarMensagem: true
+MensagemInicio: §aVocê sera teleportado para a warp terrenos em 5 segundos!
+MensagemFinal: §aTeleportado com sucesso para a warp terrenos!
+EnviarTitle: true
+Title: §aVOCÊ FOI TELEPORTADO
+SubTitle: §ePARA A WARP terrenos
+MensagemPlayerTeleportado: §aVocê foi teleportado para a warp terrenos!
+MensagemPlayerTeleportadoStaff: §a%player% teleportado com sucesso para a warp terrenos.

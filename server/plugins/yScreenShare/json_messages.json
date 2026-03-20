@@ -1,0 +1,14 @@
+{
+  "telado": {
+    "text": "§8> §cVocê está sendo telado pelo staff §7{staff}§c. \n§8> §cClique para baixar o anydesk: ",
+    "extra":[
+    	{
+    		"text": "§f§lAQUI§c.",
+    		"clickEvent": {
+              "action": "open_url",
+              "value": "https://anydesk.com/pt"
+            }
+        }
+    ]
+  }
+}

@@ -1,0 +1,1192 @@
+groups:
+  Membro:
+    options:
+      default: true
+      weight: '31'
+      prefix: '&7[Membro]'
+    permissions:
+    - chestcommands.open.*
+    - atlas.minions.limite.membro
+    - usar.minas
+    - AutoPickup.enabled
+    - AutoBlock.enabled
+    - system.kit
+    - nextmarket.use
+    - system.craft
+    - system.delhome
+    - nte.membro
+    - system.derreter
+    - system.echest
+    - yscreenshare.usar
+    - system.home
+    - system.homes.3
+    - system.lixo
+    - yautoclick.usar
+    - ymito.ver
+    - yx1.aceitar
+    - yx1.desafiar
+    - bukkit.broadcast.user
+    - system.luz
+    - system.online
+    - system.ping
+    - system.sethome
+    - ytutorial.usar
+    - yalmas.usar 
+    - yalmas.olhar 
+    - system.spawn
+    - system.tpa
+    - system.tpaccept
+    - system.tpcancel
+    - system.tpdeny
+    - system.verkit
+    - system.warp
+    - system.warp.loja
+    - system.warp.terrenos
+    - system.warp.arena
+    - system.warp.mercadonegro
+    - system.warp.crates
+    - system.warp.banco
+    - system.warp.missoes
+    - system.warp.dungeon
+    - system.warp.encantar
+    - system.warps
+    - system.kits
+    - yarmazem.membro
+    - yrankup.rank
+    - yrankup.ranks
+    - yrankup.rankup
+    - yrankup.prestigio
+    - yrankup.verprestigio
+    - yrankup.fragmentos.usar
+    - yrankup.fragmentos.olhar
+    - kit.basico
+    - kit.batalha
+    - yrankup.fragmentos.pagar
+    - ytickets.usar
+    - yspawners.usar
+    - yeventos.usar
+    - yeventos.bolao.apostar
+    - yeventos.corrida.entrar
+    - yeventos.loteria.apostar
+    - ymissoes.usar
+    - ybanco.usar
+    - yarmazem.vender
+    - yarmazem.venderitem
+    - yarmazem.coletaritem
+    - plots.claim
+    - plots.plot.1
+    - plots.auto
+    - plots.home
+    - plots.visit
+    - plots.visit.other
+    - plots.kick
+    - plots.deny
+    - plots.remove
+    - plots.set.home
+    - plots.use
+    - plots.chat
+    - plots.like
+    - plots.dislike
+    - plots.info
+    - plots.list
+    - Elemental.membro
+    - legendchat.channel.local.chat
+    - legendchat.channel.global.chat
+    - yrecomendar.usar
+    - yreparacao.usar
+    - yenchants.encantar
+  VillagerIII:
+    options:
+      default: true
+      weight: '30'
+      suffix: '&e[VillagerIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - yspawners.villager
+    - kit.villager
+    - atlas.novato
+  VillagerII:
+    options:
+      default: false
+      weight: '29'
+      suffix: '&e[VillagerII]'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.villager
+    - yspawners.villager
+    - atlas.novato
+  VillagerI:
+    options:
+      default: false
+      weight: '28'
+      suffix: '&e[VillagerI]'
+    inheritance:
+    - Membro
+    permissions:
+    - yspawners.villager
+    - atlas.novato
+    - kit.villager
+  ZombieIII:
+    options:
+      default: false
+      weight: '27'
+      suffix: '&2[ZombieIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.zombie
+    - yspawners.villager
+    - atlas.lendario
+    - yspawners.zumbi
+  ZombieII:
+    options:
+      default: false
+      weight: '26'
+      suffix: '&2[ZombieII]'
+    inheritance:
+    - Membro
+    permissions:
+    - yspawners.villager
+    - atlas.lendario
+    - yspawners.zumbi
+    - kit.zombie
+  ZombieI:
+    options:
+      default: false
+      weight: '25'
+      suffix: '&2[ZombieI]'
+    inheritance:
+    - Membro
+    permissions:
+    - yspawners.villager
+    - yspawners.zumbi
+    - atlas.lendario
+    - kit.zombie
+  SpiderIII:
+    options:
+      default: false
+      weight: '24'
+      suffix: '&7[SpiderIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yspawners.villager
+    - yspawners.zumbi
+    - atlas.global
+    - yspawners.spider
+    - kit.spider
+  SpiderII:
+    options:
+      default: false
+      weight: '23'
+      suffix: '&7[SpiderII]'
+    inheritance:
+    - Membro
+    permissions:
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - atlas.global
+    - kit.spider
+  SpiderI:
+    options:
+      default: false
+      weight: '22'
+      suffix: '&7[SpiderI]'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.spider
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - atlas.global
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+  CreeperIII:
+    options:
+      default: false
+      weight: '21'
+      suffix: '&2[CreeperIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.hades
+    - maquina.celeste
+    - yspawners.villager
+    - yspawners.zumbi
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yspawners.spider
+    - yspawners.creeper
+    - kit.creeper
+  CreeperII:
+    options:
+      default: false
+      weight: '20'
+      suffix: '&2[CreeperII]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.poseidon
+    - yspawners.villager
+    - maquina.celeste
+    - yspawners.zumbi
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yspawners.spider
+    - yspawners.creeper
+    - kit.creeper
+  CreeperI:
+    options:
+      default: false
+      weight: '19'
+      suffix: '&2[CreeperI]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.poseidon
+    - yspawners.villager
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yspawners.zumbi
+    - maquina.celeste
+    - yspawners.spider
+    - yspawners.creeper
+    - kit.creeper
+  SlimeIII:
+    options:
+      default: false
+      weight: '18'
+      suffix: '&a[SlimeIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - maquina.celeste
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - kit.slime
+    - atlas.poseidon
+  SlimeII:
+    options:
+      default: false
+      weight: '17'
+      suffix: '&a[SlimeII]'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.slime
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - maquina.celeste
+    - atlas.poseidon
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+  SlimeI:
+    options:
+      default: false
+      weight: '16'
+      suffix: '&a[SlimeI]'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.slime
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - atlas.poseidon
+    - maquina.celeste
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+  BlazeIII:
+    options:
+      default: false
+      weight: '15'
+      suffix: '&6[BlazeIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.kronos
+    - maquina.celeste
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - kit.blaze
+  BlazeII:
+    options:
+      default: false
+      weight: '14'
+      suffix: '&6[BlazeII]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.kronos
+    - kit.blaze
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.villager
+    - maquina.celeste
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+  BlazeI:
+    options:
+      default: false
+      weight: '13'
+      suffix: '&6[BlazeI]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.kronos
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - maquina.celeste
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - kit.blaze
+  GuardianIII:
+    options:
+      default: false
+      weight: '12'
+      suffix: '&9[GuardianIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - atlas.kratos
+    - yspawners.villager
+    - maquina.celeste
+    - maquina.revolution
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - kit.guardian
+  GuardianII:
+    options:
+      default: false
+      weight: '11'
+      suffix: '&9[GuardianII]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.kratos
+    - maquina.celeste
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - maquina.revolution
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - kit.guardian
+  GuardianI:
+    options:
+      default: false
+      weight: '10'
+      suffix: '&9[GuardianI]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.kratos
+    - maquina.celeste
+    - maquina.revolution
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - kit.guardian
+  IronGolemIII:
+    options:
+      default: false
+      weight: '9'
+      suffix: '&4[IronGolemIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - kit.irongolem
+    - atlas.titan
+    - maquina.celeste
+    - maquina.revolution
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+  IronGolemII:
+    options:
+      default: false
+      weight: '9'
+      suffix: '&4[IronGolemII]'
+    inheritance:
+    - Membro
+    permissions:
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - atlas.titan
+    - kit.irongolem
+    - maquina.celeste
+    - maquina.revolution
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+  IronGolemI:
+    options:
+      default: false
+      weight: '8'
+      suffix: '&4[IronGolemI]'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.irongolem
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - atlas.titan
+    - yspawners.villager
+    - yspawners.zumbi
+    - maquina.celeste
+    - maquina.revolution
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+  WitherIII:
+    options:
+      default: false
+      weight: '7'
+      suffix: '&8[WitherIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.viking
+    - yspawners.villager
+    - maquina.celeste
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - maquina.revolution
+    - maquina.crystal
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+    - yspawners.wither
+    - kit.wither
+  WitherII:
+    options:
+      default: false
+      weight: '7'
+      suffix: '&8[WitherII]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.viking
+    - yspawners.villager
+    - maquina.celeste
+    - maquina.revolution
+    - maquina.crystal
+    - yspawners.zumbi
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+    - yspawners.wither
+    - kit.wither
+  WitherI:
+    options:
+      default: false
+      weight: '7'
+      suffix: '&8[WitherI]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.viking
+    - maquina.celeste
+    - maquina.revolution
+    - maquina.crystal
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - kit.wither
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+    - yspawners.wither
+  EnderDragonIII:
+    options:
+      default: false
+      weight: '6'
+      suffix: '&5[EnderDragonIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - maquina.celeste
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - maquina.revolution
+    - maquina.crystal
+    - atlas.ragnarok
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+    - yspawners.wither
+    - kit.dragon
+  EnderDragonII:
+    options:
+      default: false
+      weight: '5'
+      suffix: '&5[EnderDragonII]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.ragnarok
+    - maquina.celeste
+    - maquina.revolution
+    - maquina.crystal
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.guardian
+    - yspawners.iron
+    - yspawners.wither
+    - kit.dragon
+  EnderDragonI:
+    options:
+      default: false
+      weight: '4'
+      suffix: '&5[EnderDragonI]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.ragnarok
+    - maquina.celeste
+    - maquina.revolution
+    - maquina.crystal
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+    - yspawners.wither
+    - kit.dragon
+  HerobrineIII:
+    options:
+      default: false
+      weight: '3'
+      suffix: '&4[HerobrineIII]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.breaker
+    - yspawners.villager
+    - maquina.celeste
+    - maquina.revolution
+    - maquina.crystal
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+    - yspawners.wither
+    - kit.herobrine
+  HerobrineII:
+    options:
+      default: false
+      weight: '2'
+      suffix: '&4[HerobrineII]'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.herobrine
+    - maquina.celeste
+    - maquina.revolution
+    - maquina.crystal
+    - atlas.breaker
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+    - yspawners.wither
+  HerobrineI:
+    options:
+      default: false
+      weight: '1'
+      suffix: '&4[HerobrineI]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.breaker
+    - maquina.celeste
+    - maquina.revolution
+    - maquina.crystal
+    - kit.herobrine
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - yspawners.wither
+  Imperador:
+    options:
+      default: false
+      weight: '1'
+      suffix: '&c[Imperador]'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.leativan
+    - maquina.celeste
+    - maquina.revolution
+    - maquina.crystal
+    - yeventos.parkour.entrar
+    - yeventos.sumo.entrar
+    - yeventos.labirinto.entrar
+    - yeventos.matematica.tentar
+    - yeventos.quiz.responder
+    - yeventos.fight.entrar
+    - yeventos.paintball.entrar
+    - yeventos.killer.entrar
+    - kit.imperador
+    - yspawners.villager
+    - yspawners.zumbi
+    - yspawners.spider
+    - yspawners.slime
+    - yspawners.creeper
+    - yspawners.blaze
+    - yspawners.guardian
+    - yspawners.iron
+    - yspawners.wither
+  Ace:
+    options:
+      default: false
+      prefix: '&c[Ace] '
+      weight: '501'
+    inheritance:
+    - Membro
+    permissions:
+    - system.warp.vip
+    - atlasminas.vip
+    - atlas.streamer
+    - kit.ace
+    - atlas.minions.limite.vip
+    - nte.guerreiro
+    - Elemental.Vip
+    - yarmazem.vip
+    - dimensao.42
+    - yspawners.vip1
+  Fenix:
+    options:
+      default: false
+      prefix: '&4[Fenix] '
+      weight: '500'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.fenix
+    - dimensao.42
+    - atlasminas.vip
+    - atlas.soberano
+    - nte.arqueiro
+    - atlas.minions.limite.vip1
+    - yarmazem.vip3
+    - Elemental.Vip2
+    - system.warp.vip
+    - dimensao.magic
+    - yspawners.vip2
+  Crystal:
+    options:
+      default: false
+      prefix: '&b[Crystal] '
+      weight: '499'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.crystal
+    - dimensao.42
+    - yarmazem.vip2
+    - nte.imperador
+    - dimensao.magic
+    - atlas.minions.limite.vip2
+    - atlasminas.vip
+    - atlas.platinum
+    - Elemental.Vip3
+    - system.warp.vip
+    - yspawners.vip3
+  miniYT:
+    options:
+      default: false
+      prefix: '&c[miniYT]'
+      weight: '498'
+    inheritance:
+    - Membro
+    permissions:
+    - kit.ace
+    - nte.miniyt
+    - atlas.miniyt
+    - atlas.minions.limite.vip4"
+    - dimensao.42
+    - system.warp.vip
+    - yarmazem.miniyt
+    - dimensao.magic
+    - atlasminas.vip
+    - Elemental.miniyt
+    - yspawners.miniyt
+  YouTuber:
+    options:
+      default: false
+      prefix: '&4[YouTuber]'
+      weight: '497'
+    inheritance:
+    - Membro
+    permissions:
+    - atlas.yt
+    - kit.fenix
+    - Elemental.yt
+    - yarmazem.yt
+    - dimensao.42
+    - dimensao.magic
+    - system.warp.vip
+    - atlas.minions.limite.vip5
+    - atlasminas.vip
+    - nte.youtuber
+    - yspawners.yt
+  Ajudante:
+    options:
+      default: false
+      prefix: '&e[Ajudante]'
+      weight: '496'
+    inheritance:
+    - Membro
+    permissions:
+    - vvender.use
+    - mercado.use
+    - mercado.anunciar
+    - mercado.5
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - plots.plot.3
+    - plots.add
+    - plots.trust
+    - plots.deny
+    - plots.remove
+    - plots.untrust
+    - plots.undeny
+    - plots.visit.other
+    - plots.visit
+    - plots.delete
+    - plots.claim
+    - plots.auto
+    - plots.home
+    - plots.info
+    - plots.use
+    - plots.auto
+    - plots.remove
+    - plots.info
+    - plots.delete
+    - plots.visit
+    - plots.trust
+    - plots.kick
+    - system.fly
+    - system.craft
+    - system.cornaplaca
+    - system.cornabigorna
+    - system.cores
+    - system.compactar
+    - system.back
+    - system.homes.8
+    - system.home
+    - system.kit
+    - system.kits
+    - system.lixo
+    - system.luz
+    - system.tpa
+    - system.tpaccept
+    - system.tpcancel
+    - system.tpdeny
+    - system.echest
+    - system.derreter
+    - system.spawn
+    - system.warp
+    - system.warps
+    - system.warp.minaenderdragon
+    - system.warp.spawn
+    - system.warp.terrenos
+    - system.warp.arenafps
+    - system.warp.minamadeira
+    - nte.ajudante
+    - chestcommands.open.*
+    - ChestShop.shop.create.*
+    - maquinas.desconto
+    - ChestShop.shop.sell
+    - ChestShop.shop.buy
+    - iConomy.pay
+    - iConomy.top
+    - iConomy.holdings.others
+    - iConomy.holdings
+    - leilao.bc
+    - leilao.cancelar
+    - leilao.lance
+    - leilao.anunciar
+    - almas.top
+    - legendchat.channel.local.chat
+    - legendchat.channel.global.chat
+    - legendchat.color.allcolors
+    - modifyworld.*
+  Moderador:
+    options:
+      default: false
+      prefix: '&2[Moderador] '
+      weight: '495'
+    inheritance:
+    - Membro
+    permissions:
+    - vvender.use
+    - mercado.use
+    - mercado.anunciar
+    - mercado.5
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - plots.plot.1
+    - plots.add
+    - plots.trust
+    - plots.deny
+    - plots.remove
+    - plots.untrust
+    - plots.undeny
+    - plots.visit.other
+    - plots.visit
+    - plots.delete
+    - plots.claim
+    - plots.auto
+    - plots.home
+    - plots.info
+    - plots.use
+    - plots.auto
+    - plots.remove
+    - plots.info
+    - plots.delete
+    - plots.visit
+    - plots.trust
+    - plots.kick
+    - nte.moderador
+    - chestcommands.open.*
+    - ChestShop.mod
+    - iConomy.accounts.*
+    - maquinas.debug
+    - maquinas.reload
+    - maquinas.give
+    - fragmentos.enviar
+    - fragmentos.reload
+    - almas.admin
+    - legendchat.*
+    - modifyworld.*
+  Admin:
+    options:
+      default: false
+      prefix: '&c[Admin]'
+      weight: '494'
+    inheritance:
+    - Membro
+    permissions:
+    - vvender.use
+    - mercado.use
+    - mercado.anunciar
+    - mercado.5
+    - simpleclans.anyone.*
+    - simpleclans.member.*
+    - simpleclans.leader.*
+    - plots.plot.5
+    - plots.add
+    - plots.trust
+    - plots.deny
+    - plots.remove
+    - plots.untrust
+    - plots.undeny
+    - plots.visit.other
+    - plots.visit
+    - plots.delete
+    - plots.claim
+    - plots.auto
+    - plots.home
+    - plots.info
+    - plots.use
+    - plots.auto
+    - plots.remove
+    - plots.info
+    - plots.delete
+    - plots.visit
+    - plots.trust
+    - plots.kick
+    - randomvip.admin
+    - nte.admin
+    - chestcommands.open.*
+    - ChestShop.mod
+    - iConomy.accounts.*
+    - maquinas.debug
+    - maquinas.reload
+    - maquinas.give
+    - fragmentos.enviar
+    - fragmentos.reload
+    - almas.admin
+    - legendchat.*
+    - modifyworld.*
+  Gerente:
+    options:
+      default: false
+      prefix: '&4[Gerente]'
+      weight: '493'
+    inheritance:
+    - Membro
+    permissions:
+    - plots.plot.1
+    - plots.add
+    - plots.trust
+    - plots.deny
+    - plots.remove
+    - plots.untrust
+    - plots.undeny
+    - plots.visit.other
+    - plots.visit
+    - plots.delete
+    - plots.claim
+    - plots.auto
+    - plots.home
+    - plots.info
+    - plots.use
+    - plots.auto
+    - plots.remove
+    - plots.info
+    - plots.delete
+    - plots.visit
+    - plots.trust
+    - plots.kick
+    - nte.gerente
+    - '*'
+    - modifyworld.*
+  Fundador:
+    options:
+      default: false
+      prefix: '&b[Fundador] '
+      weight: '492'
+    inheritance:
+    - Membro
+    permissions:
+    - nte.fundador
+    - '*'
+    - modifyworld.*
+schema-version: 1

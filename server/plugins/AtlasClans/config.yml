@@ -1,0 +1,95 @@
+#Tipos de MySQL:
+# MYSQL_HIKARI = Versão de conexão do plugin mais performática porém consome mais memória & cpu
+# MYSQL =  Versão de conexão do plugin com as threads do próprio SPIGOT/BUKKIT
+# SQLLITE = Utiliza o arquivo "database.sql" como armazenamento.
+Database:
+  Tipo: SQLITE 
+  IP: localhost:3306
+  DB: test
+  User: root
+  Pass: ""
+  Debug: true
+  
+  
+#Permissão do plugin: atlasplugins.atlasclans.admin
+#Tag para legendchat: {clan_tag}
+#Tags para FeatherBoard / NameTagEdit(tag no tablist) com PlaceHolderAPI:
+# %placeholderapi_atlasclans_kdr%
+# %placeholderapi_atlasclans_clan%
+# %placeholderapi_atlasclans_clan_cargo%
+# %placeholderapi_atlasclans_clan_tag% <- Utilize esta tag no suffix do nametagedit para a tag no tablist
+# %placeholderapi_atlasclans_clan_name%
+PlaceHolderAPI:
+ SemClan: '&cSem Clan'
+ ComClan: '[%clan_tag%] %clan_name%'
+  
+Clan: #PricePerUpgrade: Preço do upgrade de membros que cabem no clan (valor em coins)
+ PriceUpgradeBau: 150000000.0
+ InitialMaxMembers: 10
+ PricePerUpgrade: 80000000.0
+ MaxMembers: 30
+ NeedCoinsToCreate: true
+ CoinsNecessarias: 10000
+ PermissoesPadrao:
+  RECRUTA:
+   AcessarBaus: false
+   KickarMembros: false
+   ConvidarNovosMembros: false
+   EnviarBoletins: false
+  MEMBRO:
+   AcessarBaus: false
+   KickarMembros: false
+   ConvidarNovosMembros: false
+   EnviarBoletins: false
+  CAPITAO:
+   AcessarBaus: true
+   KickarMembros: true
+   ConvidarNovosMembros: true
+   EnviarBoletins: true
+  LIDER:
+   AcessarBaus: true
+   KickarMembros: true
+   ConvidarNovosMembros: true
+   EnviarBoletins: true
+   
+Ranking: #Tempo em minutos
+ TempoDeAtualizacao: 30
+   
+Formatacao:
+ Letras: true
+ Numeros: false
+FormatosLetras:
+ - "K"
+ - "M"
+ - "B"
+ - "T"
+ - "Q"
+ - "QQ"
+ - "S"
+ - "SS"
+ - "O"
+ - "N"
+ - "D"
+ - "UN"
+ - "DD"
+ - "TR"
+ - "QT"
+ - "QN"
+ - "SD"
+ - "SPD"
+ - "OD"
+ - "ND"
+ - "VG"
+ - "UVG"
+ - "DVG"
+ - "TVG"
+ - "QTV"
+ - "QNV"
+ - "SEV"
+ - "SPG"
+ - "OVG"
+ - "NVG"
+ - "TGN"
+ - "TGN"
+ - "UTG"
+ - "DTG"

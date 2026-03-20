@@ -1,0 +1,11 @@
+Database:
+   Tipo: SQLITE #Tipos: MYSQL, SQLITE
+   IP: localhost:3306
+   DB: test
+   User: admin
+   Pass: ''
+  
+Depois de logar: true #compativel com nLogin
+  
+Menus block:
+ - ''

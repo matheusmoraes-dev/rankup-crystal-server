@@ -1,0 +1,141 @@
+Database:
+  Tipo: SQLITE #Tipos válidos: MYSQL_POOLING, MYSQL_PURO, MONGODB, SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ""
+  Debug: true
+
+MundosPermitidos:
+  - "plots"
+  - "plotworld"
+  - "terrenos"
+
+DesativarLojas:
+  Espadas: "false" # se quiser desativar, coloque o comando que quer que seja executado
+  Bosses: "false"
+  Exemplo: "/shop espadas" # só exemplo
+
+
+DanoPadrao: 2
+DanoMensagem: "&cDMG: +<dmg> (&fHP <hp>&c)"
+
+Menus: # caso queira por mais espadas para venderm você pode aumentar o tamanho do menu
+  Espadas:
+    Tamanho: 27
+    FlechaVoltar: 18
+  Bosses:
+    Tamanho: 27
+    FlechaVoltar: 18
+
+SemDinheiro: "&eVocê não tem dinheiro suficiente para comprar este <item> &f(<preco>)"
+CompradoComSucesso: "&e<item>&e comprado com sucesso por &f<preco>"
+BossMorto: "&eVocê matou o mob com sucesso. Recolha os drops no seu armazem &f(/boss)"
+
+Espadas:
+  espada1:
+    Dano: 10
+    Preco: 1500000.0
+    Compravel: true
+    Slot: 13
+    Unbreaking: 0
+    Material: WOOD_SWORD
+    Nome: "&eMatadora de Boss"
+    Lore:
+      - "&7Level básica"
+      - "&7+10 de dano"
+    Glow: false
+
+  espada2:
+    Dano: 20
+    Preco: 10500000.0
+    Compravel: true
+    Slot: 14
+    Unbreaking: 0
+    Material: DIAMOND_SWORD
+    Nome: "&eMatadora de Boss"
+    Lore:
+      - "&7Level Master"
+      - "&7+20 de dano"
+    Glow: false
+    
+  espadahk:
+    Dano: 1000000
+    Preco: 20000.0
+    Compravel: false
+    Slot: -1
+    Unbreaking: 2
+    Material: WOOD_SWORD
+    Nome: "&eMatadora de Boss &6(hitkill)"
+    Lore:
+      - "&7Um hit, uma morte"
+    Glow: true
+
+Bosses:
+  boss1:
+    Nome: "&4Boss Mago (&f<hp> HP&4)" # sempre colocar o hp entre parenteses
+    Tipo: ZOMBIE # https://helpch.at/docs/1.8.8/org/bukkit/entity/EntityType.html
+    SomAoMorrer: ENDERMAN_SCREAM # https://helpch.at/docs/1.8.8/org/bukkit/Sound.html
+    Vida: 5000
+    Preco: 5000000.0
+    Slot: 13
+    Compravel: true
+    Ovo:
+      Data: 66
+      Nome: "&eOvo de Boss Mago"
+      Lore:
+        - "&7Utilize este ovo para invocar o boss mago"
+    DropsPorMorte: 1
+    GiveAll: true
+    Efeitos: #FOGO, EXPLOSAO, DANO, VENENO, EMPURRAR, NAUSEA, CEGUEIRA
+      efeito1:
+        Chance: 14.0
+        Efeitos:
+          - "FOGO:10" #fogo por 10 segundos
+          - "EXPLOSAO:1" #explosão com 1 de intensidade
+      efeito2:
+        Chance: 20.0
+        Efeitos:
+          - "DANO:2" #5 corações de dano (10/2)
+          - "VENENO:2" #5 segundos de veneno
+          - "EMPURRAR:1" #empurrar com intensidade 3
+    Drops:
+      1:
+        Chance: 20
+        DarItem: false
+        Comando: "money add $player 650k"
+        Material: PAPER
+        Glow: false
+        Data: 0
+        Quantidade: 1
+        Name: "&6650K de money"
+        Lore:
+          - "nulo"
+        Enchants:
+          - "nulo:nulo"
+      2:
+        Chance: 10
+        DarItem: true
+        Comando: nulo
+        Material: DIAMOND_PICKAXE
+        Glow: false
+        Data: 0
+        Quantidade: 1
+        Name: "&5Picareta dos Deuses"
+        Lore:
+          - "nulo"
+        Enchants:
+          - "DIG_SPEED:50"
+      3:
+        Chance: 20
+        DarItem: false
+        Comando: "rank givefragmentos $player 3500"
+        Material: PAPER
+        Glow: false
+        Data: 0
+        Quantidade: 1
+        Name: "&73.5k de fragmentos"
+        Lore:
+          - "nulo"
+        Enchants:
+          - "nulo:nulo"

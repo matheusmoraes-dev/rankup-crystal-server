@@ -1,0 +1,80 @@
+Mensagens:
+   Nulo: '&cVoc� deve estar segurando algum item.'
+   Nao pode: '&cEste item não pode ser reparado.'
+   Maximo: '&cEste item já está na durabilidade m�xima.'
+   Cancelado: '&cVocê cancelou a reparação.'
+   Confirmado: '&aVocê reparou este item e gastou &e{money}'
+   Nao tem: '&cVocê não tem money suficiente, necessário: &e{money}'
+
+Opcoes:
+   Nao cadastrado:
+      Bloquear: false
+      Mensagem enchant: '&cVocê não pode reparar este item pois contém encantamentos não cadastrados.'
+      Mensagem item: '&cVocê não pode reparar este item pois ele n�o esté cadastrado.'
+      
+Preco durabilidade base: 10.0 #caso n�o esteja cadastrado e o bloquear estiver false.
+Preco encantamento base: 10.0 #caso n�o estja cadastrado e o bloquear estiver false.
+
+Menu:
+   Nome: '&8Reparação'
+   Confirmar:
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/c641682f43606c5c9ad26bc7ea8a30ee47547c9dfd3c6cda49e1c1a2816cf0ba'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&aConfirmar'
+      Lore:
+      - ''
+      - '&7Clique para confirmar a repara��o.'
+      - ''
+   Cancelar:
+      CustomSkull: true
+      URL: 'http://textures.minecraft.net/texture/c641682f43606c5c9ad26bc7ea8a30ee47547c9dfd3c6cda49e1c1a2816cf0ba'
+      ID: 0
+      Data: 0
+      Glow: true
+      Name: '&cCancelar'
+      Lore:
+      - ''
+      - '&7Clique para cancelar a repara��o.'
+      - ''
+   Item:
+      Lore:
+      - ''
+      - '&aSeu item possui {quantiaenc} encantamentos. Isto lhe custa: &e{moneyenc}'
+      - '&aO seu item est� danificado e ir� lhe custar: &e{moneydurabilidade}'
+      - '&aDesconto: &e{desconto}'
+      - ''
+      - '&fTotal: &e{money}'
+      - ''
+      
+Descontos:
+  VIP:
+    Permissao: yspawners.vip1
+    Bonus: 25.0
+  VIP2:
+    Permissao: yspawners.vip2
+    Bonus: 30.0
+  VIP3:
+    Permissao: yspawners.vip3
+    Bonus: 40.0
+  YT:
+    Permissao: yspawners.yt
+    Bonus: 16.0
+  MINIYT:
+    Permissao: yspawners.miniyt
+    Bonus: 10.0
+
+Encantamentos:
+   Afiacao:
+      ID: 16
+      Preco por level: 10.5
+   Repulsao:
+      ID: 19
+      Preco por level: 40.0
+      
+Durabilidade:
+   Item1:
+      ID: 276
+      Preco por level: 3.0

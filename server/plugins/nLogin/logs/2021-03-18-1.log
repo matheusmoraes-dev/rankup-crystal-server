@@ -1,0 +1,36 @@
+[18 de Março de 2021 00:23:18]: [nLogin]          __             _       
+[18 de Março de 2021 00:23:18]: [nLogin]  _ __   / /  ___   __ _(_)_ __  
+[18 de Março de 2021 00:23:18]: [nLogin] | '_ \ / /  / _ \ / _` | | '_ \ 
+[18 de Março de 2021 00:23:18]: [nLogin] | | | / /__| (_) | (_| | | | | |
+[18 de Março de 2021 00:23:18]: [nLogin] |_| |_\____/\___/ \__, |_|_| |_|
+[18 de Março de 2021 00:23:18]: [nLogin]                   |___/            
+[18 de Março de 2021 00:23:18]: [nLogin]  By: www.nickuc.com - V 9.2.0
+[18 de Março de 2021 00:23:18]: [nLogin] 
+[18 de Março de 2021 00:23:18]: [DEBUG] [nLogin] Detectando configurações de hardware/software...
+[18 de Março de 2021 00:23:18]: [DEBUG] [nLogin] Todas as configurações do plugin foram carregadas em 106 ms.
+[18 de Março de 2021 00:23:18]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_br.yml'
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_en.yml'
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_es.yml'
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_pl.yml'
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_ru.yml'
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_fr.yml'
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_lt.yml'
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_de.yml'
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Carregando o arquivo de mensagens 'messages_tr.yml'
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Todas as mensagens foram carregadas em 302 ms.
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Inicializando controlador de configurações...
+[18 de Março de 2021 00:23:19]: [nLogin] Carregando tarefas para inicialização...
+[18 de Março de 2021 00:23:19]: [nLogin] [Ativação] Your key was nya'd by Catboy <3 ~ https://t.me/catboygang
+[18 de Março de 2021 00:23:19]: [DEBUG] [nLogin] Inicializando o controlador de banco de dados...
+[18 de Março de 2021 00:23:20]: [DEBUG] [nLogin] Inicializando controlador de tarefas (pos start)...
+[18 de Março de 2021 00:23:20]: [nLogin] nLogin foi carregado em 1663ms.
+[18 de Março de 2021 00:23:57]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'pot_pvp_blatant', `password` = '$SHA256$5761742d47873a9806db3a72a837195e5bdab16967bbedd782ba870af2406988@WQuFvhhZnojUjXuMmBVkiuNi', `address` = '177.132.233.6', `regdate` = '1616020435765', `lastlogin` = '1616023437236', `email` = null, `twitter` = null, `discord` = null, `settings` = 'q65qFvZL8OekQvRTmMHT+pUXGLX0MObwk/SEWoNNkVmMQahSpReZ/gSEMgelzo1QXyR9JNylfk8myVGb+yaQ82MGVacl3OicmsSqLsVKl+MjVDeZFcqitMzLZAf6M7sVAuMsvfB2q+lxdfRS8xRmmX0DUaS1VzsT5FyspRycDuLU7A/OPMHklzPR6TU1q/zELGLWJ7htmGarZnFPdYwXoa3AFsS6mHSPpgDzOjhkH2yEeyq8ORg63eSoz2UVxINsck9gnxnPwkCiN9mIG23nEgmpUH/cPzT4Vvs=' WHERE `name` = 'pot_pvp_blatant'"
+[18 de Março de 2021 00:23:57]: [nLogin] O usuário pot_pvp_blatant autenticou com sucesso.
+[18 de Março de 2021 00:23:57]: [nLogin] O usuário pot_pvp_blatant logou automaticamente por ter uma conta original.
+[18 de Março de 2021 00:35:22]: [DEBUG] [nLogin] [SQLITE] [UPDATE]: "UPDATE `nlogin` SET `realname` = 'NinjaDark99', `password` = '$SHA256$9b07c597e7c65580378bfc4d03e35b71684e7f0e67ea96b993e7ef658e53f26f@czSQtoSLAHRBbYVLLLZCMRqD', `address` = '189.10.26.158', `regdate` = '1615856558909', `lastlogin` = '1616024122041', `email` = null, `twitter` = null, `discord` = null, `settings` = 'ffVTWeZ0kMN06on4pzHZVXWpfx3zDQ0bzDX+fxKhTD8yw2+ym6WSwGuF0FWMutInzjHycGbGDEE6lb67iN/875529m6I3wIvReYyAxZUjeepIrwAQroLIpYrVT/a17JMuAc9AacpGKRgZDVoFpTDxfH85m+E8ttm6KyLOUzy/H4hSyOXcBBCHgwvSHMxK5SGZOetULsa7Yv34V8/PpTsxVo6xX5vyM3IDAScZfOPhLMBlOxzCXJ6VxtwnhkOph83gpGpO/ddhGPja5hX1XVYwCzD' WHERE `name` = 'ninjadark99'"
+[18 de Março de 2021 00:35:22]: [nLogin] O usuário NinjaDark99 autenticou com sucesso.
+[18 de Março de 2021 00:35:22]: [nLogin] O usuário NinjaDark99 logou automaticamente por ter uma conta original.
+[18 de Março de 2021 00:55:45]: [nLogin] 
+[18 de Março de 2021 00:55:45]: [nLogin] Desativando módulos do nLogin V 9.2.0...
+[18 de Março de 2021 00:55:45]: [nLogin] 
+[18 de Março de 2021 00:55:45]: [nLogin] nLogin foi encerrado em 1ms.

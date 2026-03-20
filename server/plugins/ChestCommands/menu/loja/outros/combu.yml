@@ -1,0 +1,84 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  name: 'Combustivel'
+
+  rows: 3
+  
+  type: CHEST
+
+  command: 'Comb;combustivel'
+
+  auto-refresh: 5
+ 
+  open-action: ''
+ 
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Combu1:
+  LEFT-CLICK-COMMAND: 'givecombustivel {player} c1 16; open: combu.yml'
+  RIGHT-CLICK-COMMAND: 'givecombustivel {player} c1 16; open: combu.yml'
+  NAME: '&aCombustível'
+  ID: 'COAL'
+  PRICE: 1000000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f1M '
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 11
+
+
+Combu2:
+  LEFT-CLICK-COMMAND: 'givecombustivel {player} c2 16; open: combu.yml'
+  RIGHT-CLICK-COMMAND: 'givecombustivel {player} c2 16; open: combu.yml'
+  NAME: '&aCombustível Espectral'
+  ID: 'MAGMA_CREAM'
+  PRICE: 8500000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f8M500K '
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 13
+
+
+Combu3:
+  LEFT-CLICK-COMMAND: 'givecombustivel {player} c3 16; open: combu.yml'
+  RIGHT-CLICK-COMMAND: 'givecombustivel {player} c3 16; open: combu.yml'
+  NAME: '&aCombustível MagMa'
+  ID: 'BLAZE_POWDER'
+  PRICE: 18000000
+  LORE:
+    - '&7'
+    - '&7Preço: &2$&f18M'
+    - '&7Quantidade: &fx16'
+    - '&7'
+    - '&eClique para comprar este item!'
+  SLOT: 15
+
+  
+voltar:
+  LEFT-CLICK-COMMAND: 'open: loja1.yml'
+  RIGHT-CLICK-COMMAND: 'open: loja1.yml'
+  NAME: '&cVoltar'
+  ID: 'ARROW'
+  SLOT: 18

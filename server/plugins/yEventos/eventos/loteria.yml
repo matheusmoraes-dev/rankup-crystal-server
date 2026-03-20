@@ -1,0 +1,87 @@
+Loteria:
+  Controlador:
+    Temporizador:
+      Tempo: 60
+      Anuncios: 4
+    Apostas:
+      Min: 100000
+      Max: 100000000
+      Apostas max: 6
+    Premio:
+      Premio: 500000.0
+      Acumulado: 0.0
+    Preco: 50000.0
+    Tag: '&6[Loteria]'
+    Ultimo: yChusy
+    Comando: loteria
+    Aliases: {}
+  AutoStart:
+    Ativar: false
+    Horarios:
+    - 1-5:10:1
+    - 2-5:10:1
+    - 3-5:10:1
+    - 4-5:10:1
+    - 5-5:10:1
+    - 6-5:10:1
+    - 7-5:10:1
+    - 8-5:10:1
+  Comando:
+    Ajuda:
+    - '&6Comandos do evento &7Loteria&6:'
+    - ''
+    - '&8-> &7/loteria &fajuda &8- &6Mostra essa mensagem.'
+    - '&8-> &7/loteria &finiciar &8- &6Iniciar a loteria.'
+    - '&8-> &7/loteria &fparar &8- &6Parar a loteria.'
+    - '&8-> &7/loteria &f<numero> &8- &6Apostar na loteria.'
+    - ''
+    Nao ativo: '&c&lERRO! &cA loteria não está ocorrendo.'
+    Max: '&c&lERRO! &cVocê já apostou demais na loteria.'
+    Money: '&c&lERRO! &cVocê não possui dinheiro suficiente. Necessário: &7{preco}&c.'
+    Apostou nao ganhou: '&c&lTRISTE! &cVocê apostou na loteria e gastou &7{preco}&c,
+      mas não ganhou nada :c'
+    Apostou ganhou: '&a&lSUCESSO! &aVocê apostou na loteria e gastou &7{preco}&a.
+      Porém! Você ganhou o prêmio: &7{premio}&a.'
+    Nao pode iniciar: '&c&lERRO! &cA loteria já está ocorrendo.'
+    Nao pode parar: '&c&lERRO! &cA loteria não está ocorrendo.'
+    Iniciou: '&a&lSUCESSO! &aLoteria iniciada.'
+    Parou: '&a&lSUCESSO! &aLoteria parada.'
+    Permissao: '&c&lERRO! &cVocê não tem permissão para fazer isto.'
+    Invalido: '&c&lERRO! &cVocê inseriu um valor inválido.'
+    Menor maior: '&c&lERRO! &cO número deve estar entre &7{min} &ce &7{max}&c.'
+  Mensagens:
+    Anuncio:
+    - ''
+    - '&f[&6Evento &7Loteria&f]'
+    - ''
+    - '&fAposte na &8loteria&f utilizando: &7/loteria &6<numero>&f.'
+    - '&fPrêmio acumulado: &a{premio}&f.'
+    - '&fJogadores participando: &e{jogadores}&f.'
+    - '&fO número está entre &8{min} &fe &8{max}'
+    - ''
+    - '&fAnúncio &8{cmin} &fde &8{cmax}&f.'
+    - ''
+    Cancelou:
+    - ''
+    - '&f[&6Evento &7Loteria&f]'
+    - ''
+    - '&cA loteria foi cancelada por um admin.'
+    - ''
+    Acabou:
+    - ''
+    - '&f[&6Evento &7Loteria&f]'
+    - ''
+    - '&fO Jogador &a{player}&f venceu a &8loteria&f e recebeu &a{premio}&f em money.'
+    - ''
+    Acumulou:
+    - ''
+    - '&f[&6Evento &7Loteria&f]'
+    - ''
+    - '&fNão houve acertadores e a loteria acumulou!'
+    - '&fPrêmio acumulado: &a{premio}&f.'
+    - ''
+  Actionbar:
+    Ativar: true
+    Mensagem: '&6[Loteria] &aO jogador &7{player} &aapostou na &8loteria&a.'
+  Premio:
+    Acumulado: 0.0

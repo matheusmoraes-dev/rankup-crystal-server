@@ -1,0 +1,207 @@
+Database:
+  Tipo: SQLITE
+  IP: localhost:3306
+  DB: test
+  User: admin
+  Pass: ''
+  Debug: true
+Spawn: 508.6235060235035;58.5;-617.3525231688291;359.5499;5.400007;3cc087c4-a30c-4227-8122-9bac47f59933
+Dungeons:
+  '1':
+    Jogadores: 2
+    Custo: 5000
+    Permissao: false
+    Spawn: 11111.575816488255;103.0;111111.54757669984;-269.85004;-0.89997333;3cc087c4-a30c-4227-8122-9bac47f59933
+    Icone:
+      Material: MOB_SPAWNER
+      Nome: '&2&lDungeon #1'
+      Lore:
+      - ''
+      - '&7Enfrente mobs terríveis e ganhe'
+      - '&7recompensas magnificas.'
+      - ''
+      - '&f Mapa: &2Biomas'
+      - '&f Mínimo de jogadores: &72'
+      - '&f Rounds: &73'
+      - ''
+      - '&8<fila>'
+    Rounds:
+      '1':
+        Boss:
+          Tipo: GIANT
+          Vida: 500
+          Dano: 10
+          Velocidade: 0.3
+          Nome: '&4BOSS ZUMBI GIGANTE'
+          Efeitos:
+            '1':
+              Efeito: BLINDNESS
+              Tempo: 10
+              Level: 2
+              Chance: 20
+        Mobs:
+          '1':
+            Tipo: ZOMBIE
+            Horda: 10
+            Velocidade: 0.3
+            Vida: 50
+            Dano: 3
+            Mao: GOLD_SWORD
+            Capacete: nulo
+            Peitoral: LEATHER_CHESTPLATE
+            Calca: LEATHER_LEGGINGS
+            Bota: LEATHER_BOOTS
+            Nome: '&2&lZUMBI I'
+        Spawn: 11077.147013025336;103.0;111111.58771015608;-90.15027;-0.149978;3cc087c4-a30c-4227-8122-9bac47f59933
+      '2':
+        Boss:
+          Tipo: WITHER
+          Vida: 1000
+          Dano: 5
+          Velocidade: 0.3
+          Nome: '&4BOSS WITHER'
+          Efeitos:
+            '1':
+              Efeito: CONFUSION
+              Tempo: 10
+              Level: 2
+              Chance: 20
+        Mobs:
+          '1':
+            Tipo: PIG_ZOMBIE
+            Horda: 20
+            Vida: 100
+            Dano: 4
+            Velocidade: 0.4
+            Mao: IRON_SWORD
+            Capacete: nulo
+            Peitoral: IRON_CHESTPLATE
+            Calca: IRON_LEGGINGS
+            Bota: IRON_BOOTS
+            Nome: '&2&lZUMBI II'
+        Spawn: 11141.159973439575;103.0;111116.5334584537;-262.20038;-2.0999775;3cc087c4-a30c-4227-8122-9bac47f59933
+      '3':
+        Boss:
+          Tipo: GUARDIAN
+          Vida: 2000
+          Dano: 5
+          Velocidade: 0.3
+          Nome: '&4BOSS GUARDIAN GIGANTE'
+          Efeitos:
+            '1':
+              Efeito: SLOW
+              Tempo: 10
+              Level: 2
+              Chance: 20
+        Mobs:
+          '1':
+            Tipo: ZOMBIE
+            Horda: 25
+            Vida: 200
+            Dano: 4
+            Velocidade: 0.5
+            Mao: DIAMOND_SWORD
+            Capacete: nulo
+            Peitoral: DIAMOND_CHESTPLATE
+            Calca: DIAMOND_LEGGINGS
+            Bota: DIAMOND_BOOTS
+            Nome: '&2&lZUMBI III'
+        Spawn: 11107.260776150015;103.0;111142.78936156869;-161.70026;-0.74997723;3cc087c4-a30c-4227-8122-9bac47f59933
+    Portoes:
+      '2':
+        Pos1: 11067.0;110.0;111116.0;0.0;0.0;3cc087c4-a30c-4227-8122-9bac47f59933
+        Pos2: 11066.0;103.0;111102.0;0.0;0.0;3cc087c4-a30c-4227-8122-9bac47f59933
+      '3':
+        Pos1: 11120.0;108.0;111156.0;0.0;0.0;3cc087c4-a30c-4227-8122-9bac47f59933
+        Pos2: 11106.0;103.0;111156.0;0.0;0.0;3cc087c4-a30c-4227-8122-9bac47f59933
+    Drops:
+      MatarBoss:
+        '1':
+          Chance: 0.2
+          DarItem: true
+          Comando: nulo
+          Material: DIAMOND_SWORD
+          Glow: false
+          Data: 0
+          Quantidade: 1
+          Name: '&6Espada rara'
+          Lore:
+          - nulo
+          Enchants:
+          - DAMAGE_ALL:10
+      MatarMobComum:
+        '1':
+          Chance: 2
+          DarItem: false
+          Comando: givekey $player boss
+          Material: TRIPWIRE_HOOK
+          Glow: false
+          Data: 0
+          Quantidade: 1
+          Name: '&6&lKEY BOSS'
+          Lore:
+          - nulo
+          Enchants:
+          - nulo:nulo
+      Finalizar:
+        '1':
+          Chance: 100
+          DarItem: false
+          Comando: givekey $player dungeon
+          Material: TRIPWIRE_HOOK
+          Glow: false
+          Data: 0
+          Quantidade: 1
+          Name: '&6&lKEY DUNGEON'
+          Lore:
+          - nulo
+          Enchants:
+          - nulo:nulo
+Espada:
+  Dano: 5
+  AdicionalPorLevel: 1
+  Nome: '&6&lESPADA ESTRELAR.'
+  XP:
+    PorMob: 10
+    PorBoss: 50
+URL: atlasplugins.com
+ComandosPermitidos:
+- /g
+- /.
+- /feiticeiro
+Precos:
+  FORCA: 3
+  BOMBA: 6
+  ENSOPADO: 6
+  IMUNIDADE: 8
+  INQUEBRAVEL: 6
+  MACA: 3
+  REPARAR: 5
+Broadcasts:
+  Iniciar:
+  - ''
+  - '&6&lDUNGEONS'
+  - '&6A <dungeon> &6 acabou de começar.'
+  - '&6Participantes: &f<players>'
+  - ''
+  Perder:
+  - ''
+  - '&6&lDUNGEONS'
+  - '&6A <dungeon> &6 finalizou.'
+  - '&6Infelizmente os jogadores não conseguiram vencer-la.'
+  - ''
+  Finalizar:
+  - ''
+  - '&6&lDUNGEONS'
+  - '&6A <dungeon> &6 finalizou.'
+  - '&6Os jogadores foram vitoriosos.'
+  - ''
+PlayerItens:
+  Capacete: DIAMOND_HELMET:1
+  Peitoral: DIAMOND_CHESTPLATE:1
+  Calcas: DIAMOND_LEGGINGS:1
+  Botas: DIAMOND_BOOTS:1
+  Outros:
+  - GOLDEN_APPLE:10
+  - BOW:1
+  - ARROW:16

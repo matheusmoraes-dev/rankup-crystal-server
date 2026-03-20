@@ -1,0 +1,37 @@
+#Coloque true para ativar o PlaceholderAPI ou false para desativar
+Use PAPI: true
+
+#Coloque o raio de verificação em blocos
+Raio: 5
+
+#Coloque Factions, SimpleClans, yClans, HeroesClans ou AtlasClans
+Modo de Jogo: 'AtlasClans'
+
+#Coloque yPoints, PlayerPoints, JH_Shop, AtlasEconomiaSecundaria ou TGCash
+Plugin de Pontos: 'PlayerPoints'
+
+#Coloque PermissionsEx ou LuckPerms
+Plugin de Perms: 'PermissionsEx'
+
+#Configure aqui a placeholder do grupo
+Grupo: '&e[{grupo}&e] '
+
+#Mensagem que irá aparecer se tiver clan/faccao
+Tem modo: '&aJogador {group}&f{player} Nivel: {nivel} &aClan: &e[{tag}&e] &eMoney: &a{money} &eCash &6{points}'
+
+#Mensagem que irá aparecer se nao tiver clan/faccao
+Sem modo: '&aJogador {group}&f{player} Nivel: {nivel} &eMoney: &a{money} &eCash: &6{points}'
+
+#Formatacao do money e points
+Formats:
+ - ''
+ - 'K'
+ - 'M'
+ - 'B'
+ - 'T'
+ - 'Q'
+ - 'QQ'
+ - 'S'
+ - 'SS'
+ - 'O'
+ - 'N'

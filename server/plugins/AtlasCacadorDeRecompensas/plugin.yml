@@ -1,0 +1,8 @@
+name: AtlasCacadorDeRecompensas
+author: dont
+version: 1.0
+main: com.dont.bounty.Terminal
+depend: [Vault]
+commands:
+  recompensas:
+    aliases: [recompensa]

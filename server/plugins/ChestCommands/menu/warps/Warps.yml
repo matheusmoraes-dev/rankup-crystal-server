@@ -1,0 +1,140 @@
+##############################
+#+                          +#
+#   CONFIGURAÇÕES DO MENU    #
+#+                          +#
+##############################
+
+menu-settings:
+
+  # Nome - É o titulo do menu - OBRIGATÓRIO
+  name: '&8Categoria: Locais do Servidor'
+
+  # Linhas - O número de linhas que tera o seu menu - OBRIGATÓRIO
+  # O número de linhas sera ignorado caso o tipo não for CHEST!
+  rows: 3
+  
+  # Tipo - O tipo do inventario que sera aberto(bau, dispenser etc..) - OBRIGATÓRIO
+  # Para ver a lista dos tipos validos acesse o arquivo ajuda.yml
+  type: CHEST
+
+  # Comando - Comando usado para abrir o menu. - OPCIONAL
+  # Para não queira usar um comando para abrir o menu deixe apenas as duas aspas em brancos. Exemplo: ''
+  # Caso você queira criar aliases para o comando coloque um ; depois do comando. Exemplo: 'menu; abrirmenu; abre;'
+  command: 'warps;warp;locais;mundos'
+
+  # Atualização automatica - OPCIONAL
+  # Isto serve para atualizar os itens do menu automaticamente a cada X segundos.
+  auto-refresh: 5
+
+  # Comandos ao abrir - Comandos ou tarefas executadas ao abrir o menu - OPCIONAL
+  # Util caso você queira colocar um mvp ao abrir o MENU ou caso você queira colocar uma mensagem.
+  open-action: 'sound: notepling'
+
+  # Abrir menu com - Item que ao ser clicado abre o men - OPCIONAL
+  # Este menu sera aberto quando o player clicar com o botão direito segurando uma lã laranja [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+# Este primeiro item chamado item-de-testes contem todas as explicações e todas as opções que você pode usar.
+
+# ID/Nome do Icone (não pode ser repetido!)
+1:
+  LEFT-CLICK-COMMAND: 'spawn'
+  NAME: '&bSpawn'
+  LORE:
+    - ''
+    - '&b&nSpawn:&7 É o local principal do servidor'
+    - '&7onde todos os players estão conectados.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 10
+  SKULL-URL: 'http://textures.minecraft.net/texture/6ddd4a12da1cc2c9f9d6cd49fc778e3a11f3757de6dd312d70a0d47885189c0'
+2:
+  LEFT-CLICK-COMMAND: 'warp terrenos'
+  NAME: '&aTerrenos'
+  LORE:
+    - ''
+    - '&a&nTerrenos:&7 Um lugar onde você pode construir'
+    - '&7farmar, vender itens, tudo apenas em seu local.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 11
+  SKULL-URL: 'http://textures.minecraft.net/texture/8449b9318e33158e64a46ab0de121c3d40000e3332c1574932b3c849d8fa0dc2'
+3:
+  LEFT-CLICK-COMMAND: 'open:minaslocais.yml'
+  NAME: '&9Minas'
+  LORE:
+    - ''
+    - '&9&nMinas:&7 Minas são lugares mais conhecidos'
+    - '&7como: MinaGlobal, MinaPvP, MinaVip etc...'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 13
+  SKULL-URL: 'http://textures.minecraft.net/texture/ca3bb85dec1329fe829cc6cdcd34e1bd60ee832f572629651f14b5e14555dbb1' 
+4:
+  LEFT-CLICK-COMMAND: 'warp mercadonegro'
+  NAME: '&8Warp Mercado Negro'
+  LORE:
+    - ''
+    - '&8&nMercado Negro:&7 E onde você achara:'
+    - '&7Mercadores,MobCoins e etc.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 12
+  SKULL-URL: 'http://textures.minecraft.net/texture/9ddbd0bb9622ce124dabb6ba3baa9a9ea71430f870fec15b3ea81f1961a412b2'
+5:
+  LEFT-CLICK-COMMAND: 'open:arenas.yml'
+  NAME: '&cArenas'
+  LORE:
+    - ''
+    - '&c&nArenas:&7 As arenas são lugar perigosos'
+    - '&7lugar onde todo mundotem permissão para se atacar'
+    - '&7matar seu companheiro e roubar itens.'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 14
+  SKULL-URL: 'http://textures.minecraft.net/texture/5758c24cfe84378470f300f5cc9eb731c1e036286a22358651f6cafb3c83a043'
+6:
+  LEFT-CLICK-COMMAND: 'warp loja'
+  NAME: '&eWarp Loja'
+  LORE:
+    - ''
+    - '&e&nLoja:&7 A loja e onde vende os itens para você'
+    - '&7Colocar na sua plot e também você podera comprar'
+    - '&7Maquinas,spawners,farms e etc'
+    - ''
+  DATA-VALUE: 3
+  ID: 397
+  KEEP-OPEN: true
+  SLOT: 15
+  SKULL-URL: 'http://textures.minecraft.net/texture/a9d08c0a8d001a788e260d6ba1f4f08ada0ea719a0f4e611d6c4b7ac83bb035e'
+prox:
+  LEFT-CLICK-COMMAND: 'open: Warps-0.yml'
+  RIGHT-CLICK-COMMAND: 'open: Warps-0.yml'
+  NAME: ' &b&lCRYSTAL NETWORK'
+  ID: '397'
+  DATA-VALUE: 3
+  LORE:
+  - ''
+  - '&fNesta categoria você poderá ir'
+  - '&fpara aproxima aba'
+  - '&fBotão esquerdo &8- &aAcessar'
+  - ''
+  SLOT: 17
+  KEEP-OPEN: true
+  SKULL-URL: 'http://textures.minecraft.net/texture/9c9ec71c1068ec6e03d2c9287f9da9193639f3a635e2fbd5d87c2fabe6499'
